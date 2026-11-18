@@ -1,0 +1,11 @@
+{
+  "doc_id": "URDU_06_iqrarnama_farokht_faisalabad_scanned",
+  "filename": "06_iqrarnama_farokht_faisalabad_scanned.pdf",
+  "document_type": "scanned_urdu",
+  "title_urdu": "اقرار نامہ فروخت",
+  "category_en": "Agreement to Sell Land",
+  "jurisdiction_city": "Faisalabad",
+  "language": "Urdu",
+  "is_scanned": true,
+  "processing_path": "Requires OCR ingestion"
+}

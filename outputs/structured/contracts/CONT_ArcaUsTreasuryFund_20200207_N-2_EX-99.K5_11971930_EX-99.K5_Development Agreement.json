@@ -1,0 +1,88 @@
+{
+  "doc_id": "CONT_ArcaUsTreasuryFund_20200207_N-2_EX-99.K5_11971930_EX-99.K5_Development Agreement",
+  "filename": "ArcaUsTreasuryFund_20200207_N-2_EX-99.K5_11971930_EX-99.K5_Development Agreement.pdf",
+  "document_type": "contract",
+  "contract_subtype": "contracts/cuad",
+  "title": "Arcaustreasuryfund 20200207 N 2 Ex 99.K5 11971930 Ex 99.K5 Development Agreement",
+  "parties": {
+    "party_one": "ARCA U.S. TREASURY FUND",
+    "party_two": "ARCA CAPITAL MANAGEMENT, LLC This Agreement (\"Agreement\") is made as of [___], 2020 by and between A"
+  },
+  "effective_date": "Effective Date as specified",
+  "governing_law": "construed in accordance with the laws of the State of New York applicable to contracts formed",
+  "total_clauses_extracted": 12,
+  "clauses": [
+    {
+      "clause_number": "1",
+      "clause_heading": "Duties of the Blockchain Administrator",
+      "clause_type": "General / Operational",
+      "text": "(a) The Fund hereby employs the Blockchain Administrator to act as the blockchain administrator of the Fund, and to furnish, or\narrange for others to furnish, the services, personnel and facilities described below, subject to review by and the overall control of the Fund’s Board\nof Trustees (the \"Board\"), for the period and on the terms and conditions set forth in this Agreement.\n(b) The Blockchain Administrator hereby accepts such employment and agrees during such period to render, or arrange for the\nrendering of, such services and to assume the obligations herein set forth subject to the reimbursement of costs and expenses provided for below.\n(c) The Blockchain Administrator shall perform (or oversee, or arrange for, the performance of) development and administrative\nservices necessary for the issuance of the Fund’s shares as ERC-1404 compatible digital securities (“Shares”) and the on-going maintenance and\nadministration of the smart contracts underlying such Shares. Without limiting the generality of the foregoing, the Blockchain Administrator shall\nprovide the Fund with facilities, equipment, technology, coding and such other services as the Blockchain Administrator, subject t"
+    },
+    {
+      "clause_number": "1",
+      "clause_heading": "Source",
+      "clause_type": "General / Operational",
+      "text": "ARCA U.S. TREASURY FUND, N-2, 2/7/2020\n\n(d) The Blockchain Administrator shall also, on behalf of the Fund, conduct relations with custodians, depositories, transfer agents,\ndividend disbursing agents, other stockholder servicing agents, accountants, attorneys, underwriters, brokers and dealers, corporate fiduciaries,\ninsurers, banks and such other persons as the Blockchain Administrator shall deem to be necessary or desirable in connection with the issuance\nand transfer of the Fund’s ERC-1404 compatible digital security,.\n(e) The Blockchain Administrator shall make reports to the Board of its performance of obligations hereunder and furnish advice and\nrecommendations with respect to such other aspects of the business and affairs of the Fund as it shall determine to be desirable; provided that\nnothing herein shall be construed to require the Blockchain Administrator to, and the Blockchain Administrator shall not, in its capacity as\nBlockchain Administrator pursuant to this Agreement, provide any advice or recommendation relating to the securities and other assets that the\nFund should purchase, retain or sell or any other investment advisory services to the Fund.\n(f) The Blockchain "
+    },
+    {
+      "clause_number": "2",
+      "clause_heading": "Maintenance of Records",
+      "clause_type": "General / Operational",
+      "text": "The Blockchain Administrator agrees to maintain and keep all books, accounts and other records of the Fund that relate to activities\nperformed by the Blockchain Administrator hereunder and will maintain and keep such books, accounts and records in accordance with the\nInvestment Company Act. In compliance with the requirements of Rule 31a-3 under the Investment Company Act, the Blockchain Administrator\nagrees that all records which it maintains for the Fund shall at all times remain the property of the Fund, shall be readily accessible during normal\nbusiness hours, and shall be promptly surrendered upon the termination of the Agreement or otherwise on written request. The Blockchain\nAdministrator further agrees that all records which it maintains for the Fund pursuant to Rule 31a-1 under the Investment Company Act will be\npreserved for the periods prescribed by Rule 31a-2 under the Investment Company Act unless any such records are earlier surrendered as provided\nabove. Records shall be surrendered in usable machine-readable form. The Blockchain Administrator shall have the right to retain copies of such\nrecords subject to observance of its confidentiality obligations under this Agr"
+    },
+    {
+      "clause_number": "3",
+      "clause_heading": "Confidentiality",
+      "clause_type": "Confidentiality",
+      "text": "The parties hereto agree that each shall treat confidentially the terms and conditions of this Agreement and all information provided by\neach party to the other regarding its business and operations. All confidential information provided by a party hereto, including nonpublic personal\ninformation (regulated pursuant to Regulation S-P), shall be used by any other party hereto solely for the purpose of rendering services pursuant to\nthis Agreement and, except as may be required in carrying out this Agreement, shall not be disclosed to any third party, without the prior consent\nof such providing party. The foregoing shall not be applicable to any information that is publicly available when provided or thereafter becomes\npublicly available other than through a breach of this Agreement, or that is required to be disclosed by any regulatory authority, any authority or\nlegal counsel of the parties hereto, by judicial or administrative process or otherwise by applicable law or regulation.\n4. Compensation; Allocation of Costs and Expenses\n(a) In full consideration of the provision of the services of the Blockchain Administrator set forth herein, the Fund shall pay the\nBlockchain Administrat"
+    },
+    {
+      "clause_number": "2",
+      "clause_heading": "Source",
+      "clause_type": "Payment & Compensation",
+      "text": "ARCA U.S. TREASURY FUND, N-2, 2/7/2020\n\n(b) The Fund shall bear all fees, costs and expenses incurred in connection with its operation, administration and transactions that are\nnot specifically assumed by the Blockchain Administrator (or the Adviser, if not the Blockchain Administrator, pursuant to the Advisory\nAgreement), including but not limited to: (i) compensation of the Fund’s Trustees who are not affiliated with the Fund’s Adviser or the Fund’s\nprincipal underwriter/distributor or any of their respective affiliates; (ii) taxes and governmental fees; (iii) interest charges; (iv) fees and expenses of\nthe Fund’s independent accountants and legal counsel; (v) trade association membership dues; (vi) fees and expenses of any custodian (including\nmaintenance of books and accounts and calculation of the net asset value of shares of the Fund), transfer agent, registrar and dividend disbursing\nagent of the Fund; (vii) expenses of issuing, redeeming, registering and qualifying for sale shares of beneficial interest in the Fund; (viii) expenses\nof preparing prospectuses and reports to shareholders, notices, proxy statements and reports to regulatory agencies; (ix) the cost of office\nsup"
+    },
+    {
+      "clause_number": "6",
+      "clause_heading": "Activities of the Blockchain Administrator",
+      "clause_type": "General / Operational",
+      "text": "The services of the Blockchain Administrator to the Fund are not to be deemed to be exclusive, and the Blockchain Administrator and its\naffiliates are free to render services to others. It is understood that trustees, officers, employees and stockholders of the Fund are or may become\ninterested in the Blockchain Administrator and its affiliates, as directors, officers, members, managers, employees, partners, stockholders or\notherwise, and that the Blockchain Administrator and directors, officers, members, managers, employees, partners and stockholders of the\nBlockchain Administrator and its affiliates are or may become similarly interested in the Fund as stockholders or otherwise."
+    },
+    {
+      "clause_number": "7",
+      "clause_heading": "Duration and Termination of this Agreement",
+      "clause_type": "Termination",
+      "text": "(a) This Agreement shall become effective as of the first date above written. This Agreement may be terminated at any time, without\nthe payment of any penalty, upon 60 days' written notice, by the vote of a majority of the outstanding voting securities of the Fund or by the vote\nof the Fund's Trustees or by the Blockchain Administrator. The provisions of Section 5 of this Agreement shall remain in full force and effect, and\nthe Blockchain Administrator shall remain entitled to the benefits thereof, notwithstanding any termination of this Agreement. Further,\nnotwithstanding the termination or expiration of this Agreement as aforesaid, the Blockchain Administrator shall be entitled to any amounts owed\nunder Section 4 through the date of termination or expiration, and Section 5 shall continue in force and effect and apply to the Blockchain\nAdministrator and its representatives as and to the extent applicable."
+    },
+    {
+      "clause_number": "3",
+      "clause_heading": "Source",
+      "clause_type": "General / Operational",
+      "text": "ARCA U.S. TREASURY FUND, N-2, 2/7/2020\n\n(b) This Agreement shall continue in effect for two years from the date hereof, and thereafter shall continue automatically for\nsuccessive annual periods, provided that such continuance is specifically approved at least annually by (A) the vote of the Board, or by the vote\nof a majority of the outstanding voting securities of the Fund and (B) the vote of a majority of the Fund's directors who are not parties to this\nAgreement or \"interested persons\" (as such term is defined in Section 2(a)(19) of the Investment Fund Act) of any such party, in accordance with\nthe requirements of the Investment Fund Act.\n(c) This Agreement will automatically terminate in the event of its \"assignment\" (as such term is defined for purposes of Section 15(a)\n(4) of the Investment Fund Act)."
+    },
+    {
+      "clause_number": "8",
+      "clause_heading": "Notices",
+      "clause_type": "General / Operational",
+      "text": "Any notice under this Agreement shall be given in writing, addressed and delivered or mailed, postage prepaid, to the other party at its\nprincipal office."
+    },
+    {
+      "clause_number": "9",
+      "clause_heading": "Amendments",
+      "clause_type": "Governing Law",
+      "text": "This Agreement may be amended pursuant to a written instrument by mutual consent of the parties.\n10. Entire Agreement; Governing Law\nThis Agreement contains the entire agreement of the parties and supersedes all prior agreements, understandings and arrangements with respect to\nthe subject matter hereof. This Agreement shall be construed in accordance with the laws of the State of New York applicable to contracts formed\nand to be performed entirely within the State of New York, without regard to conflict of laws principles, and in accordance with the applicable\nprovisions of the Investment Fund Act. In such case, to the extent the applicable laws of the State of New York, or any of the provisions herein,\nconflict with the provisions of the Investment Fund Act, the latter shall control.\n[Remainder of Page Intentionally Left Blank]"
+    },
+    {
+      "clause_number": "4",
+      "clause_heading": "Source",
+      "clause_type": "General / Operational",
+      "text": "ARCA U.S. TREASURY FUND, N-2, 2/7/2020\n\nIN WITNESS WHEREOF, the parties hereto have executed and delivered this Agreement as of the date first above written.\nARCA U.S. TREASURY FUND\nBy:\nName: Philip Liu\nTitle: President\nARCA CAPITAL MANAGEMENT, LLC\nBy:\nName: J. Rayne Steinberg\nTitle: Chief Executive Officer"
+    },
+    {
+      "clause_number": "5",
+      "clause_heading": "Source",
+      "clause_type": "General / Operational",
+      "text": "ARCA U.S. TREASURY FUND, N-2, 2/7/2020"
+    }
+  ]
+}

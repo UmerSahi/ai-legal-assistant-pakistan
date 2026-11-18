@@ -1,0 +1,316 @@
+{
+  "doc_id": "CONT_FerroglobePlc_20150624_F-4A_EX-10.20_9154746_EX-10.20_Outsourcing Agreement",
+  "filename": "FerroglobePlc_20150624_F-4A_EX-10.20_9154746_EX-10.20_Outsourcing Agreement.pdf",
+  "document_type": "contract",
+  "contract_subtype": "contracts/cuad",
+  "title": "Ferroglobeplc 20150624 F 4A Ex 10.20 9154746 Ex 10.20 Outsourcing Agreement",
+  "parties": {
+    "party_one": "Party One",
+    "party_two": "Party Two"
+  },
+  "effective_date": "Effective Date as specified",
+  "governing_law": "governed by the cost saving principle.\n \n9\nSource: FERROGLOBE PLC, F-4/A, 6/24/2015\n\n \n9.3.\nTechnology\n \n \n9.3.1.\nEIT commits to maintain its IT envir",
+  "total_clauses_extracted": 50,
+  "clauses": [
+    {
+      "clause_number": "1",
+      "clause_heading": "Source",
+      "clause_type": "General / Operational",
+      "text": "FERROGLOBE PLC, F-4/A, 6/24/2015"
+    },
+    {
+      "clause_number": "1",
+      "clause_heading": "RECORDINGS",
+      "clause_type": "General / Operational",
+      "text": "This Agreement is being made and entered into with reference to the following facts:"
+    },
+    {
+      "clause_number": "1.1",
+      "clause_heading": "Silicon Smelters and EIT both belong to the GROUP VILLAR MIR",
+      "clause_type": "General / Operational",
+      "text": "1.2.\nThe Customer is a company that manufactures ferro-alloys in both its factories: Polokwane and Rand Carbide.\n \n \n1.3.\nEIT is a company that installs, integrates and develops the management and maintenance of Data Processing Systems, and desires to\nperform for the Customer the outsourcing services described in this Agreement.\n \n \n1.4.\nGROUP VILLAR MIR demands the Customer to use the management services of the group, developed and maintained by EIT, and\nsubcontract the management of its IT infrastructure to EIT.\nIn consideration of the payments to be made and services to be performed hereunder, the parties agree as follows:"
+    },
+    {
+      "clause_number": "2",
+      "clause_heading": "PURPOSE OF AGREEMENT",
+      "clause_type": "General / Operational",
+      "text": "2.1.\nThe Agreement documents:\n \n \n2.1.1.\nThe services EIT renders to the Customer’s users on all the company’s levels;\n \n \n2.1.2.\nThe clauses made regarding services and products between the Customer and EIT.\n \n \n2.1.3.\nThe terms and conditions under which the Customer agrees to purchase and EIT agrees to provide the Services.\n \n \n2.2.\nThe definitions that apply in the present Agreement are listed in Annex 1.\n \n \n2.3.\nThe scope of application of this Agreement is restricted to the IT Management System of the Customer. The IT involving the industrial\nand production environments is excluded from this Agreement.\n \n \n2.4.\nThe supervision of the Agreement is assured by EIT, represented by its Chief Executive, and by the Customer, represented by its Head\nof Information Technology Department."
+    },
+    {
+      "clause_number": "2",
+      "clause_heading": "Source",
+      "clause_type": "General / Operational",
+      "text": "FERROGLOBE PLC, F-4/A, 6/24/2015\n\n \n2.5.2.\nServers\n \n \n2.5.3.\nApplications\n \n \n2.5.4.\nUser Workstations\n \n \n2.5.5.\nStandard software licences\n \n \n2.5.6.\nDefinition of the agreed guidelines for negotiation"
+    },
+    {
+      "clause_number": "3",
+      "clause_heading": "DESCRIPTION OF THE SERVICES RENDERED BY EIT",
+      "clause_type": "General / Operational",
+      "text": "The specific services rendered by EIT according to this Agreement include the following:"
+    },
+    {
+      "clause_number": "3.1",
+      "clause_heading": "NETWORK",
+      "clause_type": "General / Operational",
+      "text": "EIT is in charge of the remote Network, which connects each workstation of the Customer to the Central Server of EIT and to Internet\n(hereinafter “WAN”). The internal network of the factories (hereinafter “LAN”) is excluded from this Agreement and the Customer is\nresponsible for it.\n \n \n3.1.1.\nThe Customer has contracted, taking into account the technological standards defined by EIT, an external company\n(hereinafter “Network Supplier”) for the setting up and the management of the Network. This Network Supplier is\naccountable to the Customer for the management of the Network.\n \n \n3.1.2.\nEIT commits itself to monitor the Network during working hours in South Africa, up to where the service rendered by the\nNetwork Supplier allows.\n \n \n3.1.3.\nEIT commits itself to alert the IT Department of the Customer when any malfunction (power cut, saturation, etc.) is\nidentified, and to carry out the necessary actions with the Network Supplier in order to solve this malfunction as quickly as\npossible.\n \n \n3.1.4.\nEIT commits to assure a high availability (availability rate defined in Annex 2) and the proper performance (response time\nand no saturation) of the Network during working hours in South "
+    },
+    {
+      "clause_number": "3",
+      "clause_heading": "Source",
+      "clause_type": "General / Operational",
+      "text": "FERROGLOBE PLC, F-4/A, 6/24/2015"
+    },
+    {
+      "clause_number": "3.2",
+      "clause_heading": "SERVERS",
+      "clause_type": "General / Operational",
+      "text": "3.2.1.\nEIT is in charge of the list of servers (hereinafter “Servers”) provided in Annex 3.\n \n \n3.2.2.\nThe Customer is responsible for the maintenance of the hardware of the local servers.\n \n \n3.2.3.\nEIT is responsible for the maintenance of the hardware of the Central Server.\n \n \n3.2.4.\nEIT commits to monitor the Servers during working hours in South Africa.\n \n \n3.2.5.\nEIT must alert the IT Department of the Customer if any problem should occur in any of the Servers, within the time\nestablished in Annex 2.\n \n \n3.2.6.\nEIT commits to solve any problems that may arise in the Servers, within the time established in Annex 2.\n \n \n3.2.7.\nEIT is in charge of supervising and assuring the proper performance of the backups. For this, it has provided the Customer\nwith a backup process.\n \n \n3.2.8.\nThe Customer commits to follow the backup process that EIT has provided for him.\n \n \n3.2.9.\nThe Customer must alert EIT of any incidence it might detect by sending an electronic mail to sistemas@eit.es."
+    },
+    {
+      "clause_number": "3.3",
+      "clause_heading": "APPLICATIONS",
+      "clause_type": "General / Operational",
+      "text": "EIT provides and is responsible for the support and maintenance of the applications (defined in the table in Annex 4).\nFor each of these applications, EIT commits to:\n \n \n3.3.1.\nProvide the Customer with hardware installations (servers, disks, backup tapes, etc.) which enable the performance of the\napplication.\n \n \n3.3.2.\nAssure the availability of the application (which varies for each application, defined in Annex 2)."
+    },
+    {
+      "clause_number": "4",
+      "clause_heading": "Source",
+      "clause_type": "General / Operational",
+      "text": "FERROGLOBE PLC, F-4/A, 6/24/2015\n\n \n3.3.3.\nMonitor the applications to analyse the transaction charges and carry out the appropriate corrections in order to optimize\nthe system.\n \n \n3.3.4.\nProvide Level 2 assistance to users via direct telephone numbers of the persons responsible for each application, during\nthe hours established in Annex 2. If there is a public holiday in Spain, EIT commits to provide for the Customer a central\ntelephone number to communicate any incidences that may occur.\n \n \n3.3.5.\nSolve the problems communicated by e-mail to incident.smelters@eit.es during working hours in South Africa, within time\naccording to the severity of the problem, defined in Annex 2.\n \n \n3.3.6.\nMaintain the present interfaces between the central application GES-INDUS and the Customer’s local applications: Payroll\nGesprod and Maximo.\n \n \n3.3.7.\nGuarantee the reliability of the application (software and databases) and of the hardware support (server, disks, etc.), to\nprevent any loss of information that could affect the Customer’s business.\n \n \n3.3.8.\nCarry out the backups and necessary restorations in order to assure the durability of the application and prevent any loss\nof information."
+    },
+    {
+      "clause_number": "3.4",
+      "clause_heading": "WORKSTATIONS AND PRINTERS",
+      "clause_type": "General / Operational",
+      "text": "3.4.1.\nThe Customer is responsible for the purchase and maintenance of the workstations and printers.\n \n \n3.4.2.\nEIT commits to assist the Customer to implement a master that allows the quick installation of all the standard software in\nworkstations."
+    },
+    {
+      "clause_number": "3.5",
+      "clause_heading": "STANDARD SOFTWARE LICENCES",
+      "clause_type": "General / Operational",
+      "text": "3.5.1.\nThe Customer will benefit from the group contracts negotiated by EIT in name of Group Villar Mir for the purchase of\nlicences.\n \n \n3.5.2.\nThe purchase of licences will be carried out directly by the Customer."
+    },
+    {
+      "clause_number": "5",
+      "clause_heading": "Source",
+      "clause_type": "General / Operational",
+      "text": "FERROGLOBE PLC, F-4/A, 6/24/2015\n\n \n3.5.3.\nEIT declares and guarantees the Customer the legal purchase of licences of all the software necessary for the use of the\ncentral applications created by EIT.\n \n \n3.5.4.\nEIT must inform the Customer in due course if any changes take place in licences or in their rights of use."
+    },
+    {
+      "clause_number": "3.6",
+      "clause_heading": "DEFINITION OF STANDARDS AND AGREED GUIDELINES",
+      "clause_type": "General / Operational",
+      "text": "EIT is responsible for:\n \n \n3.6.1.\nThe definition of the technological standards to be used in the Customer’s IT environment.\n \n \n3.6.2.\nThe agreed guidelines with the suppliers, in order to assure the provision of certain services or the purchase of certain IT\ntools which, according to EIT, are necessary for the provision of the mentioned services."
+    },
+    {
+      "clause_number": "4",
+      "clause_heading": "PROJECTS",
+      "clause_type": "General / Operational",
+      "text": "4.1.\nApart from these services, EIT must provide other supplementary services, not considered in the present Agreement. These services\ninclude the study, development and implementation of new applications, changing to new platforms, as well as any other service that\nthe Customer may need in the field of IT services.\n \n \n4.2.\nThe terms and conditions of these services will be separately negotiated if and when it applies.\n \n \n4.3.\nFor that purpose and before the execution of the mentioned services by EIT, the Customer will pay EIT the package price, previously\nagreed by the parties. These services can either be carried out directly by EIT or by subcontracts in the sole discretion of EIT, which\nwill have to notify the customer of this fact before the project commence. However if EIT decides to subcontract the project EIT\nremains responsible for the quality, the cost and the supervision of the services to the satisfaction of the customer."
+    },
+    {
+      "clause_number": "6",
+      "clause_heading": "Source",
+      "clause_type": "General / Operational",
+      "text": "FERROGLOBE PLC, F-4/A, 6/24/2015"
+    },
+    {
+      "clause_number": "5",
+      "clause_heading": "WORK PLACE AND NATURE OF SERVICES",
+      "clause_type": "General / Operational",
+      "text": "5.1.\nThe services described in this Agreement are provided from the following location: EIT, P° de la Castellana, 259D, 28046, Madrid,\nSPAIN.\n \n \n5.2.\nFor this reason, EIT uses its own IT environment, as well as the local equipment of the Customer, connected by a teleprocessing\nsystem to the Central Server of EIT.\n \n \n5.3.\nIf necessary, EIT personnel will travel, in prior agreement with the Customer, to the different factories of the company. In this case, the\ntravelling expenses (travel, accommodation and meals) will be paid by the Customer.\n \n \n5.4.\nThe IT environment belongs to EIT during the total course of the Agreement, with exception of the services subcontracted to third\nparties by EIT, for which the subcontractor will be responsible.\n \n \n5.5.\nEIT is responsible for the choice of the equipment considered the most appropriate in order to reach the service level convened in this\nAgreement. This equipment, and its further updates, should it arise, will be shown to the Customer and agreed upon prior to purchase\nand installation and refusal by the customer will only be valid upon presentation of a justification to EIT. EIT is responsible for the\nmaintenance of its own IT environ"
+    },
+    {
+      "clause_number": "7",
+      "clause_heading": "Source",
+      "clause_type": "General / Operational",
+      "text": "FERROGLOBE PLC, F-4/A, 6/24/2015"
+    },
+    {
+      "clause_number": "6",
+      "clause_heading": "SUPERVISION OF THE SERVICE LEVEL",
+      "clause_type": "General / Operational",
+      "text": "6.1.\nEIT commits to provide monthly measurements to analyse the service level defined in Annex 2.\n \n \n6.2.\nThe parties will analyse monthly these measurements in order to identify what can be improved.\n \n \n6.3.\nThe parties will review annually by mutual agreement the contents and aims of the Service Level Agreement."
+    },
+    {
+      "clause_number": "7",
+      "clause_heading": "PAYMENTS AND PRICING",
+      "clause_type": "Payment & Compensation",
+      "text": "7.1.\nTOTAL ANNUAL AMOUNT\nThe total annual amount to be paid, excluding taxes, for the year 2009, for the total provision of the services described in\nArticle 2 of this Agreement, as well as the supervision of these (establishment of measurements and supervision meetings)\nwill be:\nTWO HUNDRED THOUSAND EUROS (200,000 €)\n \n \n7.1.1.\nThis amount has been fixed for the two factories of Silicon Smelters: Polokwane and Rand Carbide, being the annual\namount per factory A HUNDRED THOUSAND EUROS (100,000 €).\n \n \n7.1.2.\nIf one of the factories closes down, the total amount due will be reduced pro rata for the rest of the annual period for the\nfactory’s annual amount."
+    },
+    {
+      "clause_number": "7.2",
+      "clause_heading": "INVOICING",
+      "clause_type": "General / Operational",
+      "text": "7.2.1.\nThe invoicing of this amount will be carried out quarterly.\nThe invoices will be issued by EIT at the start of each term. Such invoice must be paid by the customer within 45 days of the date on which the\ninvoice is issued.\n \n \n7.2.2.\nINFRASTRUCTURE COSTS\n \n \n7.2.3.\nThe costs of the communication lines, the network infrastructure, the local servers, the micro computing material (PC and\nprinters) are the Customer’s responsibility and it is not included in the total annual amount defined in this Agreement."
+    },
+    {
+      "clause_number": "7.3",
+      "clause_heading": "ANNUAL PAYMENT REVIEW",
+      "clause_type": "Payment & Compensation",
+      "text": "7.3.1.\nThe amount defined in Article 6.1 will be subjected to annual revision, following the publication of the Consumer Price\nIndex in Spain (Spanish CPI) in January of each financial year by the National Statistics Institute of Spain. It will\ncorrespond to the financial year that has concluded."
+    },
+    {
+      "clause_number": "8",
+      "clause_heading": "Source",
+      "clause_type": "General / Operational",
+      "text": "FERROGLOBE PLC, F-4/A, 6/24/2015\n\n \n7.3.2.\nThe Annual Package Price does not include a protection to inflation. For this reason, the amount will be adjusted annually,\naccording to the growth of the Spanish CPI as was indicated above.\n \n \n7.3.3.\nThe new payment is calculated using the following formula: R = R0 * (S+1), where:\n \n \n7.3.4.\nR0 is the payment corresponding to the previous year.\n \n \n7.3.5.\nR is the new payment, and\n \n \n7.3.6.\nS is the last Spanish CPI published on the revision date.\n \n \n7.3.7.\nAs a result, once the first year, since the date the Agreement was executed, has passed, and on this same date on the\nfollowing years, the annual price will be modified in proportion with the growth of the Spanish CPI.\n \n \n7.3.8.\nIn case that the National Statistics Institute of Spain does not publish the CPI or it be significantly modified in form and\ncontent, the parties will agree to a new equivalent measurement, which must be published at least annually."
+    },
+    {
+      "clause_number": "8",
+      "clause_heading": "INTELLECTUAL PROPERTY",
+      "clause_type": "General / Operational",
+      "text": "8.1.\nThe Intellectual Property of the programmes in the application GES-INDUS, used by the Customer’s exploitation of the management\nsystems, belongs to EIT.\n \n \n8.2.\nThe rights of Intellectual Property also protect the programmes that might be created, and the data processing, accounts, and diagrams\ngenerated by the mentioned programme."
+    },
+    {
+      "clause_number": "9",
+      "clause_heading": "WARRANTY",
+      "clause_type": "General / Operational",
+      "text": "9.1.\nSolution’s Adequacy\n \n \n9.1.1.\nEIT guarantees that the solution suggested to the Customer in each moment is the best possible one for the needs of the\nCustomer."
+    },
+    {
+      "clause_number": "9.2",
+      "clause_heading": "Cost Saving",
+      "clause_type": "General / Operational",
+      "text": "9.2.1.\nEIT declares that the way of acting will always be governed by the cost saving principle."
+    },
+    {
+      "clause_number": "9",
+      "clause_heading": "Source",
+      "clause_type": "General / Operational",
+      "text": "FERROGLOBE PLC, F-4/A, 6/24/2015"
+    },
+    {
+      "clause_number": "9.3",
+      "clause_heading": "Technology",
+      "clause_type": "General / Operational",
+      "text": "9.3.1.\nEIT commits to maintain its IT environment in accordance to the technological advances, in order to prevent it from\nbecoming obsolete."
+    },
+    {
+      "clause_number": "9.4",
+      "clause_heading": "Quality Control",
+      "clause_type": "General / Operational",
+      "text": "9.4.1.\nEIT guarantees that the services described in this Agreement will be rendered in accordance with the best practice, a\nquality level accepted by the Customer, and in accordance with the service levels defined in Annex 2."
+    },
+    {
+      "clause_number": "9.5",
+      "clause_heading": "Availability",
+      "clause_type": "General / Operational",
+      "text": "9.5.1.\nThe IT staff of EIT will carry out the exploitation of the services during working hours in South Africa, except for urgent\nactions that will be carried out exceptionally, if it were necessary, out of the established hours."
+    },
+    {
+      "clause_number": "9.6",
+      "clause_heading": "Data and Backup Security",
+      "clause_type": "General / Operational",
+      "text": "9.6.1.\nEIT will produce a daily backup copy of the data and the applications residing in its IT environment, in order to re-\nestablish and retrieve lost information."
+    },
+    {
+      "clause_number": "10",
+      "clause_heading": "LIABILITY",
+      "clause_type": "Limitation of Liability",
+      "text": "10.1.\nEIT is responsible for any damages caused to the Customer or to third parties, when these result from EIT not satisfying the\ncontractual obligations.\n \n \n10.2.\nNevertheless, EIT will be free of responsibility, in case of not satisfying its obligations, if he can prove that this was due to force\nmajeure or external causes out of his control, like accidents, natural disasters, vandalism acts or theft.\n \n \n10.3.\nThe liability of EIT will be limited to a value equal to contractual value as per clause 7.1 and will not exceed this value."
+    },
+    {
+      "clause_number": "10",
+      "clause_heading": "Source",
+      "clause_type": "General / Operational",
+      "text": "FERROGLOBE PLC, F-4/A, 6/24/2015"
+    },
+    {
+      "clause_number": "11",
+      "clause_heading": "CONFIDENTIALITY",
+      "clause_type": "Confidentiality",
+      "text": "The parties commit themselves to a total confidentiality and to not spread or use directly, through third parties or other companies,\ninformation about the other party to which they have access in the frame of this Agreement."
+    },
+    {
+      "clause_number": "11.1",
+      "clause_heading": "PROTECTION AND CONFIDENTIALITY OF DATA",
+      "clause_type": "Confidentiality",
+      "text": "11.1.1.\nConfidential Information means any information disclosed by either party in the frame of this Agreement. In consequence,\neach party agrees not to use, disclose, publish or disseminate any Confidential Information of the other party for any\npurpose except to perform its obligations or exercise its rights under this Agreement, except:\n \n \n11.1.1.1.\nFollowing prior consent of the other party, or\n \n \n11.1.1.2.\nIf the information was in the public domain at the time it was disclosed or becomes in the public domain\nthrough no act or omission of the Receiving Party.\n \n \n11.1.2.\nAny of these exceptions will not be presumed in any case, and the revealing party must clear any doubt to this respect.\n \n \n11.1.3.\nBoth parties shall take reasonable precautions to preserve in strict confidence any confidential or proprietary information\nobtained by them, their agents, employees, subcontractors, suppliers, consultants, and in general, any person that has\naccess to it.\n \n \n11.1.4.\nConfidential Information includes any technical, economic, financial and/or commercial information, confidential or not,\nbearing in any commercial relationship and in general, without any limitation, any informati"
+    },
+    {
+      "clause_number": "11",
+      "clause_heading": "Source",
+      "clause_type": "General / Operational",
+      "text": "FERROGLOBE PLC, F-4/A, 6/24/2015"
+    },
+    {
+      "clause_number": "11.2",
+      "clause_heading": "MANAGEMENT OF ACCESS RIGHTS",
+      "clause_type": "General / Operational",
+      "text": "11.2.1.\nIn accordance to Article 10.1, the Customer is in charge of defining the opening, closing or modifying of access to\ninformation. The Customer is also in charge of defining the user accesses, as well as the level of access of its users.\n \n \n11.2.2.\n10.2.2. EIT guarantees the control of access (through an access code and password) to information pursuant to the access\nrights defined by the Customer.\n \n \n11.2.3.\n10.2.3. EIT will not be held responsible if a Customer’s user uses an access code and password of a third party."
+    },
+    {
+      "clause_number": "12",
+      "clause_heading": "SUPERVISION COMMISSION",
+      "clause_type": "General / Operational",
+      "text": "12.1.\nThe parties commit themselves to constitute a supervision commission formed by persons appointed for that purpose.\n \n \n12.2.\nThis commission will act as an intermediary between the parties and it will accomplish the following tasks:\n \n \n12.2.1.1.\nVerify the fulfilment, in particular, the evolution and implementation, of all the services and applications. This operation will\nbe recorded in the corresponding reports, according to the convened periodicity.\n \n \n12.2.1.2.\nInterpret any Article of this Agreement that might be questioned by the parties.\n \n \n12.2.1.3.\nResolve any potential conflict that may arise during the execution of this Agreement. For this, the commission members\nwill act at their best, and assemble all the necessary information.\n \n \n12.3.\nIf the commission members are not able to resolve a conflict or a problem in the interpretation of this Agreement within thirty natural\ndays, the representatives of the parties will be duly informed in order to find a solution on friendly terms."
+    },
+    {
+      "clause_number": "12",
+      "clause_heading": "Source",
+      "clause_type": "General / Operational",
+      "text": "FERROGLOBE PLC, F-4/A, 6/24/2015"
+    },
+    {
+      "clause_number": "13",
+      "clause_heading": "DURATION",
+      "clause_type": "General / Operational",
+      "text": "13.1.\nThe present Agreement is effective as from 1 January 2009. It is established by calendar year and renewed tacitly every year.\n \n \n13.2.\nThe Agreement rests, for all that, cancellable at any time by any of the parties before the expiry date of the Agreement or any of its\nrenewals, upon three months prior written notice."
+    },
+    {
+      "clause_number": "14",
+      "clause_heading": "EARLY TERMINATION",
+      "clause_type": "Termination",
+      "text": "14.1.\nThe Customer can cancel, on its own accord, the present Agreement upon certified notice to EIT, in the following cases:\n \n \n14.1.1.\nIf there is a repeated interruption, by EIT, of the services convened in this Agreement, for a period of four working days.\n \n \n14.1.2.\nUpon the institution, by or against EIT, of insolvency, receivership or bankruptcy proceedings or any other proceedings\nfor the settlement of its debts.\n \n \n14.1.3.\nNon-performance by EIT of its contractual obligations and warranties, assumed in the present Agreement.\n \n \n14.1.4.\nAbsorption or fusion of EIT by other companies. In this case, the Customer can decide if he wants to continue working\nwith the new company, which will have to continue rendering all the services convened in this Agreement, in the same\nconditions."
+    },
+    {
+      "clause_number": "14.2",
+      "clause_heading": "For simple convenience",
+      "clause_type": "General / Operational",
+      "text": "14.2.1.\nIn case the Customer cancels the Agreement in accordance with Articles 13.1, 13.2, EIT will pay the Customer the amount\nof 3.000 €, for the non observance of the Agreement of which it is responsible.\n \n \n14.2.2.\nIn case of termination of this Agreement by the Customer according to Article 13.5, the Customer will pay EIT the amount\nof 3.000 €."
+    },
+    {
+      "clause_number": "15",
+      "clause_heading": "CONTRACTUAL TRANSITION",
+      "clause_type": "Termination",
+      "text": "15.1.\nIn case of expiration or termination of the present Agreement, the Customer and EIT will cooperate, in good faith, to make possible a\ntransfer, in due form to the Customer or to a third party, chosen by the Customer, for the provision of the services defined in this\nAgreement. For that purpose, the parties will develop, with enough time in advance and with the necessary haste, a Transition Plan\nwhere the actions and measures to be taken will be defined."
+    },
+    {
+      "clause_number": "13",
+      "clause_heading": "Source",
+      "clause_type": "Termination",
+      "text": "FERROGLOBE PLC, F-4/A, 6/24/2015\n\n \n15.2.\nEIT will continue to provide the services defined in this Agreement between the date it receives from the Customer a notice of\nexpiration or termination of this Agreement and the date this expiration or termination becomes effective.\n \n \n15.3.\nEIT commits to hand over to the Customer, on this date, all the data and its copies, in the frame of the provision of services."
+    },
+    {
+      "clause_number": "16",
+      "clause_heading": "LITIGATION RULINGS",
+      "clause_type": "General / Operational",
+      "text": "16.1.\nAll the litigations that may arise between the parties during the period of application of the present Agreement, in relation with its\nArticles, and that have not been solved in a friendly manner, will be subjected to the rulings of their respective Chief Executives. In\ncase of persistent disagreement, the litigation will be subjected to the General Management of Group Villar Mir.\n \n \n16.2.\nHowever, if any of the parties no longer belongs to Group Villar Mir, any litigation that may not be solved in a friendly manner will be\nsettled in compliance with the laws of Spain.\n \n \n16.3.\nAny doubt that arises, in the frame of this Agreement, will be settled through arbitration in equity, in compliance with the Spanish Law\nof Arbitration, Ley 60/2003, both parties agreeing to obey the decision. For the designation of the arbitrators and the management of\nthe arbitration, the following rules will apply:\n \n \n16.3.1.\nThere will be three arbitrators, solicitors. Each party will designate one, and these two will designate a third one.\n \n \n16.3.2.\nThe place of arbitration will be Madrid.\n \n \n16.3.3.\nIt will be governed by the laws of Spain and the language of the process will be Spanish.\n \n"
+    },
+    {
+      "clause_number": "14",
+      "clause_heading": "Source",
+      "clause_type": "General / Operational",
+      "text": "FERROGLOBE PLC, F-4/A, 6/24/2015"
+    },
+    {
+      "clause_number": "17",
+      "clause_heading": "GOVERNING LAW",
+      "clause_type": "General / Operational",
+      "text": "17.1.\nThis Agreement shall be governed by, and construed in accordance with the laws of Spain.\n \n18.\nIN WITNESS WHEREOF, the parties acknowledge that each has fully read and understood this Agreement, and, intending to be legally bound\nthereby, executed this Agreement on the date first above written.\n \nSLICON SMELTERS PTY LTD\nESPACIO INFORMATION TECHNOLOGY, S.A.\nName: Dr B.E.N. Ollivier\nName: Carlos Lafitte Pradal\nTitle:\nManaging Director\nTitle:\nDirector General"
+    },
+    {
+      "clause_number": "15",
+      "clause_heading": "Source",
+      "clause_type": "General / Operational",
+      "text": "FERROGLOBE PLC, F-4/A, 6/24/2015\n\nANNEX 1: DEFINITIONS\nThe following definitions apply in the present Agreement:\nIT Department: Customer’s work team in charge of the support and maintenance of the Customer’s local infrastructure and applications.\nLAN: Internal network at the factories that connects the factory’s routers with the workstations and peripheral devices of the site.\nWAN: External network that connects the Silicon Smelter factories with the central node located in Madrid. Network leaving the router of each factory.\nSouth African workdays: Monday to Friday, except for legal holidays of the South African work schedule.\nSouth African working hours: 8h00 – 20h00 during South African workdays.\nLocal Servers: Servers listed in Annex 3, which are located in the factories of Silicon Smelters.\nCentral Servers: Servers listed in Annex 3, which are located outside the factories of Silicon Smelters.\nLocal Applications: IT applications used by Silicon Smelters and implemented on the local Servers. Silicon Smelters is responsible for these\napplications, which are listed in Annex 4.\nData: The data or information belonging to the Customer saved on magnetic support or others, and that is "
+    },
+    {
+      "clause_number": "2",
+      "clause_heading": "Workdays in",
+      "clause_type": "General / Operational",
+      "text": "South African\nwork schedule  \n8H-20H\n \nØ\n \nResponse: less than two South\nAfrican working hours\n \n98% of requests\nsolved in the time\nperiod\n \nMonthly\n \nMeasuring response times\nfor each request\n \n \n Ø  Blocking Bug:\n \n \n \nGes-Indus\nMaintenance\n \nWorkdays in\nSouth African\nwork schedule\n \n8H-20H\n \n \n●\n \nConsideration and response:\nless than two South African\nworking hours\n \n \n98% of requests\nsolved in the time\nperiod\n \nMonthly\n \nMeasuring the response\ntimes for encountered\nproblems\n \n \n \n \n●\n \nSolution or work-around: less\nthan one South African\nworkday\n \n \n \n \n \n \n \nØ\n \nNon-blocking Bug:\n \n \n \n \n \n \n \n \n●\n \nConsideration and response:\nless than three South African\nworkdays\n \n \n \n \n \n \n \n \n●\n \nSolution or work-around: set\nout by the requestor\n \n \n \nElectronic Mail Service\nAvailability\n \n7d/7d\n \n24h/24h\n \n \n99% availability\n \n \nMeasuring periods when\nthe electronic mail service\nis not available\nOFINET Availability\n \n7d/7d\n  24h/24h  \n 95% availability\n \n \nMeasuring periods when\nOFINET is not available\nSource: FERROGLOBE PLC, F-4/A, 6/24/2015\n\nANNEX 3: INVENTORY OF SERVERS USED BY SILICON SMELTERS\n \nName of Servers\n \nFunctionality\n \nPriority \nLocal or Central\nServer\n \nServer Managemen\nR"
+    }
+  ]
+}

@@ -1,0 +1,1492 @@
+{
+  "doc_id": "STAT_anti-money-laundering",
+  "filename": "anti-money-laundering.pdf",
+  "document_type": "statute",
+  "jurisdiction": "Islamic Republic of Pakistan",
+  "act_title": "ANTI-MONEY LAUNDERING",
+  "act_number": "ACT No. VII OF 2010",
+  "year": 2010,
+  "preamble": "Preamble not explicitly stated.",
+  "total_sections_extracted": 138,
+  "sections": [
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement",
+      "section_text": "2. \nDefinitions.",
+      "full_text_length": 16,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "3",
+      "section_title": "Offence of money laundering",
+      "section_text": "4. \nPunishment for money laundering.   \n5. \nNational Executive Committee",
+      "full_text_length": 72,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "6",
+      "section_title": "Financial Monitoring Unit",
+      "section_text": "6A. \nAML/CFT regulatory authority.",
+      "full_text_length": 34,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "6B",
+      "section_title": "International Cooperation by regulators",
+      "section_text": "6C. \nOversight body for SRBs.",
+      "full_text_length": 29,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "7",
+      "section_title": "Procedure and manner of furnishing information by reporting entities",
+      "section_text": "7A.  \nConducting CDD.",
+      "full_text_length": 21,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "7B",
+      "section_title": "Reliance on third parties",
+      "section_text": "7C. \nRecord Keeping.",
+      "full_text_length": 20,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "7D",
+      "section_title": "Inability to Complete CDD and tipping off",
+      "section_text": "7E. \nAnonymous business relationships and transactions.",
+      "full_text_length": 55,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "7F",
+      "section_title": "Risk understanding",
+      "section_text": "7G. \nCompliance program.",
+      "full_text_length": 24,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "7H",
+      "section_title": "Policies and procedures",
+      "section_text": "7I. \nSanctions for reporting entities.",
+      "full_text_length": 38,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "7J",
+      "section_title": "Appeal to concerned AML/CFT regularity authority",
+      "section_text": "8. \nAttachment of property involved in money laundering.",
+      "full_text_length": 56,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "9",
+      "section_title": "Investigation",
+      "section_text": "9A. \nApplication of investigation techniques. \nUpdated till 2.9.2022\nUpdated till 2.9.2022\n\n \nPage 2 of 44",
+      "full_text_length": 106,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "10",
+      "section_title": "Vesting of property in Federal Government",
+      "section_text": "11. \nManagement of forfeited properties.",
+      "full_text_length": 40,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "12",
+      "section_title": "No civil or criminal proceedings against reporting entities in certain cases",
+      "section_text": "13. \nPower of survey.",
+      "full_text_length": 21,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "14",
+      "section_title": "Search and seizure",
+      "section_text": "15. \nSearch of persons.",
+      "full_text_length": 23,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "16",
+      "section_title": "Omitted",
+      "section_text": "17. \nRetention of property.",
+      "full_text_length": 27,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "18",
+      "section_title": "Retention of records",
+      "section_text": "19. \nPresumption as to records or property in certain cases.",
+      "full_text_length": 60,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "20",
+      "section_title": "Jurisdiction",
+      "section_text": "21. \nOffences to be cognizable and non-bailable.   \n22. \nApplication of Code of Criminal Procedure, 1898 (Act V of 1898) to proceedings before     \ncourts.",
+      "full_text_length": 155,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "23",
+      "section_title": "Appeal to High Court",
+      "section_text": "24. \nAppointment of investigating officers and their powers.",
+      "full_text_length": 60,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "25",
+      "section_title": "Assistance to authorities",
+      "section_text": "26. \nAgreements with foreign countries.",
+      "full_text_length": 39,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "27",
+      "section_title": "Letter of request to a contracting State etc",
+      "section_text": "28. \nAssistance to a contracting State in certain cases.   \n29. \nReciprocal arrangements for processes and assistance for transfer of accused persons.",
+      "full_text_length": 150,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "30",
+      "section_title": "Attachment, seizure and forfeiture etc",
+      "section_text": ", of property in a contracting State or Pakistan.",
+      "full_text_length": 49,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "31",
+      "section_title": "Procedure in respect of letter of request",
+      "section_text": "32. \nPunishment for vexatious survey and search.",
+      "full_text_length": 48,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "33",
+      "section_title": "Liability for failure to file [STR] and for providing false information",
+      "section_text": "34. \nDisclosure of information.",
+      "full_text_length": 31,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "35",
+      "section_title": "Bar of jurisdiction",
+      "section_text": "36. \nNotices, etc., not to be invalid on certain grounds.",
+      "full_text_length": 57,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "37",
+      "section_title": "Offences by legal persons",
+      "section_text": "38. \nContinuity of proceedings in the event of death or insolvency.",
+      "full_text_length": 67,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "39",
+      "section_title": "Act to have overriding effect",
+      "section_text": "40. \nMembers etc., to be public servants.",
+      "full_text_length": 41,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "41",
+      "section_title": "Act not to apply to fiscal offences",
+      "section_text": "42. \nPower to amend the Schedule.   \n\n \nPage 3 of 44",
+      "full_text_length": 52,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "43",
+      "section_title": "Power to make rules",
+      "section_text": "44. \nPower to make regulations.",
+      "full_text_length": 31,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "45",
+      "section_title": "Power to remove difficulties",
+      "section_text": "46. \nValidation of actions, etc.  \n \nSCHEDULES \n1- Schedule – I \n2- Schedule - II \n3- Schedule - III \n4- Schedule - IV \n \n \nShamil Hassan \n \n\n \nPage 4 of 44 \n \nANTI-MONEY LAUNDERING ACT, 2010 \n(ACT No. VII OF 2010) \n[27th March, 2010]  \nAn Act to provide for prevention of money laundering \nWHEREAS, it is expedient to provide for prevention of money laundering, combating \nfinancing of terrorism and forfeiture of property derived from, or involved in, money laundering or \nfinancing of terrorism and for matters connected therewith or incidental thereto;  \nIt is hereby enacted as follows: ___",
+      "full_text_length": 595,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "1",
+      "section_title": "Short title, extent and commencement",
+      "section_text": "—(1) This Act may be called the Anti-Money \nLaundering Act, 2010.  \n \n(2) It extends to the whole of Pakistan.  \n \n(3) It shall come into force at once.  \n \n1[2. Definitions.— In this Act, unless there is anything repugnant in the subject or context,—  \n \n(i) \n“AML/CFT” means anti money laundering and countering financing of \nterrorism;  \n \n(ii) \n“AML/CFT regulatory authority” means the regulator or SRB as defined \nunder section 6A;  \n \n(iii) \n“attachment” means prohibition of transfer, conversion, disposition or \nmovement of property by an order issued under section 8;  \n \n(iv) \n“beneficial owner” means,— \n \n(i) \nnatural person who ultimately owns or controls a customer or the \nnatural person on whose behalf a transaction is being conducted; or  \n(ii) \nnatural person who exercises ultimate effective control over a legal \nperson or legal arrangement;  \n(v) \n“business relationship” means professional or commercial relationship \nbetween a reporting entity and a customer to conduct transaction, activity or to \nprovide service or product;  \n(vi) \n“CDD” means customer due diligence and the obligations set out in section \n7A;",
+      "full_text_length": 1137,
+      "subsections": [
+        "(1) This Act may be called the Anti-Money",
+        "(2) It extends to the whole of Pakistan.",
+        "(3) It shall come into force at once.",
+        "(i) “AML/CFT” means anti money laundering and countering financing of",
+        "(i) natural person who ultimately owns or controls a customer or the"
+      ],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "1",
+      "section_title": "Subs",
+      "section_text": "by Anti-Money Laundering (Second Amendment) Act, 2020 (Act No. XXX of 2020), s. 2. \n\n \nPage 5 of 44 \n \n(vii) \n“company” means any body corporate and includes a firm or other association \nof individuals;  \n(viii) “competent authorities” means the regulators, oversight bodies for SRBs, the \nFinancial Monitoring Unit and the investigating or prosecuting agencies as \ndefined in this Act;  \n(ix) \n“corporate group” means a group that consists of a parent entity exercising \ncontrol or management on branch or subsidiary that are subject to AML/CFT \npolicies and procedures at the group level;  \n(x) \n“Court” means the Court specified under section 20;  \n(xi) \n“CTR” means report on currency transactions exceeding such amount as may \nbe specified by the National Executive Committee by notification in the \nofficial Gazette;  \n(xii) \n“designated non-financial businesses and professions” or “DNFBPs” means \nthe following persons, namely:— \n(a) \nreal estate agents, including builders and real estate developers, when \nperforming the prescribed activities in the prescribed circumstances \nand manner;  \n(b) \ndealers in precious metals and precious stones, including jewellers and \ngem dealers, when performing the prescribed activities in the \nprescribed circumstances and manner;  \n(c) \nlawyers, notaries, accountants and other legal professionals who \ncarryout monetary transactions for their clients concerning the \nfollowing activities:— \n(I) \nmanaging, operating, buying and selling of real estate,",
+      "full_text_length": 8650,
+      "subsections": [
+        "(x) “Court” means the Court specified under section 20;",
+        "(a) real estate agents, including builders and real estate developers, when",
+        "(b) dealers in precious metals and precious stones, including jewellers and",
+        "(c) lawyers, notaries, accountants and other legal professionals who",
+        "(d) trust and company service providers, when they carry out monetary"
+      ],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "3",
+      "section_title": "Offence of money laundering",
+      "section_text": "—A person shall be guilty of offence of money laundering, \nif the person:_ \n \n(a) \nacquires, converts, possesses, uses or transfers property, knowing or having \nreason to believe that such property is proceeds of crime;   \n(b) \nconceals or disguises the true nature, origin, location, disposition, movement \nor ownership of property, knowing or having reason to believe that such \nproperty is proceeds of crime;  \n(c) \nholds or possesses on behalf of any other person any property knowing or \nhaving reason to believe that such property is proceeds of crime; or  \n(d) \nparticipates in, associates, conspires to commit, attempts to commit, aids, \nabets, facilitates, or counsels the commission of the acts specified in clauses \n(a), (b) and (c).  \nExplanation1[-I].___ The knowledge, intent or purpose required as an element of an \noffence set forth in this section may be inferred from factual circumstances in accordance with the \nQanun-e-Shahadat, 1984 (P.O.10 of 1984).  \n \n  1[Explanation-II.—For the purpose of proving an offence under this section, the conviction \nof an accused for the respective predicate offence shall not be required.]  \n \n \n1Subs. and added by Anti-Money Laundering (Amendment) Act, 2015 (Act No. XXIII of 2015), s. 3.  \n \n \n \n \n\n \nPage 10 of 44 \n \n \n1[4. Punishment for money laundering.— (1) Whoever commits the offence of money \nlaundering shall be punished with rigorous imprisonment for a term which shall not be less than one \nyear but may extend up to ten years and",
+      "full_text_length": 8993,
+      "subsections": [
+        "(a) acquires, converts, possesses, uses or transfers property, knowing or having",
+        "(b) conceals or disguises the true nature, origin, location, disposition, movement",
+        "(c) holds or possesses on behalf of any other person any property knowing or",
+        "(d) participates in, associates, conspires to commit, attempts to commit, aids,",
+        "(b) and"
+      ],
+      "provisos": [],
+      "penalty": "shall be punished with rigorous imprisonment for a term which shall not be less than one"
+    },
+    {
+      "section_number": "1",
+      "section_title": "Subs",
+      "section_text": "by Anti-Money Laundering (Second Amendment) Act, 2020 (Act No. XXX of 2020), s. 5.  \n\n \nPage 13 of 44 \n \n \n(e) \nto cooperate with financial intelligence units of other countries and to make \nreciprocal arrangements in order to share, request and receive information \nrelating to money laundering, predicate offences and financing of terrorism \nand any other information that may be necessary to accomplish the objectives \nof this Act;  \n(f) \nto represent Pakistan at all international and regional organizations and \ngroupings of financial intelligence units and other international groups and \nforums which address the offence of money laundering, financing of terrorism \nand other related matters;  \n(g) \nto request the investigating or prosecuting agencies any feedback regarding \nthe disseminations made under clause (c) in the form of periodic reports or \nstatistics concerning the investigations and prosecutions of money laundering \nand financing of terrorism in Pakistan;  \n(h) \nto make regulations in consultation with the AML/CFT regulatory authorities \nfor ensuring receipt of STRs and CTRs from reporting entities with the \napproval of the National Executive Committee;  \n(i) \nto enter into arrangements with domestic agencies, authorities, or any \nreporting entity of any of its officers as may be necessary for getting \nfacilitation in implementation of the provisions of this Act, or the rules or \nregulations made hereunder; and  \n(j) \nto perform all such functions and exercise all s",
+      "full_text_length": 4703,
+      "subsections": [
+        "(e) to cooperate with financial intelligence units of other countries and to make",
+        "(f) to represent Pakistan at all international and regional organizations and",
+        "(g) to request the investigating or prosecuting agencies any feedback regarding",
+        "(c) in the form of periodic reports or",
+        "(h) to make regulations in consultation with the AML/CFT regulatory authorities"
+      ],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "6B",
+      "section_title": "International cooperation by regulators",
+      "section_text": "— The regulators as specified in clause 1 of \nSchedule IV shall co-operate with their foreign counterparts and shall make reciprocal arrangements \nto be reduced in writing to share, request and receive information relating to the requirements of this \nAct and any regulations made thereunder.",
+      "full_text_length": 292,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "6C",
+      "section_title": "Oversight body for SRBs",
+      "section_text": "— The Federal Government shall, by notification in the \nofficial Gazette, appoint an oversight body for the SRBs mentioned in clause 2 of Schedule IV which \nshall exercise and perform the following powers and functions with respect to their respective SRB; \nnamely:― \n \n(a) \nmake regulations for the SRB with respect to the provisions of this Act;  \n(b) \nmonitor and oversee the SRB in accordance with the provisions of this Act;  \n\n \nPage 15 of 44 \n \n(c) \nimpose sanctions, to the extent and in the manner as may be prescribed, upon \ntheir respective SRB who fails to comply with any provision of this Act and \nany rules or regulations made thereunder; and  \n(d) \nexercise any other powers and perform any other functions as may be notified \nby the Federal Government in the official Gazette.]",
+      "full_text_length": 794,
+      "subsections": [
+        "(a) make regulations for the SRB with respect to the provisions of this Act;",
+        "(b) monitor and oversee the SRB in accordance with the provisions of this Act;",
+        "(c) impose sanctions, to the extent and in the manner as may be prescribed, upon",
+        "(d) exercise any other powers and perform any other functions as may be notified"
+      ],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "7",
+      "section_title": "Procedure and manner of furnishing information by 1[****] reporting entities",
+      "section_text": "___1[(1) \nEvery reporting entity shall file with the FMU, to the extent and in the manner prescribed by the \nFMU, 2[STRs] conducted or attempted by, at or through such reporting entity, if it knows, suspects \nor has reason to suspect that the transaction or a pattern of transactions of which the transaction is a \npart,— \n \n(a) \ninvolves funds derived from illegal activities or is intended or conducted in \norder to hide or disguise proceeds of crime;  \n(b) \nis designed to evade any requirements of this 2[Act];  \n(c) \nhas no apparent lawful purpose after examining the available facts, including \nthe background and possible purpose of the transaction; or  \n(d) \ninvolves financing of terrorism, including funds collected, provided, used or \nmeant for, or otherwise linked or related to, terrorism, terrorist acts or \norganizations and individuals concerned with terrorism:  \nProvided that 2[STRs] shall be filed by the reporting entity with the FMU \n3[promptly].]  \n(2) Any \n1[*] government agency, autonomous body, \n2[oversight body for SRB, \nAML/CFT]1[,] regulatory authority1[, domestic or foreign,] may share intelligence or report their \nsuspicions within the meaning of 2[STRs] or CTR to FMU in normal course of their business and the \nprotection provided under section 12 shall be available to such agency, body or authority.  \n \n(3) All CTRs shall, to the extent and in the manner prescribed by the FMU, be filed by the \n1[***] reporting entities with the FMU immediately, but not later ",
+      "full_text_length": 3751,
+      "subsections": [
+        "(1) Every reporting entity shall file with the FMU, to the extent and in the manner prescribed by the",
+        "(a) involves funds derived from illegal activities or is intended or conducted in",
+        "(b) is designed to evade any requirements of this 2[Act];",
+        "(c) has no apparent lawful purpose after examining the available facts, including",
+        "(d) involves financing of terrorism, including funds collected, provided, used or"
+      ],
+      "provisos": [
+        "Provided that 2[STRs] shall be filed by the reporting entity with the FMU \n3[promptly]"
+      ],
+      "penalty": null
+    },
+    {
+      "section_number": "7B",
+      "section_title": "Reliance on third parties",
+      "section_text": "—A reporting entity may rely on third party to perform CDD \nin the manner as may be prescribed.",
+      "full_text_length": 95,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "7C",
+      "section_title": "Record keeping",
+      "section_text": "— Every reporting entity shall maintain a record of all transactions for \na period of at least five years following the completion of the transaction and records of account \nfiles, business correspondence, documents of all records obtained through CDD and the results of \nany analysis undertaken for a period of at least five years following the termination of the business \nrelationship.",
+      "full_text_length": 388,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "7D",
+      "section_title": "Inability to complete CDD and tipping off",
+      "section_text": "—(1) Where a reporting entity is unable \nto complete CDD requirements, it—  \n \n(a) \nshall not open the account, commence business relations or perform the \ntransaction; or shall terminate the business relationship if any; and  \n(b) \nshall promptly consider filing an STR in relation to the customer.  \n \n  \n \n1Ins. by Anti-Money Laundering (Second Amendment) Act, 2020 (Act No. XXX of 2020), s. 8. \n\n \nPage 17 of 44 \n \n(2) Where a reporting entity forms a suspicion of money laundering or terrorist financing and \nreasonably believes that performing the CDD process will tip-off the customer, the reporting entity \nshall not pursue the CDD process and shall file an STR.",
+      "full_text_length": 670,
+      "subsections": [
+        "(1) Where a reporting entity is unable",
+        "(a) shall not open the account, commence business relations or perform the",
+        "(b) shall promptly consider filing an STR in relation to the customer.",
+        "(2) Where a reporting entity forms a suspicion of money laundering or terrorist financing and"
+      ],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "7E",
+      "section_title": "Anonymous business relationships and transactions",
+      "section_text": "— No reporting entity shall enter \ninto a business relationship or conduct any transaction with a customer who is anonymous or \nprovides a fictitious name.",
+      "full_text_length": 155,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "7F",
+      "section_title": "Risk understanding",
+      "section_text": "—Every reporting entity shall take appropriate steps to identify, \nassess and understand the risks to which its business is subjected to, in accordance with this Act and \nas prescribed.",
+      "full_text_length": 185,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "7G",
+      "section_title": "Compliance program",
+      "section_text": "— Every reporting entity shall implement compliance \nmanagement arrangements, including the appointment of a compliance officer at a management level \nand training programs, having regard to the money laundering and terrorism financing risks and the \nsize of the business during the course of their activities subject to this Act and as prescribed.",
+      "full_text_length": 348,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "7H",
+      "section_title": "Policies and procedures",
+      "section_text": "— Every reporting entity shall implement policies and \nprocedures to ensure their compliance with the provisions of this Act and orders, rules or regulations \nmade thereunder that impose TFS obligations upon reporting entities.",
+      "full_text_length": 227,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "7I",
+      "section_title": "Sanctions for reporting entities",
+      "section_text": "—If any reporting entity or natural person contravenes \nany of the provisions of sections 7(1), 7(3) to 7(6) and 7A to 7H, it may be subjected to sanctions, as \nmentioned under clause (h) of section 6A and as may be prescribed.",
+      "full_text_length": 227,
+      "subsections": [
+        "(3) to 7",
+        "(6) and 7A to 7H, it may be subjected to sanctions, as",
+        "(h) of section 6A and as may be prescribed."
+      ],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "7J",
+      "section_title": "Appeal to concerned AML/CFT regulatory authority",
+      "section_text": "—(1) Any  person aggrieved by \nthe delay or failure of a reporting entity to complete CDD requirements or establish business \nrelationship or conduct any transaction, may file an appeal to the concerned AML/CFT regulatory \nauthority within ninety days.  \n \n(2) The concerned AML/CFT regulatory authority shall decide the appeal within sixty days.]",
+      "full_text_length": 347,
+      "subsections": [
+        "(1) Any  person aggrieved by",
+        "(2) The concerned AML/CFT regulatory authority shall decide the appeal within sixty days.]"
+      ],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "8",
+      "section_title": "Attachment of property involved in money laundering",
+      "section_text": "___ (1) 1[An] investigating \nofficer may, on the basis of the report in his possession received from the concerned investigating \n1[or prosecuting] agency, by order in writing, with prior permission of the Court, provisionally attach \n1[a] property, which he reasonably believes to be 1[the property] involved in money laundering for a \nperiod not exceeding 2[one hundred and eighty] days from the date of the order2[:]  \n \n \n2[Provided that the Court may grant further extension for a period up to one hundred and \neighty days.] \n(2) The investigating officer shall within forty-eight hours immediately after attachment \nunder sub-section (1), forward a copy of the order, 3[and the report] referred to in that sub-section, to \nthe head of the concerned investigating agency, in a sealed envelope 3[***].  \n \n \n1ins. by Anti-Money Laundering (Amendment) Act, 2015 (Act No. XXIII of 2015), s. 8.  \n2Subs. and added by Anti-Money Laundering (Amendment) Act, 2020 (Act No. XI of 2020), s. 5. \n3Subs. And omitted by Anti-Money Laundering (Amendment) Act, 2015 (Act No. XXIII of 2015), Ss. 8. \n \n \n\n \nPage 18 of 44 \n \n(3) Every order of attachment made under sub-section (1) shall cease to have effect after the \nexpiry of the period specified in that sub-section or on the date of the finding made under sub-section \n(2) of section 9 whichever is earlier.  \n(4) Nothing in this section shall prevent the person interested in the enjoyment of the \nimmovable property attached under sub-section (1) from s",
+      "full_text_length": 1893,
+      "subsections": [
+        "(1) 1[An] investigating",
+        "(2) The investigating officer shall within forty-eight hours immediately after attachment",
+        "(3) Every order of attachment made under sub-section",
+        "(1) shall cease to have effect after the",
+        "(2) of section 9 whichever is earlier."
+      ],
+      "provisos": [
+        "Provided that the Court may grant further extension for a period up to one hundred and \neighty days"
+      ],
+      "penalty": null
+    },
+    {
+      "section_number": "9",
+      "section_title": "Investigation",
+      "section_text": "___ (1) The investigating officer shall, not later than seven days from the \ndate of order of attachment made under sub-section (1) of section 8 or, seizure of property under \nsection 14 or section 15, serve a notice of not less than thirty days on the person concerned. The \nnotice shall call upon such person to indicate the sources of his income, earning or assets, out of \nwhich or by means of which he has acquired the property attached under sub-section (1) of section 8, \nor, seized under section 14 or section 15, the evidence on which he relies and other relevant \ninformation and particulars, and to show cause why all or any of such properties should not be \ndeclared to be the properties involved in money laundering and forfeited to the Federal Government:  \n \nProvided that where a notice under this sub-section specifies any property as being held by a \nperson on behalf of any other person, a copy of such notice shall also be served upon such other \nperson:  \n \nProvided further that where such property is held jointly by more than one person, such \nnotice shall be served upon all persons holding such property.  \n \n(2) The investigating officer shall, after___ \n \n(a) \nconsidering the reply, if any, to the notice issued under sub-section (1);  \n(b) \nhearing the aggrieved person; and  \n(c) \ntaking into account all relevant materials placed on record before him;  \n record a finding whether all or any other properties referred to in the notice issued under sub-section \n(1) are ",
+      "full_text_length": 2225,
+      "subsections": [
+        "(1) The investigating officer shall, not later than seven days from the",
+        "(1) of section 8 or, seizure of property under",
+        "(1) of section 8,",
+        "(2) The investigating officer shall, after___",
+        "(a) considering the reply, if any, to the notice issued under sub-section"
+      ],
+      "provisos": [
+        "Provided that where a notice under this sub-section specifies any property as being held by a \nperson on behalf of any other person, a copy of such notice shall also be served upon such other \nperson:  \n \nProvided further that where such property is held jointly by more than one person, such \nnotice shall be served upon all persons holding such property",
+        "Provided that if the property is claimed by a person, other than a person to whom the notice \nhad been issued, such person shall also be given an opportunity of being heard to prove that the \nproperty is not 2[a property] involved in money laundering"
+      ],
+      "penalty": null
+    },
+    {
+      "section_number": "1",
+      "section_title": "Subs",
+      "section_text": "and ins.. by Anti-Money Laundering (Amendment) Act, 2015 (Act No. XXIII of 2015), Ss. 8 and 9. \n \n2Inser., subs. and omitted by Anti-Money Laundering (Amendment) Act, 2015 (Act No. XXIII of 2015), s. 9.  \n \n \n\n \nPage 19 of 44 \n \n \n1[clause (a) and (b) *******]  \n \n1[(3A) The Court may, after giving opportunity of hearing to the persons concerned with the \nproperty attached under sub-section (1) of section 8 or retained or seized under section 14 or section \n15, pass an order confirming the attachment, retention, seizure or, as the case may be, release of the \nproperty. The attachment or retention or seizure of the property shall__ \n \n(a) \ncontinue during the pendency of the proceedings relating to any predicate \noffence or money laundering before a Court; and   \n(b) \nbecome final if it is proved in the Court that the property is the property \ninvolved in money laundering.]  \n(4) Where the provisional order of attachment made under sub-section (1) of section 8 has \nbeen confirmed under sub-section 3 1[A], the investigating officer shall forthwith take possession of \nthe attached property:  \nProvided that where the property seized is perishable in nature or subject to speedy and \nnatural decay, or when the expense of keeping it in custody is likely to exceed its value, the Court \nmay, on the application of the investigating officer, order immediate sale of the property in any \nmanner deemed appropriate in the circumstances.  \n(5) Where on conclusion of a trial for any predicate",
+      "full_text_length": 3377,
+      "subsections": [
+        "(a) and",
+        "(b) *******]",
+        "(1) of section 8 or retained or seized under section 14 or section",
+        "(a) continue during the pendency of the proceedings relating to any predicate",
+        "(b) become final if it is proved in the Court that the property is the property"
+      ],
+      "provisos": [
+        "Provided that where the property seized is perishable in nature or subject to speedy and \nnatural decay, or when the expense of keeping it in custody is likely to exceed its value, the Court \nmay, on the application of the investigating officer, order immediate sale of the property in any \nmanner deemed appropriate in the circumstances"
+      ],
+      "penalty": null
+    },
+    {
+      "section_number": "10",
+      "section_title": "Vesting of property in Federal Government",
+      "section_text": "—where an order of forfeiture has been \nmade under sub-section (6) of section 9 in respect of any property of a person, all the rights and title \nin such property shall vest absolutely in the Federal Government free from all encumbrances:  \n \nProvided that where the Court, after giving an opportunity of being heard to any other person \ninterested in the property attached under section 8, or seized under section 14, is of the opinion that \nany encumbrance on the property or leasehold interest has been created with a view to defeat the \nprovisions of this Act, it may, by order, declare such encumbrance or leasehold interest to be void \nand thereupon the aforesaid property shall vest in the Federal Government free from such \nencumbrances or leasehold interest:  \nProvided further that nothing in this section shall operate to discharge any person from any \nliability in respect of such encumbrances, which may be 1[legally] enforced against such person \n1[***].",
+      "full_text_length": 968,
+      "subsections": [
+        "(6) of section 9 in respect of any property of a person, all the rights and title"
+      ],
+      "provisos": [
+        "Provided that where the Court, after giving an opportunity of being heard to any other person \ninterested in the property attached under section 8, or seized under section 14, is of the opinion that \nany encumbrance on the property or leasehold interest has been created with a view to defeat the \nprovisions of this Act, it may, by order, declare such encumbrance or leasehold interest to be void \nand thereupon the aforesaid property shall vest in the Federal Government free from such \nencumbrances or leasehold interest:  \nProvided further that nothing in this section shall operate to discharge any person from any \nliability in respect of such encumbrances, which may be 1[legally] enforced against such person \n1[***]"
+      ],
+      "penalty": null
+    },
+    {
+      "section_number": "11",
+      "section_title": "Management of forfeited properties",
+      "section_text": "—(1) The Federal Government may, by order \npublished in the official Gazette, appoint as many trustees and receivers as it thinks fit to perform the \nfunctions of an Administrator.  \n(2) The Administrator appointed under sub-section (1) shall receive and manage the property \nin relation to which an order has been made under sub-section (6) of section 9 in such manner and \nsubject to such conditions as may be prescribed.  \n(3) The Administrator shall also take such measures, as the Federal Government may direct, \nto dispose of the property which is vested in the Federal Government under section 10:  \nProvided that, where the property seized is perishable in nature or subject to speedy and \nnatural decay, or when the expense of keeping it in custody is likely to exceed its value, the \nAdministrator may sell it at once after reasonable notice to the Federal Government.  \n2[12. No civil or criminal proceedings against reporting entities in certain cases.—  Save \nas otherwise provided in section 7, the reporting entities and their officers including but not limited \nto directors, chief executive, chief financial officer, employees, agents of the reporting entity or other \nauthorized officers of a reporting entity shall not be liable to any civil, criminal or disciplinary \nproceedings against them for furnishing information required under this Act or the rules or \nregulations made thereunder in good faith.]",
+      "full_text_length": 1424,
+      "subsections": [
+        "(1) The Federal Government may, by order",
+        "(2) The Administrator appointed under sub-section",
+        "(1) shall receive and manage the property",
+        "(6) of section 9 in such manner and",
+        "(3) The Administrator shall also take such measures, as the Federal Government may direct,"
+      ],
+      "provisos": [
+        "Provided that, where the property seized is perishable in nature or subject to speedy and \nnatural decay, or when the expense of keeping it in custody is likely to exceed its value, the \nAdministrator may sell it at once after reasonable notice to the Federal Government"
+      ],
+      "penalty": null
+    },
+    {
+      "section_number": "13",
+      "section_title": "Power of Survey",
+      "section_text": "—(l) Notwithstanding anything contained in any other provisions of \nthis Act, where an investigating officer, on the basis of material in his possession, has reasons to \nbelieve that an offence of money laundering has been committed, he may, with the permission of the \nCourt, enter any place, ___ \n \n \n \n1Inser. and omitted by Anti-Money Laundering (Amendment) Act, 2015 (Act No. XXIII of 2015), s. 10.  \n2Subs. by Anti-Money Laundering (Second Amendment) Act, 2020 (Act No. XXX of 2020), s. 10. \n \n\n \nPage 21 of 44 \n \n \n \n\n \nPage 22 of 44 \n \n(a) \nwithin the limits of the area assigned to him; or  \n(b) \nin respect of which he is authorized for the purposes of this section by such \nother authority who is assigned the area within which such place is situated,  \nat which any act constituting the commission of such offence is carried on, and may require any \nproprietor, employee or any other person who may at that time and place be attending in any manner \nto, or helping him in, such act so as to,  \n \n(i) \nafford him the necessary facility to inspect such record as he may require and \nwhich may be available at such place;  \n(ii) \nafford him the necessary facility to check or verify the proceeds of crimes or \nany transaction related to proceeds of crimes which may be found therein; and  \n(iii) \nfurnish such information as he may require as to any matter which may be \nuseful for, or relevant to, any proceedings under this Act.  \nExplanation.___ For the purpose of this sub-section, a pla",
+      "full_text_length": 2563,
+      "subsections": [
+        "(l) Notwithstanding anything contained in any other provisions of",
+        "(a) within the limits of the area assigned to him; or",
+        "(b) in respect of which he is authorized for the purposes of this section by such",
+        "(i) afford him the necessary facility to inspect such record as he may require and",
+        "(2) The investigating officer referred to in sub-section"
+      ],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "14",
+      "section_title": "Search and seizure",
+      "section_text": "___2[(1) Subject to sub-section (2), where the investigating officer, on \nthe basis of information in his possession, has reason to believe that any person___ \n \n(a) \nhas committed any act which constitutes money-laundering;  \n(b) \nis in possession of any property involved in money-laundering; or \n \n1Omitted and ins. by Anti-Money Laundering (Amendment) Act, 2015 (Act No. XXIII of 2015), s. 11.  \n2Subs. and added by Anti-Money Laundering (Amendment) Act, 2015 (Act No. XXIII of 2015), s. 12.  \n\n \nPage 23 of 44 \n \n(c) \nis in possession of any record which may be useful for or relevant to \nproceedings under this Act, he may either himself, or authorize any officer \nsubordinate to him to,— \n(i) \nenter and search any building, place, vessel, vehicle or aircraft where \nhe has reason to suspect that such record or properties are kept;  \n(ii) \nbreak open the lock of any door, box, locker, safe, almirah or other \nreceptacles for exercising the powers conferred by sub-clause (i) where \nthe keys thereof are not available;  \n(iii) \nseize any such record or property found as a result of such search;  \n(iv) \nplace marks of identification on such record or make, or cause to be \nmade, extracts or copies therefrom;  \n(v) \nmake a note or any inventory of such record property; and  \n(vi) \nexamine any person, who is found to be in possession or control of any \nsuch record or property, in respect of all matters relevant for the \npurposes of any investigation under this Act.]  \n(2) The powers to s",
+      "full_text_length": 2483,
+      "subsections": [
+        "(1) Subject to sub-section",
+        "(a) has committed any act which constitutes money-laundering;",
+        "(b) is in possession of any property involved in money-laundering; or",
+        "(c) is in possession of any record which may be useful for or relevant to",
+        "(i) enter and search any building, place, vessel, vehicle or aircraft where"
+      ],
+      "provisos": [
+        "Provided that where immediate action is required, the powers of search and seizure shall be \nexercisable with prior permission of senior officer of the concerned investigating or prosecuting \nagency not below the rank of an officer of BS-20"
+      ],
+      "penalty": null
+    },
+    {
+      "section_number": "15",
+      "section_title": "Search of persons",
+      "section_text": "— (1) If an investigating officer, has reason to believe (the reason for \nsuch belief to be recorded in writing) that any person has secreted about the person or anything under \nhis possession, ownership or control, any record or 1[property] which may be useful for or relevant to \nany proceedings under this Act, he may 1[******] search that person and seize such record or \nproperty which may be useful for or relevant to any proceedings under this Act.  \n \n(2) The investigating officer shall, within forty-eight hours immediately after search and \nseizure, forward a copy of the report on search and seizure 1[*******] to the head of the concerned \ninvestigating 1[or prosecuting] agency in a sealed envelope 1[*******].  \n \n \n1Omitted, ins, added and subs. by Anti-Money Laundering (Amendment) Act, 2015 (Act No. XXIII of 2015), Ss. 12 and 13. \n \n \n\n \nPage 24 of 44 \n \n \n1[(3)(4) and (5)*******]  \n \n(6) No female shall be searched by anyone except a female.  \n(7) The investigating officer shall record the statement of the person searched under sub-\nsection (1) 1[***] in respect of the records or 1[property involved in money laundering and] found or \nseized in the course of the search.  \n1[(8)*******]  \n \n \n \n2[16. *******]",
+      "full_text_length": 1234,
+      "subsections": [
+        "(1) If an investigating officer, has reason to believe",
+        "(2) The investigating officer shall, within forty-eight hours immediately after search and",
+        "(4) and",
+        "(6) No female shall be searched by anyone except a female.",
+        "(7) The investigating officer shall record the statement of the person searched under sub-"
+      ],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "17",
+      "section_title": "Retention of property",
+      "section_text": "—(1) Where any property has been seized under section 14 or \nsection 15 and the investigating officer has, on the basis of material in his possession, reason to \nbelieve that such property is required to be retained for the purposes of investigation under section 9 \nsuch property may be retained for a period not exceeding ninety days from the time such property \nwas seized:  \n \nProvided that the investigating officer shall duly inform the Court about any peculiar nature \nof the seized property and, where necessary, seek appropriate directions for its proper care during \nretention.  \n \n(2) The investigating officer, immediately after he has passed an order for retention of \nproperty for purposes of investigation under section 9, shall forward a copy of the order 3[*******] \nto the head of the concerned investigating 3[or prosecuting] agency, in a sealed envelope 3[*******].  \n(3) On the expiry of the period specified under sub-section (1), the property shall be returned \nto the person from whom such property was seized unless the Court permits retention of such \nproperty beyond the said period.  \n(4) The Court, before authorizing the retention of such property beyond the period specified \nin sub-section (1), shall satisfy itself that the property is prima facie 3[property] involved in money \nlaundering and the property is required for the purposes of investigation undersection 9.  \n3[(5)*******]",
+      "full_text_length": 1417,
+      "subsections": [
+        "(1) Where any property has been seized under section 14 or",
+        "(2) The investigating officer, immediately after he has passed an order for retention of",
+        "(3) On the expiry of the period specified under sub-section",
+        "(4) The Court, before authorizing the retention of such property beyond the period specified"
+      ],
+      "provisos": [
+        "Provided that the investigating officer shall duly inform the Court about any peculiar nature \nof the seized property and, where necessary, seek appropriate directions for its proper care during \nretention"
+      ],
+      "penalty": null
+    },
+    {
+      "section_number": "18",
+      "section_title": "Retention of records",
+      "section_text": "—(l) Where any record has been seized under section 14 or section \n15 and the investigating officer has reason to believe that any of such records are required to be \nretained for an 3[investigation] under this Act, he may retain such records for a period not exceeding \nninety days from the time the record was seized.  \n \n(2) The person, from whom records were seized, shall be entitled to obtain copies of records \nretained under sub-section (1).  \n \n \n1Omitted, inser. and subs. by Anti-Money Laundering (Amendment) Act, 2015 (Act No. XXIII of 2015), s.13. \n \n2S. 16 omitted by Anti-Money Laundering (Second Amendment) Act, 2020 (Act No. XXX of 2020), s. 11. \n3Omitted, subs. and inser. by Anti-Money Laundering (Amendment) Act, 2015 (Act No. XXIII of 2015), Ss. 15 and 16.  \n \n \n\n \nPage 25 of 44 \n \n(3) On the expiry of the period specified under sub-section (1), the records shall be returned to \nthe person from whom such records were seized unless the Court permits retention of such \nrecords beyond the said period.  \n(4) The Court before authorizing the retention of such records beyond the period mentioned in \nsub-section (1) shall satisfy itself that the records were required for the purposes of investigation \nunder section 9.  \n \n1[(5)**** ***]",
+      "full_text_length": 1260,
+      "subsections": [
+        "(l) Where any record has been seized under section 14 or section",
+        "(2) The person, from whom records were seized, shall be entitled to obtain copies of records",
+        "(3) On the expiry of the period specified under sub-section",
+        "(4) The Court before authorizing the retention of such records beyond the period mentioned in",
+        "(1) shall satisfy itself that the records were required for the purposes of investigation"
+      ],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "19",
+      "section_title": "Presumption as to records or property in certain cases",
+      "section_text": "— Where any document of \npublic record is found in the possession or control of any person in the course of a survey or a search \n2[under this Act] or where any records have been received from any place outside Pakistan duly \nauthenticated by such authority or person and in such manner as may be prescribed in the course of \nproceedings under this Act, the Court or the investigating 2[or prosecuting] agency as the case may \nbe, shall__ \n(a) \npresume, that the signature and every other part of such record which purports \nto be in the handwriting of any particular person or which the Court may \nreasonably assume to have been signed, by or to be in the hand writing of, any \nparticular person, is in that person's hand writing; and in the case of a record \nexecuted or attested, that it was executed or attested by the person by whom it \npurports to have so executed or attested; and  \n(b) \nadmit the document in evidence, notwithstanding that it is not duly stamped, if \nsuch document is otherwise admissible in evidence.",
+      "full_text_length": 1026,
+      "subsections": [
+        "(a) presume, that the signature and every other part of such record which purports",
+        "(b) admit the document in evidence, notwithstanding that it is not duly stamped, if"
+      ],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "20",
+      "section_title": "Jurisdiction",
+      "section_text": "—(1) The Court of Session established under the Code of Criminal \nProcedure, 1898 (V of 1898) shall, within its territorial jurisdiction, exercise jurisdiction to try and \nadjudicate the offences punishable under this Act and all matters provided in, related to or arising \nfrom this Act:  \n \n Provided, ___ \n \n(a) \nwhere the predicate offence is triable by any court other than the Court of \nSession, the offence of money laundering and all matters connected therewith \nor incidental thereto shall be tried by the Court trying the predicate offence; \nand  \n(b) \nwhere the predicate offence is triable by any 2[court] inferior to the Court of \nSession, such predicate offence, the offence money laundering and all matters \nconnected therewith or incidental thereto shall be tried by the Court of \nSession.",
+      "full_text_length": 805,
+      "subsections": [
+        "(1) The Court of Session established under the Code of Criminal",
+        "(a) where the predicate offence is triable by any court other than the Court of",
+        "(b) where the predicate offence is triable by any 2[court] inferior to the Court of"
+      ],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "21",
+      "section_title": "Offences to be 3[cognizable] and non",
+      "section_text": "bailable.—(1) Notwithstanding anything \ncontained in the Code of Criminal Procedure, 1898 (Act V of 1898) and subject to sub-sections (2) \nand ( 3 ), ___ \n(a) \nevery offence punishable under this Act shall be 3[cognizable] and non \nbailable;  \n \n1Omitted, subs. and inser. by Anti-Money Laundering (Amendment) Act, 2015 (Act No. XXIII of 2015), s.16.  \n2Subs. and inser. by Anti-Money Laundering (Amendment) Act, 2015 (Act No. XXIII of 2015), Ss. 17 and 18.  \n3Subs. by Anti-Money Laundering (Second Amendment) Act, 2020 (Act No. XXX of 2020), s. 12. \n\n \nPage 26 of 44 \n \n (b) \nno person accused of an offence punishable under this Act for a term of \nimprisonment of more than three years shall be released on bail or on his own \nbond unless___ \n(i)  \nthe Public Prosecutor has been given due notice; and  \n(ii) \nwhere the Public Prosecutor opposes the application, the Court is \nsatisfied that there are reasonable grounds for believing that he is not \nguilty of such offence and that he is not likely to commit any offence \nwhile on bail.  \n(2) The Court shall not take cognizance of any offence punishable under section 4 except \nupon a complaint in writing made by,— \n \n(a) \nthe investigating officer; or  \n(b) \nany officer of the Federal Government or a Provincial Government authorized \nin writing in this behalf by the Federal Government by a general or special \norder made in this behalf by that Government:  \nProvided that where the person accused is a 1[reporting entity], the investigating",
+      "full_text_length": 3176,
+      "subsections": [
+        "(1) Notwithstanding anything",
+        "(2) and",
+        "(a) every offence punishable under this Act shall be 3[cognizable] and non",
+        "(b) no person accused of an offence punishable under this Act for a term of",
+        "(i) the Public Prosecutor has been given due notice; and"
+      ],
+      "provisos": [
+        "Provided that where the person accused is a 1[reporting entity], the investigating officer or \nany other authorized officer, as the case may be shall, before filing such complaint, seek the approval \nof the concerned 1[AML/CFT regulatory authority] which shall not withhold its decision for a period \nexceeding sixty days",
+        "Provided that a person shall not be qualified to be appointed as a Public Prosecutor under this \nsection unless he has been in practice as an Advocate for not less than seven years in the High \nCourt2[:]"
+      ],
+      "penalty": null
+    },
+    {
+      "section_number": "1",
+      "section_title": "Subs",
+      "section_text": "and added by Anti-Money Laundering (Second Amendment) Act, 2020 (Act No. XXX of 2020), s. 12.  \n2Subs. by Anti-Money Laundering (Amendment) Act, 2015 (Act No. XXIII of 2015), s. 19. \n\n \nPage 27 of 44 \n \n1[Provided that an advocate who has been appointed as prosecutor by the investigating or \nprosecuting agencies shall be qualified to be appointed as Public Prosecutor under this section \nnotwithstanding the requirements of the first proviso.]  \n \n(3) Every person appointed as a Public Prosecutor under this section shall be deemed to be a \nPublic Prosecutor within the meaning of clause (t) of sub-section (1) of section 4 of the Code of \nCriminal Procedure, 1898 (Act V of 1898), and the provisions of that Code shall have effect \naccordingly.  \n(4) When a Prosecutor appointed under sub-section (1), is, for any reason, temporarily unable \nto conduct proceedings before the Court, the proceedings shall be conducted by such person as may \nbe authorized in this behalf by the Court.",
+      "full_text_length": 987,
+      "subsections": [
+        "(3) Every person appointed as a Public Prosecutor under this section shall be deemed to be a",
+        "(t) of sub-section",
+        "(1) of section 4 of the Code of",
+        "(4) When a Prosecutor appointed under sub-section"
+      ],
+      "provisos": [
+        "Provided that an advocate who has been appointed as prosecutor by the investigating or \nprosecuting agencies shall be qualified to be appointed as Public Prosecutor under this section \nnotwithstanding the requirements of the first proviso"
+      ],
+      "penalty": null
+    },
+    {
+      "section_number": "23",
+      "section_title": "Appeal to High Court",
+      "section_text": "—Any person aggrieved by 1[*] final decision or order of the \nCourt may prefer an appeal to the High Court within sixty days from the date of communication of \nthe decision or order on any question of law or fact arising out of such decision or order:  \n \nProvided that the High Court may, if it is satisfied that the appellant was prevented by \nsufficient cause from filing the appeal within the said period, allow it to be submitted within a further \nperiod not exceeding sixty days.  \n \nExplanation. ___ For the purposes of this section, “High Court” means, ___ \n \n(a) \nthe High Court within the jurisdiction of which the aggrieved party ordinarily \nresides or carries on business or personally works for gain; and  \n(b) \nwhere the Federal Government is the aggrieved party, the High Court within \nthe jurisdiction of which the respondent, or in a case where there are more \nthan one respondent, any of the respondents, ordinarily resides or carries on \nbusiness or personally works for gain.",
+      "full_text_length": 995,
+      "subsections": [
+        "(a) the High Court within the jurisdiction of which the aggrieved party ordinarily",
+        "(b) where the Federal Government is the aggrieved party, the High Court within"
+      ],
+      "provisos": [
+        "Provided that the High Court may, if it is satisfied that the appellant was prevented by \nsufficient cause from filing the appeal within the said period, allow it to be submitted within a further \nperiod not exceeding sixty days"
+      ],
+      "penalty": null
+    },
+    {
+      "section_number": "24",
+      "section_title": "Appointment of investigating officers and their powers",
+      "section_text": "—(1) The investigating 1[or \nprosecuting] agencies 1[*******] may nominate such persons as they think fit to be the investigating \nofficers under this Act from amongst their officers.  \n \n(2) The Federal Government may, by special or general order, empower an officer not below \nBPS-18 of the Federal Government or of a Provincial Government to act as an investigating officer \nunder this Act.  \n(3) Where any person other than a Federal or Provincial Government Officer is appointed as \nan investigating officer, the Federal Government shall also determine the terms and conditions of his \nappointment.  \n(4) Subject to such conditions and limitations as the Federal Government may impose, an \ninvestigating officer may exercise the powers and discharge the duties conferred or imposed on him \nunder this Act.  \n \n1Added, omitted and inser. by Anti-Money Laundering (Amendment) Act, 2015 (Act No. XXIII of 2015), Ss. 19 to 21. \n \n \n\n \nPage 28 of 44 \n \n1[25. Assistance to authorities.— (1) Notwithstanding the provisions of any other law, the \nofficers of the Federal Government, Provincial Governments, local authorities and reporting entities \nshall provide assistance including but not limited to production of records, documents and \ninformation reasonably required by the investigating or prosecuting agency or FMU for the purposes \nof money laundering, predicate offences and financing of terrorism proceedings and investigations in \naccordance with the provisions of this Act.  \n(2) Whoever w",
+      "full_text_length": 2113,
+      "subsections": [
+        "(1) The investigating 1[or",
+        "(2) The Federal Government may, by special or general order, empower an officer not below",
+        "(3) Where any person other than a Federal or Provincial Government Officer is appointed as",
+        "(4) Subject to such conditions and limitations as the Federal Government may impose, an",
+        "(1) Notwithstanding the provisions of any other law, the"
+      ],
+      "provisos": [],
+      "penalty": "shall be punished in"
+    },
+    {
+      "section_number": "26",
+      "section_title": "Agreements with foreign countries",
+      "section_text": "—(1) The Federal Government may enter into an \nagreement on reciprocal basis with the Government of any country outside Pakistan for___ \n \n(a) \n2[the investigation and prosecution of any offence under this Act or under the \ncorresponding law in force in that country];  \n(b) \nexchange of information for the prevention of any offence under this Act or \nunder the corresponding law in force in that country;  \n(c) \nseeking or providing of assistance or evidence in respect of any offence under \nthis Act or under the corresponding law in force in that country; and  \n(d) \ntransfer of property relating to any offence under this Act or under the \ncorresponding law in force in that country.  \n(2)The agreement in terms of sub-section (1) shall be subject to such conditions, exceptions \nor qualifications as may be specified in the said agreement:  \nProvided that the agreement shall not be enforceable if it may, in any manner, be prejudicial \nto the sovereignty, security, national interest or public order.  \n \n(3) In this section and the succeeding sections, unless the context otherwise requires,_ \n(a) \nthe expression “contracting State” means any country or place outside \nPakistan in respect of which arrangements have been made by the Federal \nGovernment with the Government of such country through a treaty or \notherwise;  \n(b) \nthe expression “identifying” includes establishment of a proof that the \nproperty was derived from, or used in, the commission of an offence under \nsection 3; and ",
+      "full_text_length": 1812,
+      "subsections": [
+        "(1) The Federal Government may enter into an",
+        "(a) 2[the investigation and prosecution of any offence under this Act or under the",
+        "(b) exchange of information for the prevention of any offence under this Act or",
+        "(c) seeking or providing of assistance or evidence in respect of any offence under",
+        "(d) transfer of property relating to any offence under this Act or under the"
+      ],
+      "provisos": [
+        "Provided that the agreement shall not be enforceable if it may, in any manner, be prejudicial \nto the sovereignty, security, national interest or public order"
+      ],
+      "penalty": null
+    },
+    {
+      "section_number": "27",
+      "section_title": "Letter of request to a contracting State etc",
+      "section_text": "— (l) Notwithstanding anything contained \nin this Act or the Code of Criminal Procedure, 1898 (Act V of 1898), if, in the course of an \ninvestigation into an offence or other proceedings under this Act, the investigating officer or any \nofficer superior in rank to the investigating officer believes that any evidence is required in \nconnection with investigation into an offence or proceedings under this Act and he is of opinion that \nsuch evidence may be available in any place in the contracting State, he may, with the prior \npermission of the head of that investigation agency, issue a letter of request to a court or an authority \nin the contractingState competent to deal with such request to—  \n \n(a) \nexamine facts and circumstances of the case; and  \n(b) \ntake such steps as he may specify in such letter of request.  \n(2) The letter of request shall be transmitted in such manner as the Federal Government may \nspecify in this behalf.  \n(3) Every statement recorded or document or thing received under sub-section (1) shall be \ndeemed to be the evidence collected during the course of investigation.",
+      "full_text_length": 1111,
+      "subsections": [
+        "(l) Notwithstanding anything contained",
+        "(a) examine facts and circumstances of the case; and",
+        "(b) take such steps as he may specify in such letter of request.",
+        "(2) The letter of request shall be transmitted in such manner as the Federal Government may",
+        "(3) Every statement recorded or document or thing received under sub-section"
+      ],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "28",
+      "section_title": "Assistance to a contracting State in certain cases",
+      "section_text": "— Where a letter of request is \nreceived by the Federal Government from a court or authority in a contracting State requesting for \ninvestigation into an offence or proceedings under this Act or under the corresponding law in force \nin that country, the Federal Government may forward such letter of request to the Court or to the \nauthorized officer or any authority under this Act as it thinks fit for execution of such request in \naccordance with the provisions of this Act or, in the manner sought by the contracting State so long \nas doing so would not violate laws of Pakistan or is, in any manner, not prejudicial to the \nsovereignty, security, national interest or public order.  \n29. Reciprocal arrangements for processes and assistance for transfer of accused \npersons.—(1) Where a Court, in relation to the offence of money laundering, desires that___ \n(a) \na summons to an accused person;  \n(b) \na warrant for the arrest of an accused person;  \n(c) \na summons to any person requiring him to attend and produce a document or \nother thing or to produce it; or  \n(d) \na search warrant,  \nissued by it shall be served or executed at any place in any contracting State, it shall send such \nsummons or warrant in duplicate in such form, to such court, judge or magistrate through such \nauthorities as the Federal Government may specify in this behalf and that court, judge or magistrate, \nas the case may be, shall cause the same to be executed.  \n \n \n\n \nPage 30 of 44 \n \n(2) Where a Court, in ",
+      "full_text_length": 3230,
+      "subsections": [
+        "(1) Where a Court, in relation to the offence of money laundering, desires that___",
+        "(a) a summons to an accused person;",
+        "(b) a warrant for the arrest of an accused person;",
+        "(c) a summons to any person requiring him to attend and produce a document or",
+        "(d) a search warrant,"
+      ],
+      "provisos": [
+        "Provided that the provisions of this sub-section shall not have effect if the exercise of power \nhereunder is, in any manner, likely to prejudice the sovereignty, security, national interest or public \norder"
+      ],
+      "penalty": null
+    },
+    {
+      "section_number": "30",
+      "section_title": "Attachment, seizure and forfeiture etc",
+      "section_text": ", of property in a contracting State or \nPakistan.— (1) Where the investigating officer has made an order for attachment of any property \nunder section 8 or where the court has made an order confirming such attachment or forfeiture of any \nproperty under section 9 and such property is suspected to be in a contracting State, the Court on an \napplication by the investigating officer, may issue a letter of request to a Court or an authority in the \ncontracting State for execution of such order.  \n \n(2) Where a letter of request is received by the Federal Government from a court in a \ncontracting State requesting attachment or forfeiture of the property in Pakistan derived or obtained, \ndirectly or indirectly, by any person from the commission of an offence under section 3 committed in \nthat contracting State, the Federal Government may forward such letter of request to the \ninvestigating agency, as it thinks fit, for execution in accordance with the provisions of this Act or \npermit execution of the request in the manner sought by the contracting State so long as doing so \nwould not violate Laws of Pakistan or is, in any manner, not prejudicial to the sovereignty, security, \nnational interest or public order.  \n\n \nPage 31 of 44 \n \n(3) The Federal Government may, on receipt of a letter of request under section 27 or section \n28, direct any investigating agency under this Act to take all steps necessary for tracing and \nidentifying such property.  \n(4) The steps referred to in sub",
+      "full_text_length": 2243,
+      "subsections": [
+        "(1) Where the investigating officer has made an order for attachment of any property",
+        "(2) Where a letter of request is received by the Federal Government from a court in a",
+        "(3) The Federal Government may, on receipt of a letter of request under section 27 or section",
+        "(4) The steps referred to in sub-section",
+        "(3) may include any inquiry, investigation or survey"
+      ],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "31",
+      "section_title": "Procedure in respect of letter of request",
+      "section_text": "— Every letter of request, summons or \nwarrant, received by the Federal Government from, and every letter of request, summons or warrant, \nto be transmitted to a contracting State under this Act shall be transmitted to a contracting State or, \nas the case may be, sent to the concerned Court in Pakistan in such form and in such manner as the \nFederal Government may specify in this behalf.",
+      "full_text_length": 390,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "32",
+      "section_title": "Punishment for vexatious survey and search",
+      "section_text": "—Any investigating officer exercising \npowers under this Act or any rules made hereunder, who, without prior permission from the Court, \n___ \n \n(a) \nsurveys or searches, or causes to be surveyed or searched, any building or \nplace; or  \n(b) \ndetains or searches or arrests any person,  \nshall for every such offence be liable on conviction for imprisonment for a term which may extend to \ntwo years or fine which may extend to fifty thousand rupees or both.",
+      "full_text_length": 457,
+      "subsections": [
+        "(a) surveys or searches, or causes to be surveyed or searched, any building or",
+        "(b) detains or searches or arrests any person,"
+      ],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "33",
+      "section_title": "Liability for failure to file 1[STR] and for providing false information",
+      "section_text": "—(1) Whoever \nwillfully fails to comply with the 1[STR] requirement as provided in section 7 or gives false \ninformation shall be liable for imprisonment for a term which may extend to 2[five] years or with \nfine which may extend to 2[five] hundred thousand rupees or both.  \n \n \n \n1Subs. by Anti-Money Laundering (Second Amendment) Act, 2020 (Act No. XXX of 2020), s. 15.  \n2Subs. by Anti-Money Laundering (Amendment) Act, 2020 (Act No. XI of 2020), s. 7. \n \n \n \n\n \nPage 32 of 44 \n \n(2) In the case of the conviction of a reporting entity, the concerned 1[AML/CFT regulatory \nauthority] may also revoke its license or registration or take such other administrative action as it \nmay deem appropriate.",
+      "full_text_length": 701,
+      "subsections": [
+        "(1) Whoever",
+        "(2) In the case of the conviction of a reporting entity, the concerned 1[AML/CFT regulatory"
+      ],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "34",
+      "section_title": "Disclosure of information",
+      "section_text": "—1[(1) The directors, officers, employees and agents of any \nreporting entity or intermediary which report an STR or CTR pursuant to this law or any other \nauthority, are prohibited from disclosing, directly or indirectly, to any person that the transaction has \nbeen reported unless there are disclosure agreements for corporate groups in accordance with \nregulations made hereunder.]  \n \n(2) A violation of the sub-section (1) is a criminal offence and shall be punishable by a \nmaximum term of 2[five] years imprisonment or a fine which may extend to 2[two million] rupees or \nboth.  \n(3) Any confidential information furnished by a 1[reporting entities], or any other person \nunder or pursuant to the provisions of this Act, shall 3[****] be kept confidential by the FMU, \ninvestigation agency or officer as the case may be.",
+      "full_text_length": 828,
+      "subsections": [
+        "(1) The directors, officers, employees and agents of any",
+        "(2) A violation of the sub-section",
+        "(1) is a criminal offence and shall be punishable by a",
+        "(3) Any confidential information furnished by a 1[reporting entities], or any other person"
+      ],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "35",
+      "section_title": "Bar of jurisdiction",
+      "section_text": "— (l) No suit shall be brought in any Court to set aside or modify any \nproceeding taken or order made under this Act and no prosecution, suit or other proceedings shall lie \nagainst the Federal Government, or any officer of the Government, or FMU, its officers or any \nagency controlled or supervised by the Government, or members of the National Executive \nCommittee or General Committee, for anything done or intended to be done in good faith under this \nAct.  \n \n(2) No Court shall have jurisdiction to entertain any suit or proceedings in respect of any \nmatter which the investigating officer and Committee or the Court is empowered by or under this \nAct to determine and no injunction shall be granted by any court or other authority in respect of any \naction taken or to be taken in pursuance of any power conferred by or under this Act.",
+      "full_text_length": 845,
+      "subsections": [
+        "(l) No suit shall be brought in any Court to set aside or modify any",
+        "(2) No Court shall have jurisdiction to entertain any suit or proceedings in respect of any"
+      ],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "36",
+      "section_title": "Notices, etc",
+      "section_text": "not to be invalid on certain grounds.— No notice, summons, order, \ndocument or other proceeding, furnished or made or issued or taken or purported to have been \nfurnished or made or issued or taken in pursuance of any of the provisions of this Act shall be \ninvalid, or shall be deemed to be invalid merely by reason of any mistake, defect or omission in such \nnotice, summons, order, documents or other proceedings if such notice, summons, order, document \nor other proceeding is in substance and effect in conformity with or according to the intent and \npurpose of this Act.  \n4[37. Offences by legal persons.— (1) Where a legal person commits an offence under this \nAct, every person thereof who at the time when the offence was committed was responsible for such \ncommission of offence shall be deemed to be guilty of the offence and shall be liable to be proceeded \nagainst and punished accordingly:  \n \nProvided that nothing contained in this sub-section shall render any natural person liable to \npunishment if he proves that the contravention took place without his knowledge or that he exercised \nall due diligence to prevent such contravention.  \n \n \n1Subs. by Anti-Money Laundering (Second Amendment) Act, 2020 (Act No. XXX of 2020), Ss. 15 and 16.  \n2Subs. by Anti-Money Laundering (Amendment) Act, 2020 (Act No. XI of 2020), s. 8.  \n3Omitted by Anti-Money Laundering (Amendment) Act, 2015 (Act No. XXIII of 2015), s. 24.  \n4Subs. by Anti-Money Laundering (Second Amendment) Act, 2020 (Ac",
+      "full_text_length": 2138,
+      "subsections": [
+        "(1) Where a legal person commits an offence under this",
+        "(2) Notwithstanding anything contained in sub-section"
+      ],
+      "provisos": [
+        "Provided that nothing contained in this sub-section shall render any natural person liable to \npunishment if he proves that the contravention took place without his knowledge or that he exercised \nall due diligence to prevent such contravention"
+      ],
+      "penalty": null
+    },
+    {
+      "section_number": "38",
+      "section_title": "Continuity of proceedings in the event of death or insolvency",
+      "section_text": "—(1) Where,___ \n \n(a) \nany property of a person has been attached under this Act and no \nrepresentation against the order attaching such property has been preferred; or  \n(b) \nany representation has been preferred to the Court, and  \n(i) \nin a case referred to in clause (a) such person dies or is adjudicated as \ninsolvent before preferring representation to the Court; or  \n(ii) \nin a case referred to in clause (b), such person dies or is adjudicated as \ninsolvent during the pendency of representation,  \n(iii) \nthen it shall be lawful for the legal representatives of such person or \nthe official assignee or the official receiver, as the case may be, to \nprefer representation to the Court, or as the case may be to continue the \nrepresentation before the Court, in the place of such person.  \n(2) Where, ___ \n \n(a) \nafter passing of a decision or order by the Court, no appeal has been preferred \nto the High Court under section 23; or  \n(b) \nany such appeal has been preferred to the High Court, then___ \n(i) \nin a case referred to in clause (a), the person entitled to file the appeal \ndies or is adjudicated an insolvent before preferring an appeal to the \nHigh Court, or  \n(ii) \nin a case referred to in clause (b), the person who had prepared appeal \ndies or is adjudicated as insolvent during the pendency of the appeal \nbefore the High Court,  \nthen, it shall be lawful for the legal representatives of such person, or the official assignee or the \nofficial receiver, as the case may be",
+      "full_text_length": 2031,
+      "subsections": [
+        "(1) Where,___",
+        "(a) any property of a person has been attached under this Act and no",
+        "(b) any representation has been preferred to the Court, and",
+        "(i) in a case referred to in clause",
+        "(a) such person dies or is adjudicated as"
+      ],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "39",
+      "section_title": "Act to have overriding effect",
+      "section_text": "___ (1) Subject to sub-section (2), the provisions of this Act \nshall have effect notwithstanding anything to the contrary contained in any other law for the time \nbeing in force.  \n \n(2) The provisions of this Act shall be in addition to, and not in derogation of, the Anti-\nNarcotics Force Act, 1997 (III of I997), the Control of Narcotic Substances Act, I997 (XXV of \n1997), the Anti-Terrorism Act, 1997 (XXVII of 1997) and the National Accountability Ordinance, \n1999 (XVIII of 1999) 1[and any other law relating to predicate offences].",
+      "full_text_length": 540,
+      "subsections": [
+        "(1) Subject to sub-section",
+        "(2) The provisions of this Act shall be in addition to, and not in derogation of, the Anti-"
+      ],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "40",
+      "section_title": "Members etc",
+      "section_text": ", to be public servants.—The Director General, Members of the National \nExecutive Committee and General Committee, and other officers and employees of the FMU, \ninvestigating officer and the subordinate officers to him shall be deemed to be public servants within \nthe meaning of section 21 of the Pakistan Penal Code, 1860 (Act XLV of 1860).  \n \n \n2[41. Act not to apply to fiscal offences.—(1)Except with prior consultation of FMU, an \ninvestigating or prosecuting agency shall not charge any person with the offence of money \nlaundering in relation to a predicate offence punishable under the Sales Tax Act, 1990 (VII of 1990) \nand the Federal Excise Act, 2005. \n \n(2) In relation to the laws specified in sub-section (1), no offence other than the following \nshall be notified as predicate offence, namely:__  \n \n(a) \nsub-sections 11 and 13 of section 33 read with clause (37) of section 2 of the \nSales Tax Act, 1990; and  \n(b) \nsub-section (3) of section 19 of the Federal Excise Act, 2005.]",
+      "full_text_length": 997,
+      "subsections": [
+        "(2) In relation to the laws specified in sub-section",
+        "(a) sub-sections 11 and 13 of section 33 read with clause",
+        "(37) of section 2 of the",
+        "(b) sub-section",
+        "(3) of section 19 of the Federal Excise Act, 2005.]"
+      ],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "42",
+      "section_title": "Power to amend the Schedule",
+      "section_text": "—The Federal Government may, by notification in the \nofficial Gazette, amend the Schedule to this Act so as to add any entry thereto or modify or omit any \nentry therein.",
+      "full_text_length": 170,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "43",
+      "section_title": "Power to make rules",
+      "section_text": "—The Federal Government may in consultation with the National \nExecutive Committee and by notification in the official Gazette, make rules for carrying out the \npurposes of this Act.",
+      "full_text_length": 182,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "44",
+      "section_title": "Power to make regulations",
+      "section_text": "—Subject to the supervision and control of the National \nExecutive Committee, FMU may, by notification in the official Gazette, make such regulations as \nmay be necessary for carrying out the purposes of this Act. \n \n1Inser. by Anti-Money Laundering (Amendment) Act, 2015 (Act No. XXIII of 2015), s. 26.  \n2Subs., inser. and omitted by Anti-Money Laundering (Amendment) Act, 2015 (Act No. XXIII of 2015), Ss. 27. \n \n\n \nPage 35 of 44",
+      "full_text_length": 432,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "45",
+      "section_title": "Power to remove difficulties",
+      "section_text": "—If any difficulty arises in giving effect to the provisions \nof this Act, the Federal Government may, by order, published in the official Gazette, make such \nprovisions not inconsistent with the provisions of this Act as may appear to be necessary for \nremoving the difficulty.",
+      "full_text_length": 278,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "46",
+      "section_title": "Validation of actions, etc",
+      "section_text": "— Anything done, actions taken, orders passed, instruments \nmade, notifications issued, agreements made, proceedings initiated, processes or communication \nissued, powers conferred, assumed or exercised, by the 1[Federal Government], Financial Monitoring \nUnit 1[*] or its officers on or after the 5th January, 2008 and before the commencement of this Act, \nshall be deemed to have been validly done, made, issued, taken, initiated, conferred, assumed, and \nexercised and provisions of the Act shall have, and shall be deemed always to have had, effect \naccordingly.  \n \nSCHEDULE 2[-I] \n[see section 2(xxvi)] \n \nSection I:   \nThe Pakistan Penal Code 1860 (Act XLV of 1860) \n109.   Punishment of abetment if the act abetted is committed in consequence and where no \nexpress provision is made for its punishment.",
+      "full_text_length": 810,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "111",
+      "section_title": "Liability of abettor when one act abetted and different act done",
+      "section_text": "112. \nAbettor when liable to cumulative punishment for act abetted and for act done.  \n113. \nLiability of abettor for an effect caused by the act abetted different from that intended \nby the abettor.  \n115. \nAbetment of offence punishable with death or imprisonment for life, if offence not \ncommitted, if act causing harm be done in consequence.",
+      "full_text_length": 346,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "116",
+      "section_title": "Abetment of offence punishable with imprisonment, if offence be not committed",
+      "section_text": "117. \nAbetting commission of offence by the public or by more than ten persons.  \n118. \nConcealing design to commit offence punishable with death or imprisonment for life, \nif offence be committed; if offence be not committed.  \n119. \nPublic servant concealing design to com   mit offence which it is his duty to prevent.",
+      "full_text_length": 321,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "120",
+      "section_title": "Concealing design to commit offence punishable with imprisonment",
+      "section_text": "1Inser. and omitted by Anti-Money Laundering (Amendment) Act, 2015 (Act No. XXIII of 2015), s. 28. \n\n \nPage 36 of 44 \n \n2Renumbered and subs. by Anti-Money Laundering (Second Amendment) Act, 2020 (Act No. XXX of 2020), s. 18.",
+      "full_text_length": 225,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "120B",
+      "section_title": "Punishment for criminal conspiracy",
+      "section_text": "121. \nWaging or attempting to wage war or abetting of war against Pakistan.",
+      "full_text_length": 75,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "121A",
+      "section_title": "Conspiracy to commit offence punishable by section 121",
+      "section_text": "122. \nCollecting arms, etc. with intention of waging war against Pakistan.  \n161. \nPublic servant taking gratification other than legal remuneration in respect of an \nofficial act. \n162. \nTaking gratification, in order, by corrupt or illegal means, to influence public servant.",
+      "full_text_length": 277,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "163",
+      "section_title": "Taking gratification for exercise of personal influence with public servant",
+      "section_text": "164. \nPunishment for abetment by public servant of offences defined in sections 162 or 163.  \n165. \nPublic servant obtaining valuable thing, without consideration from person concerned \nin proceeding or business transacted by such public servant.",
+      "full_text_length": 246,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "165A",
+      "section_title": "Punishment for abetment of offences defined in sections 161",
+      "section_text": "302.  Punishment for Qatl-e-amd.",
+      "full_text_length": 32,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "327",
+      "section_title": "Punishment",
+      "section_text": "1[336A.  \n \nHurt caused by corrosive substance.  \n337(2)(e) and (f)  \n(e)  \nshajjah-i-ammah and  \n \n \n(f)  \nShajjah-i-damighah.  \n337(3)(v) and (vi)  \n(v)  \nCausing fracture of the skull of the victim so that the wound \ntouches the membrane of the brain;  \n(vi)  \nby causing fracture of the skull of the victim and the wound \nruptures the membrane of the brain.]",
+      "full_text_length": 362,
+      "subsections": [
+        "(e) and",
+        "(f) ",
+        "(e) shajjah-i-ammah and",
+        "(f) Shajjah-i-damighah.",
+        "(v) and"
+      ],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "337K",
+      "section_title": "Causing hurt to extort confession or to compel restoration of property",
+      "section_text": "343. \nWrongful confinement for three or more days.",
+      "full_text_length": 50,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "344",
+      "section_title": "Wrongful confinement for ten or more days",
+      "section_text": "Page 37 of 44 \n \n \n1Ins. by SRO 782(I)/2020 dt 13/07/2020.",
+      "full_text_length": 58,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "345",
+      "section_title": "Wrongful confinement for person for whose liberation writ has been issued",
+      "section_text": "346. \nWrongful confinement in secret.",
+      "full_text_length": 37,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "347",
+      "section_title": "Wrongful confinement to extort property or constrain to illegal act",
+      "section_text": "348. \nWrongful confinement to extort confession or compel restoration of property.",
+      "full_text_length": 82,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "363",
+      "section_title": "Punishment for kidnapping",
+      "section_text": "364. \nKidnapping or abducting in order to murder.   \n364A. Kidnapping or abducting a person under the age of fourteen  \n364A. Kidnapping or abducting with intent secretly or wrongfully to confine person  \n365A.  Kidnapping or abducting for extorting property, valuable security etc \n365B.  Kidnapping, abducting or inducing woman to compel for marriage etc",
+      "full_text_length": 356,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "366",
+      "section_title": "Kidnapping, abducting or inducing woman to compel her marriage, etc",
+      "section_text": "366A.  Procuration of minor girl  \n366B.  Importation of girl from foreign country",
+      "full_text_length": 82,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "367",
+      "section_title": "Kidnapping or abducting in order to subject person to grievous hurt, slavery etc",
+      "section_text": "367A.  Kidnapping or abducting in order to subject person to unnatural lust.",
+      "full_text_length": 76,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "368",
+      "section_title": "Wrongfully concealing or keeping in confinement, kidnapped or abducted person",
+      "section_text": "369. \nKidnapping or abducting child less than ten years with intent to steal from its person.",
+      "full_text_length": 93,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "370",
+      "section_title": "Buying or disposing of any person as a slave",
+      "section_text": "371. \nHabitual dealing in slaves.",
+      "full_text_length": 33,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "371A",
+      "section_title": "Selling person for purposes of prostitution etc",
+      "section_text": "371B.  Buying person for purposes of prostitution etc.",
+      "full_text_length": 54,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "374",
+      "section_title": "Unlawful compulsory labour",
+      "section_text": "Page 38 of 44",
+      "full_text_length": 13,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "376",
+      "section_title": "Punishment of rape",
+      "section_text": "379. \nPunishment for theft.",
+      "full_text_length": 27,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "380",
+      "section_title": "Theft in dwelling house etc",
+      "section_text": "381. \nTheft by clerk or servant of property in possession of master.",
+      "full_text_length": 68,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "381A",
+      "section_title": "Theft of a car or other motor vehicle",
+      "section_text": "382. \nTheft after preparation made for causing death, hurt or restraint, in order to the \ncommitting of the theft.",
+      "full_text_length": 114,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "384",
+      "section_title": "Punishment for extortion",
+      "section_text": "385. \nPutting person in fear of injury in order to commit extortion.",
+      "full_text_length": 68,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "392",
+      "section_title": "Punishment for robbery",
+      "section_text": "395.   Punishment for dacoity.",
+      "full_text_length": 30,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "402",
+      "section_title": "Assembling for purpose of committing dacoity",
+      "section_text": "402B.  Punishment for hijacking.",
+      "full_text_length": 32,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "406",
+      "section_title": "Punishment for criminal breach of trust",
+      "section_text": "411. \nDishonestly receiving stolen property.",
+      "full_text_length": 44,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "412",
+      "section_title": "Dishonestly receiving stolen property in the commission of a dacoity",
+      "section_text": "413. \nHabitually dealing in stolen property.",
+      "full_text_length": 44,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "414",
+      "section_title": "Assisting in concealment of stolen property",
+      "section_text": "417.  Punishment for cheating.  \n421. \nDishonest or fraudulent removal or concealment of property to prevent distribution \namong creditors.",
+      "full_text_length": 139,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "422",
+      "section_title": "Dishonestly or fraudulently preventing debt being available for creditors",
+      "section_text": "423. \nDishonest or fraudulent execution of fees of transfer containing false statement of \nconsideration.",
+      "full_text_length": 105,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "424",
+      "section_title": "Dishonest or fraudulent removal or concealment of property",
+      "section_text": "Page 39 of 44",
+      "full_text_length": 13,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "465",
+      "section_title": "Punishment for forgery",
+      "section_text": "467. \nForgery of valuable security, will, etc.",
+      "full_text_length": 46,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "468",
+      "section_title": "Forgery for the purpose of cheating",
+      "section_text": "471. \nUsing as genuine a forged document.",
+      "full_text_length": 41,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "472",
+      "section_title": "Making or possessing counterfeit seal, etc",
+      "section_text": "with intent to commit forgery punishable \nunder section 467.",
+      "full_text_length": 60,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "473",
+      "section_title": "Making or possessing counterfeit seal, etc",
+      "section_text": "with intent to commit forgery punishable \notherwise.  \n474. \nHaving possession of document described in section 466 or 467 knowing it to be \nforged and intending to use it as genuine.  \n475. \nCounterfeit device or mark used for authenticating documents described in section \n467, or possessing counterfeit marked material.  \n476. \nCounterfeit device or mark used for authenticating documents other than those \ndescribed in section 467, or possessing counterfeit marked material.",
+      "full_text_length": 478,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "477",
+      "section_title": "Fraudulent cancellation, destruction, etc",
+      "section_text": ", of will, authority to adopt, or valuable \nsecurity.",
+      "full_text_length": 53,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "477A",
+      "section_title": "Falsification of accounts",
+      "section_text": "482. \nPunishment for using a false trade mark or property mark.",
+      "full_text_length": 63,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "483",
+      "section_title": "Counterfeiting a trade mark or property mark used by another",
+      "section_text": "484. \nCounterfeiting a mark used by a public servant.  \n485. \nMaking or possession of any instrument for counterfeiting a trade mark or property \nmark.",
+      "full_text_length": 151,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "486",
+      "section_title": "Selling goods marked with a counterfeit trade mark or property mark",
+      "section_text": "487. \nMaking a false mark upon any receptacle containing goods.",
+      "full_text_length": 63,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "488",
+      "section_title": "Punishment for making use of any such false mark",
+      "section_text": "489. \nTampering with property mark with intent to cause injury.",
+      "full_text_length": 63,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "489A",
+      "section_title": "Counterfeiting currency",
+      "section_text": "notes or bank notes.",
+      "full_text_length": 20,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "489B",
+      "section_title": "Using as genuine, forged or counterfeit currency",
+      "section_text": "notes or bank notes.  \n\n \nPage 40 of 44",
+      "full_text_length": 39,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "489C",
+      "section_title": "Possession of forged or counterfeit currency",
+      "section_text": "notes or bank-notes.  \n489D.  Making or possessing instruments or materials for forging or counterfeiting currency-\nnotes or bank-notes.",
+      "full_text_length": 136,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "489E",
+      "section_title": "Making or using documents resembling currency",
+      "section_text": "notes or bank-notes.",
+      "full_text_length": 20,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "493A",
+      "section_title": "Cohabitation caused by a man deceitfully inducing a belief of lawful marriage",
+      "section_text": "496A.  Enticing or taking away or detaining with criminal intent a woman.  \nSection—II  The Arms Act, 1878 (XI of 1878)",
+      "full_text_length": 119,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "19",
+      "section_title": "For breach of sections 5, 6, 10, 13 to 17",
+      "section_text": "20. \nFor secret breaches of sections 5 to 10, 14 and 15  \nSection--III  The Foreigners Act, 1946 (XXXI of 1946)",
+      "full_text_length": 111,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "14",
+      "section_title": "Penalties",
+      "section_text": "Section--IV  The Copyright Ordinance, 1962 (XXXIV of 1962)",
+      "full_text_length": 58,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "66",
+      "section_title": "Offences of infringement of copyright or other rights conferred by this Act",
+      "section_text": "67. \nPossession of plates for purpose of making infringing copies.",
+      "full_text_length": 66,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "68",
+      "section_title": "Penalty for making false entries in the Register, etc",
+      "section_text": "or producing or tendering false \nevidence.  \n69. \nPenalty for making false statements for the purpose of deceiving or influencing any \nauthority or officer.",
+      "full_text_length": 156,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "70",
+      "section_title": "False attribution or authorship, etc",
+      "section_text": "Section--V  The Pakistan Arms Ordinance, 1965 (W.P. Ordinance XX of 1965)",
+      "full_text_length": 73,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "13",
+      "section_title": "Penalty for breach of sections 4, 5, 8 to 11",
+      "section_text": "Section--VI  The Securities and Exchange Ordinance, 1969 (XVII of 1969) \nAll offences under this Act prescribing minimum punishment for a period of over one year.  \nSection--VII  The Emigration Ordinance, 1979 (XVIII of 1979) \n\n \nPage 41 of 44",
+      "full_text_length": 243,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "17",
+      "section_title": "Unlawful immigration etc",
+      "section_text": "18. \nFraudulently inducing to emigrate.",
+      "full_text_length": 39,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "19",
+      "section_title": "False representation of Government authority",
+      "section_text": "22.   \nReceiving money etc. for providing foreign employment.  \nSection--VIII  The Control of Narcotic Substances Act, 1997 (XXV of 1997)",
+      "full_text_length": 137,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "5",
+      "section_title": "Punishment for contravention of section 4",
+      "section_text": "9.   \nPunishment for contravention of sections 6, 7 and 8.",
+      "full_text_length": 58,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "11",
+      "section_title": "Punishment for contravention of section 10",
+      "section_text": "13.   \nPunishment for contravention of section 12.",
+      "full_text_length": 50,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "15",
+      "section_title": "Punishment for contravention of section 14",
+      "section_text": "41. \nProhibition of alienation of freezed property.  \n42. \nProhibition of acquiring property in relation to which proceedings have been taken \nunder the Act.  \nSection--1X  The Anti-Terrorism Act, 1997 (XXVII of 1997) \nAll offences under this Act prescribing minimum punishment for a period of over one year.  \nSection--X   \nNational Accountability Ordinance, 1999 (XVIII of 1999)",
+      "full_text_length": 380,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "9",
+      "section_title": "Corruption and Corrupt Practices",
+      "section_text": "Section--XI  The Registered Designs Ordinance, 2000 (XLV of 2000)  \n \n\n \nPage 42 of 44 \n \n1SCHEDULE-II  \n[see section 5(1)]  \nMembers of National Executive Committee",
+      "full_text_length": 165,
+      "subsections": [],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "1",
+      "section_title": "The National Executive Committee shall comprise the following members:",
+      "section_text": "(a) \nMinister for Finance or Adviser to the Prime Minister on Finance          Chairman \n(b) \nMinister for Foreign Affairs  \n \n \n \n \n \nMember \n(c) \nMinister for Law and Justice  \n \n \n \n \n \nMember \n(d) \nMinister for Interior  \n \n \n \n \n \n \nMember  \n(e) \nMinister for Economic Affairs  \n \n \n \n \n \nMember  \n(f) \nGovernor SBP  \n \n \n \n \n \n \nMember \n(g) \nChairman SECP  \n \n \n \n \n \n \nMember \n(h) \nDirector General, FMU  \n \n \n \n \n \nMember/Secretary \n(i) \nDirector General, FATF Cell \n \n \n \n \n \nMember \n(j) \nany other member on the special invitation of the National Executive \nMember \n \nCommittee \n \n2.  \nThe Director General FMU shall act as Secretary of the National Executive \nCommittee.  \n \n \n \n1Added by Anti-Money Laundering (Second Amendment) Act, 2020 (Act No. XXX of 2020), s. 19. \n \n \n \n\n \nPage 43 of 44 \n \nSCHEDULE-III  \n[see section 5(5)]  \nMembers of General Committee",
+      "full_text_length": 872,
+      "subsections": [
+        "(a) Minister for Finance or Adviser to the Prime Minister on Finance          Chairman",
+        "(b) Minister for Foreign Affairs",
+        "(c) Minister for Law and Justice",
+        "(d) Minister for Interior",
+        "(e) Minister for Economic Affairs"
+      ],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "1",
+      "section_title": "The General Committee shall comprise the following members:",
+      "section_text": "(a) \nSecretary Finance \nChairman  \n(b) \nSecretary Interior  \nMember \n(c) \nSecretary Foreign Affairs  \nMember \n(d) \nSecretary Law and Justice  \nMember \n(e) \nChairman National Accountability Bureau \nMember \n(f) \nChairman Federal Board of Revenue  \nMember \n(g) \nDirector General, Federal Investigation  \nMember  \n(h) \nDirector General, Anti Narcotics Force  \nMember \n(i) \nDeputy Governor SBP  \nMember \n(j) \nCommissioner SECP  \nMember \n(k) \nDirector General, FMU  \nMember/Secretary \n(l) \nDirector General FATF Cell  \nMember \n(m) \nAny other member on the special invitation of the \nGeneral Committee  \nMember",
+      "full_text_length": 603,
+      "subsections": [
+        "(a) Secretary Finance",
+        "(b) Secretary Interior",
+        "(c) Secretary Foreign Affairs",
+        "(d) Secretary Law and Justice",
+        "(e) Chairman National Accountability Bureau"
+      ],
+      "provisos": [],
+      "penalty": null
+    },
+    {
+      "section_number": "2",
+      "section_title": "The Director General FMU shall also act as Secretary of the General Committee",
+      "section_text": "Page 44 of 44 \n \nSCHEDULE-IV  \n[see section 6A(1)]  \nAML/CFT Regulatory Authority  \n1. \nThe following regulators are AML/CFT regulatory authorities for the purposes of this \nAct:— \n(i) \nSBP for any, reporting entity licensed or regulated under any law administered \nby SBP;  \n(ii) \nSECP for any reporting entity licensed or regulated by SECP under any law \nadministered by SECP;  \n(iii) \nFederal Board of Revenue for real estate agents, jewellers, dealers in precious \nmetals and precious stones and accountants who are not the members of the \nInstitute of Chartered Accountants of Pakistan (ICAP) and the Institute of \nCost and Management Accountants of Pakistan (ICMAP);  \n(iv) \nNational Savings (AML and CFT) Supervisory Board for national savings \nschemes;  \n(v) \nPakistan Post (AML and CFT) Supervisory Board for Pakistan Post; and  \n(vi) \nany other such entity or regulatory authority as may be notified by the Federal \nGovernment.  \n2.  \nThe following SRBs are AML/CFT regulatory authorities for the purposes of this \nAct:— \n(i) \nthe Institute of Chartered Accounts of Pakistan constituted under the \nChartered Accountants Ordinance, 1961 (X of 1961) for their respective \nmembers;  \n(ii) \nthe Institute of Cost and Management Accountants of Pakistan (ICMAP) \nconstituted under the Cost and Management Accountants Act, 1966 (XIV of \n1966) for their respective members;  \n1[(iii) Pakistan Bar Council, Provincial Bar Councils, Islamabad Bar Council, for \nadvocates, law firms and other independ",
+      "full_text_length": 1640,
+      "subsections": [
+        "(i) SBP for any, reporting entity licensed or regulated under any law administered",
+        "(v) Pakistan Post",
+        "(i) the Institute of Chartered Accounts of Pakistan constituted under the"
+      ],
+      "provisos": [],
+      "penalty": null
+    }
+  ]
+}

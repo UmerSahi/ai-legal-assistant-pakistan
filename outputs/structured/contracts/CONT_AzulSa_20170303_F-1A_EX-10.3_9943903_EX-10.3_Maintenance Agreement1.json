@@ -1,0 +1,712 @@
+{
+  "doc_id": "CONT_AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_Maintenance Agreement1",
+  "filename": "AzulSa_20170303_F-1A_EX-10.3_9943903_EX-10.3_Maintenance Agreement1.pdf",
+  "document_type": "contract",
+  "contract_subtype": "contracts/cuad",
+  "title": "Azulsa 20170303 F 1A Ex 10.3 9943903 Ex 10.3 Maintenance Agreement1",
+  "parties": {
+    "party_one": "Party One",
+    "party_two": "Party Two"
+  },
+  "effective_date": "Effective Date as specified",
+  "governing_law": "governed by, and construed in accordance with, the laws of the State of New York, U.",
+  "total_clauses_extracted": 116,
+  "clauses": [
+    {
+      "clause_number": "1",
+      "clause_heading": "SUBJECT",
+      "clause_type": "General / Operational",
+      "text": "MATTER OF THE AGREEMENT\n \n \n6"
+    },
+    {
+      "clause_number": "24",
+      "clause_heading": "GOVERNING LAW AND ARBITRATION",
+      "clause_type": "Dispute Resolution",
+      "text": "37 \n \n \nAZUL–ATR\n \nGlobal Maintenance Master Agreement\nDS/CS-3957/14/Issue 7\n \nPage 2/110\nSource: AZUL SA, F-1/A, 3/3/2017\n\nExecution version\n \n \nEXECUTION PAGE\n \n  39 \nEXHIBIT 1 - LIST OF ATR AIRCRAFT COVERED UNDER THIS AGREEMENT\n \n  40 \nEXHIBIT 2 - LIST OF SERVICES PROVIDED UNDER THIS AGREEMENT\n \n  42 \nEXHIBIT 3 - MAIN ELEMENTS COVERED UNDER THE AGREEMENT\n \n  43 \nEXHIBIT 4 - LIST OF LANDING GEAR ON CONDITION PARTS\n \n  44 \nEXHIBIT 5 - STOCK\n \n  45 \nEXHIBIT 6 - LRUS COVERED BY REPAIR AND STANDARD EXCHANGE SERVICES\n \n  61 \nEXHIBIT 7 - REPAIRER STANDARD WORK ORDER FORMS\n \n  70 \nEXHIBIT 8 - LEASE OF THE STOCK\n \n  74 \nEXHIBIT 9 - SPARE PARTS STANDARD EXCHANGE SERVICE\n \n  80 \nEXHIBIT 10 - LRUS REPAIR SERVICE\n \n  84 \nEXHIBIT 11 - MAIN ELEMENTS SERVICES\n \n  86 \nEXHIBIT 12 - INTENTIONALLY LEFT BLANK\n \n  92 \nEXHIBIT 13 - FORM OF STANDBY LETTER OF CREDIT\n \n  93 \nEXHIBIT 14 - PRICE CONDITIONS\n \n  94 \nEXHIBIT 15 - ADVANCED POOL SERVICE\n \n 101 \nEXHIBIT 16 - ADVANCED POOL STOCK\n \n 106 \nEXHIBIT 17 - INSURANCE CERTIFICATES\n \n 108 \nEXHIBIT 18 - NOTA FISCAL REPORTING\n \n 109 \n \n \nAZUL–ATR\n \nGlobal Maintenance Master Agreement\nDS/CS-3957/14/Issue 7\n \nPage 3/110\nSource: AZUL SA, F-1/A, 3/3/2017\n\nExecut"
+    },
+    {
+      "clause_number": "1",
+      "clause_heading": "SUBJECT",
+      "clause_type": "General / Operational",
+      "text": "MATTER OF THE AGREEMENT \nThis Agreement describes the terms and conditions according to which the Repairer (i) shall provide, or cause its Subcontractors to provide,\nServices for the Company’s Aircraft fleet; and (ii) agrees to lease the Stock to the Company and the Company agrees to take the Stock on\nlease, subject to the terms and conditions set forth on Exhibit 8."
+    },
+    {
+      "clause_number": "2",
+      "clause_heading": "DEFINITIONS AND INTERPRETATION",
+      "clause_type": "Limitation of Liability",
+      "text": "2.1\nUnless otherwise defined, capitalised terms, singular or plural, used in this Agreement shall have the meaning set out below:\n \n“Abnormal Use”\n \nmeans any usage, maintenance, storage, handling of the Aircraft, or its sub-assemblies, or its\nsystems, or Items fitted on it including LRUs, Main Elements, Spare Main Elements, that does not\ncomply with all applicable technical documentation and any other instructions issued by the\nmanufacturers and which is not attributable to the Repairer or Subcontractors, including:\n \n(i) Any failure by the Company to correctly comply with any Repairer and/or OEM instructions or\nrecommendations, technical directives, or any workmanship defect, lack of qualification, non-\napproved repair and/or maintenance method; or,\n \n(ii) Any negligence or failure to exercise reasonable effort(s) made to initiate corrective action(s), or\nlateness or total or partial failure in undertaking corrective action(s), for Aircraft or LRU(s) or\nMain Element(s) malfunctions which should have been reasonably identified by the\nCompany; or,\n \n(iii) Any Aircraft, LRU(s) or Main Element(s) suffering damage or premature removal arising out of\nor in connection with any defective"
+    },
+    {
+      "clause_number": "3",
+      "clause_heading": "DURATION AND RENEWAL",
+      "clause_type": "General / Operational",
+      "text": "3.1\nThe Agreement enters into force on the Signing Date; it will have a duration of [*****] as from the Start Date (the “Initial Term”).\n \n3.2\nUpon expiry of the Initial Term, this Agreement [*****] unless a Notice of non-renewal is given by either Party to the other Party [*****]\nprior to the expiry of the Initial Term or the end of a renewal period, if any.\n \n3.3\nThe Agreement shall end on the End Date without any further action, unless otherwise provided under this Agreement."
+    },
+    {
+      "clause_number": "4",
+      "clause_heading": "EXCUSABLE DELAY",
+      "clause_type": "General / Operational",
+      "text": "4.1\nIf a Party (the “Affected Party”) is prevented, hindered or delayed from or in performing any of its obligations under this Agreement by an\nevent which is unpredictable and unavoidable, including war or civil or foreign armed aggression, riots, fires, floods, explosions, earthquakes\nor accidents, epidemics or quarantine restrictions, any act of a Government Entity, embargoes, export prohibitions, failure by a subcontractor\nand/or vendor to furnish supplies or parts or delay the same, strikes or labour troubles causing cessation of work, such event will be referred\nto as an “Excusable Delay”.\n \n4.2\nThe Affected Party will give Notice to the other Party (the “Non-Affected Party”) of such Excusable Delay as soon as reasonably possible\nafter it becomes aware thereof, and the Affected Party will use its reasonable endeavours to mitigate the effects of such Excusable Delay,\nwithout being obliged however to incur any unreasonable costs.\n \n4.3\nNeither Party shall be held liable, or deemed to be in Default, if it fails to perform its obligations under this Agreement due to an Excusable\nDelay; without prejudice to Clause 4.5 hereinafter, the time fixed for the performance by the Affected"
+    },
+    {
+      "clause_number": "5",
+      "clause_heading": "SERVICES AND OBLIGATIONS OF THE PARTIES",
+      "clause_type": "Confidentiality",
+      "text": "5.1\nServices  \n \n \n[*****] Confidential material redacted and filed separately with the Securities and Exchange Commission.\n \nAZUL–ATR\n \nGlobal Maintenance Master Agreement\nDS/CS-3957/14/Issue 7\n \nPage 15/110\nSource: AZUL SA, F-1/A, 3/3/2017\n\nExecution version\n \nCONFIDENTIAL TREATMENT REQUESTED\n \nThe Repairer shall provide the Company with the Services listed in Exhibit 2 (“List of Services provided under this Agreement”)."
+    },
+    {
+      "clause_number": "5.2",
+      "clause_heading": "General conditions of the Services",
+      "clause_type": "General / Operational",
+      "text": "5.2.1\nThe Services shall comply with the applicable AMM, MRBR and MPD issued by ATR, as Aircraft manufacturer, and the relevant\nCMM in force as of the Signing Date, and with the EASA and/or FAA or ANAC regulations in force at the time of performance of\nsuch Services\n \n \n5.2.2\nShould the AMM, MRBR or the MPD be modified in a manner that is likely to modify or impact the performance of the Services, the\nParties hereby agree to negotiate in good faith the consequences of such modifications and impacts on this Agreement (including\non the prices set out in Exhibit 14 “Price conditions”).\n \n \n5.2.3\nAudit of the Repair: Company shall have the right, under EUR OPS or PART M equivalent applicable regulation approval, to audit\nthe management and the performance of the Services provided by the Repairer under this Agreement, subject to giving a [*****]\nprior Notice to the Repairer. The cost of any such audits by the Company’s representative(s) shall be borne by the Company unless\nif, as a result of that audit, the Repairer is found to be in Default, in which cases the cost of such audit will be borne by the Repairer.\n \n \n5.2.4\nCompany’s audit: at any time during the Term, the Repairer may:\n \n "
+    },
+    {
+      "clause_number": "5.3",
+      "clause_heading": "Obligations of the Parties",
+      "clause_type": "General / Operational",
+      "text": "5.3.1\nObligations of the Company  \n \n \n5.3.1.1\nAs a counterpart to the terms and conditions (including pricing conditions) agreed between the Parties under this\nAgreement [*****]. In the event, the Company fails to do so, the Repairer shall be entitled to revise such terms and\nconditions in order to take into account such failure.\n \n \n5.3.1.2\nDuring the Term, the Company shall:\n \n \n(i)\noperate and maintain the Aircraft in compliance with all applicable technical documentation and any other\ninstructions issued by ATR and the OEM; and,\n \n \n(ii)\nremove and install LRUs and Main Elements from and on Aircraft; and,\n \n \n(iii)\ncomply with any AD, and order such incorporation or modifications from the Repairer; and consequently manage\nthe update of Aircraft, LRUs and Main Elements mandatory or regulatory technical notices and log books and\ndeliver to the Repairer a copy of such documentation upon each maintenance event or upon Repairer’s request; and,\n \n \n(iv)\npromptly inform the Repairer in case the Company or their insurer intends to attend any LRU or Main Element tear-\ndown at the Repair Shop; and,\n \n \n(v)\nprovide the Repairer not later than the tenth (10th) Day of each Month with an ac"
+    },
+    {
+      "clause_number": "6",
+      "clause_heading": "DELIVERIES",
+      "clause_type": "General / Operational",
+      "text": "The Delivery Location shall be one of the addresses set out in Clauses 6.1 and 6.2 hereafter as the context requires."
+    },
+    {
+      "clause_number": "6.1",
+      "clause_heading": "Items delivered by the Repairer to the Company",
+      "clause_type": "General / Operational",
+      "text": "Unless otherwise set forth in this Agreement, the Repairer shall deliver to the Company:\n \n \n6.1.1\nany Item as relevant in accordance with Exhibits 8 (“Lease of the Stock”), , 11 (“Main Elements Services”) and 15 (“Advanced Pool\nStock”), [*****] and Packed at the following address:\nATR Customer Support\nC/O DHL Solutions\nZA du Pont Yblon"
+    },
+    {
+      "clause_number": "95500",
+      "clause_heading": "Bonneuil en France",
+      "clause_type": "General / Operational",
+      "text": "And;\nany Item from the List A of the Exhibit 6 (“LRUs covered by repair and standard exchange services”), as relevant in accordance with\nExhibit 9 (“Spare parts standard exchange Service”) and Exhibit 10 (“LRUs repair Service”), [*****] and Packed at the following\naddress:\nATR Customer Support\nC/O DHL Solutions\nZA du Pont Yblon"
+    },
+    {
+      "clause_number": "95500",
+      "clause_heading": "Bonneuil en France",
+      "clause_type": "General / Operational",
+      "text": "And:\nany Item from the List B of the Exhibit 6 (“LRUs covered by repair and standard exchange services”), as relevant in accordance with\nExhibit 9 (“Spare parts standard exchange Service”) and Exhibit 10 (“LRUs repair Service”), [*****] and Packed at the following\naddress:\nHelibras – Helicópteros do Brasil – Air Bus Helicopters\nRodovia Dom Pedro I – Km 87 – Pista Norte\nCondomínio Barão de Mauá –\nAtibaia – São Paulo\n \n[*****] Confidential material redacted and filed separately with the Securities and Exchange Commission.\n \nAZUL–ATR\n \nGlobal Maintenance Master Agreement\nDS/CS-3957/14/Issue 7\n \nPage 18/110\nSource: AZUL SA, F-1/A, 3/3/2017\n\nExecution version\n \nCONFIDENTIAL TREATMENT REQUESTED\n \nor at any other address the Repairer may from time to time notify to the Company.\n \n \n6.1.2\nIntentionally left blank"
+    },
+    {
+      "clause_number": "6.2",
+      "clause_heading": "Items returned by the Company to the Repairer",
+      "clause_type": "General / Operational",
+      "text": "The Company shall return to the Repairer:\n \n \n6.2.1\nany Item as relevant, in accordance with Exhibits 8 (“Lease of the Stock”), 11 (“Main Elements Services”) and 15 (“Advanced Pool\nStock”), [*****] and Packed at the following address:\nATR Customer Support\nC/O DHL Solutions\nZA du Pont Yblon"
+    },
+    {
+      "clause_number": "95500",
+      "clause_heading": "Bonneuil en France",
+      "clause_type": "General / Operational",
+      "text": "And;\nany Item from the List A of the Exhibit 6 (“LRUs covered by repair and standard exchange services”) as relevant in accordance with\nExhibit 9 (“Spare parts standard exchange Service”) and Exhibit 10 (“LRUs repair Service”), [*****] and Packed at the following\naddress:\nATR Customer Support\nC/O DHL Solutions\nZA du Pont Yblon"
+    },
+    {
+      "clause_number": "95500",
+      "clause_heading": "Bonneuil en France",
+      "clause_type": "General / Operational",
+      "text": "And:\nany Item from the List B of the Exhibit 6 (“LRUs covered by repair and standard exchange services”) as relevant in accordance with\n9 (“Spare parts standard exchange Service”) and 10 (“LRUs repair Service”), [*****] and Packed at the following address:\nHelibras – Helicópteros do Brasil – Air Bus Helicopters\nRodovia Dom Pedro I – Km 87 – Pista Norte\nCondomínio Barão de Mauá –\nAtibaia – São Paulo\nor at any other address the Repairer may from time to time notify to the Company.\n \n \n6.2.2\nIntentionally left blank"
+    },
+    {
+      "clause_number": "6.3",
+      "clause_heading": "Nota fiscal reporting",
+      "clause_type": "General / Operational",
+      "text": "Regarding the Items flow between the Stock and the Pool and vice et versa, as set forth under Clause 6 hereof, the Parties shall have the\nfollowing obligations:\n \n \n-\nFrom Stock to Pool: the Company shall issue in due time any necessary document or required by the Repairer, including the “Nota\nFiscal” which shall comprise full, accurate\n \n[*****] Confidential material redacted and filed separately with the Securities and Exchange Commission.\n \nAZUL–ATR\n \nGlobal Maintenance Master Agreement\nDS/CS-3957/14/Issue 7\n \nPage 19/110\nSource: AZUL SA, F-1/A, 3/3/2017\n\nExecution version\n \nCONFIDENTIAL TREATMENT REQUESTED\n \nand complete information (as further detailed here below) and be in a form and substance compliant with applicable laws and\nregulations.\n \n \n-\nFrom Pool to Stock: subject to receipt from the Company of any necessary document or required by the Repairer as set forth here\nabove, as relevant, the Repairer shall issue or have issued by third party in due time any necessary document or required by the\nCompany in the frame of the Services, including the “Nota Fiscal” which shall comprise full, accurate and complete information (as\nfurther detailed here below) and be in a form and"
+    },
+    {
+      "clause_number": "7",
+      "clause_heading": "WORK ORDERS",
+      "clause_type": "General / Operational",
+      "text": "During the Term, the Company shall use the appropriate Work Order form (Exhibit 7 “Repairer Standard Work Order Forms”), depending on\nthe nature of the Service requested, and send the Work Order to the Repairer according to the notice details below or any other contact the\nRepairer may from time to time notify to the Company.\n \n \n  For any Services\n \nATR SPARES DISTRIBUTION DESK\n  requested in standard  \nTel: (33) 5 62 21 60 80\n  conditions (including  \nFax: (33) 5 62 21 62 80\n  routine and critical):\n \ne-mail: spares.orders@atr.fr\n \n \nFor any Services\n \n \nA.O.G. DESK:\n  requested in AOG\n \nTel: (33) 5 62 21 62 00\n  conditions:\n \nFax: (33) 5 62 21 62 62\n \n \ne-mail: aog.toulouse@atr.fr"
+    },
+    {
+      "clause_number": "8",
+      "clause_heading": "INSURANCES",
+      "clause_type": "General / Operational",
+      "text": "8.1\nWithout prejudice to any term and condition under this Agreement, the Company shall maintain in force, at all times during the Term and\n[*****], at its own costs and expenses, with insurers of internationally recognized\n \n[*****] Confidential material redacted and filed separately with the Securities and Exchange Commission.\n \nAZUL–ATR\n \nGlobal Maintenance Master Agreement\nDS/CS-3957/14/Issue 7\n \nPage 20/110\nSource: AZUL SA, F-1/A, 3/3/2017\n\nExecution version\n \nCONFIDENTIAL TREATMENT REQUESTED\n \nreputation reasonably acceptable to the Repairer, insurances in accordance with industry standards with respect to the undertakings of\nthe Company in Clause 15 (“Liability and Indemnity”) of this Agreement including:\n \n \n(i)\nAircraft Hull and Spares All Risks Insurances (including, to the extent usually available war and allied perils); and,\n \n \n(ii)\nComprehensive General Third Party Legal Liability and Aircraft Passengers and Third Party Legal Liability Insurance in respect of\nincidents involving Aircraft to the extent usually available, having a Combined Single Limit of not less than [*****] any one\noccurrence; and,\n \n \n(iii)\nEmployer’s liability insurance; and,\n \n \n(iv)\nRepairer’s va"
+    },
+    {
+      "clause_number": "9",
+      "clause_heading": "WARRANTIES",
+      "clause_type": "Limitation of Liability",
+      "text": "Upon Delivery, and subject to the terms of this Agreement, including the disclaimers and limitations on liability set forth in such warranties\nand in Clause 14 (“Disclaimer”) of this Agreement, the Company shall be entitled to the benefit of the following warranties:\n \n \ni)\nFor new LRUs or Main Elements, the terms and conditions set into the related Vendor Warranty Manual and in ATR72-600 Aircraft in\nthe relevant clauses of the relevant Aircraft sale and purchase agreement, shall apply.\n \n \nii)\nFor used LRUs and Main Elements repaired and overhauled by the Repairer, the warranty period shall start on the date of Delivery\nand shall end [*****] thereafter, whichever occurs the earliest, and such warranty shall be subject to the exclusions of warranty set\nforth in Exhibit 10 (“LRUs Repair Service”) and in Exhibit 11 (“Main Elements Services”)."
+    },
+    {
+      "clause_number": "10",
+      "clause_heading": "PRICES",
+      "clause_type": "General / Operational",
+      "text": "The Company shall pay to the Repairer the prices for the Services set out in Exhibit 14 (“Price conditions”)."
+    },
+    {
+      "clause_number": "11",
+      "clause_heading": "RECONCILIATION",
+      "clause_type": "General / Operational",
+      "text": "11.1 Reconciliation: Every [*****] as from the Start Date and throughout the Term, the Parties will record the actual number of FH and Cycles\n[*****] of the preceding [*****] period, in order to reconcile (i) the amount effectively due to the Repairer with (ii) the total amount already\npaid by the Company , as relevant, as per Clause 12.1 (ii) hereafter, with respect of such period, as follows:\n \n \n(i)\nIn case the amount effectively due to the Repairer with respect of the number\n \n[*****] Confidential material redacted and filed separately with the Securities and Exchange Commission.\n \nAZUL–ATR\n \nGlobal Maintenance Master Agreement\nDS/CS-3957/14/Issue 7\n \nPage 22/110\nSource: AZUL SA, F-1/A, 3/3/2017\n\nExecution version\n \nCONFIDENTIAL TREATMENT REQUESTED\n \nof FH and Cycles accumulated during the considered [*****] period is higher than the total amount already paid by the Company for\nthe said period, the Repairer shall then issue an additional invoice in an amount equal to the difference between these amounts, to be\npaid by the Company as per Clause 12 (“Invoicing and payment terms”); or,\n \n \n(ii)\nIn case the amount effectively due to the Repairer with respect of the number of FH and"
+    },
+    {
+      "clause_number": "11.2",
+      "clause_heading": "Final reconciliation",
+      "clause_type": "General / Operational",
+      "text": "within [*****] as from the End Date and without prejudice to Clause 6 of Exhibit 14 (“Price conditions”) when\napplicable, a final reconciliation shall be performed by the Repairer as per this Clause 11 (“Reconciliation”).\nAny Credit Note resulting from this final reconciliation and due by the Repairer to the Company shall be issued within [*****] as from the\neffective End Date, subject to Clause 11.3 of this Agreement.\n \n11.3 Each time a Credit Note results from any reconciliation, the Repairer shall issue such Credit Note to the Company, provided that the Company,\nis not in Default."
+    },
+    {
+      "clause_number": "12",
+      "clause_heading": "INVOICING AND PAYMENT TERMS",
+      "clause_type": "Confidentiality",
+      "text": "12.1 The Repairer shall invoice the Company:\n \n \n(i)\n[*****]\n \n \n(ii)\n[*****]\n \n \n[*****] Confidential material redacted and filed separately with the Securities and Exchange Commission.\n \nAZUL–ATR\n \nGlobal Maintenance Master Agreement\nDS/CS-3957/14/Issue 7\n \nPage 23/110\nSource: AZUL SA, F-1/A, 3/3/2017\n\nExecution version\n \nCONFIDENTIAL TREATMENT REQUESTED\n \n[*****]\n \n[*****]\n[*****]\n \n[*****]\n \n[*****]\n \n[*****]\n[*****]\n \n[*****]\n \n[*****]\n \n[*****]\n \n[*****]\n[*****]\n \n[*****]\n \n(iii)\n[*****]\n \n \n(iv)\n[*****]\n \n \n(v)\n[*****]\n \n \n(vi)\n[*****]\n \n \n(vii) [*****]\n \n \n[*****] Confidential material redacted and filed separately with the Securities and Exchange Commission.\n \nAZUL–ATR\n \nGlobal Maintenance Master Agreement\nDS/CS-3957/14/Issue 7\n \nPage 24/110\nSource: AZUL SA, F-1/A, 3/3/2017\n\nExecution version\n \nCONFIDENTIAL TREATMENT REQUESTED\n \n \n \n(viii) [*****]\n \n \n(ix)\n[*****]\n \n \n(x)\n[*****]\n \n \n(xi)\n[*****]\n \n12.2 Unless otherwise set out herein, the Company shall pay all invoices issued by the Repairer pursuant to this Agreement, as follows:\n \n \n(i)\nwithin thirty (30) Days from the date of issuance of the Repairer’s invoice; and,\n \n(ii)\nin US Dollars; and,\n \n(iii)\nby SWIFT wire tran"
+    },
+    {
+      "clause_number": "12.5",
+      "clause_heading": "Invoice dispute",
+      "clause_type": "Dispute Resolution",
+      "text": "any invoice disputed by the Company shall have to be issued by Notice duly documented to the Repairer within [*****]\nfrom the date of its issuance. For the sake of clarity, the undisputed portion of such invoice shall be paid pursuant to this Agreement. Any\ninvoice not disputed by the Company within said [*****] period, shall be deemed to be accepted by the Company."
+    },
+    {
+      "clause_number": "13",
+      "clause_heading": "SECURITY DEPOSIT",
+      "clause_type": "General / Operational",
+      "text": "13.1 As per provisions of Clause 17 (“Conditions precedent”), and unless otherwise agreed by the Parties, the Company shall pay the Security\nDeposit to the Repairer in an amount equal to the aggregate of:\n \n \n(i)\n[*****], as per Exhibit 14 (“Price conditions”); and,\n \n \n(ii)\n[*****] of the value of the Stock.\nFor the sake of clarity, the global amount of Security Deposit payable at the time of the Signing Date shall be [*****].\n \n13.2 Such Security Deposit shall be constituted either, as follows, at the option of the Company:\n \n \n(i)\na cash deposit by SWIFT wire transfer to the bank account indicated in Clause 12.2 (iv); or,\n \n \n(ii)\none (1) LOC with a validity of at least [*****], acceptable to the Repairer acting reasonably. Such LOC shall be renewed and its\nconfirmation extended, at the latest [*****] before the expiry of each previous LOC; all costs incurred as a result of the issuance and\nconfirmation of the LOC shall be borne by the Company.\nIt is agreed that the Security Deposit must be available for the period ending [*****] after the Term; such Security Deposit shall be the\nproperty of the Repairer and shall be non-refundable except as set out in this Agreement.\nProvided t"
+    },
+    {
+      "clause_number": "14",
+      "clause_heading": "DISCLAIMER",
+      "clause_type": "Limitation of Liability",
+      "text": "TO THE EXTENT PERMITTED BY LAW, THE TERMS AND CONDITIONS SET OUT IN THIS AGREEMENT SET OUT THE REPAIRER’S\nENTIRE LIABILITY WITH RESPECT TO ALL GOODS AND SERVICES SUPPLIED HEREUNDER AND THE COMPANY AGREES THAT ALL\nOTHER CONDITIONS, WARRANTIES AND TERMS EXPRESSED OR IMPLIED BY LAW, STATUTE OR OTHERWISE, ARE HEREBY\nEXPRESSLY EXCLUDED."
+    },
+    {
+      "clause_number": "15",
+      "clause_heading": "LIABILITY AND INDEMNITY",
+      "clause_type": "Limitation of Liability",
+      "text": "15.1 SUBJECT TO CLAUSE 15.2 BELOW, THE REPAIRER, SHALL NOT BE LIABLE TO THE COMPANY FOR ANY OF THE FOLLOWING TYPES\nOF LOSS OR DAMAGE ARISING UNDER OR IN RELATION TO THIS AGREEMENT (WHETHER ARISING FOR BREACH OF CONTRACT,\nTORT (INCLUDING NEGLIGENCE), BREACH OF STATUTORY DUTY, MISREPRESENTATION OR OTHERWISE):\n[*****]\n[*****]\n \n15.2 NOTHING IN THIS AGREEMENT SHALL EXCLUDE OR RESTRICT ANY LIABILITY\n \n[*****] Confidential material redacted and filed separately with the Securities and Exchange Commission.\n \nAZUL–ATR\n \nGlobal Maintenance Master Agreement\nDS/CS-3957/14/Issue 7\n \nPage 27/110\nSource: AZUL SA, F-1/A, 3/3/2017\n\nExecution version\n \nCONFIDENTIAL TREATMENT REQUESTED\n \nOF THE REPAIRER FOR DEATH OR PERSONAL INJURY ARISING OUT OF NEGLIGENCE OR MISCONDUCT,, OR FOR ANY OTHER\nLIABILITY WHICH CANNOT BE EXCLUDED OR LIMITED BY LAW.\n \n15.3 WITHOUT PREJUDICE TO CLAUSES 15.1 AND 15.2, THE COMPANY SHALL, EXCEPT IN CASE OF GROSS NEGLIGENCE OR WILFUL\nMISCONDUCT OF THE REPAIRER, BE LIABLE FOR AND SHALL INDEMNIFY AND HOLD HARMLESS THE REPAIRER INDEMNIFIED\nPARTIES FROM AND AGAINST ALL LIABILITIES, CLAIMS, DAMAGES, LOSSES, SUITS, ACTIONS, PROCEEDINGS, JUDGEMENTS,\nCOSTS AND EXPENSES INCIDENT THERETO"
+    },
+    {
+      "clause_number": "16",
+      "clause_heading": "TERMINATION",
+      "clause_type": "Termination",
+      "text": "16.1 Termination events: without prejudice to any other rights under this Agreement and/or at Law, either Party shall be entitled to terminate all or\npart of this Agreement by Notice of termination, as per Clauses 16.4 (“Termination procedure”) and 16.6 (“Consequences of termination”), in\nthe following events:\n \n \na)\nInsolvency: the other Party becomes insolvent or goes into liquidation or ceases paying its debts as they fall due or makes an\nassignment for the benefit of creditors or if such Party being a limited Company passes a resolution for its winding up or if a petition for\nits winding up is presented or it files for protection from its creditors under any applicable Law relating to bankruptcy or insolvency or\nany analogous event in any jurisdiction shall take place; and/or\n \n \nb)\nDefault: the other Party is in Default and does not remedy the same within [*****], or such extended period granted by the non-\ndefaulting Party, from Notice of default specifying the failure and requiring the remedy of such, from the non-defaulting Party.\nFor the purpose of this Clause 16.1.b), will be deemed as material obligations under this Agreement, without the following being\nexhaustive:\n \n \n"
+    },
+    {
+      "clause_number": "16.2",
+      "clause_heading": "Left intentionally blank",
+      "clause_type": "General / Operational",
+      "text": "16.3 Suspension procedure: notwithstanding the terms of Clause 16.4 below, in the event of a Company’s Default as per Clause 16.1.b), the\nRepairer shall be entitled to suspend all or part of this Agreement by way of Notice of suspension which shall specify:\n \n \n(i)\nthe Services for which such suspension shall be immediately effective until such Company’s Default is corrected; and\n \n \n(ii)\nthat any pending Work Order and/or placed as from the Notice of suspension will be provided upon specific commercial proposal\nsubject to “Payment In Advance” procedure (and/or any additional conditions to be agreed upon by the Parties, as relevant).\nFor the sake of clarity, such Notice of suspension shall not be construed as a waiver by the Repairer of its rights regarding (i) the obligation\nof the Company to perform each and every of its obligations under this Agreement and/or (ii) the right of the Repairer to enforce each and\nevery of such Company’s obligations and/or (iii) the right of the Repairer to terminate this Agreement, as per this Clause 16 (“Termination”)\nof this Agreement."
+    },
+    {
+      "clause_number": "16.4",
+      "clause_heading": "Termination procedure",
+      "clause_type": "Termination",
+      "text": "to the fullest extent permitted by Law and/or under this Agreement, the termination of all or part of this Agreement,\nfor any reason whatsoever, as per Clauses 3 (“Duration and renewal”) and 16 (“Termination”), shall become effective as from the receipt by\nthe relevant Party of a Notice of termination from the other Party, or any other period to be granted by such other Party, without it being\nnecessary to take any further action or to seek any consent from the relevant Party or any court having jurisdiction.\nThe right of a Party to terminate all or part of this Agreement as per this Clause 16 shall be without prejudice to its other rights and remedies\navailable at Law and/or under this Agreement to seek termination of all or part of this Agreement before any court having jurisdiction,\nfollowing arbitration proceedings consistent with Clause 24 (“Governing law and arbitration”) of this Agreement.\nIn case of termination of part of this Agreement, the Notice of termination shall specify the Services that shall be terminated on the date of\nsuch termination.\nAny Work Order placed prior to the termination of all or part of this Agreement shall remain valid, provided that (i) any sum due"
+    },
+    {
+      "clause_number": "16.5",
+      "clause_heading": "Early termination fee",
+      "clause_type": "Termination",
+      "text": "subject to not being in breach of any of its obligation under the Agreement, the Company may terminate this\nAgreement for convenience by way of Notice of termination; the Agreement shall be then terminated following a [*****] period as from\n \n[*****] Confidential material redacted and filed separately with the Securities and Exchange Commission.\n \nAZUL–ATR\n \nGlobal Maintenance Master Agreement\nDS/CS-3957/14/Issue 7\n \nPage 29/110\nSource: AZUL SA, F-1/A, 3/3/2017\n\nExecution version\n \nCONFIDENTIAL TREATMENT REQUESTED\n \nthe receipt of such Notice by the Repairer or any other lesser period to be granted by the Repairer.\nNotwithstanding this Clause 16 (“Termination”), upon receipt of such Notice of termination and without prejudice to any rights it may have\nat Law, the Repairer shall invoice to the Company an early termination fee equivalent to [*****], which shall be paid within [*****] as from\nthe issuance date of the said invoice and/or set off against any outstanding or due payment to the Company, at the Repairer’s discretion."
+    },
+    {
+      "clause_number": "16.6",
+      "clause_heading": "Consequences of termination",
+      "clause_type": "Termination",
+      "text": "16.6.1\nUpon the End Date and without prejudice to any right that either Party may have at Law and/or under this Agreement [notably as per\nClause 13 (“Security Deposit”)], the termination and/or expiry of the Agreement shall have the following consequences:\n \n \na)\nPayment and reimbursement: subject to the provision of reasonable documentary evidence, any outstanding and/or due\namounts by either Party to the other Party under this Agreement shall be promptly paid, and any and all legal fees and out-\nof-pocket expenses of the Party which terminates this Agreement for the other Party’s Default including stamp,\ndocumentary, registration or other like duties, taxes or any charges incurred and/or in connection with enforcing, perfecting,\nprotecting or preserving (or attempting to enforce, perfect, protect or preserve) any of its rights, or in suing for or\nrecovering any sum, under this Agreement shall be forthwith reimbursed; and/or,\n \n \nb)\nReturn of the Items: the Repairer shall be entitled, in accordance with the terms and conditions of this Agreement, including\nClause 6 (“Deliveries”), to:\n \n \n(i)\ndirect the Company to forthwith return the Items (excluding the Stock which, for the sake"
+    },
+    {
+      "clause_number": "17",
+      "clause_heading": "CONDITIONS PRECEDENT",
+      "clause_type": "General / Operational",
+      "text": "The Repairer’s obligations under this Agreement shall be subject to each of the following conditions precedent having been met (or\nexpressly waived by the Repairer) to the Repairer’s satisfaction at the latest the [*****] Day from the Signing Date:\n \n \n(ii)\nthe Security Deposit being available as per Clause 13 (“Security Deposit”);and,\n \n \n(iii)\na statement signed by a duly authorized officer of AZUL recording the status (serial number, TSN, TSO, CSN, CSO, as applicable) of\neach Main Element as of the Signing Date; and,\n \n \n(iv)\na fully executed original of this Agreement;\n \n \n(v)\nthe phase-in as per Clause 5 of the Exhibit 14 (“Price conditions”)."
+    },
+    {
+      "clause_number": "18",
+      "clause_heading": "EXPORT CONTROL",
+      "clause_type": "General / Operational",
+      "text": "The Company warrants that the Items, the Aircraft and Services shall be used for commercial purposes only, and shall be used and/or re-\nexported (where relevant) in compliance with all export control laws and regulations (hereinafter referred to as “Export Laws”), including\nthose applicable to parts and components of the Items and the Aircraft. The Company acknowledges that the Repairer’s obligations under\nthis Agreement are subject to all such Export Laws, and that the Repairer shall in no event be liable in the event that the performance by the\nRepairer of any of its obligations under this Agreement is affected or impaired by Export Laws."
+    },
+    {
+      "clause_number": "19",
+      "clause_heading": "NOTICES",
+      "clause_type": "General / Operational",
+      "text": "No Notice shall be deemed to have been duly given by a Party to the other unless addressed as follows or to such other place or Person as\nthe Parties may respectively designate in writing.\nThe Repairer shall be addressed at:\nAVIONS DE TRANSPORT REGIONAL, G.I.E.\n1, allée Pierre Nadot"
+    },
+    {
+      "clause_number": "31712",
+      "clause_heading": "Blagnac CEDEX",
+      "clause_type": "Confidentiality",
+      "text": "France\n \nAttention:\n Mr Cyril DUPUY\n E-mail: cyril.dupuy@atr.fr\nFax +00 33 5 62 21 67 40\n \n \n[*****] Confidential material redacted and filed separately with the Securities and Exchange Commission.\n \nAZUL–ATR\n \nGlobal Maintenance Master Agreement\nDS/CS-3957/14/Issue 7\n \nPage 31/110\nSource: AZUL SA, F-1/A, 3/3/2017\n\nExecution version\n \nThe Company shall be addressed at:\n \n  AZUL\n \n \nAvenida Marcos Penteado de Ulhoa Rodrigues, 939, Castello Branco Office - Park - Torre Jatobá - 9° andar - CEP 06460-040 - Alphaville\nIndustrial, Barueri, SaoPaulo, Brazil\n  Attention\n  Evandro Braga de Oliveira–\n  :\n  Technical officer\n \n  E-mail: evandro.oliveira@voeazul.com.br\n \n \n  Fax\n  55 11 4134-9890"
+    },
+    {
+      "clause_number": "20",
+      "clause_heading": "CONFIDENTIALITY",
+      "clause_type": "Confidentiality",
+      "text": "20.1 Confidentiality obligations \nUnless otherwise provided in this Agreement, any Confidential Information released by either of the Parties (the “Disclosing Party”) to the\nother Party (the “Receiving Party”) shall not be released in whole or in part to any third party.\nIn particular, the Receiving Party undertakes:\n \n \n-\nto keep the Confidential Information strictly confidential, not to deliver, disclose or publish it to any third party including subsidiary\ncompanies and companies having an interest in its capital, except as otherwise agreed in writing by the Disclosing Party;\n \n-\nto use the Confidential Information solely for the purpose of this Agreement and except as otherwise expressly agreed in writing by the\nDisclosing Party, not to use the same or permit its use for any other purpose;\n \n-\nto disclose the Confidential Information only to those of its direct employees having a need to know such Confidential Information in\norder to make permitted use thereof, after having beforehand clearly informed such employees of the strictly confidential nature of the\nConfidential Information and caused them to observe said conditions of confidentiality. The Receiving Party shall be resp"
+    },
+    {
+      "clause_number": "20.2",
+      "clause_heading": "Non application of confidentiality obligations",
+      "clause_type": "Confidentiality",
+      "text": "The obligations of Receiving Party with respect to Confidential Information as set forth in this Clause 20.1 above shall not be applicable to\ninformation which:\n \n \n(a)\nupon the Signing Date was part of the public domain or became part of the public domain after the disclosure, other than by a violation\nof the Agreement or any other non-disclosure agreement or the applicable Law of any jurisdiction; or\n \n \n(b)\nwas already lawfully known by the Receiving Party, as evidenced by written records bearing an unquestionable date, prior the Signing\nDate by the Disclosing Party and was unrestricted; or\n \n \n(c)\nwas lawfully disclosed to the Receiving Party subsequently to the signature of the Agreement by a third party which had not received\nthe same directly or indirectly from the Disclosing Party and that such disclosure does not violate any non-disclosure agreement."
+    },
+    {
+      "clause_number": "20.3",
+      "clause_heading": "Permitted disclosure of Confidential Information",
+      "clause_type": "Confidentiality",
+      "text": "Notwithstanding any provision to the contrary in the Agreement, the Receiving Party shall be entitled to disclose Confidential Information if\nrequired to do so:\n \n \n(a)\nby order of a court or government agency of competent jurisdiction; or\n \n \n(b)\nby any applicable Law,\nprovided, however, that prior to making such disclosure, the Receiving Party shall if possible advise the Disclosing Party of the\ncircumstances requiring such disclosure in order to afford the Disclosing Party sufficient advance notice to permit to raise any objections\nthat it may deem appropriate.\n \n20.4 Disclosing Party’s proprietary rights  \nAny Confidential Information shall remain the property of the Disclosing Party. The Agreement shall not be construed as granting or\nconferring to the Receiving Party, either expressly or by implication, any license or proprietary interest in or to any Confidential Information\nnor any right of use beyond the purpose of this Agreement.\nThe Repairer, its Affiliates and/or its Subcontractors as applicable shall remain the exclusive owner of any intellectual property right related to\nthe Services including: design of the LRUs, Main Elements, job cards, task cards, operating manual"
+    },
+    {
+      "clause_number": "21",
+      "clause_heading": "TAXES",
+      "clause_type": "General / Operational",
+      "text": "The prices set out in this Agreement [*****] and the [*****] shall not be required to pay and the [*****] shall bear, any present or future\nTaxes in any country of the Delivery [*****] pursuant to the requirements of this Agreement including the following:\n \n \ni)\nTaxes levied on goods imported into or services to be delivered under this Agreement; and,\n \n \nii)\nTaxes levied on materials, equipment, tools and documentation imported temporarily which are required for the performance of this\nAgreement; and,\n \n \niii)\nTaxes levied in Company’s country for goods or services delivered by the Repairer to the Company; and,\n \n \niv)\nValue added taxes, sales tax, services tax, or any similar taxes imposed in any country, on goods or services delivered to the Company.\nIn the event any of the Items above are levied upon the [*****], the [*****] shall promptly issue a Notice to the [*****]. The [*****],\nwithin [*****] of receipt of such notification from the [*****] shall either cause the charge to be waived or pay the charges directly. For\nthose Items above that the [*****] is required by Law to pay, the [*****] shall charge the [*****] and the [*****] shall reimburse the\n[*****] in an amount whi"
+    },
+    {
+      "clause_number": "22",
+      "clause_heading": "ASSIGNMENT",
+      "clause_type": "Confidentiality",
+      "text": "There are no beneficiaries of this Agreement other than the Parties hereto and their Affiliates and Subcontractors to the extent provided\nherein.\n \n \n[*****] Confidential material redacted and filed separately with the Securities and Exchange Commission.\n \nAZUL–ATR\n \nGlobal Maintenance Master Agreement\nDS/CS-3957/14/Issue 7\n \nPage 34/110\nSource: AZUL SA, F-1/A, 3/3/2017\n\nExecution version\n \nThis Agreement shall be binding on the successors and permitted assignees of the Parties hereto.\n \n \na)\nThis Agreement has been entered into between the Parties in consideration of and based on characteristics specific to the Parties.\nConsequently either this Agreement or any of the respective rights or obligations of the Parties hereunder may be assigned or\notherwise transferred, in whole or in part, in any form whatsoever (including by way of change of Control), by either Party subject to the\nprior written consent of the other Party, which consent shall not be unreasonably withheld or delayed, and any attempt to do so without\nsuch consent shall be null and void.\n \n \nb)\nNotwithstanding the above:\n \n \n(i)\nthe Parties may at any time assign or transfer all or part of its rights and obligations un"
+    },
+    {
+      "clause_number": "23",
+      "clause_heading": "MISCELLANEOUS",
+      "clause_type": "Payment & Compensation",
+      "text": "23.1 The time stipulated in this Agreement for all payments by the Company to the Repairer under this Agreement shall be of the essence."
+    },
+    {
+      "clause_number": "23.2",
+      "clause_heading": "Survival",
+      "clause_type": "Termination",
+      "text": "notwithstanding anything to the contrary stated in this Agreement, no termination or expiry of this Agreement shall affect the\nfollowing rights or obligations of any Party hereto:\n \n \n(a)\nwith respect to any payment hereunder actually owed by either Party to the other under this Agreement prior to the End Date; and/or,\n \n \n(b)\npursuant to Clauses 2 – “Definitions and interpretation”, 4 – “Excusable Delay”, 8 – “Insurances”, 9 – “Warranties”, 14 –\n“Disclaimer”, 15 – “Liability and indemnity”, 16 – “Termination”, 20 – “Confidentiality”, 23.2 – “Survival”, 23.5 – “No waiver”, 23.8 –\n“Severability”, and 24 – “Governing law and arbitration”; and/or,\n \n \n(c)\npursuant to any other provisions of this Agreement that, by their nature and context, are intended to survive termination of this\nAgreement."
+    },
+    {
+      "clause_number": "23.3",
+      "clause_heading": "Representations",
+      "clause_type": "Governing Law",
+      "text": "each Party represents to the other Party that:\n \n \n23.3.1\nIt is a legal entity duly incorporated and validly existing under the laws of the jurisdiction indicated in this Agreement;\n \n \nAZUL–ATR\n \nGlobal Maintenance Master Agreement\nDS/CS-3957/14/Issue 7\n \nPage 35/110\nSource: AZUL SA, F-1/A, 3/3/2017\n\nExecution version\n \nCONFIDENTIAL TREATMENT REQUESTED\n \n \n \n23.3.2\nThe entering into and performance by it of its obligations in this Agreement are within its corporate powers and have been duly\nauthorized by all necessary corporate action and are not in violation of any applicable Law or documents, and do not require the\nconsent or approval of, or registration or filing with, any Government Entity other than those already obtained or effected;\n \n \n23.3.3\nThe signatory executing this Agreement on such Party’s behalf has been vested with the necessary authority and power to enter\ninto this Agreement on its behalf;\n \n \n23.3.4\nThis Agreement constitutes the Parties’ legal, valid and binding obligation;\n \n \n23.3.5\nSubject to Clause 20 (“Confidentiality”), it will furnish all information relating to the provisions of the Services hereunder reasonably\nrequired by the other Party and/or any G"
+    },
+    {
+      "clause_number": "23.4",
+      "clause_heading": "Left intentionally blank",
+      "clause_type": "General / Operational",
+      "text": "23.5 No waiver: the failure by either Party to enforce at any time any of the provisions of this Agreement, or to require at any time the performance\nby the other Party of any of the provisions hereof, shall not be construed to be a waiver of such provisions, nor in any way affect the validity\nof this Agreement or any part thereof, or the right of such Party thereafter to enforce each and every such provision."
+    },
+    {
+      "clause_number": "23.6",
+      "clause_heading": "Independent contractors",
+      "clause_type": "General / Operational",
+      "text": "neither Party is the representative or agent of the other Party for the purposes of this Agreement and nothing\nherein shall be construed as authorizing either Party to act as the other Party’s representative or agent. Notwithstanding any other provisions\nof this Agreement, this Agreement shall not be construed as a joint venture, partnership, agency, incorporation or business association. Each\nParty hereto shall remain an independent contractor."
+    },
+    {
+      "clause_number": "23.7",
+      "clause_heading": "Amendments",
+      "clause_type": "General / Operational",
+      "text": "this Agreement shall only be varied or amended by a written document duly signed by duly authorized representatives of both\nParties. Notwithstanding the foregoing, Exhibit 1 (“List of ATR aircraft covered under this Agreement”) and the Pool may be amended from\ntime to time by the Repairer by way of Notice sent to the Company, unless, for LRU’s reference suppression/replacement, the Company does\nnot agree the same by way of Notice within [*****] as from the receipt date of the said Notice from the Repairer, in compliance with this\nAgreement and provided that it has no material economic impact to the Company."
+    },
+    {
+      "clause_number": "23.8",
+      "clause_heading": "Severability",
+      "clause_type": "Limitation of Liability",
+      "text": "if any term or provision of this Agreement is determined to be invalid, illegal or incapable of being enforced by any rule of Law\nor public policy, all other terms and provisions hereof shall remain in full force and effect, and the Parties shall negotiate in good faith in order\nto modify this Agreement with a provision having substantially the same legal and commercial effect as the severed provision."
+    },
+    {
+      "clause_number": "23.9",
+      "clause_heading": "Entire Agreement",
+      "clause_type": "General / Operational",
+      "text": "this Agreement constitutes the entire agreement between the Parties and supersedes and replaces all prior discussions,\nrepresentations, understandings or agreements whether verbal or written, between the Parties hereto or their agents with respect to or in\nconnection with the subject matter hereto, save and except for the provisions of any agreements which by their nature or wording are\nintended to remain in full force and effect (including pre-existing confidentiality or non-disclosure undertakings not otherwise covered\nherein). No other documents and agreements, including either Party’s standard terms and conditions, whether existing or future, will apply\nbetween the Parties with respect to the subject matter of this\n \n[*****] Confidential material redacted and filed separately with the Securities and Exchange Commission.\n \nAZUL–ATR\n \nGlobal Maintenance Master Agreement\nDS/CS-3957/14/Issue 7\n \nPage 36/110\nSource: AZUL SA, F-1/A, 3/3/2017\n\nExecution version\n \nAgreement, unless where otherwise expressly provided for in this Agreement.\nEach Party acknowledges that, in entering into this Agreement, it has not relied on, and shall have no right or remedy (other than for breach\nof cont"
+    },
+    {
+      "clause_number": "24",
+      "clause_heading": "GOVERNING LAW AND ARBITRATION",
+      "clause_type": "Dispute Resolution",
+      "text": "24.1 Governing law:\nPursuant to and in accordance with Section 5-1401 of the New York General Obligations Law, the Parties hereto agree that this Agreement in\nall respects, and any claim or cause of action based upon or arising out of this Agreement, or any dealing between the Parties\n \nAZUL–ATR\n \nGlobal Maintenance Master Agreement\nDS/CS-3957/14/Issue 7\n \nPage 37/110\nSource: AZUL SA, F-1/A, 3/3/2017\n\nExecution version\n \nCONFIDENTIAL TREATMENT REQUESTED\n \nrelating to the subject matter of this Agreement or the transactions contemplated hereby or the Company/Repairer relationship being\nestablished, shall be governed by, and construed in accordance with, the laws of the State of New York, U.S.A. as applied to contracts to be\nperformed wholly within the State of New York (Exclusive of Section 7-101 of the New York General Obligations Law which is inapplicable to\nthis Agreement)."
+    },
+    {
+      "clause_number": "24.2",
+      "clause_heading": "Arbitration",
+      "clause_type": "Termination",
+      "text": "in the event of a dispute arising out of or relating to this Agreement, including without limitation disputes regarding the\nexistence, validity or termination of this Agreement (a “Dispute”), either Party may notify such Dispute to the other through service of a\nwritten notice (the “Notice of Dispute”). The Parties shall make their reasonable endeavours to settle the Dispute amicably by a committee\ncomposed of one (1) management representative of each Party (the “Representatives”). Such committee shall be created by the Parties within\n[*****] from the date of receipt of the Notice of Dispute.\n \n \n24.2.1\nSubject to sub-Clause 24.2.5 below and in the event the Representatives (i) fail to create such committee or (ii) do not agree on an\namicable settlement within [*****] from the date the committee referred to in this sub-Clause 24.2 has been created or such longer\nperiod as may be agreed upon in writing by the Representatives (the “Amicable Settlement Period”), the Dispute shall be\nexclusively and finally settled under the Rules and Conciliation of Arbitration of the International Chamber of Commerce (the “ICC”)\nby an arbitral tribunal composed of three (3) arbitrators; each Party sh"
+    },
+    {
+      "clause_number": "14",
+      "clause_heading": "OF THE AGREEMENT",
+      "clause_type": "Confidentiality",
+      "text": "[*****] Confidential material redacted and filed separately with the Securities and Exchange Commission.\n \nAZUL–ATR\n \nGlobal Maintenance Master Agreement\nDS/CS-3957/14/Issue 7\n \nPage 42/110\nSource: AZUL SA, F-1/A, 3/3/2017\n\nExecution version\n \nCONFIDENTIAL TREATMENT REQUESTED\n \nEXHIBIT 2 – LIST OF SERVICES PROVIDED UNDER THIS AGREEMENT\nThe Repairer shall provide the Company with the following Services:\n[*****]\nALL ITEMS, PARTS, COMPONENTS, SERVICES, WARRANTIES AND GUARANTEES PROVIDED HEREUNDER ARE PROVIDED SUBJECT TO"
+    },
+    {
+      "clause_number": "14",
+      "clause_heading": "OF THE AGREEMENT",
+      "clause_type": "Confidentiality",
+      "text": "[*****] Confidential material redacted and filed separately with the Securities and Exchange Commission.\n \nAZUL–ATR\n \nGlobal Maintenance Master Agreement\nDS/CS-3957/14/Issue 7\n \nPage 43/110\nSource: AZUL SA, F-1/A, 3/3/2017\n\nExecution version\n \nCONFIDENTIAL TREATMENT REQUESTED\n \nEXHIBIT 3 – MAIN ELEMENTS COVERED UNDER THE AGREEMENT\n[*****]\nPart number of each assembly and subcomponent to be provided by the Company.\nALL ITEMS, PARTS, COMPONENTS, SERVICES, WARRANTIES AND GUARANTEES PROVIDED HEREUNDER ARE PROVIDED SUBJECT TO"
+    },
+    {
+      "clause_number": "14",
+      "clause_heading": "OF THE AGREEMENT",
+      "clause_type": "Confidentiality",
+      "text": "[*****] Confidential material redacted and filed separately with the Securities and Exchange Commission.\n \nAZUL–ATR\n \nGlobal Maintenance Master Agreement\nDS/CS-3957/14/Issue 7\n \nPage 44/110\nSource: AZUL SA, F-1/A, 3/3/2017\n\nExecution version\n \nCONFIDENTIAL TREATMENT REQUESTED\n \nEXHIBIT 4 – LIST OF LANDING GEAR ON CONDITION PARTS\n[*****]\nALL ITEMS, PARTS, COMPONENTS, SERVICES, WARRANTIES AND GUARANTEES PROVIDED HEREUNDER ARE PROVIDED SUBJECT TO"
+    },
+    {
+      "clause_number": "14",
+      "clause_heading": "OF THE AGREEMENT",
+      "clause_type": "Confidentiality",
+      "text": "[*****] Confidential material redacted and filed separately with the Securities and Exchange Commission.\n \nAZUL–ATR\n \nGlobal Maintenance Master Agreement\nDS/CS-3957/14/Issue 7\n \nPage 45/110\nSource: AZUL SA, F-1/A, 3/3/2017\n\nExecution version\n \nCONFIDENTIAL TREATMENT REQUESTED\n \nEXHIBIT 5 – STOCK\nThe following Exhibit is composed of sixteen (16) pages, into which are listed [*****] part numbers.\n \n[*****]\n \nDESCRIPTION\n \n[*****]\n[*****]\n \nEXCHANGER-HEAT,DUAL\n \n[*****]\n[*****]\n \nCONDENSER\n \n[*****]\n[*****]\n \nCOOLING UNIT\n \n[*****]\n[*****]\n \nVALVE-TURBINE INLET CONTROL\n \n[*****]\n[*****]\n \nFLIGHT DATA ACQUISITION UNIT\n \n[*****]\n[*****]\n \nFLIGHT GUIDANCE CONTROL PANEL\n \n[*****]\n[*****]\n \nAUTO PILOT SERVO-ACTUATOR\n \n[*****]\n[*****]\n \nAUTO PILOT CAPSTAN\n \n[*****]\n[*****]\n \nCVR-SOLID STATE\n \n[*****]\n[*****]\n \nCONTROL UNIT-CVR\n \n[*****]\n[*****]\n \nAUDIO CONTROL PANEL\n \n[*****]\n[*****]\n \nAMPLIFIER-PASSENGER ADDRESS\n \n[*****]\n[*****]\n \nSTARTER GENERATOR-DC\n \n[*****]\n[*****]\n \nCONTROL UNIT-GENERATOR,AC\n \n[*****]\n[*****]\n \nCONTROL UNIT-BUS POWER,AC\n \n[*****]\n[*****]\n \nCONTACTOR-ACW\n \n[*****]\n[*****]\n \nATTENDANT PANEL\n \n[*****]\n[*****]\n \nATTENDANT PANEL\n \n[*****]\n[*****]\n \nATTENDANT PANEL USB KEY"
+    },
+    {
+      "clause_number": "14",
+      "clause_heading": "OF THE AGREEMENT",
+      "clause_type": "Confidentiality",
+      "text": "[*****] Confidential material redacted and filed separately with the Securities and Exchange Commission.\n \nAZUL–ATR\n \nGlobal Maintenance Master Agreement\nDS/CS-3957/14/Issue 7\n \nPage 61/110\nSource: AZUL SA, F-1/A, 3/3/2017\n\nExecution version\n \nCONFIDENTIAL TREATMENT REQUESTED\n \nEXHIBIT 6 – LRUs COVERED BY REPAIR AND STANDARD EXCHANGE SERVICES\nThe following Exhibit is composed of eight (8) pages, into which are listed [*****] part numbers."
+    },
+    {
+      "clause_number": "1",
+      "clause_heading": "List A",
+      "clause_type": "General / Operational",
+      "text": "The following list of LRUs contains [*****] part numbers.\n \n[*****]\n \nDescription\n[*****]\n \nWATER EXTRACTOR\n[*****]\n \nAIR CYCLE UNIT\n[*****]\n \nDIGITAL CONTROLLER\n[*****]\n \nCONDITIONED AIR CHECK VALVE\n[*****]\n \nREGULATOR-PRESSURE\n[*****]\n \nPRESSURE REG AND S/O VALVE\n[*****]\n \nBUTTERFLY MODULATING VALVE\n[*****]\n \nCHECK VALVE\n[*****]\n \nCHECK VALVE\n[*****]\n \nPRESSURIZATION INDICATOR\n[*****]\n \nDUAL TEMPERATURE INDICATOR\n[*****]\n \nCONTROLLER-TEMP\n[*****]\n \nOVERTEMP. SWITCH\n[*****]\n \nVLV-U/FLOOR ISOL/VEN\n[*****]\n \nCONDENSER\n[*****]\n \nCONTROLLER-MANUAL\n[*****]\n \nVLV-SHUTOFF TURBOFAN\n[*****]\n \nTEMPERATURE CONTROL VALVE\n[*****]\n \nRECIRCULATION FAN ASSY\n[*****]\n \nGROUND COOLING FAN\n[*****]\n \nE/E COOLING FAN\n[*****]\n \nAMBIANT PRESSURE UNIT\n[*****]\n \nUNDER FLOOR VALVE\n[*****]\n \nGND OUTFLOW VALVE\n[*****]\n \nROD-DYNAMOMETRIC ELE\n[*****]\n \nROD-DYNAMOMTRC RUDDR\n[*****]\n \nFORCE DETECTOR ROD\n[*****]\n \nROD-DYNAMOMETRIC ELE\n[*****]\n \nAP.SERVO ACTUATOR\n[*****]\n \nADVISORY DISPLAY\n[*****]\n \nAUTOPILOT COMPUTER\n[*****]\n \nAUTOPILOT COMPUTER\n[*****]\n \nAP/FD CONTROL PANEL\n[*****]\n \nFLIGHT GUIDANCE CONTROL PANEL\n[*****]\n \nFLIGHT GUIDANCE CONTROL PANEL\n[*****]\n \nFLIGHT GUIDANCE CONTROL PANEL\n \n[*****] Confidentia"
+    },
+    {
+      "clause_number": "2",
+      "clause_heading": "List B",
+      "clause_type": "General / Operational",
+      "text": "The following list of LRUs contains [*****] part numbers.\n \n[*****]\n \nDescription\n[*****]\n \nT.I.C. VALVE\n[*****]\n \nEXCHANGER\n[*****]\n \nAUDIO CONTROL PANEL\n[*****]\n \nBUS POWER CONTROL UNIT\n[*****]\n \nAC GENERATOR\n[*****]\n \nDC STARTER GENERATOR\n[*****]\n \nTRIM ACTUATOR\n[*****]\n \nDUAL DISTRIBUTOR VALVE\n[*****]\n \nANTICOLL. LIGHT\n[*****]\n \nSTROBE LIGHTS\n[*****]\n \nPOWER SUPPLY UNIT\n[*****]\n \nEMERGENCY POWER SUPPLY\n[*****]\n \nHEATER-OIL TO FUEL\nFor sake of clarity, the above lists may be amended from time to time by way of Notice sent to the Company by the Repairer.\nALL ITEMS, PARTS, COMPONENTS, SERVICES, WARRANTIES AND GUARANTEES PROVIDED HEREUNDER ARE PROVIDED SUBJECT TO"
+    },
+    {
+      "clause_number": "14",
+      "clause_heading": "OF THE AGREEMENT",
+      "clause_type": "Confidentiality",
+      "text": "[*****] Confidential material redacted and filed separately with the Securities and Exchange Commission.\n \nAZUL–ATR\n \nGlobal Maintenance Master Agreement\nDS/CS-3957/14/Issue 7\n \nPage 70/110\nSource: AZUL SA, F-1/A, 3/3/2017\n\nExecution version\n \nEXHIBIT 7 – REPAIRER STANDARD WORK ORDER FORMS\n7-1 Standard exchange order:\n \n \n \nAZUL–ATR\n \nGlobal Maintenance Master Agreement\nDS/CS-3957/14/Issue 7\n \nPage 71/110\nSource: AZUL SA, F-1/A, 3/3/2017\n\nExecution version\n \n7-2 Repair order:\n \n \nAgreement ref.: code client-GMA-01\n \n \nSHIPPING DATE:\n \nPAGE: 1 / 1\nREPAIR ORDER\n(THIS FORM MUST BE ENCLOSED INSIDE THE BOX WITH THE UNIT)\n \nFROM:\n \n \n  TO (Shipping address):\n \nCOMPANY NAME\nSender:\n \nTel:\nFax:\n \n \n  ATR CUSTOMER SUPPORT\nc/o DHL Solutions\nZA du Pont Yblon\n95 500 Bonneuil en France\nFRANCE\n \n \n \n \n \n \n \n \n \n   \n \nREPAIR ORDER NUMBER :\n \nDATA RELATED TO REMOVED UNIT\nA/C\nDATA\n  TYPE:\n \nMSN:\n  FH:\n  REGISTRATION:\n \n  CY:\nUNIT\nDATA\n  PART NUMBER:\n  TSN:\n  AMENDMENT:\n  CSN:\n  SERIAL NBR:\n  TSO:\n  DESIGNATION:PAGE:\n  CSO:\n \nWARRANTY COVERAGE\nINSTALLATION DATE:\n  VENDOR (O.E.M.):\n  YES\n  NO\nREMOVAL DATE:\n  A.C.S. REPAIR:\n  YES\n  NO\n \nREASON FOR REMOVAL\n \n \n \n \n \n \n \n \n \n \n \n \nREQUESTED WORK\nREPAIR\n"
+    },
+    {
+      "clause_number": "1",
+      "clause_heading": "Lease of the Stock",
+      "clause_type": "General / Operational",
+      "text": "The Repairer agrees to lease the Stock to the Company and the Company agree to take the Stock on lease, subject to the terms and conditions of\nthis Agreement."
+    },
+    {
+      "clause_number": "2",
+      "clause_heading": "Content and value of the Stock",
+      "clause_type": "General / Operational",
+      "text": "2.1\nContent: the Stock listed in Exhibit 5 (“Stock”) contains serviceable Items, either brand new or used, depending on availability of such Items\nby the Repairer at the time of their respective Delivery."
+    },
+    {
+      "clause_number": "2.2",
+      "clause_heading": "Value",
+      "clause_type": "General / Operational",
+      "text": "the Stock total value for brand new Items, under economic conditions prevailing in two thousand fourteen (2014), shall be:\nFor the initial AZUL stock delivered under economic conditions 2010, [*****]\nFor the stock delivered under the AZUL amendment 3 under economic conditions 2011, [*****]\nFor the stock delivered under the AZUL amendment 4 under economic conditions 2011, [*****]\nFor the first batch, stock delivered under the GMA TRIP under economic conditions 2011 [*****]\nFor the second batch limited to the parts not recommended by the repairer, stock delivered under the GMA TRIP under economic\nconditions 2011 [*****]\nFor the sake of clarity, parts of the Stock contained into the second batch that are recommended by Repairer, are provided [*****]\ndelivered under the GMA TRIP under economic conditions 2011 [*****]\nFor the batch related to the Amendment 5, stock delivered under economic conditions 2013 [*****]\nFor the batch related to the Amendment 6, stock delivered under economic conditions 2014 [*****]\nFor the batch related to the Amendment 7, stock delivered under economic conditions 2014 [*****]\nFor the batch related to the 2014 OSS replenishment, stock delivered under economic "
+    },
+    {
+      "clause_number": "2.3",
+      "clause_heading": "Modification of the Stock",
+      "clause_type": "General / Operational",
+      "text": "on the first anniversary date of the Start Date, the Parties may review the content of the Stock and shall, in case of\na variation in the contents of the Stock, amend the Agreement accordingly by way of Notice sent by the Repairer to the Company. Following\nsuch amendment, the Company shall return to the Repairer any Item of the Stock, or request the Repairer to replace any Item within the Stock\nsubject to the following conditions:\n \n \na)\nthe Item returned by the Company (i) has never been used by the Company since the Start Date, (ii) is in serviceable condition, (iii) is\ndelivered in its original Packaging and with all appropriate airworthiness documents; and,\n \n \nb)\nthe Item shall be returned as per Clause 6.2 of this Agreement; and,\n \n \nc)\nif an Item is returned to the Repairer, the value of the Stock shall be modified by deduction of the initial value of the relevant Item\napplicable at the time of its Delivery; and,\n \n \nd)\nif an Item is added to the Stock, the value of the Stock shall be increased according to the ATR spare parts catalogue price for the added\nItem at the economic conditions corresponding to the time when the Stock is modified.\nThe Company shall be responsible f"
+    },
+    {
+      "clause_number": "2.4",
+      "clause_heading": "Inventory of the Stock",
+      "clause_type": "General / Operational",
+      "text": "the Repairer or any representative it designates shall have the right to inspect the Stock and to audit any records\nrelating thereto at any reasonable time upon giving prior Notice to the Company, which shall provide full access to such Stock to enable the\nRepairer to conduct periodic inventory inspections and/or any audit of the Stock.\nShould any Item of the Stock be missing, partially or totally damaged, or not have its appropriate airworthiness documentation at the time the\nRepairer or its representative carries out its inspection and/or audit, and if the Company cannot justify such Item as being under repair, the\nCompany shall have [*****] to remedy the situation to the satisfaction of the Repairer, failing which, the Repairer shall invoice the Company\nthe price for any such lost or damaged Item at the ATR spare parts catalogue price applicable on the date of such invoice for a new part\ninitially delivered by the Repairer. In the event the Repairer initially delivered used Items to the Company, each such used lost Item shall be\ninvoiced at [*****]\n \n[*****] Confidential material redacted and filed separately with the Securities and Exchange Commission.\n \nAZUL–ATR\n \nGlobal Maint"
+    },
+    {
+      "clause_number": "3",
+      "clause_heading": "Stock Delivery",
+      "clause_type": "General / Operational",
+      "text": "3.1\nProvided the Company has met each of the conditions precedent as per Clause 17 (“Conditions precedent”) of the Agreement, the Stock shall\nbe delivered to the Company by the Repairer with the relevant airworthiness documents (certificate of conformity, ANAC SEGVOO 003 or\nEASA Form 1 or FAA Form 8130-3), [*****] to the Repairer stores located at the address set forth in Clause 6.1 of this Agreement, or such\nother location as the Repairer may from time to time notify to the Company .\n \n3.2\nThe Repairer shall use its reasonable endeavours to deliver [*****] in quantity of the Stock within [*****] as from the Start Date.\n \n3.3\nAs from the Delivery of the Stock, the Company is appointed as the custodian of the Stock and, all risks relating to or arising in connection\nwith the Stock shall be transferred to, vested in and borne by the Company, which shall promptly notify the Repairer of any loss or damage to\nthe Stock.\n \n3.4\nWithin [*****] as from the date of Delivery of any Item of the Stock, the Company shall be responsible for obtaining and shall provide the\nRepairer with evidence in respect of (i) custom clearance, including payment fees, customs duties, and (ii) customs declaratio"
+    },
+    {
+      "clause_number": "4",
+      "clause_heading": "Storage Location of the Stock",
+      "clause_type": "General / Operational",
+      "text": "(i)\nThe Storage Location shall be:\nRodovia Santos Dumont, Km 66, Jardim Itatinga, Campinas – São Paulo, Brazil CEP 13052-970.\nAnd\nAv Portugal, 5139, Itapoa – Belo Horizonte, Minas Genais, Brazil \nor any other address notified from time to time by the Company to the Repairer, or by default the address of the Company as indicated\nin page four (4) of this Agreement.\n \n \n(ii)\nThe Stock shall be kept with its corresponding documentation in secured warehouse facilities at the Storage Location, which\nshall be separated from any area used to store any other equipment, and each Item shall be clearly identified as belonging to the\nRepairer and/or the Stock owner with the inscription “ATR PROPERTY”.\n \n \n(iii)\nThe Company shall notify to the Repairer the name and address of the owner or landlord of the Storage Location, if relevant, and\neach time such owner or landlord changes; the Company shall notify the said new owner or landlord, if relevant, of the\nRepairer’s property of the Stock and copy the Repairer of such notification.\n \n \n(iv)\nThe Company shall be liable for maintaining the Stock by applying the best methods for storage and maintenance as required by\napplicable EASA or\n \n[*****] Con"
+    },
+    {
+      "clause_number": "5",
+      "clause_heading": "Use and repair of the Stock",
+      "clause_type": "General / Operational",
+      "text": "(i)\nEach Item listed in Exhibit 3 (“Main Elements covered under this Agreement”) and Exhibit 6 (“LRUs covered by repair and standard\nexchange Services”) withdrawn from the Stock and used by the Company shall be exclusively repaired by the Repairer.\n \n \n(ii)\nThe Company shall be entitled to withdraw and use Items from the Stock in accordance with its operational needs, to remedy to any\ncorresponding unserviceable Item fitted on the Aircraft covered under this Agreement (Exhibit 1 “List of ATR Aircraft covered under\nthis Agreement”).\n \n \n(iii)\nIn such case, the Company shall return to the Repairer such unserviceable Item removed from the Aircraft with a Work Order for repair\nin the form set out in Exhibit 7-2 within [*****] from the withdrawal of the corresponding Item from the Stock.\nThe Repairer shall then repair, as relevant, such unserviceable Item in accordance with the provisions of Exhibits 10 and/or 11 and re-\ndeliver to the Company a serviceable Item with the relevant associated airworthiness documentation (i.e. a certificate of conformity,\nANAC SEGVOO 003 and EASA Form 1 or FAA Form 8130-3,and when applicable the log book duly filled with any technical\ninformation).\nThe Com"
+    },
+    {
+      "clause_number": "6",
+      "clause_heading": "Return of the Stock",
+      "clause_type": "General / Operational",
+      "text": "6.1\nWithin [*****] as from the End Date, the Company shall notify the Repairer of its decision to either:\n \n \n(a)\n[*****] and/or,\n \n \n(b)\nreturn the Stock to the Repairer as per Clause 6.2 of the Agreement in accordance with the following terms and conditions; such return\nshall have to be performed within [*****] following such Notice.\nIf the Company fails to notify the Repairer as provided here above, the Repairer shall either (i) invoice as per (a) here above and/or (ii) direct\nthe Company to return the Stock within [*****] following the term of the aforesaid [*****] period and/or (iii) repossess the Stock, at its\ndiscretion.\n \n6.2\nIf the Company fails to return the Stock as provided here above, the Company shall be charged interest at a rate equal to [*****] of the value\nof the non-returned Items, per Day as from the end of the aforesaid [*****] period, until the non-returned Items are duly received or\nrepossessed by the Repairer.\nThe Repairer shall be entitled to set off such late return interests with the Security Deposit pursuant to Clause 13 (“Security Deposit”).\n \n6.3\nIn the event any Item of the Stock is not returned to or repossessed by the Repairer within [*****] period "
+    },
+    {
+      "clause_number": "6.5",
+      "clause_heading": "Conditions for the return of the Main Elements",
+      "clause_type": "Payment & Compensation",
+      "text": "when returned or repossessed, if the TSO of the Main Element is different from the TSO at\nthe time of its Delivery, the Repairer shall invoice to the Company the Lost Potential as per the conditions of this Agreement.\nIn case the maintenance of the Main Elements is not covered by this Agreement, the Company shall return any Main Element with the same\nTSO as the one at the time of its Delivery. If such TSO is higher, the Repairer shall invoice to the Company the works necessary to restore\nsuch TSO based on Time and Material conditions.\n \n[*****] Confidential material redacted and filed separately with the Securities and Exchange Commission.\n \nAZUL–ATR\n \nGlobal Maintenance Master Agreement\nDS/CS-3957/14/Issue 7\n \nPage 79/110\nSource: AZUL SA, F-1/A, 3/3/2017\n\nExecution version"
+    },
+    {
+      "clause_number": "7",
+      "clause_heading": "Payment and transfer of the property title",
+      "clause_type": "Payment & Compensation",
+      "text": "7.1\nSave as otherwise set out in this Agreement, the purchase price for any Item of the Stock shall be paid in accordance with the provisions of\nClause 12 (“Invoicing and payment terms”).\n \n7.2\nNotwithstanding the provisions of Clause 5 above, title to the Stock shall remain with Stock owner at all times until the Stock has been\npurchased by the Company as per Clause 6 above and provided that any amount of the corresponding invoice has been fully received by the\nRepairer in accordance with Clause 12 (“Invoicing and payment terms”).\nThe Company specifically agrees that it shall not acquire any interest, equity or share of the Stock, or pledge or create any lien of any sort\nwhatsoever prior to the transfer of title to the Stock to it in accordance with this Agreement and shall fully indemnify the Stock Owner and/or\nthe Repairer with respect to any consequence of a non-compliance with its obligations under this Clause 7.2.\n \n7.3\nThe Company may not, under any circumstances, perform or permit any action to be taken that may be detrimental to the Repairer’s and/or\nStock owner’s property title to the Stock, including:\n \n \ni)\nThe Company must not transfer, sell, charge, pawn, mortgage, ne"
+    },
+    {
+      "clause_number": "1",
+      "clause_heading": "Pool content",
+      "clause_type": "General / Operational",
+      "text": "The Pool is a set of serviceable LRUs listed in Exhibit 6 (“LRUs covered by repair and standard exchange Services”) available upon the Start Date,\nprovided the Company has complied with its obligations pursuant to Clause 17 (“Conditions precedent”).\nIn the event of any Aircraft technical modification and upon the Company ’s written request, the Repairer may update the list set forth in Exhibit 6\n(“LRUs covered by repair and standard exchange Services”), in which case, the price set out in Clause 1.2 of the Exhibit 14 (“Price conditions”)\nshall be adjusted accordingly."
+    },
+    {
+      "clause_number": "2",
+      "clause_heading": "Access to the Pool",
+      "clause_type": "General / Operational",
+      "text": "To access the Pool and take Delivery of the requested LRU, the Company must place a written standard exchange Work Order (by filling the form\nref 7-1 in Exhibit 7) with the Repairer.\n \n3.\nRepairer’s obligations"
+    },
+    {
+      "clause_number": "3.1",
+      "clause_heading": "Pool management",
+      "clause_type": "General / Operational",
+      "text": "The Repairer shall be responsible for managing and maintaining the Pool at his own expense and in compliance with the relevant OEM\nrecommendations.\nAny LRU from the Pool delivered to the Company by the Repairer or any Repair Shop shall comply with the applicable Aircraft technical\nspecifications."
+    },
+    {
+      "clause_number": "3.2",
+      "clause_heading": "Dispatching the Items",
+      "clause_type": "General / Operational",
+      "text": "(i)\nAny LRU from the Pool shall be delivered to the Company pursuant to Clause 6.1 of the Agreement within [*****] for routine orders,\nwithin [*****] for critical orders or within [*****] for AOG orders (limited to classified “no-go and go if” LRUs according to MMEL) as\nthe case may be, starting from the Day of receipt by the Repairer of a standard exchange Work Order.\n \n \n(ii)\nThe dispatch lead times set forth in Clause 3.2 (i) above remain subject to:\n \n \n(a)\nreception by the Repairer of written standard exchange Work Order 7.1 duly filled in by the Company; and,\n \n[*****] Confidential material redacted and filed separately with the Securities and Exchange Commission.\n \nAZUL–ATR\n \nGlobal Maintenance Master Agreement\nDS/CS-3957/14/Issue 7\n \nPage 81/110\nSource: AZUL SA, F-1/A, 3/3/2017\n\nExecution version\n \nCONFIDENTIAL TREATMENT REQUESTED\n \n \n \n(b)\nthe availability in the Company ’s facilities of a stock of critical Items at least at the level of Repairer’s recommendations for the\nAircraft fleet; and,\n \n \n(c)\nthe number of AOG standard exchange Work Orders being less than [*****] of the total number of standard exchange Work\nOrders placed by the Company over the last [*****]; and,\n"
+    },
+    {
+      "clause_number": "4",
+      "clause_heading": "Core Unit return",
+      "clause_type": "General / Operational",
+      "text": "4.1\nReturn lead time\n \n \n(i)\nThe Company shall return to the Repairer’s facilities indicated in Clause 6 (“Deliveries”) any Core Unit with the Work Order form ref 7-3\nduly filled-in, as standard exchange counterparts, within a maximum [*****] as from the Delivery Date of the LRU from the Pool for any\nItems from the list A of the Exhibit 6 (“LRUs covered by repair and standard exchange services”) and within a maximum of [*****] as\nfrom the Delivery Date of the LRU from the Pool for any Items from the list B of the Exhibit 6 (“LRUs covered by repair and standard\nexchange services”).\nFor sake of clarity, in the event a Core Unit is not returned by the Company to the right Delivery Location as specified in the Clause 6\n(“Deliveries”), the Repairer shall be entitled to charge the Company transportation costs, associated taxes and Customs duties due to\nthe re-exportation of such Core Unit to the right Delivery Location.\n \n \n(ii)\nPrior to dispatching any Core Unit, the Company will also send by fax or by email all the data related to the dispatch (including the date\nof dispatch and the carrier’s name).\n \n \n(iii)\nNotwithstanding the above provision in sub-clause 4.1 (i), in the event a Cor"
+    },
+    {
+      "clause_number": "5",
+      "clause_heading": "Specific services not covered by standard exchange Service",
+      "clause_type": "General / Operational",
+      "text": "The following services and their related costs (labor and parts) are not eligible to the standard exchange Service, and shall be managed on\nTime and Material conditions:\n \n \n(i)\nservices performed for LRU(s) fitted on Aircraft to comply with Aircraft redelivery conditions or delivery conditions of a third party. For\nsake of clarity, Aircraft redelivery conditions or delivery conditions of a third party will have to be declared by the Company to the\nRepairer in anticipation [*****] before the stop of the Aircraft;\n \n \n(ii)\nservices performed for any part of the Company’s own inventory if any, to be replaced, or maintained, re-certified, tested, checked, for\ninventory management and/or maintenance reasons (shelf life, cure dates…)."
+    },
+    {
+      "clause_number": "6",
+      "clause_heading": "Transfer of title and risks",
+      "clause_type": "General / Operational",
+      "text": "6.1\nTitle to the Items featured in the Pool, or in the Stock in the event of Clause 5 (v) of the Exhibit 8 (“Lease of the Stock”), or the Advanced Pool\nStock of Clause 7 of the Exhibit 15 (“Advanced Pool Service”), remains at all times with the Repairer until:\n \n \n(a)\nreceipt by the Repairer of the corresponding Core Unit in compliance with Clause 4.1 of this Exhibit 9 and of a confirmation from the\nRepair Shop that such Core Unit is repairable; and,\n \n \n(b)\nfull and complete discharge of any and all sums due by the Company under or in connection with this Agreement.\nTitle to the corresponding Core Unit shall pass to the Repairer and/or the Stock owner free from any lien, security or other encumbrance upon\nremoval of such Core Unit from the Aircraft.\n \n[*****] Confidential material redacted and filed separately with the Securities and Exchange Commission.\n \nAZUL–ATR\n \nGlobal Maintenance Master Agreement\nDS/CS-3957/14/Issue 7\n \nPage 83/110\nSource: AZUL SA, F-1/A, 3/3/2017\n\nExecution version\n \nFor the sake of clarity, in the event of Clause 5 (v) of the Exhibit 8 (“Lease of the Stock”) and Clause 7 of the Exhibit 15 (“Advanced Pool\nService”), the Repairer and/or the Stock Owner shall"
+    },
+    {
+      "clause_number": "8",
+      "clause_heading": "FURTHER ASSURANCES",
+      "clause_type": "Payment & Compensation",
+      "text": "The Repairer retains title to any serviceable LRU until payment therefor as provided above. As a precautionary measure however, the\nCompany agrees that the Repairer shall have all rights and remedies afforded to a secured party upon the default of a debtor as provided in\nthe UCC and grants a security interest to the Repairer in all of the Company’s right, title and interest in each serviceable LRU and the\nproceeds thereof and all general (including payment) intangibles related thereto or arising therefrom to secure the prompt and punctual\npayment and performance when due of all obligations of the Company under this Agreement, including this Exhibit.\nThe Company shall do all acts and things necessary or advisable, including execute and deliver all documents, to ensure that the Repairer’s\nright, title and interest in and to the serviceable LRUs is perfected in all applicable jurisdictions and otherwise protected against the current or\nfuture claims of any third-party, including the Company’s creditors, mortgagees, lessors, financing parties, trade creditors, any owner of an\naircraft and other Persons. Such acts and things shall include obtaining such consents and approvals from, and "
+    },
+    {
+      "clause_number": "1",
+      "clause_heading": "Definition of repair",
+      "clause_type": "General / Operational",
+      "text": "Any unserviceable LRU, not declared BER or TNR, shall be repaired or overhauled by the Repairer in compliance with the relevant CMM and\naccording to ANAC or EASA/FAA part 145 regulations.\nIf the Company receives from the Repairer a LRU repaired or overhauled under ANAC regulation only with associated ANAC SEGVOO 003\nrelease, the Company may have the right in case of Aircraft redelivery for replacement of such part by another one with relevant certificate of\nconformity EASA form 1/FAA form 8130-3 dual release. The Repairer shall make its best efforts to provide to the Company the Services in\ncompliance with EASA and FAA for all LRU repaired or overhauled by the local repair shops by end of December of 2015;\n[*****].\nIf the Repairer receives from the Company an excessive number of unserviceable LRUs compared to the MTBUR for such LRU, the Repairer\nmay assist the Company in investigating the causes of such situation, and each Party shall take all necessary corrective actions to the\nsatisfaction of the other Party acting reasonably.\n \n2.\nInformation concerning unserviceable LRUs returned to the Repairer  \nThe Company shall send to the Repairer any unserviceable LRU, as relevant, with a"
+    },
+    {
+      "clause_number": "3",
+      "clause_heading": "Documents provided with the repaired or overhauled LRU",
+      "clause_type": "General / Operational",
+      "text": "The following documents shall be provided by the Repairer to the Company with any repaired or overhauled LRU under this Agreement:\n \n \n(i)\nEASA form 1 certificate or FAA form 8130-3 or, if applicable, ANAC SEGVOO 003,\n \n \n(ii)\nStrip report issued by the Repair Shop, and\n \n \n(iii)\nAn invoice, if such repair service is not covered by the scope of this Agreement."
+    },
+    {
+      "clause_number": "4",
+      "clause_heading": "Specific services not covered by LRU repair Service",
+      "clause_type": "General / Operational",
+      "text": "The following repairs and their related costs (labor and parts) are not covered by the prices set out in Clause 1.3.1 of the Exhibit 14 (“Price\nconditions”) and shall be managed on Time and Material conditions:\n \n \n(i)\nall costs of technical modifications that may be incurred due to the embodiment on LRUs of Airworthiness Directives, service bulletins,\noptional or recommended modifications.\n \n \n(ii)\nthe repair of an unserviceable LRU or additional costs resulting from Items received in damaged conditions due to Abnormal Use,\nmishandling, corrosion, abrasion, FOD and/or missing Items,\n \n[*****] Confidential material redacted and filed separately with the Securities and Exchange Commission.\n \nAZUL–ATR\n \nGlobal Maintenance Master Agreement\nDS/CS-3957/14/Issue 7\n \nPage 85/110\nSource: AZUL SA, F-1/A, 3/3/2017\n\nExecution version\n \nCONFIDENTIAL TREATMENT REQUESTED\n \n \n \n(iii)\nany additional costs in repairing or overhauling any unserviceable LRU due to Company’s failure to produce data as required\nhereunder,,\n \n \n(iv)\nany cost and expense, direct and/or indirect, that may arise out of or connected with any additional technical expertise and/or counter\nexpertise to be performed on any LRU,"
+    },
+    {
+      "clause_number": "5",
+      "clause_heading": "Discarding the LRUs",
+      "clause_type": "General / Operational",
+      "text": "The Parties acknowledge that under normal operating conditions any unserviceable LRU may be BER or TNR.\nThe Repairer shall notify the Company in case of BER or TNR status of any unserviceable LRU, and shall request the Company’s approval to\ndiscard such unserviceable LRU.\nIf the Company denies such approval, the unserviceable LRU shall be delivered back to it at the [*****] costs and risks.\nThe Company’s failure to respond to such Repairer’s request within [*****] following the Repairer’s notification of BER or TNR shall\nconstitute an approval for the Repairer to discard the relevant unserviceable LRU.\nIf the discarded unserviceable LRU has been replaced with a serviceable LRU of the Pool or of the Stock pursuant to the provisions of\nExhibits 8 (“Lease of the Stock”) or 9 (“Spare parts standard exchange Service”), the Repairer shall invoice and the Company shall pay for\nthe price of such serviceable LRU of the Pool or of the Stock, based on the ATR spare parts catalogue sales price applicable at the date of\nsuch invoice for brand new or used LRU, as the case may be.\nALL ITEMS, PARTS, COMPONENTS, SERVICES, WARRANTIES AND GUARANTEES PROVIDED HEREUNDER ARE PROVIDED SUBJECT\nTO CLAUSE 1"
+    },
+    {
+      "clause_number": "1",
+      "clause_heading": "Field of application",
+      "clause_type": "General / Operational",
+      "text": "1.1\nThe Repairer shall provide the Company with a Main Elements’ maintenance (as per Clause 2 of this Exhibit 11) and availability (as per Clause\n3 of this Exhibit 11) Service.\nThis Service is applicable to:\n \n \na)\nMain Elements listed in Exhibit 3 (“Main Elements and parts numbers covered by the Agreement”) when installed on an Aircraft, and\n \n \nb)\nany Main Elements in the Stock as relevant, and\n \n \nc)\nany Spare Main Element.\nThe Services provided to the Company by the Repairer in accordance with this Exhibit 11 cover off-Aircraft tasks and works performed by the\nRepairer. For the sake of clarity and unless otherwise agreed between the Parties, standard exchange Service shall not be available for Main\nElements under this Agreement, except for propeller blades and slip ring as per Clause 3 of this Exhibit 11.\n \n1.2\nMain Elements’ maintenance program (Scheduled Events)\nAt the date of entry into force of this Agreement, the Parties acknowledge and agree that applicable intervals for inspections / overhauls on\nMain Elements are:\n \n \ni)\nfor propellers:\n[*****].\n \n \nii)\nfor landing gears:\n[*****].\nThe Repairer reserves its rights to require the Company to modify the above Main Elements "
+    },
+    {
+      "clause_number": "2.1",
+      "clause_heading": "Any off",
+      "clause_type": "General / Operational",
+      "text": "Aircraft maintenance task and work to be performed on Main Elements and Spare Main Elements shall be carried out in accordance\nwith the relevant CMM for each Main Element. Such maintenance tasks with respect to each Aircraft comprise the following services\n \n[*****] Confidential material redacted and filed separately with the Securities and Exchange Commission.\n \nAZUL–ATR\n \nGlobal Maintenance Master Agreement\nDS/CS-3957/14/Issue 7\n \nPage 87/110\nSource: AZUL SA, F-1/A, 3/3/2017\n\nExecution version\n \nCONFIDENTIAL TREATMENT REQUESTED\n \non which are based the prices set out in Clause 1.3.2 of the Exhibit 14 (“Price conditions”):\n[*****]"
+    },
+    {
+      "clause_number": "2.2",
+      "clause_heading": "Maintenance for Scheduled Events",
+      "clause_type": "General / Operational",
+      "text": "The Repairer shall provide the maintenance Service for Scheduled Events, in accordance with the applicable maintenance program of each\nMain Element described at Clause 1.2 of Exhibit 11.\nIn the event that the Main Element’s maintenance program set out in Clause 1.2 of this Exhibit 11 shall be changed, the Parties hereby agree\nthat the Repairer may modify the price conditions set out in Clause 1.3.2 of the Exhibit 14 (“Price conditions”), as relevant."
+    },
+    {
+      "clause_number": "2.3",
+      "clause_heading": "Basic Unscheduled Removals",
+      "clause_type": "General / Operational",
+      "text": "The repair of Main Elements due to BUR shall be performed by the Repairer according to the relevant CMMV and provided that:\n \n \n-\nThe Company has fulfilled its obligations as per Clause 5 of this Exhibit; and,\n \n \n-\nthe maintenance tasks are related to normal Aircraft operation in accordance with all technical documentation and any other\ninstructions issued by ATR or the OEM; and,\n \n \n-\nthe maintenance tasks are not related to specific conditions as per Clause 6 of this Exhibit."
+    },
+    {
+      "clause_number": "3",
+      "clause_heading": "Spare Main Elements availability Service description",
+      "clause_type": "General / Operational",
+      "text": "3.1\nWith respect to each Aircraft, prices set out in Clause 1.3 of the Exhibit 14 (“Price conditions”) comprise the availability of Spare Main\nElement for Scheduled Events and BUR according to the provisions of sub-clause 3.2 hereof.\nFor the sake of clarity, propeller blades and slip rings may be available through the standard exchange Service, as per the Exhibit 9 (“Spare\nparts standard exchange Service”).\n.\n \n[*****] Confidential material redacted and filed separately with the Securities and Exchange Commission.\n \nAZUL–ATR\n \nGlobal Maintenance Master Agreement\nDS/CS-3957/14/Issue 7\n \nPage 88/110\nSource: AZUL SA, F-1/A, 3/3/2017\n\nExecution version\n \nCONFIDENTIAL TREATMENT REQUESTED\n \n \n3.2\nAvailability of Spare Main Element(s) for Scheduled Events and BUR:  \n \n \n3.2.1.\nSuch Service includes, at any time and for the entire fleet,\n \n \n-\n[*****] propellers,\n \n \n-\n[*****] landing gear,\nIn the event the Company requires any additional Spare Main Element, the Repairer will make a proposal on Time and Material\nconditions.\n \n \n3.2.2\nSubject to the Company having complied with its obligations as per Clause 5 of this Exhibit 11, the Repairer shall make available such\nSpare Main Element(s) d"
+    },
+    {
+      "clause_number": "5.1",
+      "clause_heading": "In respect of the propellers",
+      "clause_type": "General / Operational",
+      "text": "(i)\nperform line checks (not limited to lubricant levels, blade balancing, blade anti-erosion film replacements, etc...) and the required\nconsumable spare parts replacements during the Aircraft’s entire service life;\n \n \n(ii)\nprocure all the tools necessary for the line maintenance of the propellers including the propeller balancing tool; and\n \n \n(iii)\ninitiate and pursue an efficient staggering program to ensure a smooth schedule removal plan for shop maintenance."
+    },
+    {
+      "clause_number": "5.2",
+      "clause_heading": "In respect of the landing gears",
+      "clause_type": "General / Operational",
+      "text": "(i)\nperform the line checks (including Messier best practices service letter 631-32-218) and the required consumable spare parts\nreplacements during the Aircraft’s entire service life, on landing gears, wheels and tires; and\n \n \n(ii)\nprocure all the tools necessary for the line maintenance of the landing gear including the appropriate tooling used for wheels\nreplacement. If required, the Repairer will have to assist the Company in procuring these tools (buying, hiring, etc.); and\n \n \n(iii)\ninitiate and pursue an efficient staggering program to ensure a smooth schedule removal plan for shop maintenance."
+    },
+    {
+      "clause_number": "5.3",
+      "clause_heading": "Left intentionally blank",
+      "clause_type": "General / Operational",
+      "text": "5.4\nOn-Aircraft tasks\nAll scheduled and unscheduled on-Aircraft maintenance activities, tasks and works and line maintenance, including the following, are under\nand at the Company’s responsibility, risks, costs and expenses:\n \n \n(i)\nline maintenance tasks associated with engines, propellers, landing gears, wheels, brakes and tires,\n \n \n(ii)\nMain Elements removals and installations for BUR and Scheduled Events,\n \n \n(iii)\nMain Elements accessories removals and installations,\n \n \n(iv)\nMain Elements conditioning for storage,\n \n \n(v)\ngrease and lubricant refilling, seals, gaskets, hardware and consumable parts replacement,\n \n \n(vi)\npropellers balancing, blades removals and installations,\n \n \n(vii) ensure that log books are reflecting the updated maintenance status of each Main Element.\n \n \n(viii) engine fuel nozzles removals and installations,\n \n \n(ix)\nengine control trend monitoring performance and analysis,\n \n[*****] Confidential material redacted and filed separately with the Securities and Exchange Commission.\n \nAZUL–ATR\n \nGlobal Maintenance Master Agreement\nDS/CS-3957/14/Issue 7\n \nPage 90/110\nSource: AZUL SA, F-1/A, 3/3/2017\n\nSource: AZUL SA, F-1/A, 3/3/2017\n\nExecution version\n \nCO"
+    },
+    {
+      "clause_number": "7",
+      "clause_heading": "Discarding the Main Elements",
+      "clause_type": "General / Operational",
+      "text": "The Parties acknowledge that under normal operating conditions any Main Element may be declared BER or TNR.\nThe Repairer shall notify the Company in case of BER or TNR status of any Main Element, and shall request the Companys approval to\ndiscard such Main Element.\nIf the Company denies such approval, the Main Element shall be delivered back to the Company at its costs and risks.\nThe Parties agree that the absence of a response by the Company to such Repairer’s request within [*****] from the sending of the\nRepairer’s notification of BER or TNR constitutes an approval for the Repairer to discard the relevant Main Element.\n \n[*****] Confidential material redacted and filed separately with the Securities and Exchange Commission.\n \nAZUL–ATR\n \nGlobal Maintenance Master Agreement\nDS/CS-3957/14/Issue 7\n \nPage 91/110\nSource: AZUL SA, F-1/A, 3/3/2017\n\nExecution version\n \nIn the event the Repairer shall discard any unserviceable Main Element, the Company shall pay the applicable price for test and/or scrap, as\nthe case may be.\nIn case of the discarded Main Element is an unserviceable propeller blade that has been replaced with a serviceable propeller blade of the\nPool or of the Stock pursua"
+    },
+    {
+      "clause_number": "1",
+      "clause_heading": "Prices",
+      "clause_type": "General / Operational",
+      "text": "The price payable for the Services shall be the sum of the prices set out in this Agreement and established in accordance with the economic\nconditions prevailing in two thousand and fifteen (2015).\n \n1.1\nThe lease fee payable for the lease of the Stock (based on the Stock technical contents defined in Exhibits 5 [”Stock”] and 8 [”Lease of the\nStock”]), as from the Start Date is [*****]:\n \n \n(i)\nan amount of [*****] corresponding to [*****] of the Stock value which is set in Exhibit 8 (“Lease of the Stock”), Clause 2.2 ; or\n \n \n(ii)\nin the event the Repairer delivers used Items to the Company as per Clause 2.2 of the Exhibit 8 (“Lease of the Stock”), the [*****] set\nforth in 1.1 (i) here above shall be payable from the Start Date until the date on which the last Item of the Stock is delivered. On such\nlatter mentioned date, the Repairer will notify to the Company the exact and definitive Stock value, and the accordingly revised monthly\nlease payment based upon [*****] of such exact and definitive Stock value. Upon Delivery of the last Item of the Stock, the Repairer\nshall issue a credit equal to the difference between:\n \n \na.\nthe total amount of lease payments actually paid by the C"
+    },
+    {
+      "clause_number": "2",
+      "clause_heading": "Reconciliation conditions",
+      "clause_type": "General / Operational",
+      "text": "2.1\nLeft intentionally blank"
+    },
+    {
+      "clause_number": "2.2",
+      "clause_heading": "Price adjustment for LRUs removal rate reconciliation",
+      "clause_type": "Confidentiality",
+      "text": "[*****] Confidential material redacted and filed separately with the Securities and Exchange Commission.\n \nAZUL–ATR\n \nGlobal Maintenance Master Agreement\nDS/CS-3957/14/Issue 7\n \nPage 97/110\nSource: AZUL SA, F-1/A, 3/3/2017\n\nExecution version\n \nCONFIDENTIAL TREATMENT REQUESTED\n \nAny difference, to be measured in units and tens, between the RRR and the MRR pursuant to the conditions set out in Clause 11.1 (iii) and\n(iv) of the Agreement, shall be invoiced or credited, provided the Company is not in Default of any of its obligations pursuant to this\nAgreement, per airborne FH on the basis of:\nfor [*****]\n[*****] [*****]\nfor [*****]\n[*****] [*****]\nfor [*****] [*****]\n[*****] [*****]\nIn addition, at each reconciliation based on the actual flown flight hours, the Repairer shall credit back:\n[*****]"
+    },
+    {
+      "clause_number": "2.3",
+      "clause_heading": "Early Events",
+      "clause_type": "General / Operational",
+      "text": "The Parties agree that the prices for each Service subject to Scheduled Events are based on the achievement of the applicable maintenance\nprogram(s), expressed in [*****].\nIn case of deviation of the Scheduled Event maintenance program parameters by a number of [*****] shall be considered an Early Event.\nFor any Early Event, whichever the context, the Repairer shall invoice the Company an amount equal to the Lost Potential multiplied by the\napplicable price mentioned in Clause 1.3 of this Exhibit."
+    },
+    {
+      "clause_number": "2.4",
+      "clause_heading": "Calendar Limits",
+      "clause_type": "General / Operational",
+      "text": "For propellers and landing gears, the prices given in Clause 1.3.2 of this Exhibit 14 are subject to the achievement of the applicable [*****]\nspecified in Clause 1.2 of Exhibit 11 (“Main Elements Services”) hereto. In case a maintenance event is necessary to comply with a calendar\nlimit, the Company shall settle the applicable prices in Clauses 1.3.2 and 3 of this Exhibit 14 at the time of the event, multiplied by the full\ninterval specified in Clause 1.2 of Exhibit 11 (“Main Elements Services”) hereto less the amount already paid by the Company to the Repairer\nfor the number of [*****] accrued since the last overhaul."
+    },
+    {
+      "clause_number": "3",
+      "clause_heading": "Prices adjustment",
+      "clause_type": "General / Operational",
+      "text": "For the sake of clarity, the adjustment conditions set out in Clauses 3.1 and 3.2 below [*****]."
+    },
+    {
+      "clause_number": "3.1",
+      "clause_heading": "Commercial conditions for price adjustment",
+      "clause_type": "General / Operational",
+      "text": "3.1.1\nFor Lease of the Stock, standard exchange Service and LRUs repair Service\nThe prices set out in this Agreement will be increased, if applicable, [*****] in accordance with the following adjustment formula:\n[*****]\n \n[*****] Confidential material redacted and filed separately with the Securities and Exchange Commission.\n \nAZUL–ATR\n \nGlobal Maintenance Master Agreement\nDS/CS-3957/14/Issue 7\n \nPage 98/110\nSource: AZUL SA, F-1/A, 3/3/2017\n\nExecution version\n \nCONFIDENTIAL TREATMENT REQUESTED\n \nwhere:\n[*****] is the [*****] for the year N+1, and [*****],\n[*****]: is the [*****] as determined by economic conditions of year N (current year),\n[*****]: is the [*****] in the year N,\n[*****]: is the corresponding [*****] of the year N-1,\n[*****]: is the [*****] in the year N,\n[*****]: is the corresponding [*****] of the year N-1.\nEscalation is subject to a [*****] for Stock, Clause 1.1 of the Exhibit 14, and Standard Exchange services, Clause 1.2 of the Exhibit\n14.\nEscalation is subject to a [*****] for LRU repair service, Clause 1.3 and Clause 2.2 of the Exhibit 14.\nEscalation is subject to a [*****].\n \n \n3.1.2\nFor Main Elements Services\nThe prices set out in this Agreement relative to"
+    },
+    {
+      "clause_number": "3.2",
+      "clause_heading": "Technical conditions for prices adjustment",
+      "clause_type": "General / Operational",
+      "text": "The prices set out in this Exhibit 14 shall be modified [*****] at the occasion of the invoicing reconciliation pursuant to Clause 11\n(“Reconciliation”) if the Standard Operations of the Aircraft, analyzed at the time of the adjustment (all calculations are made with figures\ncorresponding to [*****]), change by more or less [*****] with respect to the estimated values of the same parameters, considered at the\ntime of commencement of the Term.\nAs from the date this Agreement enters into force, the Parties agree to take into account the following basic operating parameters (the\n“Standard Operations”) as a reference for the above calculation:\n \n \n(i)\n[*****]\n \n \n-\n[*****]\n \n \n-\n[*****]\n \n \n-\n[*****]\n \n \n(ii)\n[*****]\n \n \n-\n[*****]\n \n \n[*****] Confidential material redacted and filed separately with the Securities and Exchange Commission.\n \nAZUL–ATR\n \nGlobal Maintenance Master Agreement\nDS/CS-3957/14/Issue 7\n \nPage 99/110\nSource: AZUL SA, F-1/A, 3/3/2017\n\nExecution version\n \nCONFIDENTIAL TREATMENT REQUESTED\n \n \n-\n[*****]\n \n \n-\n[*****]"
+    },
+    {
+      "clause_number": "4",
+      "clause_heading": "Specific conditions",
+      "clause_type": "General / Operational",
+      "text": "4.1\nCompany’s Aircraft fleet change(s) \n[*****]."
+    },
+    {
+      "clause_number": "4.2",
+      "clause_heading": "Unused Aircraft",
+      "clause_type": "General / Operational",
+      "text": "During the Term, should any Aircraft remain temporarily unused for less than [*****] by the Company for whatever reason, the Company\nshall not request or obtain from the Provider a change in prices or terms and conditions set out in this Agreement in Clause 12 (“Invoicing\nand Payment terms”)."
+    },
+    {
+      "clause_number": "5",
+      "clause_heading": "Phase",
+      "clause_type": "General / Operational",
+      "text": "in: \nAs a condition precedent to the entry into force of this Agreement, as reflected in Clause 17 (“Conditions Precedent”), the Company shall\npay to the Repairer an amount corresponding for each Main Element and/or any sub-assembly thereof, to the number of FH or CY accrued\nsince the last overhaul or since new as applicable, at the date of entry into force of the Agreement, multiplied by the applicable rate defined in\nClauses 1.3 and 3 of this Exhibit 14 and applicable at the date of the first event."
+    },
+    {
+      "clause_number": "6",
+      "clause_heading": "Phase",
+      "clause_type": "Termination",
+      "text": "out: Refundable maintenance provisions \n \n6.1\nUpon termination of this Agreement with respect to one or more Aircraft and/or Services in accordance with the terms of this Agreement\n(except as a result of a Company Default) (the “Termination Date”), the Repairer shall reimburse the Company Maintenance Provisions\nrelated to landing gears maintenance services and/or their sub-component for ATR 72-600 only based on [*****] of the amount set out in\nClause 1.3.2 of the Exhibit 14 (“Price Conditions”)for maintenance services (the “Refund Amount”), taking into account the price applicable\n[*****] as per Clauses 3 of the Exhibit 14 (“Price Conditions”) and when applicable adjusted every [*****] as per Clause 10 and 11, for\n[*****] for Main Elements: between the re-installation on such Aircraft after the last shop repair or overhaul or exchange occurred under this\nAgreement, as evidenced in the relevant EASA, FAA, TC, or ANAC release form and ending on the Termination Date.\nFor sake of clarity, since the Company will pay such service based on,\n \n[*****] Confidential material redacted and filed separately with the Securities and Exchange Commission.\n \nAZUL–ATR\n \nGlobal Maintenance Master Agre"
+    },
+    {
+      "clause_number": "1",
+      "clause_heading": "Advanced Pool Stock Availability",
+      "clause_type": "General / Operational",
+      "text": "With the scope of further facilitating the maintenance operations of the Company, Repairer agrees to make available the Advanced Pool Stock to\nthe Company and Company agrees to store the Advanced Pool Stock in a restricted area at the Storage Location. The provision, holding, use and\ndisposal of the Advanced Pool Stock and its review shall be subject to the terms and conditions of this Agreement."
+    },
+    {
+      "clause_number": "2",
+      "clause_heading": "Provision and value of the Advanced Pool Stock",
+      "clause_type": "General / Operational",
+      "text": "2.1\nThe Advanced Pool Stock is composed of items defined in Exhibit 16 (“Advanced Pool Stock”), which may be either brand new items or Used\nServiceable Items depending on availability of each item of the Advanced Pool Stock into Repairer’s inventory at the time of their respective\ndelivery.\n \n2.2\nThe Advanced Pool Stock is governed by this Agreement until it is (i) either returned to the Repairer at the Expiry Date, (ii) purchased by\nCompany in accordance with Clause 6 hereunder, or (iii) upon redelivery of the Advanced Pool Stock to Repairer after the termination of this\nAgreement pursuant to Clause 16 of this Agreement.\n \n2.3\nThe Advanced Pool Stock shall be provided to Company by Repairer for the duration of the Term provided Company has met each of the\nConditions Precedent set out in Clause 17 of the Agreement to the satisfaction of the Repairer before the Start Date.\n \n2.4\nThe Advanced Pool Stock total value, under economic conditions 2010, shall be:\n[*****]\nFor the sake of clarity, the total Stock value of Exhibit 16 (“Advanced Pool Stock”) list shall be: [*****].\nIn the event the Repairer delivers Used Serviceable Items to the Company, the value of each such Used Serviceable"
+    },
+    {
+      "clause_number": "3",
+      "clause_heading": "Delivery",
+      "clause_type": "General / Operational",
+      "text": "3.1\nThe items of the Advanced Pool Stock will be delivered by Repairer to Company, with the relevant airworthiness documents (certificate of\nconformity, ANAC SEGVOO 003, EASA Form 1 or FAA Form 8130-3), [*****] ATR stores located at the address set forth in Clause 6.1 of this\nAgreement, or such other location as Repairer may from time to time notify to Company.\n \n3.2\nDelivery of the Advanced Pool Stock shall take place gradually. Repairer shall use its reasonable efforts to deliver [*****] of the items of the\nAdvanced Pool Stock (in quantity) at the Start Date. Delivery of the Advanced Pool Stock shall be subject to the Stock delivery.\n \n \n[*****] Confidential material redacted and filed separately with the Securities and Exchange Commission.\n \nAZUL–ATR\n \nGlobal Maintenance Master Agreement\nDS/CS-3957/14/Issue 7\n \nPage 102/110\nSource: AZUL SA, F-1/A, 3/3/2017\n\nExecution version\n \nCONFIDENTIAL TREATMENT REQUESTED\n \n \n3.3\nNotwithstanding the fact that the Repairer is the owner of the Advanced Pool Stock, all risks whatsoever and howsoever relating to or arising\nin connection with the Advanced Pool Stock and any item of the Advanced Pool Stock, shall be transferred to, vested in and b"
+    },
+    {
+      "clause_number": "4",
+      "clause_heading": "Management and Handling Procedures",
+      "clause_type": "General / Operational",
+      "text": "4.1\nLocation\n \n \ni.\nCompany shall keep the Advanced Pool Stock in secured warehouse facilities at the Storage Location, the use of which is reserved for\nstoring and protecting the Advanced Pool Stock owned by Repairer. These facilities shall be separated from any areas used to store any\nother equipment and the Storage Location shall be clearly marked with the inscription “ATR PROPERTY”. All the items of the Advanced\nPool Stock will be stored with their corresponding documentation.\n \n \nii.\nCompany agrees to maintain the Advanced Pool Stock by applying the best standard methods for storage and maintenance as required\nby applicable EASA regulations at its own maintenance and storage costs, particularly for parts subject to limited shelf life or cure date.\n \n \niii.\nCompany shall promptly notify the Repairer any loss or damage to the Advanced Pool Stock whilst under its management.\n \n \niv.\nPrior to the Delivery Date and upon each renewal of any policy, the Company shall supply the Repairer with certificates of insurance\ncompliant with the terms and conditions set out in Clause 8 of this Agreement.\n \n \nv.\nIf at any time during the term, the Storage Location is not owned by the Company an"
+    },
+    {
+      "clause_number": "4.2",
+      "clause_heading": "Use",
+      "clause_type": "Confidentiality",
+      "text": "The Company shall be entitled to, provided no Company Default has occurred and is continuing, withdraw and use any of the items of the\nAdvanced Pool Stock pursuant standard\n \n[*****] Confidential material redacted and filed separately with the Securities and Exchange Commission.\n \nAZUL–ATR\n \nGlobal Maintenance Master Agreement\nDS/CS-3957/14/Issue 7\n \nPage 103/110\nSource: AZUL SA, F-1/A, 3/3/2017\n\nExecution version\n \nCONFIDENTIAL TREATMENT REQUESTED\n \nexchange service conditions defined in Exhibit 9 and in accordance with its operational needs, solely for the remedy of parts associated\ndefects on the Aircraft covered under this Agreement."
+    },
+    {
+      "clause_number": "4.3",
+      "clause_heading": "Inventory",
+      "clause_type": "General / Operational",
+      "text": "The Repairer or its agent shall have the right to inspect the Advanced Pool Stock and to audit any records relating thereto at any reasonable\ntime upon giving prior written notice to the Company. The Company shall provide full access to enable the Repairer to conduct periodic\ninventory inspection of the Advanced Pool Stock.\nShould any part of the Advanced Pool Stock be missing, partially or totally damaged, or has not its appropriate airworthiness documentation\nat the time the Repairer or its agent carries out its inspection/audit, and if the Company cannot justify the part being under repair, the\nCompany shall have a period of [*****] to remedy the situation to the satisfaction of the Repairer, failing which, the Repairer shall invoice\nthe Company the price for any such lost or damaged item at the ATR spare parts catalogue price applicable at the date of such invoice."
+    },
+    {
+      "clause_number": "6",
+      "clause_heading": "Modifying the Composition of the Advanced Pool Stock",
+      "clause_type": "General / Operational",
+      "text": "Upon either party’s request, the parties agree to review the content of the Advanced Pool Stock at the first anniversary date of the Start Date. Shall\nthe parties agree to modify the content of the Advanced Pool Stock, the following conditions shall apply:\n \n \ni.\nitem returned by the Company that has never been used by the Company since the Start Date, is received by the Repairer in serviceable\ncondition, in its original packaging and with all appropriate airworthiness documents;\n \n \nii.\nthe item shall be returned in accordance with the provisions of Clause 6.2 of this Agreement; and\n \n \niii.\nif an item is returned to the Repairer from the Advanced Pool Stock, the value of the Advanced Pool Stock shall be modified by\nsubtraction of the initial value of the concerned item; and\n \n \niv.\nif an item is added to the Advanced Pool Stock, the value of the Advanced Pool Stock shall be increased pursuant to the ATR Spares\nCatalogue price for the added item at the economical condition of the moment the Advanced Pool Stock is modified.\nThe Company shall be responsible for and pay any costs incurred by the return to Repairer and/or replacement of such items of the Advanced Pool\nStock, including"
+    },
+    {
+      "clause_number": "7",
+      "clause_heading": "Purchase or Return of the Advanced Pool Stock",
+      "clause_type": "Confidentiality",
+      "text": "7.1\nPromptly on the Expiry Date, and subject to Clause 5 of this Exhibit 15, the Company shall\n \n[*****] Confidential material redacted and filed separately with the Securities and Exchange Commission.\n \nAZUL–ATR\n \nGlobal Maintenance Master Agreement\nDS/CS-3957/14/Issue 7\n \nPage 104/110\nSource: AZUL SA, F-1/A, 3/3/2017\n\nExecution version\n \nCONFIDENTIAL TREATMENT REQUESTED\n \nhave the option to:\n \n \ni.\n[*****]\n \n \nii.\nre-deliver the items of the Advanced Pool Stock to the Repairer in accordance with Clause 6.2 of this Agreement or to any other address\nindicated from time to time by Repairer to the Company, in accordance with the following terms and conditions.\n \n7.2\nIn the event that any items are delivered back to the Repairer without the appropriate airworthiness documentation, or whenever the parts are\nreturned without the original documents supplied by the Repairer, or if the Repairer has to test, to replace or to repair such returned item(s) of\nthe Advanced Pool Stock due to damage or deterioration as a result of incorrect storage, inappropriate packaging and/or transport, or for any\nother reason whatsoever, the Company is liable for any associated re-certification, repair, over"
+    },
+    {
+      "clause_number": "8",
+      "clause_heading": "Payment and Transfer of the Title to Property",
+      "clause_type": "Payment & Compensation",
+      "text": "8.1\nSave as otherwise set out in this Agreement, the purchase price for any item of the Advanced Pool Stock shall be paid in accordance with the\nprovisions of Clause 12.\n \n8.2\nNotwithstanding the provisions of Clause 6 of Exhibit 9, title to the Advanced Pool Stock or any item thereof shall remain with the Repairer at\nall times until such Advanced Pool Stock or part thereof has been purchased by the Company and provided that the amount of the\ncorresponding invoice has been fully received by the Repairer in accordance with Clauses 10 and 12 of this Agreement. The Company\nspecifically agrees that it shall not acquire any interest, equity or share of the Advanced Pool Stock, or pledge or create any lien of any sort\nwhatsoever prior to the transfer of title to the Advanced Pool Stock to the Company in accordance with this Agreement. It is hereby\nacknowledged and agreed that the Company is appointed as the custodian of the Advanced Pool Stock, which appointment the Company\nhereby accepts until such time as the Repairer has received the Company’s payment in full for the Advanced Pool Stock or any item if the\nAdvanced Pool Stock in case such Advanced Pool Stock or item is either missing, "
+    },
+    {
+      "clause_number": "14",
+      "clause_heading": "OF THE AGREEMENT",
+      "clause_type": "Confidentiality",
+      "text": "[*****] Confidential material redacted and filed separately with the Securities and Exchange Commission.\n \nAZUL–ATR\n \nGlobal Maintenance Master Agreement\nDS/CS-3957/14/Issue 7\n \nPage 108/110\nSource: AZUL SA, F-1/A, 3/3/2017\n\nExecution version\n \nEXHIBIT 17 – INSURANCE CERTIFICATES\nALL ITEMS, PARTS, COMPONENTS, SERVICES, WARRANTIES AND GUARANTEES PROVIDED HEREUNDER ARE PROVIDED SUBJECT TO"
+    },
+    {
+      "clause_number": "14",
+      "clause_heading": "OF THE AGREEMENT",
+      "clause_type": "General / Operational",
+      "text": "AZUL–ATR\n \nGlobal Maintenance Master Agreement\nDS/CS-3957/14/Issue 7\n \nPage 109/110\nSource: AZUL SA, F-1/A, 3/3/2017\n\nExecution version\n \nEXHIBIT 18 – NOTA FISCAL REPORTING\nReporting 1:\nDedicated to the pool import + 1st standard exchange loop\nShall be submitted once (after all serviceable parts from the pool sent to Azul)\n \nPart number\n \nSerial number  \nNota Fiscal CFOP\n5949 number\nFlow Azul ->\nHelibras\n \nNota Fiscal CFOP\n5949 number\nFlow Helibras ->\nAzul\n  Fiscal value\nTable with XXX lines\n(XXX = number\nof parts to be\nimported)\n \n \n \n \n...\n \n \n \n \nReporting 2:\nDedicated to subsequent standard exchanges\nShall be submitted on a monthly basis\n \nPart number\n \nSerial number  \nNota Fiscal CFOP\n5949 number\nFlow Azul ->\nHelibras\n \nNota Fiscal CFOP\n5949 number\nFlow Helibras ->\nAzul\n  Fiscal value\n...\n \n \n \n \nALL ITEMS, PARTS, COMPONENTS, SERVICES, WARRANTIES AND GUARANTEES PROVIDED HEREUNDER ARE PROVIDED SUBJECT TO"
+    },
+    {
+      "clause_number": "14",
+      "clause_heading": "OF THE AGREEMENT",
+      "clause_type": "General / Operational",
+      "text": "AZUL–ATR\n \nGlobal Maintenance Master Agreement\nDS/CS-3957/14/Issue 7\n \nPage 110/110\nSource: AZUL SA, F-1/A, 3/3/2017"
+    }
+  ]
+}

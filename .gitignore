@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Binary PDF corpus (raw client data; keep inventory, JSON structures and benchmark pairs)
+*.pdf
+*.PDF
+data/data_sources/Supreme Court Judgements/
+
+# Local cache & virtualenv
+.venv/
+env/
+venv/
+.idea/
+.vscode/
+
+# Vector database and lexical index local storage
+outputs/indices/

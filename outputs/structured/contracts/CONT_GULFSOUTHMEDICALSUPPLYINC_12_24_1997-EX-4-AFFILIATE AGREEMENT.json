@@ -1,0 +1,22 @@
+{
+  "doc_id": "CONT_GULFSOUTHMEDICALSUPPLYINC_12_24_1997-EX-4-AFFILIATE AGREEMENT",
+  "filename": "GULFSOUTHMEDICALSUPPLYINC_12_24_1997-EX-4-AFFILIATE AGREEMENT.PDF",
+  "document_type": "contract",
+  "contract_subtype": "contracts/cuad",
+  "title": "Gulfsouthmedicalsupplyinc 12 24 1997 Ex 4 Affiliate Agreement",
+  "parties": {
+    "party_one": "Party One",
+    "party_two": "Party Two"
+  },
+  "effective_date": "Effective Date as specified",
+  "governing_law": "governed by the laws of the State of Delaware.",
+  "total_clauses_extracted": 1,
+  "clauses": [
+    {
+      "clause_number": "4345",
+      "clause_heading": "Southpoint Boulevard",
+      "clause_type": "General / Operational",
+      "text": "Jacksonville, Florida  32216\nAttention:  Patrick C. Kelly\n            David A. Smith\nGentlemen:\n     The undersigned is a shareholder of Gulf South Medical Supply, Inc.\n(\"GSMS\"), a corporation organized and existing under the laws of the State of\nDelaware, and will become a shareholder of Physician Sales & Service, Inc.\n(\"PSS\"), a corporation organized and existing under the laws of the State of\nFlorida, pursuant to the transactions described in the Agreement and Plan of\nMerger, dated as of December 14, 1997 (the \"Agreement\"), by and among PSS, PSS\nMerger Corp. (\"Merger Corp.\") and GSMS.  Under the terms of the Agreement,\nMerger Corp. will be merged into and with GSMS (the \"Merger\"), and the shares of\nthe $.01 par value common stock of GSMS (\"GSMS Common Stock\") will be converted\ninto and exchanged for shares of the $.01 par value common stock of PSS (\"PSS\nCommon Stock\").  This Affiliate Agreement represents an agreement between the\nundersigned and PSS regarding certain rights and obligations of the undersigned\nin connection with the shares of PSS to be received by the undersigned as a\nresult of the Merger.\n     In consideration of the Merger and the mutual covenants contained here"
+    }
+  ]
+}

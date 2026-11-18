@@ -1,0 +1,11 @@
+{
+  "doc_id": "URDU_08_mukhtar_nama_aam_quetta_scanned",
+  "filename": "08_mukhtar_nama_aam_quetta_scanned.pdf",
+  "document_type": "scanned_urdu",
+  "title_urdu": "مختار نامہ عام",
+  "category_en": "General Power of Attorney",
+  "jurisdiction_city": "Quetta",
+  "language": "Urdu",
+  "is_scanned": true,
+  "processing_path": "Requires OCR ingestion"
+}

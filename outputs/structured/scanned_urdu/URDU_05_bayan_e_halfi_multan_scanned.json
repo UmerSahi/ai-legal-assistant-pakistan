@@ -1,0 +1,11 @@
+{
+  "doc_id": "URDU_05_bayan_e_halfi_multan_scanned",
+  "filename": "05_bayan_e_halfi_multan_scanned.pdf",
+  "document_type": "scanned_urdu",
+  "title_urdu": "بیان حلفی",
+  "category_en": "Sworn Affidavit",
+  "jurisdiction_city": "Multan",
+  "language": "Urdu",
+  "is_scanned": true,
+  "processing_path": "Requires OCR ingestion"
+}

@@ -1,0 +1,11 @@
+{
+  "doc_id": "URDU_10_hukamnama_adalat_lahore_scanned",
+  "filename": "10_hukamnama_adalat_lahore_scanned.pdf",
+  "document_type": "scanned_urdu",
+  "title_urdu": "حکم نامہ عدالت عالیہ",
+  "category_en": "High Court Judicial Order",
+  "jurisdiction_city": "Lahore",
+  "language": "Urdu",
+  "is_scanned": true,
+  "processing_path": "Requires OCR ingestion"
+}

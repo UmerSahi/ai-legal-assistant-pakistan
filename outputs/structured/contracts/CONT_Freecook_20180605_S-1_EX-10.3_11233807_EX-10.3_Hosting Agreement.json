@@ -1,0 +1,58 @@
+{
+  "doc_id": "CONT_Freecook_20180605_S-1_EX-10.3_11233807_EX-10.3_Hosting Agreement",
+  "filename": "Freecook_20180605_S-1_EX-10.3_11233807_EX-10.3_Hosting Agreement.pdf",
+  "document_type": "contract",
+  "contract_subtype": "contracts/cuad",
+  "title": "Freecook 20180605 S 1 Ex 10.3 11233807 Ex 10.3 Hosting Agreement",
+  "parties": {
+    "party_one": "Party One",
+    "party_two": "Party Two"
+  },
+  "effective_date": "Effective Date as specified",
+  "governing_law": "Specified State Law",
+  "total_clauses_extracted": 7,
+  "clauses": [
+    {
+      "clause_number": "1",
+      "clause_heading": "Website Design and Development",
+      "clause_type": "General / Operational",
+      "text": "Client agrees to pay to Company the sum of $5,000 (the\n“Contract Price”) to design and develop a website for Client (the “Client Website”) in accordance with the\naccompanying Scope of Work, attached to this Agreement as Exhibit A.\n(a) Change Orders. Any changes to the Scope of Work following the execution of this\nAgreement requiring Additional Work must be submitted to and accepted by Company in writing as a\n“Change Order”. The costs of any such changes shall be added to the Contract Price. Additional Work\nshall be defined as the addition or revision of pages, graphics, or other features, any text, graphic or page\ndesign or programming requiring more than two rounds of textual or graphical revisions, substantial\nrevisions to text and/or content provided by Client, changes to elements which have been finalized, or\nsignificant changes in the Scope of Work.\n(b) Due Dates and Delays. Company will use its best efforts to deliver the Client Website in the\ntime frame specified in the Scope of Work. Terms of the project: 12 weeks from February 8, 2018 to May\n3, 2018. Client acknowledges and agrees that any due dates set forth in the Scope of Work are subject to\ndelay if Company does not re"
+    },
+    {
+      "clause_number": "2",
+      "clause_heading": "Payment Terms",
+      "clause_type": "Payment & Compensation",
+      "text": "Upon the signing of this Agreement, Client agrees to pay to Company a total of\n$5,000. Client shall make a prepayment of $1,900 and pay the remaining $3,100 on completion of the\nScope of Work.\n3. Business Hours; Rush Work. Company representatives are available during Company’s normal\nbusiness hours which are 9 a.m. to 5 p.m. UTC +2, Monday through Friday. Any email or telephone\ncorrespondence received after normal business hours will be processed the following business day. Client\nshall pay an additional surcharge for any services requiring work to be performed outside of normal\nbusiness hours by reason of a rush deadline requested by Client or as a result of Client’s failure to meet\nscheduled times for delivery and/or review and approval of information, content and materials. The\nsurcharge for rush work shall be the standard hourly rate of $40 plus twenty-five percent (25%)."
+    },
+    {
+      "clause_number": "4",
+      "clause_heading": "Customer Service",
+      "clause_type": "General / Operational",
+      "text": "Company, either directly or through its authorized service provider, shall provide\ncustomer service (the “Customer Service”) relating to Client Website consisting of replying to customer\nquestions or complaints regarding website hosting services during the normal business hours set forth.\nCompany is not obligated to provide any Customer Service except as specified in this Section. Company at\nits sole discretion may at any time alter or cease providing the Customer Service which it has agreed to\nprovide to Client relating to Client Website pursuant to this Agreement without any liability to Company.\nAGREED AND ACCEPTED:\nDate: Jan. 11, 2018\nSource: FREECOOK, S-1, 6/5/2018\n\nBy Company:\n/s/ Mitchell Vitalis\nDate: Jan. 11, 2018\nMitchell's Web Advance - Website Design, Development and Hosting Agreement\nPage 1 of 2\nClient: /s/ Natalija Tunevic Company: /s/ Mitchell Vitalis\nSource: FREECOOK, S-1, 6/5/2018\n\nMitchell's Web Advance\nWebsite Design, Development and Hosting Agreement\nExhibit A\nScope of Work\nDevelopment of design of Free Cook\nStage 1:\n1. Search for competitors, collecting additional information on the subject."
+    },
+    {
+      "clause_number": "2",
+      "clause_heading": "Development of unique style of the Client Website",
+      "clause_type": "General / Operational",
+      "text": "3. Development of a logo based on the unique corporate style."
+    },
+    {
+      "clause_number": "4",
+      "clause_heading": "Designing UI/UX",
+      "clause_type": "General / Operational",
+      "text": "practical parts.\n5. Development of the main and internal pages of the Client Website.\nStage 2:\n6. Emotional design (creation of web-assistants).\n7. Adaptive design (mobile version of the Client Website)."
+    },
+    {
+      "clause_number": "8",
+      "clause_heading": "Design adaptation to other languages",
+      "clause_type": "General / Operational",
+      "text": "9. Development of a prototype and interface testing.\nStage 3:"
+    },
+    {
+      "clause_number": "10",
+      "clause_heading": "Search Engine Optimization",
+      "clause_type": "General / Operational",
+      "text": "Mitchell's Web Advance - Website Design, Development and Hosting Agreement\nPage 2 of 2\nClient: /s/ Natalija Tunevic Company: /s/ Mitchell Vitalis\nSource: FREECOOK, S-1, 6/5/2018"
+    }
+  ]
+}

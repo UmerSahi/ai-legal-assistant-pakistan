@@ -1,0 +1,11 @@
+{
+  "doc_id": "URDU_02_fir_report_karachi_scanned",
+  "filename": "02_fir_report_karachi_scanned.pdf",
+  "document_type": "scanned_urdu",
+  "title_urdu": "ابتدائی اطلاعی رپورٹ (ایف آئی آر)",
+  "category_en": "Police FIR Report",
+  "jurisdiction_city": "Karachi",
+  "language": "Urdu",
+  "is_scanned": true,
+  "processing_path": "Requires OCR ingestion"
+}

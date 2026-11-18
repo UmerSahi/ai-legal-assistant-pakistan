@@ -1,0 +1,28 @@
+{
+  "doc_id": "CONT_BORROWMONEYCOM,INC_06_11_2020-EX-10.1-JOINT VENTURE AGREEMENT",
+  "filename": "BORROWMONEYCOM,INC_06_11_2020-EX-10.1-JOINT VENTURE AGREEMENT.PDF",
+  "document_type": "contract",
+  "contract_subtype": "contracts/cuad",
+  "title": "Joint Venture Agreement",
+  "parties": {
+    "party_one": "Party One",
+    "party_two": "Party Two"
+  },
+  "effective_date": "Effective Date as specified",
+  "governing_law": "Specified State Law",
+  "total_clauses_extracted": 2,
+  "clauses": [
+    {
+      "clause_number": "25",
+      "clause_heading": "Regular Member meetings will be held quarterly",
+      "clause_type": "General / Operational",
+      "text": "Minutes of the meetings will be maintained on file.\n26. Any Member can call a special meeting to resolve urgent issues that require a vote and that cannot wait for the next regularly scheduled\nmeeting. When calling a special meeting, all Members must be provided with reasonable notice. Where a special meeting has been called,\nthe meeting will be restricted to the specific purpose for which the meeting was called.\n27. All meetings will be held at a time and in a location that is reasonable, convenient and practical considering the situation of all Members.\n28. Any vote required by the Members will be determined such that each Member receives one vote carrying equal weight.\nAmendments\n29. This Agreement may be amended only with the unanimous consent of all Members.\nAdmitting a new Member\n30. New Members may be admitted into the Venture only with the unanimous consent of the existing Members. The new Member agrees to be\nbound by all the covenants, terms, and conditions of this Agreement, inclusive of all current and future amendments. Further, a new\nMember will execute such documents as are needed or required for this admission. Any new Member will receive a business interest in the\nV"
+    },
+    {
+      "clause_number": "61",
+      "clause_heading": "Time is of the essence in this Agreement",
+      "clause_type": "General / Operational",
+      "text": "62. This Agreement may be executed in counterparts. Facsimile signatures are binding and are considered to be original signatures.\n63. Headings are inserted for the convenience of the Members only and are not to be considered when interpreting this Agreement. Words in\nthe singular mean and include the plural and vice versa. Words in the masculine gender include the feminine gender and vice versa. Words\nin the neuter gender include the masculine gender and the feminine gender and vice versa.\n64. If any term, covenant, condition or provision of this Agreement is held by a court of competent jurisdiction to be invalid, void or\nunenforceable, it is the Members’ intent that such provision be reduced in scope by the court only to the extent deemed necessary by that\ncourt to render the provision reasonable and enforceable and the remainder of the provisions of this Agreement will in no way be affected,\nimpaired or invalidated as a result.\n65. This Agreement contains the entire agreement between the Members. All negotiations and understandings have been included in this\nAgreement. Statements or representations which may have been made by any Member in the negotiation stages of this Agreeme"
+    }
+  ]
+}

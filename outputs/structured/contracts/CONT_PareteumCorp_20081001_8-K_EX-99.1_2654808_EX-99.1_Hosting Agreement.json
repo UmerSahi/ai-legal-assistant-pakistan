@@ -1,0 +1,370 @@
+{
+  "doc_id": "CONT_PareteumCorp_20081001_8-K_EX-99.1_2654808_EX-99.1_Hosting Agreement",
+  "filename": "PareteumCorp_20081001_8-K_EX-99.1_2654808_EX-99.1_Hosting Agreement.pdf",
+  "document_type": "contract",
+  "contract_subtype": "contracts/cuad",
+  "title": "Pareteumcorp 20081001 8 K Ex 99.1 2654808 Ex 99.1 Hosting Agreement",
+  "parties": {
+    "party_one": "Party One",
+    "party_two": "Party Two"
+  },
+  "effective_date": "Effective Date as specified",
+  "governing_law": "governed by and construed in all respects exclusively in accordance with the laws of the Netherlands.",
+  "total_clauses_extracted": 59,
+  "clauses": [
+    {
+      "clause_number": "1",
+      "clause_heading": "Definitions",
+      "clause_type": "General / Operational",
+      "text": "2.\nPurpose and Scope of the Agreement"
+    },
+    {
+      "clause_number": "3",
+      "clause_heading": "Hosting Services",
+      "clause_type": "General / Operational",
+      "text": "4.\nImplementation"
+    },
+    {
+      "clause_number": "5",
+      "clause_heading": "Forecast & Commitments",
+      "clause_type": "General / Operational",
+      "text": "6.\nService level"
+    },
+    {
+      "clause_number": "7",
+      "clause_heading": "Data Protection & Privacy",
+      "clause_type": "General / Operational",
+      "text": "8.\nThe co-operation relationship"
+    },
+    {
+      "clause_number": "9",
+      "clause_heading": "Prices, Charging, Billing & Accounting",
+      "clause_type": "General / Operational",
+      "text": "10.\nCustomer Care Support"
+    },
+    {
+      "clause_number": "11",
+      "clause_heading": "Confidentiality",
+      "clause_type": "Confidentiality",
+      "text": "12.\nLimitation of Liability"
+    },
+    {
+      "clause_number": "13",
+      "clause_heading": "Suspension and termination of Hosting Services",
+      "clause_type": "Termination",
+      "text": "14.\nForce Majeure"
+    },
+    {
+      "clause_number": "15",
+      "clause_heading": "Intellectual Property Rights",
+      "clause_type": "General / Operational",
+      "text": "16.\nSIM cards and Calling Credit"
+    },
+    {
+      "clause_number": "17",
+      "clause_heading": "Duration of the Agreement",
+      "clause_type": "Termination",
+      "text": "18.\nTermination of the Agreement"
+    },
+    {
+      "clause_number": "19",
+      "clause_heading": "Modifications",
+      "clause_type": "General / Operational",
+      "text": "20.\nMiscellaneous"
+    },
+    {
+      "clause_number": "21",
+      "clause_heading": "Governing Law",
+      "clause_type": "Dispute Resolution",
+      "text": "22.\nDispute resolution"
+    },
+    {
+      "clause_number": "23",
+      "clause_heading": "Counterpart",
+      "clause_type": "Confidentiality",
+      "text": "Source: PARETEUM CORP, 8-K, 10/1/2008\n\nCONFIDENTIAL TREATMENT REQUESTED\nWITH RESPECT TO CERTAIN PORTIONS HEREOF\nDENOTED WITH “***”\n \nHosting Agreement between ELEPHANT TALK and T-Mobile, 18/9/2008\n \nMOBILE VIRTUALNETWORK ENABLER HOSTING AGREEMENT\nby and between ELEPHANT TALK and T-Mobile\n(T-Mobile hosting ELEPHANT TALK)\nThis Agreement is made between\n“Elephant Talk Communication Holding AG”, a company incorporated under the laws of Switzerland, having its registered office at Baarerstrasse\n135, CH-6301 Zug, Switzerland, legally and duly represented by its Chief Executive Officer Steven van der Velden and its Chief Operations Officer\nand Chief Technology Officer Martin Zuurbier, hereinafter referred to as: \"ELEPHANT TALK\"\nand\nT-Mobile Netherlands B.V., a company incorporated under the laws of the Netherlands, having its registered office at the Waldorpstraat 60, 2521\nCC Den Haag, the Netherlands, legally and duly represented by its Managing Director Niek Jan van Damme and its Marketing Director, Bart\nWeijermars, hereinafter referred to as: “T-Mobile”\neach individually referred to as \"Party\" and together as \"Parties\".\n \nWHEREAS:\n1.\nELEPHANT TALK wishes to become a full Mobile Virtual"
+    },
+    {
+      "clause_number": "6",
+      "clause_heading": "ELEPHANT TALK therefore wishes to obtain from T",
+      "clause_type": "General / Operational",
+      "text": "Mobile wholesale mobile network services and associated services and T-Mobile is\nwilling to offer ELEPHANT TALK such services; \n \n \n7.\nFollowing the signing of the aforementioned Heads of Agreement between *** and ELEPHANT TALK, Parties have continued their\ndiscussions and negotiations with regard to their envisaged co-operation and have reached agreement on the terms and conditions in that\nrespect, which are laid down in this Agreement; \n \nNOW, THEREFORE, the Parties have agreed as follows:\nSource: PARETEUM CORP, 8-K, 10/1/2008\n\nCONFIDENTIAL TREATMENT REQUESTED\nWITH RESPECT TO CERTAIN PORTIONS HEREOF\nDENOTED WITH “***”\n \nHosting Agreement between ELEPHANT TALK and T-Mobile, 18/9/2008"
+    },
+    {
+      "clause_number": "1",
+      "clause_heading": "DEFINITIONS",
+      "clause_type": "Payment & Compensation",
+      "text": "For the purpose of this Agreement, the following words and phrases shall have the meanings set forth in their respective definitions, unless a\ndifferent meaning is called for in the context of another provision in this Agreement:\n1.1 \n \n\"Affiliated Company\" of a Party shall mean any other legal entity:\n·  directly or indirectly owning or controlling the Party (Mother company), or\n \n· under the direct or indirect ownership or control of the same legal entity (Mother company) directly or indirectly owning or controlling\nthe Party, or\n \n· directly or indirectly owned or controlled by the Party, for as long as such ownership or control lasts.\n\"Ownership\" or \"control\" shall exist through the direct or indirect ownership of more than fifty (50) percent of the nominal value of the\nissued equity share capital or of more than fifty (50) percent of the shares entitling the holders to vote for the election of directors or\npersons performing similar functions.\n1.2\n\"Agreement\" shall mean the Mobile Virtual Network Enabler(MVNE) hosting agreement together with the Appendices attached to this\nMVNE hosting agreement.\n \n1.3\n“Appendix\" and \"Appendices\" shall mean the appendix or appendices attached "
+    },
+    {
+      "clause_number": "2",
+      "clause_heading": "PURPOSE AND SCOPE OF THE AGREEMENT",
+      "clause_type": "General / Operational",
+      "text": "2.1\nThe purpose of this Agreement is to lay down the general terms and conditions between the Parties under which T-Mobile shall provide\nthe Hosting Services and ELEPHANT TALK shall purchase the Hosting Services from T-Mobile, whereby T-Mobile shall enable\nELEPHANT TALK to market, sell and provide mobile telecommunication services to the ELEPHANT TALK Customers via the T-Mobile\nNetwork. For the avoidance of doubt, ELEPHANT TALK is not entitled to provide (retail) telecommunication services based on the\nHosting Service to others than ELEPHANT TALK Customers, such as but not limited to mobile end-users or business companies with\ntheir own end-users.\nIn the event that *** Parties shall negotiate the terms and conditions under which T-Mobile shall provide and ELEPHANT TALK shall\npurchase the services from T-Mobile. These terms and conditions shall be laid down in a separate document and shall therefore not be\npart of this Agreement.\n2.2\nT-Mobile is entitled without limitations, to *** related services to any other party.\n2.3\nELEPHANT TALK will not enter into any discussions or agreement on the provisioning of (similar) Hosting Services as defined in\nAppendix 1 with any *** in the Nethe"
+    },
+    {
+      "clause_number": "2.4",
+      "clause_heading": "The co",
+      "clause_type": "General / Operational",
+      "text": "operation between Parties shall regard ***. The Hosting Services are intended for ***. ELEPHANT TALK is allowed to provide\nSIM cards to ELEPHANT TALK Customers under the terms and conditions as mentioned in this Agreement.\n \n \n2.5 \nFor the scope of this Agreement, ELEPHANT TALK (including its Affiliated Companies) shall not provide the Hosting Services to ***.\nExcluded from this provision is the situation wherein ELEPHANT TALK provides *** under the terms and conditions as set out in this\narticle. \nSource: PARETEUM CORP, 8-K, 10/1/2008\n\nCONFIDENTIAL TREATMENT REQUESTED\nWITH RESPECT TO CERTAIN PORTIONS HEREOF\nDENOTED WITH “***”\n \nHosting Agreement between ELEPHANT TALK and T-Mobile, 18/9/2008\n \nELEPHANT TALK is not allowed, without the explicit written approval of T-Mobile, to provide the ELEPHANT TALK Wholesale Services:\nI.  \nto the below stated categories of companies, including companies that represent a company in one of these categories, affiliated\ncompanies and/or companies that can offer a brand from a company in one of the following categories:\n \na)\n***\n \nb)\n***\n \nc)\n***.\n \nII.\nin the situation where T-Mobile for good reason refuses a ELEPHANT TALK Customer access to the T-M"
+    },
+    {
+      "clause_number": "2.7",
+      "clause_heading": "ELEPHANT TALK shall purchase the Hosting Services from T",
+      "clause_type": "General / Operational",
+      "text": "Mobile as an independent contractor. ELEPHANT TALK shall sell and\nmarket the ELEPHANT TALK Wholesale Services to ELEPHANT TALK Customers in its own name, for its own account and on its own\nrisk (subject to the terms of this Agreement). ELEPHANT TALK warrants T-Mobile that ELEPHANT TALK Customers shall sell and\nmarket their mobile telecommunication services based on the ELEPHANT TALK Wholesale Services in its own name, for its own account\nand on its own risk. ELEPHANT TALK and ELEPHANT TALK Customers shall not in any respect represent T-Mobile or enter into any\nagreement or other commitment on T-Mobile’s behalf.\nSource: PARETEUM CORP, 8-K, 10/1/2008\n\nCONFIDENTIAL TREATMENT REQUESTED\nWITH RESPECT TO CERTAIN PORTIONS HEREOF\nDENOTED WITH “***”\n \nHosting Agreement between ELEPHANT TALK and T-Mobile, 18/9/2008\n \n2.8\nELEPHANT TALK shall ensure that the ELEPHANT TALK Infrastructure complies with the Technical Specifications, as set out in\nAppendix 11.\n2.9\nParties acknowledge that the Dutch telecommunications market is regulated under both Dutch and EU law, such as inter alia EU-directives,\nthe Dutch Telecommunications Act, Dutch Competition Act and the Dutch Data Protection Act. Parties sh"
+    },
+    {
+      "clause_number": "3",
+      "clause_heading": "HOSTING SERVICES",
+      "clause_type": "General / Operational",
+      "text": "3.1\nT-Mobile shall provide the Hosting Services, as described in Appendix 1, during the term of this Agreement from the Ready for Service\nDate.\n3.2\nT-Mobile shall ensure that all *** from ELEPHANT TALK Customers and other telecommunication end users in the Netherlands and in\nthe relevant roaming countries, as further specified in the Agreement.\n3.3\nELEPHANT TALK is responsible and accountable for the installation, maintenance and availability of the leased line between ELEPHANT\nTALK’s POP and the T-Mobile Network, as described in Appendix 1."
+    },
+    {
+      "clause_number": "3.4",
+      "clause_heading": "T-Mobile is open and",
+      "clause_type": "General / Operational",
+      "text": "willing to discuss with ELEPHANT TALK the provision to ELEPHANT TALK of new services, meaning services out of the scope of\nthis Agreement, in the Dutch market.\n3.5\nParties agree that ELEPHANT TALK, if applicable, makes a feature available in the SIM card to display the brand name of ELEPHANT\nTALK Customers, when ELEPHANT TALK Customers are connected - via the ELEPHANT TALK Infrastructure - to the T-Mobile\nNetwork. T-Mobile is aware of the fact that out-dated devices might not support this feature available in the SIM cards.\n3.6\nParties agree to implement the rules and procedures pursuant to Dutch legislation for number portability prior to the Ready for Service\nDate, according to Appendix 1. A ELEPHANT TALK MSISDN that is out-ported from ELEPHANT TALK’s customer base will be barred\nfrom accessing the ELEPHANT TALK Services in the T-Mobile Network. \n3.7\nParties shall use their best efforts to ensure ***  as set out in Appendix 1. ELEPHANT TALK is responsible and liable for ***, as\ndescribed in Appendix 11. \nSource: PARETEUM CORP, 8-K, 10/1/2008\n\nCONFIDENTIAL TREATMENT REQUESTED\nWITH RESPECT TO CERTAIN PORTIONS HEREOF\nDENOTED WITH “***”\n \nHosting Agreement between ELEPHANT TALK and T"
+    },
+    {
+      "clause_number": "4",
+      "clause_heading": "IMPLEMENTATION",
+      "clause_type": "General / Operational",
+      "text": "4.1\nThe Parties shall implement the Hosting Services according to the Implementation Plan, as described in Appendix 3.\n4.2\nThe Parties shall provide each other with information on preparations made and other details relevant to the implementation of the\nHosting Services.\n4.3\nIf it becomes known to a Party that either a delay shall occur or is likely to occur, such Party shall immediately notify the other Party\nthereof in writing. In such case, the reason for the delay shall be given as well as the moment when it is anticipated that the implementation\ncan take place.\n4.4  \n***. T-Mobile shall resolve every critical part of the Hosting Service as soon as reasonable possible and in any event before the date\nwhich is *** after the agreed ***.\n \n \nOnce the Hosting Service and every critical part, as *** the PoD, thereof has successfully passed the *** pursuant to the procedures\ndescribed in the PoD and Appendix 3 the Service shall be accepted by ELEPHANT TALK and ELEPHANT TALK shall sign the Protocol\nof Delivery acknowledging such acceptance.\n4.5\nSubject to article 4.4., ELEPHANT TALK shall commence the Soft Launch on or after the ***. From the *** ELEPHANT TALK shall be\npermitted to (t"
+    },
+    {
+      "clause_number": "5",
+      "clause_heading": "FORECASTS & COMMITMENTS",
+      "clause_type": "General / Operational",
+      "text": "5.1\nA trial period, covering the *** calendar months from Commercial Launch Date shall apply for ELEPHANT TALK in order to gain\nexperiences and knowledge for ELEPHANT TALK on forecasting and call behavior of its ELEPHANT TALK Customers. ***.\n5.2\nELEPHANT TALK shall provide Quarterly forecasts in writing expressed in volume for the use of the Hosting Services. Details as Parties\nhave agreed upon regarding the forecasts are stipulated in Appendix 4.\n5.3\n***."
+    },
+    {
+      "clause_number": "5.4",
+      "clause_heading": "ELEPHANT TALK accepts that T",
+      "clause_type": "General / Operational",
+      "text": "Mobile will not be bound to the service level agreed between Parties pursuant to article 6 of this\nAgreement in relation to the relevant Quarter, if the ***.\n5.5\nIn case of (promotional) actions and events that will or might temporarily exceed the forecasted traffic volume, ELEPHANT TALK shall\ninform T-Mobile as soon as possible, after which T-Mobile shall make reasonable efforts to take appropriate and business wise feasible\nmeasures to prevent network interruptions."
+    },
+    {
+      "clause_number": "6",
+      "clause_heading": "SERVICE LEVEL",
+      "clause_type": "General / Operational",
+      "text": "6.1  \nThe Hosting Services shall\nbe provided in accordance with the level of service and support as the Parties have agreed upon in Appendix 6.\n6.2  \nAt no point in time shall one of the Parties carry out service or support on equipment, excluding SIM cards ordered according to article\n16, that belongs to the other Party or is provided or maintained by the other Party, unless the other Party has agreed in writing to such\nmeasures in advance.\nSource: PARETEUM CORP, 8-K, 10/1/2008\n\nCONFIDENTIAL TREATMENT REQUESTED\nWITH RESPECT TO CERTAIN PORTIONS HEREOF\nDENOTED WITH “***”\n \nHosting Agreement between ELEPHANT TALK and T-Mobile, 18/9/2008"
+    },
+    {
+      "clause_number": "6.3",
+      "clause_heading": "T-Mobile shall give prior",
+      "clause_type": "General / Operational",
+      "text": "notice to ELEPHANT TALK about planned outages and planned work as agreed in Appendix 6."
+    },
+    {
+      "clause_number": "7",
+      "clause_heading": "DATA PROTECTION & PRIVACY",
+      "clause_type": "General / Operational",
+      "text": "7.1\nAll rights to the personal and traffic data related to ELEPHANT TALK Customers which ELEPHANT TALK places at the disposal of T-\nMobile, as well as to the results of the T-Mobile registering and processing of this data, shall rest in ELEPHANT TALK. T-Mobile shall\nhave at its disposal data covered by the Agreement only to the extent and as long as necessary for T-Mobile to fulfill its obligations\npursuant to this Agreement.\n7.2\nBoth Parties confirm that they shall comply with the Data Privacy regulations and laws applicable in the Netherlands and internationally,\nincluding the Dutch Data Protection Act (“Wet Bescherming Persoonsgegevens”), as amended or varied from time to time. T-Mobile\nundertakes to process personal data only for the purpose of this Agreement.\n7.3\n***. T-Mobile will refrain from using any ELEPHANT TALK Customer related data for any other purpose than providing the Hosting\nServices to ELEPHANT TALK, with the exception of:\n \n·\nlegal tapping requirements in accordance with a request from the relevant public body; and\n \n·\nnecessary use for the purposes of preventing, tracing and fighting fraud or irregularities; and\n \n·\nother activities required by law."
+    },
+    {
+      "clause_number": "8",
+      "clause_heading": "THE CO",
+      "clause_type": "General / Operational",
+      "text": "OPERATION RELATIONSHIP"
+    },
+    {
+      "clause_number": "8.1",
+      "clause_heading": "The authorized members of each Party shall fully co",
+      "clause_type": "General / Operational",
+      "text": "operate in the performance of the Agreement. The account manager of each Party\nshall act as the first point of contact in relation to any issues provided for in the Agreement. Each Party may change its contact person at\nany time by informing the other Party in writing.\n8.2\nThe Parties shall promptly inform each other of a breakdown in their respective systems or mobile telecommunications Network that has or\nmight have an effect on the Hosting Services and/or the Agreement.\n \n \n8.3  \n*** \nSource: PARETEUM CORP, 8-K, 10/1/2008\n\nCONFIDENTIAL TREATMENT REQUESTED\nWITH RESPECT TO CERTAIN PORTIONS HEREOF\nDENOTED WITH “***”\n \nHosting Agreement between ELEPHANT TALK and T-Mobile, 18/9/2008"
+    },
+    {
+      "clause_number": "9",
+      "clause_heading": "PRICES, CHARGING, BILLING AND ACCOUNTING",
+      "clause_type": "General / Operational",
+      "text": "9.1 \nDevelopment costs & prices for Hosting Services\n9.1.1\nSubject to the terms of this Agreement, ELEPHANT TALK shall pay T-Mobile the total amount of *** -as specified in Appendix 2, as a\ncontribution for upfront (network related) developments costs of the Hosting Services, including *** services, as described in Appendix\n1. Payments shall be made in accordance with article 9.2.\n9.1.2\nThe prices to be paid by ELEPHANT TALK to T-Mobile for the Hosting Services rendered are stated in Appendix 2. Such prices may be\namended in accordance with the terms of this Agreement and Appendix 2 and shall be paid by ELEPHANT TALK to T-Mobile in\naccordance with article 9.2. \n9.1.3\nIf the prices due to subsequent changes in Dutch laws and regulations become invalid or unenforceable the prices shall be modified to the\nextent required in order to be in conformity with such laws and regulations. In the event that such change of prices reasonably requires\nthat Parties revise the applicable price structure of the Hosting Services in its entirety, Parties shall enter into good faith negotiations to\nagree upon new prices."
+    },
+    {
+      "clause_number": "9.2",
+      "clause_heading": "Charging",
+      "clause_type": "General / Operational",
+      "text": "9.2.1\nT-Mobile has charged the first installment of *** to ELEPHANT TALK with regard to ELEPHANT TALK’s contribution for upfront\n(network related) developments costs, as mentioned in article 9.1.1, after signing of the Heads of Agreement between the Parties dated\n***. The second installment of *** shall be charged to ELEPHANT TALK right after signing of the Agreement and shall be paid by\nELEPHANT TALK within fifteen (15) Calendar Days of the invoice date.\n9.2.2\nWhenever an ELEPHANT TALK Customer uses the ELEPHANT TALK Wholesale Services, ELEPHANT TALK shall be fully responsible\nfor timely payment of the appropriate price(s) established under article 9.1.2 for the Hosting Services used. ELEPHANT TALK shall pay to\nT-Mobile the charges for the Hosting Services as from the Ready for Service Date, including the charges mentioned under article 4.5.\n9.2.3\nIn addition to the invoice mentioned under article 9.2.1., T-Mobile shall on a monthly arrear basis submit invoices to ELEPHANT TALK\ndetailing the prices payable by ELEPHANT TALK under article 9.2.2. T-Mobile will send the following invoices for:\na) \nnetwork hosting services***;\na) \ncosts of authorized lawful intercept (to the extent pro"
+    },
+    {
+      "clause_number": "9.3",
+      "clause_heading": "Billing and Accounting",
+      "clause_type": "Confidentiality",
+      "text": "9.3.1\nProcedures for billing and accounting information are provided in Appendix 7.\nSource: PARETEUM CORP, 8-K, 10/1/2008\n\nCONFIDENTIAL TREATMENT REQUESTED\nWITH RESPECT TO CERTAIN PORTIONS HEREOF\nDENOTED WITH “***”\n \nHosting Agreement between ELEPHANT TALK and T-Mobile, 18/9/2008\n \n9.3.2\nIn order to exchange invoice information, TAP files will be transferred by T-Mobile to ELEPHANT TALK, as stated in Appendix 7.\n9.3.3\nFor verification purposes T-Mobile will keep the CDRs in accordance with Dutch legislation."
+    },
+    {
+      "clause_number": "9.4",
+      "clause_heading": "Financial security",
+      "clause_type": "General / Operational",
+      "text": "9.4.1.  \n***\n***:\na. ELEPHANT TALK has been declared bankrupt or has applied for bankruptcy according to 18.1 sub g, or;\nb. ELEPHANT TALK ***\n \n***.\n9.4.2.\nT-Mobile shall not require financial security as set out in 9.4.1as long as the ‘***  \nT-Mobile customers using *** will ***. For *** ELEPHANT TALK will issue an invoice to T-Mobile. Parties agree that as long as:\n \n·\n*** ; and\n \n·\nthe invoice for these *** delivery of the Hosting Services by T-Mobile according to this Agreement,\narticle 9.4.1. shall not apply.\nIn the event that ELEPHANT TALK does not comply with the payment terms as set out in article 9.2.4., Parties agree that T-Mobile is\nentitled *** ELEPHANT TALK following the ‘*** with the amounts which ELEPHANT TALK ( or any of its Affiliates) is due to T-Mobile\naccording to this Agreement.\n9.4.3.\nAs soon as article 9.4.2. does no longer apply - ***."
+    },
+    {
+      "clause_number": "10",
+      "clause_heading": "CUSTOMER CARE SUPPORT",
+      "clause_type": "Confidentiality",
+      "text": "Source: PARETEUM CORP, 8-K, 10/1/2008\n\nCONFIDENTIAL TREATMENT REQUESTED\nWITH RESPECT TO CERTAIN PORTIONS HEREOF\nDENOTED WITH “***”\n \nHosting Agreement between ELEPHANT TALK and T-Mobile, 18/9/2008\n \n10.1 \nELEPHANT TALK shall for its own account and at its own cost maintain a customer support organization for ELEPHANT TALK\nCustomers. In addition, T-Mobile shall provide second line customer care support to the back office of ELEPHANT TALK’s customer\nsupport organization, according to Appendix 1, 2 and 6.\n \n \n10.2\nFor the avoidance of doubt, it is stated that Parties agree that T-Mobile shall not provide customer support services to ELEPHANT TALK\nCustomers (meaning end-users of ELEPHANT TALK Customers) directly."
+    },
+    {
+      "clause_number": "11",
+      "clause_heading": "CONFIDENTIALITY",
+      "clause_type": "Confidentiality",
+      "text": "11.1 The Parties agree that all aspects of the content of this Agreement shall be treated as confidential and that no information in respect of the\ncontent and/or existence of this Agreement shall be disclosed without the prior written consent of both Parties. Neither Party shall make\nany public announcements, including but not limited to press releases, articles, brochures, advertisements and speeches, concerning this\nAgreement without the prior written consent of the other Party. However, ELEPHANT TALK is entitled to communicate - as far as strictly\nnecessary for the proper conclusion of its agreements- to the ELEPHANT TALK Customer that its services are provided by (the) T-Mobile\n(network). ELEPHANT TALK Customers shall be entitled to communicate that the network coverage is provided by T-Mobile, only in case\nthey are asked for it. Under no circumstances, ELEPHANT TALK Customers shall make any public announcements, including but not\nlimited to press releases, commercial articles (not being technical or business articles), brochures, advertisements, public speeches and\nother promotional material, that its services to mobile end-users are provided by the T-Mobile network. Parties "
+    },
+    {
+      "clause_number": "12",
+      "clause_heading": "LIMITATION OF LIABILITY",
+      "clause_type": "Limitation of Liability",
+      "text": "12.1 Without prejudice to the provisions expressly stated elsewhere in this Agreement, a Party's liability for damage suffered by the other Party,\nattributable to the first mentioned Party or a person for whom it is liable by law, shall be limited to the following events, and the following\namounts:\n \n \na) \nfor direct damage to physical goods (property damage or “zaakschade”) or directly resulting from death or personal injury: up to\na maximum of *** per event or series of connected events and up to a further maximum of *** for all events (connected or not) in\nany period of 12 calendar months;\n \n   \n \n \nb)  \nfor damage directly resulting from a material breach of this Agreement: up to a maximum *** or *** as set out in Appendix 2),\nwhatever amount is the highest, in any period of 12 calendar months.\n \nSource: PARETEUM CORP, 8-K, 10/1/2008\n\nCONFIDENTIAL TREATMENT REQUESTED\nWITH RESPECT TO CERTAIN PORTIONS HEREOF\nDENOTED WITH “***”\n \nHosting Agreement between ELEPHANT TALK and T-Mobile, 18/9/2008\n \n12.2\nIn no event shall either Party be liable for indirect or consequential loss or damage, including but not limited to, loss of profit, loss of sales\nor turnover, loss of or damage to rep"
+    },
+    {
+      "clause_number": "13",
+      "clause_heading": "SUSPENSION AND TERMINATION OF HOSTING SERVICES",
+      "clause_type": "Termination",
+      "text": "13.1\nNotwithstanding anything stipulated in the Agreement, T-Mobile may without liability suspend or terminate whole or part of the Hosting\nServices in relation to one or more ELEPHANT TALK Customers, in circumstances where T-Mobile would suspend or terminate those\nservices to its own customers, in the following circumstances - or circumstances of similar severity.\na) \n***;  \nb) \n***; or\nc) \nsuspected fraudulent or unauthorized use by the relevant ***; or\n \nd)\nnecessary maintenance or enhancement of the T-Mobile Network.\nIn the event of planned suspension or termination of all or any of the Hosting Services, T-Mobile shall inform ELEPHANT TALK\naccordingly by sending a written notification, as soon as reasonably and business wise possible."
+    },
+    {
+      "clause_number": "13.2",
+      "clause_heading": "Furthermore, T",
+      "clause_type": "Limitation of Liability",
+      "text": "Mobile may without liability temporarily suspend all or any of its Hosting Services to ELEPHANT TALK if a (partial or\ntemporary) breakdown on the T-Mobile Network should occur. Such temporarily suspension shall - to the extent possible - be limited to\nthe Location Areas where the temporarily breakdown occurs. Immediately after the T-Mobile Network has been restored, T-Mobile shall\ntake all appropriate measures in order to re-establish the Hosting Services with the shortest possible delay, in accordance with the\nprocedures as described in Appendix 6.\n \nSource: PARETEUM CORP, 8-K, 10/1/2008\n\nCONFIDENTIAL TREATMENT REQUESTED\nWITH RESPECT TO CERTAIN PORTIONS HEREOF\nDENOTED WITH “***”\n \nHosting Agreement between ELEPHANT TALK and T-Mobile, 18/9/2008 \n \n13.3\nT-Mobile may without liability limit at its own discretion the availability of all or any of the Hosting Services above the level of the traffic\nforecasts of Hosting Services as defined in article 5 and Appendix 4, provided that the provision of these Hosting Services -above the\nlevel of the traffic forecasts - to ELEPHANT TALK have a noticeable negative impact on the quality of the T-Mobile Network and on the\nprovision of services t"
+    },
+    {
+      "clause_number": "14",
+      "clause_heading": "FORCE MAJEURE",
+      "clause_type": "General / Operational",
+      "text": "14.1\nNon-performance by either Party of its obligations pursuant to this Agreement or delay in performing the same shall not constitute a\nbreach of the Agreement if and for as long as it is due to a force majeure event, including, but not limited to, government action or\nrequirement of regulatory authority, lock-outs, strikes, shortage of transportation, war, terrorist attacks, rebellion or other military action,\nfire, floods, natural catastrophes, that a Party is not able to overcome with reasonable and proportional efforts, or a non-performance of\nobligations by a sub-contractor to a Party - in circumstances where it is reasonably impossible for that Party or an other sub-contractor to\nperform such obligation instead -, pursuant to any of the aforementioned reasons.\n14.2\nThe Party prevented from fulfilling its obligations shall on becoming aware of such event inform the other Party in writing of such force\nmajeure event as soon as possible.\nIf the affected Party fails to inform the other Party of the occurrence of a force majeure event as set out in article 14.1 above, then such\nParty thereafter shall not be entitled to refer such events to force majeure as a reason for non-fulfi"
+    },
+    {
+      "clause_number": "15",
+      "clause_heading": "INTELLECTUAL PROPERTY RIGHTS",
+      "clause_type": "Intellectual Property",
+      "text": "15.1\nThis Agreement does not imply any transfer of intellectual property right. Neither Party shall use the other Party's name, trademarks,\nservice marks or other intellectual property rights without the other Party’s prior written consent. ELEPHANT TALK shall guarantee that\nin any agreement it concludes with ELEPHANT TALK Customers the following provision will be included: ‘In no circumstances, [X] shall\nuse T-Mobile’s name, trademarks, service marks or other intellectual property rights in public announcements, including but not limited\nto press releases, commercial articles (not being technical or business articles), brochures, advertisements public speeches and other\npromotional material.’\n15.2\nELEPHANT TALK is allowed to market and sell its services to ELEPHANT TALK Customers under a brand name chosen by ELEPHANT\nTALK. However, ELEPHANT TALK shall not use any logos, names or other material that bears, is similar or refers to any intellectual\nproperty right of T-Mobile or T-Mobile competitors (meaning mobile network operators, mobile virtual network operators and enhanced\nservice providers in The Netherlands) without prior written approval of T-Mobile.\n15.3\nWhen marketing its E"
+    },
+    {
+      "clause_number": "15.4",
+      "clause_heading": "ELEPHANT TALK will defend, indemnify and will hold T",
+      "clause_type": "Indemnification",
+      "text": "Mobile harmless from and against any claim and costs assessed against T-\nMobile by a third party alleging that the ELEPHANT TALK Wholesale Services, constitute an infringement of any third party's intellectual\nproperty rights in circumstances where the alleged infringement is attributable to ELEPHANT TALK and in no way the fault of T-Mobile or\nits Affiliated Company. If such a claim is valid, ELEPHANT TALK shall make the modifications needed to cease the infringement at its own\nexpense as soon as possible. Such modifications will not have any impact on the functionality and costs of the provided Hosting Services.\nELEPHANT TALK shall inform T-Mobile on any of such modifications as soon as possible.\n \n \n15.5\nT-Mobile shall retain all right, title and interest in and to the Hosting Services, including all intellectual property rights therein and any\nmodifications or enhancements thereof."
+    },
+    {
+      "clause_number": "15.6",
+      "clause_heading": "T-Mobile hereby grants ELEPHANT TALK a fully paid",
+      "clause_type": "General / Operational",
+      "text": "up, non-exclusive licence to use the Hosting Services for the purpose of\nELEPHANT TALK in providing the ELEPHANT TALK Wholesale Services during the term of this Agreement without further\nconsideration. This licence granted shall take effect on the date that the relevant Hosting Services is first used by or on behalf of\nELEPHANT TALK to provide the ELEPHANT TALK Wholesale Services under this Agreement."
+    },
+    {
+      "clause_number": "16",
+      "clause_heading": "SIM CARDS & CALLING CREDIT",
+      "clause_type": "Confidentiality",
+      "text": "Source: PARETEUM CORP, 8-K, 10/1/2008\n\nCONFIDENTIAL TREATMENT REQUESTED\nWITH RESPECT TO CERTAIN PORTIONS HEREOF\nDENOTED WITH “***”\n \nHosting Agreement between ELEPHANT TALK and T-Mobile, 18/9/2008"
+    },
+    {
+      "clause_number": "16.1",
+      "clause_heading": "ELEPHANT TALK shall order and purchase SIM cards",
+      "clause_type": "General / Operational",
+      "text": "16.2\nIn principle the *** will be of *** will remain the property of T-Mobile at all times.\n16.3\nT-Mobile shall retain at all times full ownership of its intellectual property rights vested in the software (including T-Moible’s and its\nsupplier related software and codes, but excluding typical ELEPHANT TALK’s and/or other party’s content) contained in the T-Mobile\nIMSI’s."
+    },
+    {
+      "clause_number": "16.4",
+      "clause_heading": "Parties agree that they will re",
+      "clause_type": "General / Operational",
+      "text": "discuss the provisioning of a ***, the implementation and associated costs of the *** shall be considered\npart of the Agreement and therefore shall not result in additional costs for ELEPHANT TALK provided that no *** are involved.\nELEPHANT TALK shall retain at all times full ownership of its intellectual property rights vested in the software contained in the ***. .\n16.5\nT-Mobile has a strict policy with respect to the usage of *** (also known as \"*** \") and any other devices that ***”). These *** are\nunder no circumstances allowed on the T-Mobile Network. ELEPHANT TALK is aware of T-Mobile’s position with respect to these ***\nand will refrain from using *** or from doing business with any party (including ELEPHANT TALK’s Customers), who uses these *** to\nthe T-Mobile Network. Furthermore, duplicating the *** or functionalities of the *** without the explicit prior written approval of T-\nMobile is forbidden. ELEPHANT TALK will (contractually) inform the ELEPHANT TALK Customers that they will refrain from using ***\nor ***. T-Mobile herewith gives ELEPHANT TALK approval to *** once, only for the purpose of supplying *** as commonly known in\nthe market at the moment of signing the Ag"
+    },
+    {
+      "clause_number": "17",
+      "clause_heading": "DURATION OF THE AGREEMENT",
+      "clause_type": "General / Operational",
+      "text": "17.1\nThis Agreement shall come into force on the Date of the Agreement, and shall, subject to article 18, remain in full force and effect for an\ninitial period of *** from the Commercial Launch Date.\n17.2\nThe Agreement may be terminated by both Parties with a notification period of *** before the end of the Initial Term of the Agreement. If\nno termination notice is provided, the Agreement will be automatically extended for consecutive *** periods until such time as ***\ntermination notice is provided. At the end of *** Parties will negotiate in good faith regarding a possible extension of the Initial Term.\n \nParties can mutually agree in writing to deviate from an automatic extension of *** by extending this Agreement for a longer period than\n***.\nSource: PARETEUM CORP, 8-K, 10/1/2008\n\nCONFIDENTIAL TREATMENT REQUESTED\nWITH RESPECT TO CERTAIN PORTIONS HEREOF\nDENOTED WITH “***”\n \nHosting Agreement between ELEPHANT TALK and T-Mobile, 18/9/2008"
+    },
+    {
+      "clause_number": "18",
+      "clause_heading": "TERMINATION OF AGREEMENT",
+      "clause_type": "Termination",
+      "text": "18.1\nIn addition to the conditions of Article 17, this Agreement may be terminated as follows:\n \na.\nby mutual agreement of the Parties; or\n \nb.\nby either Party, with immediate effect, if the other Party is in material breach of any provision of this Agreement and does not or is not\ncapable of remedying such breach within a reasonable time and in any event within sixty (60) Business Days of receipt of a written\nnotice to such effect. A material breach will, for the purpose of this Agreement, not include the event that ELEPHANT TALK fails to\ncomply with its payments obligations under article 9.2.; or\n \nc.\nby T-Mobile, if ELEPHANT TALK fails to comply with its obligations under article 16.5 upon written notification thereof by T-Mobile,\nwithin a reasonable period of time following the respective notification date (but in no event later than forty-five (45) Business Days\nof receipt of a written notice to such effect); or,\n \nd.\nby T-Mobile, subject to *** . In the present situation ***; or\n \ne.\nby T-Mobile or its successors, ***.; or,\n \nf.\nby ELEPHANT TALK, subject to *** and this entity is at the time of signing of ***; or\n \ng..\nby either Party, with immediate effect, if the other Part"
+    },
+    {
+      "clause_number": "18.3",
+      "clause_heading": "In the event that T",
+      "clause_type": "Termination",
+      "text": "Mobile is in material breach and ELEPHANT TALK terminates the Agreement according to article 18.1.b, ***.\n18.4\nThis Agreement will terminate immediately in the event that a final order made by the relevant governmental authority not granting,\nrevoking or denying renewal of T-Mobile DCS 1800 or UMTS/HSDPA license or permission to operate the T-Mobile Network or any other\nlicense to operate the Hosting Services, takes effect, if such order will be beyond the reasonable control of T-Mobile."
+    },
+    {
+      "clause_number": "19",
+      "clause_heading": "MODIFICATIONS",
+      "clause_type": "General / Operational",
+      "text": "19.1\nAny modifications and/or additions to this Agreement and/or the Appendices shall be valid only if made in writing and signed by duly\nauthorized representatives of both Parties.\n19.2\nIf a Party requests a modification of this Agreement because (a) a material change occurs in the laws and regulations governing\ntelecommunications in the Netherlands, or (b) a material change (including enforcement action by any regulatory authority) occurs which\naffects or reasonably could affect the commercial and technical basis of this Agreement, Parties shall enter into good faith negotiations in\norder to determine if a modification of the Agreement is necessary and if so agree upon the way to implement the required changes in or\nmodifications to this Agreement.\n19.3\nParties agree that the Operational Manual can only be modified by T-Mobile’s account manager upon consultation with ELEPHANT\nTALK’s authorized account manager and with the subsequent written agreement of ELEPHANT TALK and T-Mobile."
+    },
+    {
+      "clause_number": "20",
+      "clause_heading": "MISCELLANEOUS",
+      "clause_type": "General / Operational",
+      "text": "20.1 \nSuccessors, Assigns\n \nThis Agreement and the rights and obligations specified herein shall be binding upon the Parties and their respective legal successors and\nneither Party shall sell, transfer or assign this Agreement or any part, interest, right or obligation hereunder except that a Party shall have\nthe right to transfer or assign this Agreement in whole (but not in part) to an Affiliated Company provided that:\nSource: PARETEUM CORP, 8-K, 10/1/2008\n\nCONFIDENTIAL TREATMENT REQUESTED\nWITH RESPECT TO CERTAIN PORTIONS HEREOF\nDENOTED WITH “***”\n \nHosting Agreement between ELEPHANT TALK and T-Mobile, 18/9/2008\n \n \na)\nsuch Affiliated Company expressly assumes, by written instrument, all of the obligations of the Party under this Agreement and\nthereby becomes a Party to this Agreement, and\n \nb)\nsuch Affiliated Company has adequate financial strength, resources and experience in the reasonable opinion of the other Party\n(such opinion to be obtained in writing in advance of any assignment), to comply with its obligations under this Agreement. Such\nassignment shall not release the assigning Party of its obligations under article 11 of this Agreement.\nNo person other than a Party to "
+    },
+    {
+      "clause_number": "20.2",
+      "clause_heading": "No Waiver",
+      "clause_type": "General / Operational",
+      "text": "Failure by any Party at any time to require performance of any provisions of this Agreement shall in no manner affect its rights to enforce\nthe same, and the waiver by any Party of any breach of any provision of this Agreement shall not be construed to be a waiver by such\nParty of any succeeding breach of such provision or waiver by such Party of any breach of any other provision hereof."
+    },
+    {
+      "clause_number": "20.3",
+      "clause_heading": "Severability",
+      "clause_type": "General / Operational",
+      "text": "If any part of this Agreement or any Appendices hereto is held to be invalid or unenforceable according to Regulatory Provisions, this\nshall not invalidate any other provisions of this Agreement or the Appendices hereto. The Parties shall attempt through negotiations in\ngood faith to replace any such provision of this Agreement or the Appendices so held to be invalid or unenforceable with a valid\nprovision which comes as close to the original economic understanding and intention of the Parties as legally feasible.\nThe same applies insofar as this Agreement and/or its Appendices prove to have a gap. In this case, the Parties shall endeavor to close\nthe gap through negotiations conducted in good faith."
+    },
+    {
+      "clause_number": "20.4",
+      "clause_heading": "Entire Agreement",
+      "clause_type": "General / Operational",
+      "text": "20.4.1\nThis Agreement and the documents referred to in it contain the whole Agreement between the Parties relating to the subject matter of this\nAgreement and supersede all previous agreements and understandings whether written or oral between the Parties.\n \n20.4.2\nEach Party acknowledges that in entering into this Agreement it shall not rely on any representation, warranty or other assurance except\nas set out in this Agreement.\n \nSource: PARETEUM CORP, 8-K, 10/1/2008\n\nCONFIDENTIAL TREATMENT REQUESTED\nWITH RESPECT TO CERTAIN PORTIONS HEREOF\nDENOTED WITH “***”\n \nHosting Agreement between ELEPHANT TALK and T-Mobile, 18/9/2008"
+    },
+    {
+      "clause_number": "20.5",
+      "clause_heading": "Non",
+      "clause_type": "Termination",
+      "text": "solicitation\n \nWithout the prior written consent of the other Party, a Party shall not at any time while this Agreement is in force and for a one-year period\nafter termination of this Agreement either for itself or on behalf of any other company solicit, induce or cause any employee of the other\nParty or any Affiliated Company of this other Party who has been a representative of or employed by the other Party in connection with\nthis Agreement to leave such employment. In case of violation of this article, the Party shall pay to the other Party an equivalent of\neighteen (18) months gross salary of the respective employee."
+    },
+    {
+      "clause_number": "20.6",
+      "clause_heading": "Survival",
+      "clause_type": "Termination",
+      "text": "Any provision of this Agreement which by its nature or implication (including in respect of any accrued rights and liabilities) is required to\nsurvive termination or expiry of this Agreement shall survive termination or expiry as aforesaid."
+    },
+    {
+      "clause_number": "20.7",
+      "clause_heading": "Notices",
+      "clause_type": "General / Operational",
+      "text": "Any notice or other formal communication to be given or made under or in connection with this Agreement, if not stated otherwise\nexplicitly in this Agreement and its Appendices, shall be in writing, signed by or on behalf of the Party giving it and sent by registered\nmail. All notice or other formal communication to be delivered under this Agreement shall be addressed to: \n \nfor ELEPHANT TALK: the CTO;\n \nfor T-Mobile: the Director Wholesale & Interconnect."
+    },
+    {
+      "clause_number": "20.8",
+      "clause_heading": "Expenses",
+      "clause_type": "Payment & Compensation",
+      "text": "Each Party shall bear its own costs and expenses including the fees of its professional advisors in relation to the preparation, execution\nand carrying into effect of this Agreement and all other documents related to it."
+    },
+    {
+      "clause_number": "20.9",
+      "clause_heading": "Representation",
+      "clause_type": "General / Operational",
+      "text": "Neither Party may in any respect represent the other Party or enter into any agreement or other commitment on behalf of the other\nParty except as provided for in this Agreement or agreed by the Parties in writing.\nThe Agreement and conditions contained herein are only related to the Dutch market and can not be referred to in discussions or deals\nwith other T-Mobile companies and/or Deutsche Telecom and their respective Affiliated Companies. Due to amongst others market and\ncountry difference, T-Mobile expressly states and ELEPHANT TALK agrees that this Agreement cannot and will not create any precedent\nfor any existing or future discussions between ELEPHANT TALK and T-Mobile/Deutsche Telecom and their Affiliated Companies outside\nthe Netherlands;\nSource: PARETEUM CORP, 8-K, 10/1/2008\n\nCONFIDENTIAL TREATMENT REQUESTED\nWITH RESPECT TO CERTAIN PORTIONS HEREOF\nDENOTED WITH “***”\n \nHosting Agreement between ELEPHANT TALK and T-Mobile, 18/9/2008"
+    },
+    {
+      "clause_number": "21",
+      "clause_heading": "GOVERNING LAW",
+      "clause_type": "General / Operational",
+      "text": "This Agreement shall be governed by and construed in all respects exclusively in accordance with the laws of the Netherlands."
+    },
+    {
+      "clause_number": "22",
+      "clause_heading": "DISPUTE RESOLUTION",
+      "clause_type": "Termination",
+      "text": "Any dispute, excluding invoice disputes as described in Appendix 7, controversy or claim arising out of or in connection with any aspect\nof this Agreement, or the breach, termination or invalidity thereof, shall:\n \na.\nin first instance be referred to the authorized account manager of either Party. The account managers shall try to solve the dispute\nwithin ten (10) Business Days. If the dispute is not resolved within the latter period the appropriate managers of both account\nmanagers will seek for a resolution within ten (10) Business Days; and\n \nb.\nThereafter, if the matter is not resolved, it shall be referred to the Chief Executive Officers of the Managing Boards of the Parties for\na further period of ten (10) Business Days for resolution; and\nThereafter, if the matter remains unresolved, it shall exclusively be referred and finally settled by the competent court in The Hague within\nthe jurisdiction of the Netherlands.\nSource: PARETEUM CORP, 8-K, 10/1/2008\n\n \nCONFIDENTIAL TREATMENT REQUESTED\nWITH RESPECT TO CERTAIN PORTIONS HEREOF\nDENOTED WITH “***”\n \nHosting Agreement between ELEPHANT TALK and T-Mobile, 18/9/2008"
+    },
+    {
+      "clause_number": "23",
+      "clause_heading": "COUNTERPART",
+      "clause_type": "General / Operational",
+      "text": "The Agreement is written in the English language in two (2) copies, each Party receiving one (1) duly signed copy. Both copies are\nauthentic.\nSigned in September 17, 2008\n \n \n \n \n \n \nFor T-Mobile Netherlands B.V.\n/s/ Niek Jan van Damme\nName: Mr. Niek Jan van Damme\nTitle: Managing Director\n \nFor Elephant Talk Communication Holding AG \n/s/ Steven van der Velden\nName: Mr. Steven van der Velden\nTitle: CEO\n \n \n \n \n \n \n \n \n \nFor T-Mobile Netherlands B.V.\n/s/ Hans van Leeuwen\nName: Hans van Leeuwen\nTitle: Financieel Directeur\n \n \nFor Elephant Talk Communication Holding AG \n/s/ Martin Zuurbier\nName: Mr. Martin Zuurbier\nTitle: CTO/COO\n____________________________ \nSource: PARETEUM CORP, 8-K, 10/1/2008"
+    }
+  ]
+}

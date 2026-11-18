@@ -1,0 +1,11 @@
+document_id,filename,title,ref_char_count,ref_word_count,easyocr_cer,easyocr_wer,easyocr_time_sec,rapidocr_cer,rapidocr_wer,rapidocr_time_sec
+URDU_BENCH_01,01_kiraya_nama_lahore.png,01 Kiraya Nama Lahore,390,64,0.3538,0.5625,31.29,0.9744,1.0,6.42
+URDU_BENCH_02,02_fir_report_karachi.png,02 Fir Report Karachi,350,56,0.66,0.8214,33.16,1.0,1.0,4.66
+URDU_BENCH_03,03_qanooni_notice_islamabad.png,03 Qanooni Notice Islamabad,331,53,0.5378,0.7358,33.51,0.9879,1.0,4.87
+URDU_BENCH_04,04_darkhwast_zamanat_rawalpindi.png,04 Darkhwast Zamanat Rawalpindi,336,50,0.5298,0.7,32.19,0.9405,1.0,4.68
+URDU_BENCH_05,05_bayan_e_halfi_multan.png,05 Bayan E Halfi Multan,318,49,0.5031,0.6939,32.04,1.0,1.0,3.7
+URDU_BENCH_06,06_iqrarnama_farokht_faisalabad.png,06 Iqrarnama Farokht Faisalabad,330,51,0.5758,0.7451,30.33,0.9939,1.0,4.87
+URDU_BENCH_07,07_mulazmat_muahida_peshawar.png,07 Mulazmat Muahida Peshawar,298,45,0.3557,0.5778,26.84,0.9899,1.0,4.63
+URDU_BENCH_08,08_mukhtar_nama_aam_quetta.png,08 Mukhtar Nama Aam Quetta,315,49,0.5587,0.7143,30.47,0.9841,1.0,4.55
+URDU_BENCH_09,09_dawa_naan_nafaqa_sialkot.png,09 Dawa Naan Nafaqa Sialkot,329,50,0.3799,0.56,30.47,0.9939,1.0,4.72
+URDU_BENCH_10,10_hukamnama_adalat_lahore.png,10 Hukamnama Adalat Lahore,320,48,0.5375,0.7083,28.09,0.975,1.0,5.14
