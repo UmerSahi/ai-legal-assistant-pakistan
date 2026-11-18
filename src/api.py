@@ -577,6 +577,100 @@ def upload_and_secure_document(req: DocumentUploadRequest):
     }
 
 
+@app.post("/api/upload-document-file", tags=["Document Security"])
+async def upload_document_file_and_secure(
+    file: UploadFile = File(...),
+    user_id: str = "usr_asc_03",
+    matter_id: str = "MAT-2024-KHI-001"
+):
+    """
+    Direct file upload ingestion endpoint:
+    Accepts Word (.docx), PDF (.pdf), Text (.txt), Markdown (.md), or CSV.
+    Extracts text, scans for prompt injections, redacts Pakistani PII, and logs audit hash.
+    """
+    # 1. Matter Access Control
+    try:
+        access_controller.verify_matter_access(user_id, matter_id)
+    except MatterAccessDeniedError as e:
+        raise HTTPException(status_code=403, detail=str(e))
+
+    filename = file.filename or "Uploaded_Document.txt"
+    ext = os.path.splitext(filename)[1].lower()
+    content_bytes = await file.read()
+
+    extracted_text = ""
+    if ext in [".docx", ".doc"]:
+        try:
+            import docx
+            doc = docx.Document(io.BytesIO(content_bytes))
+            paragraphs = [p.text for p in doc.paragraphs if p.text.strip()]
+            for table in doc.tables:
+                for row in table.rows:
+                    row_text = " | ".join([cell.text.strip() for cell in row.cells if cell.text.strip()])
+                    if row_text:
+                        paragraphs.append(row_text)
+            extracted_text = "\n\n".join(paragraphs)
+        except Exception as e:
+            raise HTTPException(status_code=400, detail=f"Failed to read Word document: {str(e)}")
+    elif ext in [".pdf"]:
+        try:
+            import fitz
+            pdf_doc = fitz.open(stream=content_bytes, filetype="pdf")
+            extracted_text = "\n\n".join([page.get_text() for page in pdf_doc])
+            pdf_doc.close()
+        except Exception as e:
+            raise HTTPException(status_code=400, detail=f"Failed to read PDF document: {str(e)}")
+    else:
+        try:
+            extracted_text = content_bytes.decode("utf-8")
+        except UnicodeDecodeError:
+            extracted_text = content_bytes.decode("latin-1", errors="ignore")
+
+    if not extracted_text.strip():
+        raise HTTPException(status_code=400, detail="The uploaded document appears to be empty or unreadable.")
+
+    # 2. Prompt injection shield
+    scan_res = injection_shield.scan_content(extracted_text, source="file_upload")
+    if not scan_res.is_safe:
+        audit_logger.log_event(
+            event_type="UPLOAD_INJECTION_BLOCKED",
+            user_id=user_id,
+            user_role="Paralegal",
+            matter_id=matter_id,
+            action=f"UPLOAD_{filename}",
+            status="BLOCKED",
+            details={"threat_category": scan_res.threat_category, "risk_score": scan_res.risk_score}
+        )
+        raise HTTPException(
+            status_code=400,
+            detail=f"Security Alert: Malicious prompt injection detected ({scan_res.threat_category}) inside '{filename}'. File quarantined."
+        )
+
+    # 3. PII Masking
+    masked_text, pii_counts = PIIMasker.mask_pii(scan_res.sanitized_text)
+
+    # 4. Log successful secure upload
+    audit_logger.log_event(
+        event_type="DOCUMENT_INGESTED_SECURELY",
+        user_id=user_id,
+        user_role="Paralegal",
+        matter_id=matter_id,
+        action=f"INGEST_{filename}",
+        status="SUCCESS",
+        details={"filename": filename, "pii_redacted": pii_counts, "size_bytes": len(content_bytes)}
+    )
+
+    return {
+        "status": "INGESTED_SECURELY",
+        "filename": filename,
+        "matter_id": matter_id,
+        "pii_redacted_counts": pii_counts,
+        "safe_char_count": len(masked_text),
+        "extracted_text": extracted_text,
+        "preview": masked_text[:400] + ("..." if len(masked_text) > 400 else "")
+    }
+
+
 @app.get("/api/audit", tags=["Security & Compliance"])
 def get_audit_trail(limit: int = 50):
     """
@@ -1597,12 +1691,29 @@ def get_web_dashboard():
                         <h2>Document Ingestion & Security Quarantine</h2>
                         <div class="brass-plate" style="font-size:0.75rem; padding:3px 18px;">PII Masking & Shield</div>
                     </div>
+
+                    <!-- Ingestion Document Dropzone -->
+                    <div class="form-group">
+                        <label class="leather-label">Upload Evidence / Contract Document (.docx, .pdf, .txt, .md)</label>
+                        <div id="ingest-dropzone" class="contract-dropzone" 
+                             onclick="document.getElementById('ingest-file-input').click()"
+                             ondragover="handleIngestDragOver(event)"
+                             ondragleave="handleIngestDragLeave(event)"
+                             ondrop="handleIngestDrop(event)">
+                            <input type="file" id="ingest-file-input" accept=".docx,.pdf,.txt,.md,.text,.csv" style="display:none;" onchange="handleIngestFileSelect(this.files[0])">
+                            <div class="dropzone-icon">🛡️</div>
+                            <div class="dropzone-title">Upload Document for Sanitization & Ingestion</div>
+                            <div class="dropzone-sub">Drop Word (.docx), PDF (.pdf), or Text file here, or click to browse</div>
+                            <div id="ingest-upload-status" class="dropzone-status" style="display:none;"></div>
+                        </div>
+                    </div>
+
                     <div class="form-group">
                         <label class="leather-label">Document Name</label>
                         <input id="up-name" type="text" class="brass-input" value="Counterparty_Vendor_Addendum.txt">
                     </div>
                     <div class="form-group">
-                        <label class="leather-label">Document Text Payload</label>
+                        <label class="leather-label">Document Text Payload (Editable / Extracted)</label>
                         <textarea id="up-content" class="query" style="min-height:160px;">Witness CNIC: 42201-1234567-1. Mobile: +92 300 9876543.
 Payment via IBAN: PK36HABB0001234567890123.
 Clause 9.1: The party agrees to supply software components on monthly schedule.</textarea>
@@ -1610,6 +1721,7 @@ Clause 9.1: The party agrees to supply software components on monthly schedule.<
                     <div style="display:flex; gap:0.75rem; flex-wrap:wrap;">
                         <button class="btn-primary" onclick="runUpload()">Sanitize & Ingest</button>
                         <button class="btn-secondary" onclick="injectMaliciousDemo()">Simulate Prompt Injection</button>
+                        <button class="btn-secondary" onclick="clearIngestFolio()">Clear Folio</button>
                     </div>
                 </div>
 
@@ -1621,7 +1733,7 @@ Clause 9.1: The party agrees to supply software components on monthly schedule.<
                         </div>
                         <div id="up-output">
                             <p style="color:var(--ink-light); font-style:italic; padding-top:2rem;">
-                                Uploaded document status, redacted Pakistani PII, and quarantine verdicts will appear here.
+                                Upload a document or paste text to inspect real-time prompt injection defense, quarantine verdicts, and Pakistani PII redactions.
                             </p>
                         </div>
                     </div>
@@ -2113,6 +2225,96 @@ Clause 9.1: The party agrees to supply software components on monthly schedule.<
             } catch (e) {
                 out.innerHTML = `<p style="color:var(--margin-red);">Error: ${e}</p>`;
             }
+        }
+
+        function handleIngestDragOver(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            const zone = document.getElementById('ingest-dropzone');
+            if (zone) zone.classList.add('dragover');
+        }
+
+        function handleIngestDragLeave(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            const zone = document.getElementById('ingest-dropzone');
+            if (zone) zone.classList.remove('dragover');
+        }
+
+        function handleIngestDrop(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            const zone = document.getElementById('ingest-dropzone');
+            if (zone) zone.classList.remove('dragover');
+            if (e.dataTransfer && e.dataTransfer.files.length > 0) {
+                handleIngestFileSelect(e.dataTransfer.files[0]);
+            }
+        }
+
+        async function handleIngestFileSelect(file) {
+            if (!file) return;
+            const statusBox = document.getElementById('ingest-upload-status');
+            statusBox.style.display = 'inline-block';
+            statusBox.style.color = '#F3EAD3';
+            statusBox.innerHTML = `⏳ Ingesting & scanning <strong>${file.name}</strong>...`;
+
+            const formData = new FormData();
+            formData.append('file', file);
+            formData.append('user_id', 'usr_asc_03');
+            formData.append('matter_id', 'MAT-2024-KHI-001');
+
+            try {
+                const res = await fetch('/api/upload-document-file', {
+                    method: 'POST',
+                    body: formData
+                });
+                const data = await res.json();
+
+                document.getElementById('up-name').value = file.name;
+                if (data.extracted_text) {
+                    document.getElementById('up-content').value = data.extracted_text;
+                }
+
+                const out = document.getElementById('up-output');
+                if (!res.ok) {
+                    statusBox.style.color = '#FF9999';
+                    statusBox.innerHTML = `🛑 Quarantined: ${data.detail || 'Security Alert'}`;
+                    out.innerHTML = `
+                        <div class="rubber-stamp unverified" style="margin-top:1rem;">🛑 SECURITY SHIELD TRIGGERED</div>
+                        <div style="margin-top:1rem; padding:12px 14px; background:rgba(178,58,58,0.1); border-left:3px solid var(--margin-red); border-radius:3px;">
+                            <strong style="color:var(--margin-red); font-family:'Cinzel', serif;">DOCUMENT QUARANTINED:</strong>
+                            <p style="font-size:0.9rem; margin-top:0.35rem; color:var(--ink);">${data.detail}</p>
+                        </div>
+                    `;
+                    return;
+                }
+
+                statusBox.style.color = '#A3E635';
+                statusBox.innerHTML = `✅ Ingested <strong>${data.filename}</strong> (${data.safe_char_count} chars)`;
+
+                out.innerHTML = `
+                    <div style="margin-bottom:1rem; padding-top:0.5rem;">
+                        <div class="rubber-stamp verified">DOCUMENT INGESTED SECURELY</div>
+                        <div style="font-size:0.85rem; margin-top:0.4rem; color:var(--ink-light);">
+                            Redacted Identifiers: <strong>${JSON.stringify(data.pii_redacted_counts)}</strong>
+                        </div>
+                    </div>
+                    <strong style="font-family:'Cinzel', serif; font-size:0.85rem; color:var(--ink);">Sanitized Transcript Preview:</strong>
+                    <div class="typed-slip" style="white-space:pre-wrap;">${data.preview}</div>
+                `;
+            } catch (err) {
+                statusBox.style.color = '#FF9999';
+                statusBox.innerHTML = `❌ Error: ${err.message}`;
+            }
+        }
+
+        function clearIngestFolio() {
+            document.getElementById('up-name').value = 'Document_v1.txt';
+            document.getElementById('up-content').value = '';
+            const statusBox = document.getElementById('ingest-upload-status');
+            if (statusBox) statusBox.style.display = 'none';
+            const out = document.getElementById('up-output');
+            if (out) out.innerHTML = '<p style="color:var(--ink-light); font-style:italic; padding-top:2rem;">Upload a document or paste text to inspect real-time prompt injection defense and PII redaction.</p>';
         }
 
         async function runUpload() {

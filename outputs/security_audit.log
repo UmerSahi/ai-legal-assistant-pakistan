@@ -200,3 +200,7 @@
 [2026-11-18T11:15:31.514435+00:00] [SUCCESS] CONTRACT_DOCUMENT_UPLOADED | User: usr_asc_03 (Associate) | Matter: MAT-2024-KHI-001 | Action: PARSE_01_employment_agreement_lahore.pdf | Hash: 740614e6b70c..
 [2026-11-18T11:15:33.604117+00:00] [SUCCESS] CONTRACT_DOCUMENT_UPLOADED | User: usr_asc_03 (Associate) | Matter: MAT-2024-KHI-001 | Action: PARSE_sample_review.docx | Hash: 27ecfbcd6452..
 [2026-11-18T11:15:42.460897+00:00] [SUCCESS] CONTRACT_REVIEWED | User: usr_asc_03 (Associate) | Matter: MAT-2024-KHI-001 | Action: PLAYBOOK_RISK_AUDIT | Hash: 7dd0148daa93..
+[2026-11-18T11:17:22.614471+00:00] [SUCCESS] RESEARCH_QUERY_PROCESSED | User: usr_asc_03 (Associate) | Matter: PUBLIC_LAW | Action: LEGAL_RESEARCH | Hash: 71dd4526cd7d..
+[2026-11-18T11:20:18.468894+00:00] [SUCCESS] DOCUMENT_INGESTED_SECURELY | User: usr_asc_03 (Paralegal) | Matter: MAT-2024-KHI-001 | Action: INGEST_01_employment_agreement_lahore.pdf | Hash: 5f128b0e580e..
+[2026-11-18T11:20:20.516169+00:00] [SUCCESS] DOCUMENT_INGESTED_SECURELY | User: usr_asc_03 (Paralegal) | Matter: MAT-2024-KHI-001 | Action: INGEST_witness_statement.txt | Hash: 45f773927f82..
+[2026-11-18T11:20:22.557406+00:00] [BLOCKED] UPLOAD_INJECTION_BLOCKED | User: usr_asc_03 (Paralegal) | Matter: MAT-2024-KHI-001 | Action: UPLOAD_malicious_affidavit.txt | Hash: 773996edf129..
