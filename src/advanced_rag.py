@@ -50,10 +50,12 @@ class LegalQueryRewriter:
         r"\bqatl\s+ki\s+saza\b": "punishment of qatl-i-amd death imprisonment for life section 302",
         r"\bqatl[- ]?shibh[- ]?i[- ]?amd\b": "qatl-shibh-i-amd section 315",
         r"\bdacoity\s+with\s+murder\b": "dacoity with murder section 396",
-        r"\bcheating\b": "cheating dishonestly delivery of property section 415 420",
-        r"\btheft\b": "theft dishonestly takes moveable property section 378",
-        r"\bcriminal\s+breach\s+of\s+trust\b": "criminal breach of trust entrusted with property section 405",
-        r"\bforgery\b": "forgery makes false document section 463",
+        r"\b(?:punishment\s+of\s+scam|punishment\s+for\s+scam|scam\s+ki\s+saza|scam\s+punishment)\b": "punishment for cheating Section 420 Section 417 Pakistan Penal Code imprisonment 7 years fine",
+        r"\b(?:scam|scamming|scammer|dhoka|chhal|420|online\s+scam|financial\s+fraud)\b": "cheating dishonestly delivery of property Section 415 Section 420 Pakistan Penal Code",
+        r"\bcheating\b": "cheating dishonestly delivery of property section 415 section 417 section 420 Pakistan Penal Code",
+        r"\b(?:theft|chori|chori\s+ki\s+saza)\b": "theft dishonestly takes moveable property section 378 section 379 Pakistan Penal Code",
+        r"\bcriminal\s+breach\s+of\s+trust\b": "criminal breach of trust entrusted with property section 405 section 406",
+        r"\b(?:forgery|jaalsazi)\b": "forgery makes false document section 463 section 465 Pakistan Penal Code",
         r"\bkidnapping\b": "kidnapping from lawful guardianship section 361",
         r"\bprivate\s+defence\b": "right of private defence of body and property section 97",
         r"\bpreliminary\s+decree\b": "appeal from final decree where no appeal from preliminary decree section 97 CPC",
@@ -152,6 +154,13 @@ class LegalHyDE:
                 "SECTION 56: Agreement to do impossible act.\n"
                 "An agreement to do an act impossible in itself is void. A contract to do an act which, "
                 "after the contract is made, becomes impossible or unlawful becomes void."
+            )
+        elif any(w in q_lower for w in ["scam", "cheat", "420", "415", "417", "dhoka"]):
+            return (
+                "STATUTE: THE PAKISTAN PENAL CODE, 1860\n"
+                "SECTION 415: Cheating. Whoever, by deceiving any person, fraudulently or dishonestly induces the person deceived to deliver any property.\n"
+                "SECTION 417: Punishment for cheating. Imprisonment up to one year, or fine, or both.\n"
+                "SECTION 420: Cheating and dishonestly inducing delivery of property. Whoever cheats and thereby dishonestly induces the person deceived to deliver any property, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine."
             )
         # Criminal Law HyDE
         elif "qatl" in q_lower or "murder" in q_lower:
