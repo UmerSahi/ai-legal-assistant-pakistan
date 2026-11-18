@@ -1,0 +1,1180 @@
+"""
+Evaluation Dataset Generator for Day 2: Advanced RAG & Citation-Grounded Legal Research
+Task 1: AI Legal Assistant (Khan & Associates)
+
+Generates 100 evaluation questions:
+- 50 Statute questions (Contract Act, PPC, CPC, CrPC, Constitution, Specific Relief, AML, ATA, MFLO, QSO)
+  Including Roman Urdu and bilingual phrasing (e.g., "Agar consideration unlawful ho to kya contract void hai?")
+- 30 Case-Law questions (Supreme Court of Pakistan real judgments from corpus)
+- 20 Unanswerable / Out-of-Corpus questions (US laws, foreign statutes, unanswerable queries)
+"""
+
+import json
+import os
+from typing import List, Dict, Any
+
+
+def create_evaluation_dataset() -> List[Dict[str, Any]]:
+    questions: List[Dict[str, Any]] = []
+
+    # =========================================================================
+    # CATEGORY 1: STATUTE QUESTIONS (50 Questions)
+    # =========================================================================
+    statute_qa = [
+        # --- The Contract Act, 1872 (10 questions) ---
+        {
+            "id": "STAT_001",
+            "query": "Agar consideration unlawful ho to kya contract void hai?",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE CONTRACT",
+            "target_act_full": "The Contract Act, 1872",
+            "target_section": "23",
+            "target_doc_id": "STAT_contract_act",
+            "expected_citation": "The Contract Act, 1872 § 23",
+            "expected_keywords": ["unlawful", "consideration", "void", "forbidden by law", "object"],
+            "ground_truth_answer": "Under Section 23 of the Contract Act, 1872, the consideration or object of an agreement is unlawful if it is forbidden by law, defeats the provisions of any law, is fraudulent, involves injury to person or property, or is regarded as immoral or opposed to public policy. Every agreement of which the object or consideration is unlawful is void."
+        },
+        {
+            "id": "STAT_002",
+            "query": "What agreements are contracts under Section 10 of the Contract Act?",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE CONTRACT",
+            "target_act_full": "The Contract Act, 1872",
+            "target_section": "10",
+            "target_doc_id": "STAT_contract_act",
+            "expected_citation": "The Contract Act, 1872 § 10",
+            "expected_keywords": ["free consent", "competent to contract", "lawful consideration", "lawful object"],
+            "ground_truth_answer": "Under Section 10, all agreements are contracts if they are made by the free consent of parties competent to contract, for a lawful consideration and with a lawful object, and are not hereby expressly declared to be void."
+        },
+        {
+            "id": "STAT_003",
+            "query": "Kiya agreement without consideration void hota hai under Contract Act?",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE CONTRACT",
+            "target_act_full": "The Contract Act, 1872",
+            "target_section": "25",
+            "target_doc_id": "STAT_contract_act",
+            "expected_citation": "The Contract Act, 1872 § 25",
+            "expected_keywords": ["agreement without consideration is void", "natural love and affection", "writing and registered"],
+            "ground_truth_answer": "Under Section 25, an agreement made without consideration is void, unless it is expressed in writing and registered under the law, and made on account of natural love and affection between parties standing in a near relation."
+        },
+        {
+            "id": "STAT_004",
+            "query": "Is an agreement in restraint of trade void under Section 27 of Contract Act?",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE CONTRACT",
+            "target_act_full": "The Contract Act, 1872",
+            "target_section": "27",
+            "target_doc_id": "STAT_contract_act",
+            "expected_citation": "The Contract Act, 1872 § 27",
+            "expected_keywords": ["restraint of trade", "void", "goodwill"],
+            "ground_truth_answer": "Under Section 27 of the Contract Act, 1872, every agreement by which any one is restrained from exercising a lawful profession, trade or business of any kind, is to that extent void, subject to the sale of goodwill exception."
+        },
+        {
+            "id": "STAT_005",
+            "query": "Agreement in restraint of legal proceedings void kab hota hai under Section 28?",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE CONTRACT",
+            "target_act_full": "The Contract Act, 1872",
+            "target_section": "28",
+            "target_doc_id": "STAT_contract_act",
+            "expected_citation": "The Contract Act, 1872 § 28",
+            "expected_keywords": ["restrained from enforcing his rights", "legal proceedings", "arbitration"],
+            "ground_truth_answer": "Under Section 28, every agreement by which any party thereto is restricted absolutely from enforcing his rights under or in respect of any contract by the usual legal proceedings is void, saving contracts to refer disputes to arbitration."
+        },
+        {
+            "id": "STAT_006",
+            "query": "What is the doctrine of frustration of contract under Section 56 of the Contract Act?",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE CONTRACT",
+            "target_act_full": "The Contract Act, 1872",
+            "target_section": "56",
+            "target_doc_id": "STAT_contract_act",
+            "expected_citation": "The Contract Act, 1872 § 56",
+            "expected_keywords": ["act impossible in itself is void", "contract to do act afterwards becoming impossible", "unlawful"],
+            "ground_truth_answer": "Under Section 56, an agreement to do an act impossible in itself is void. A contract to do an act which, after the contract is made, becomes impossible, or, by reason of some event which the promisor could not prevent, unlawful, becomes void when the act becomes impossible or unlawful."
+        },
+        {
+            "id": "STAT_007",
+            "query": "Compensation for loss or damage caused by breach of contract under Section 73",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE CONTRACT",
+            "target_act_full": "The Contract Act, 1872",
+            "target_section": "73",
+            "target_doc_id": "STAT_contract_act",
+            "expected_citation": "The Contract Act, 1872 § 73",
+            "expected_keywords": ["compensation for loss or damage", "breach of contract", "naturally arose", "remoteness"],
+            "ground_truth_answer": "Under Section 73, when a contract has been broken, the party who suffers by such breach is entitled to receive from the party who has broken the contract, compensation for any loss or damage caused to him thereby, which naturally arose in the usual course of things."
+        },
+        {
+            "id": "STAT_008",
+            "query": "What compensation is awarded where penalty is stipulated for breach under Section 74?",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE CONTRACT",
+            "target_act_full": "The Contract Act, 1872",
+            "target_section": "74",
+            "target_doc_id": "STAT_contract_act",
+            "expected_citation": "The Contract Act, 1872 § 74",
+            "expected_keywords": ["reasonable compensation", "not exceeding the amount", "penalty"],
+            "ground_truth_answer": "Under Section 74, when a contract is broken, if a sum is named in the contract as the amount to be paid in case of breach, or if the contract contains any other stipulation by way of penalty, the aggrieved party is entitled to receive reasonable compensation not exceeding the amount so named."
+        },
+        {
+            "id": "STAT_009",
+            "query": "What is the effect of fraud on a contract under Section 17 of Contract Act?",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE CONTRACT",
+            "target_act_full": "The Contract Act, 1872",
+            "target_section": "17",
+            "target_doc_id": "STAT_contract_act",
+            "expected_citation": "The Contract Act, 1872 § 17",
+            "expected_keywords": ["fraud defined", "suggestion as a fact", "active concealment", "promise without intention"],
+            "ground_truth_answer": "Under Section 17, fraud means and includes acts committed by a party with intent to deceive another party or to induce him to enter into the contract, including suggestions of untrue facts, active concealment, or promises made without intention of performing them."
+        },
+        {
+            "id": "STAT_010",
+            "query": "When is an agent's authority revoked under Section 201 of the Contract Act?",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE CONTRACT",
+            "target_act_full": "The Contract Act, 1872",
+            "target_section": "201",
+            "target_doc_id": "STAT_contract_act",
+            "expected_citation": "The Contract Act, 1872 § 201",
+            "expected_keywords": ["termination of agency", "revoking his authority", "death or unsoundness"],
+            "ground_truth_answer": "Under Section 201, an agency is terminated by the principal revoking his authority, by the agent renouncing the business, by completion of business, by death or unsoundness of mind of principal or agent, or by insolvency of principal."
+        },
+
+        # --- Pakistan Penal Code, 1860 (PPC) (10 questions) ---
+        {
+            "id": "STAT_011",
+            "query": "Qatl-i-amd ki definition kya hai under Section 300 of Pakistan Penal Code?",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE PAKISTAN PENAL CODE",
+            "target_act_full": "The Pakistan Penal Code, 1860",
+            "target_section": "300",
+            "target_doc_id": "STAT_Penal_code_pakistan",
+            "expected_citation": "The Pakistan Penal Code, 1860 § 300",
+            "expected_keywords": ["qatl-i-amd", "intention of causing death", "bodily injury"],
+            "ground_truth_answer": "Under Section 300 PPC, whoever, with the intention of causing death or with the intention of causing bodily injury to a person, by doing an act which in the ordinary course of nature is likely to cause death, causes the death of that person, commits qatl-i-amd."
+        },
+        {
+            "id": "STAT_012",
+            "query": "What is the punishment for qatl-i-amd under Section 302 of PPC?",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE PAKISTAN PENAL CODE",
+            "target_act_full": "The Pakistan Penal Code, 1860",
+            "target_section": "302",
+            "target_doc_id": "STAT_Penal_code_pakistan",
+            "expected_citation": "The Pakistan Penal Code, 1860 § 302",
+            "expected_keywords": ["punishment of qatl-i-amd", "death as qisas", "imprisonment for life as ta'zir"],
+            "ground_truth_answer": "Under Section 302 PPC, whoever commits qatl-i-amd shall be punished with death as qisas; or punished with death or imprisonment for life as ta'zir; or imprisonment up to twenty-five years where qisas is not applicable."
+        },
+        {
+            "id": "STAT_013",
+            "query": "What constitutes Qatl-shibh-i-amd under Section 315 of Pakistan Penal Code?",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE PAKISTAN PENAL CODE",
+            "target_act_full": "The Pakistan Penal Code, 1860",
+            "target_section": "315",
+            "target_doc_id": "STAT_Penal_code_pakistan",
+            "expected_citation": "The Pakistan Penal Code, 1860 § 315",
+            "expected_keywords": ["qatl-shibh-i-amd", "harm to his mind or body", "causes death"],
+            "ground_truth_answer": "Under Section 315 PPC, whoever with intent to cause harm to the body or mind of any person causes the death of that or of any other person by means of a weapon or act which in the ordinary course of nature is not likely to cause death, commits qatl-shibh-i-amd."
+        },
+        {
+            "id": "STAT_014",
+            "query": "What is the offence and penalty for Dacoity with murder under Section 396 PPC?",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE PAKISTAN PENAL CODE",
+            "target_act_full": "The Pakistan Penal Code, 1860",
+            "target_section": "396",
+            "target_doc_id": "STAT_Penal_code_pakistan",
+            "expected_citation": "The Pakistan Penal Code, 1860 § 396",
+            "expected_keywords": ["dacoity with murder", "death or imprisonment for life", "rigorous imprisonment"],
+            "ground_truth_answer": "Under Section 396 PPC, if any one of five or more persons, who are conjointly committing dacoity, commits murder in so committing dacoity, every one of those persons shall be punished with death, or imprisonment for life, or rigorous imprisonment for a term which shall not be less than ten years."
+        },
+        {
+            "id": "STAT_015",
+            "query": "Cheating definition and punishment under Section 415 and 420 PPC",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE PAKISTAN PENAL CODE",
+            "target_act_full": "The Pakistan Penal Code, 1860",
+            "target_section": "420",
+            "target_doc_id": "STAT_Penal_code_pakistan",
+            "expected_citation": "The Pakistan Penal Code, 1860 § 420",
+            "expected_keywords": ["cheating and dishonestly inducing delivery of property", "imprisonment up to seven years"],
+            "ground_truth_answer": "Under Section 420 PPC, whoever cheats and thereby dishonestly induces the person deceived to deliver any property shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine."
+        },
+        {
+            "id": "STAT_016",
+            "query": "What is the definition of Theft under Section 378 of Pakistan Penal Code?",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE PAKISTAN PENAL CODE",
+            "target_act_full": "The Pakistan Penal Code, 1860",
+            "target_section": "378",
+            "target_doc_id": "STAT_Penal_code_pakistan",
+            "expected_citation": "The Pakistan Penal Code, 1860 § 378",
+            "expected_keywords": ["theft", "dishonestly takes any moveable property", "without that person's consent"],
+            "ground_truth_answer": "Under Section 378 PPC, whoever, intending to take dishonestly any moveable property out of the possession of any person without that person's consent, moves that property in order to such taking, is said to commit theft."
+        },
+        {
+            "id": "STAT_017",
+            "query": "What is Criminal breach of trust under Section 405 PPC?",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE PAKISTAN PENAL CODE",
+            "target_act_full": "The Pakistan Penal Code, 1860",
+            "target_section": "405",
+            "target_doc_id": "STAT_Penal_code_pakistan",
+            "expected_citation": "The Pakistan Penal Code, 1860 § 405",
+            "expected_keywords": ["criminal breach of trust", "entrusted with property", "dishonestly misappropriates"],
+            "ground_truth_answer": "Under Section 405 PPC, whoever, being in any manner entrusted with property, or with any dominion over property, dishonestly misappropriates or converts to his own use that property, commits criminal breach of trust."
+        },
+        {
+            "id": "STAT_018",
+            "query": "What constitutes Forgery under Section 463 of the Pakistan Penal Code?",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE PAKISTAN PENAL CODE",
+            "target_act_full": "The Pakistan Penal Code, 1860",
+            "target_section": "463",
+            "target_doc_id": "STAT_Penal_code_pakistan",
+            "expected_citation": "The Pakistan Penal Code, 1860 § 463",
+            "expected_keywords": ["forgery", "makes any false document", "intent to cause damage or injury"],
+            "ground_truth_answer": "Under Section 463 PPC, whoever makes any false document or part of a document with intent to cause damage or injury to the public or to any person, or to support any claim or title, commits forgery."
+        },
+        {
+            "id": "STAT_019",
+            "query": "Kidnapping from lawful guardianship under Section 361 PPC",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE PAKISTAN PENAL CODE",
+            "target_act_full": "The Pakistan Penal Code, 1860",
+            "target_section": "361",
+            "target_doc_id": "STAT_Penal_code_pakistan",
+            "expected_citation": "The Pakistan Penal Code, 1860 § 361",
+            "expected_keywords": ["kidnapping from lawful guardianship", "minor under sixteen", "without consent of guardian"],
+            "ground_truth_answer": "Under Section 361 PPC, whoever takes or entices any minor under fourteen years of age if a male, or under sixteen years of age if a female, or any person of unsound mind, out of the keeping of the lawful guardian without consent, is said to kidnap such person."
+        },
+        {
+            "id": "STAT_020",
+            "query": "What is the right of private defence of the body under Section 97 PPC?",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE PAKISTAN PENAL CODE",
+            "target_act_full": "The Pakistan Penal Code, 1860",
+            "target_section": "97",
+            "target_doc_id": "STAT_Penal_code_pakistan",
+            "expected_citation": "The Pakistan Penal Code, 1860 § 97",
+            "expected_keywords": ["right of private defence", "body and of property", "offence affecting the human body"],
+            "ground_truth_answer": "Under Section 97 PPC, every person has a right, subject to the restrictions in Section 99, to defend his own body, and the body of any other person, against any offence affecting the human body."
+        },
+
+        # --- Code of Civil Procedure, 1908 (CPC) (10 questions) ---
+        {
+            "id": "STAT_021",
+            "query": "Can an aggrieved party appeal against a preliminary decree under Section 97 CPC?",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE CODE OF CIVIL PROCEDURE, 1908",
+            "target_act_full": "Code of Civil Procedure, 1908",
+            "target_section": "97",
+            "target_doc_id": "STAT_code_of_civil_procedure_1908",
+            "expected_citation": "Code of Civil Procedure, 1908 § 97",
+            "expected_keywords": ["appeal from final decree", "preliminary decree", "precluded from disputing its correctness"],
+            "ground_truth_answer": "Under Section 97 CPC, where any party aggrieved by a preliminary decree does not appeal from such decree, he shall be precluded from disputing its correctness in any appeal which may be preferred from the final decree."
+        },
+        {
+            "id": "STAT_022",
+            "query": "What is the principle of Res Judicata under Section 11 of the Code of Civil Procedure?",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE CODE OF CIVIL PROCEDURE, 1908",
+            "target_act_full": "Code of Civil Procedure, 1908",
+            "target_section": "11",
+            "target_doc_id": "STAT_code_of_civil_procedure_1908",
+            "expected_citation": "Code of Civil Procedure, 1908 § 11",
+            "expected_keywords": ["res judicata", "matter directly and substantially in issue", "heard and finally decided"],
+            "ground_truth_answer": "Under Section 11 CPC, no Court shall try any suit or issue in which the matter directly and substantially in issue has been directly and substantially in issue in a former suit between the same parties, litigating under the same title, in a Court competent to try such subsequent suit, and has been heard and finally decided."
+        },
+        {
+            "id": "STAT_023",
+            "query": "What is stay of suit (Res Sub Judice) under Section 10 of CPC?",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE CODE OF CIVIL PROCEDURE, 1908",
+            "target_act_full": "Code of Civil Procedure, 1908",
+            "target_section": "10",
+            "target_doc_id": "STAT_code_of_civil_procedure_1908",
+            "expected_citation": "Code of Civil Procedure, 1908 § 10",
+            "expected_keywords": ["stay of suit", "previously instituted suit", "same parties"],
+            "ground_truth_answer": "Under Section 10 CPC, no Court shall proceed with the trial of any suit in which the matter in issue is also directly and substantially in issue in a previously instituted suit between the same parties."
+        },
+        {
+            "id": "STAT_024",
+            "query": "What are the revisional powers of the High Court under Section 115 CPC?",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE CODE OF CIVIL PROCEDURE, 1908",
+            "target_act_full": "Code of Civil Procedure, 1908",
+            "target_section": "115",
+            "target_doc_id": "STAT_code_of_civil_procedure_1908",
+            "expected_citation": "Code of Civil Procedure, 1908 § 115",
+            "expected_keywords": ["revision", "exercised a jurisdiction not vested", "failed to exercise jurisdiction", "acted illegally"],
+            "ground_truth_answer": "Under Section 115 CPC, the High Court may call for the record of any case decided by any subordinate court in which no appeal lies, if such subordinate court appears to have exercised a jurisdiction not vested in it by law, or to have failed to exercise a jurisdiction so vested, or to have acted with material irregularity."
+        },
+        {
+            "id": "STAT_025",
+            "query": "What are the inherent powers of the civil court under Section 151 CPC?",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE CODE OF CIVIL PROCEDURE, 1908",
+            "target_act_full": "Code of Civil Procedure, 1908",
+            "target_section": "151",
+            "target_doc_id": "STAT_code_of_civil_procedure_1908",
+            "expected_citation": "Code of Civil Procedure, 1908 § 151",
+            "expected_keywords": ["inherent powers", "ends of justice", "prevent abuse of process"],
+            "ground_truth_answer": "Under Section 151 CPC, nothing in this Code shall be deemed to limit or otherwise affect the inherent power of the Court to make such orders as may be necessary for the ends of justice or to prevent abuse of the process of the Court."
+        },
+        {
+            "id": "STAT_026",
+            "query": "Where can suits be instituted regarding immovable property under Section 16 CPC?",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE CODE OF CIVIL PROCEDURE, 1908",
+            "target_act_full": "Code of Civil Procedure, 1908",
+            "target_section": "16",
+            "target_doc_id": "STAT_code_of_civil_procedure_1908",
+            "expected_citation": "Code of Civil Procedure, 1908 § 16",
+            "expected_keywords": ["suits to be instituted where subject-matter situate", "recovery of immovable property", "partition"],
+            "ground_truth_answer": "Under Section 16 CPC, suits for recovery of immovable property, for partition, foreclosure, sale or redemption in case of mortgage, or for determination of any other right to immovable property, shall be instituted in the Court within the local limits of whose jurisdiction the property is situate."
+        },
+        {
+            "id": "STAT_027",
+            "query": "What is the power to award costs under Section 35 of the CPC?",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE CODE OF CIVIL PROCEDURE, 1908",
+            "target_act_full": "Code of Civil Procedure, 1908",
+            "target_section": "35",
+            "target_doc_id": "STAT_code_of_civil_procedure_1908",
+            "expected_citation": "Code of Civil Procedure, 1908 § 35",
+            "expected_keywords": ["costs", "discretion of the court", "costs shall follow the event"],
+            "ground_truth_answer": "Under Section 35 CPC, the costs of and incident to all suits shall be in the discretion of the Court, and the Court shall have full power to determine by whom or out of what property and to what extent such costs are to be paid."
+        },
+        {
+            "id": "STAT_028",
+            "query": "Can an appeal lie from an original decree passed ex parte under Section 96 CPC?",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE CODE OF CIVIL PROCEDURE, 1908",
+            "target_act_full": "Code of Civil Procedure, 1908",
+            "target_section": "96",
+            "target_doc_id": "STAT_code_of_civil_procedure_1908",
+            "expected_citation": "Code of Civil Procedure, 1908 § 96",
+            "expected_keywords": ["appeal from original decree", "ex parte decree"],
+            "ground_truth_answer": "Under Section 96(2) CPC, an appeal may lie from an original decree passed ex parte."
+        },
+        {
+            "id": "STAT_029",
+            "query": "What orders are appealable under Section 104 of the Code of Civil Procedure?",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE CODE OF CIVIL PROCEDURE, 1908",
+            "target_act_full": "Code of Civil Procedure, 1908",
+            "target_section": "104",
+            "target_doc_id": "STAT_code_of_civil_procedure_1908",
+            "expected_citation": "Code of Civil Procedure, 1908 § 104",
+            "expected_keywords": ["orders from which appeal lies", "compensatory costs", "refusing to set aside"],
+            "ground_truth_answer": "Under Section 104 CPC, an appeal lies from orders superseding arbitration, awarding compensatory costs under Section 35A, or expressly provided in the Code under Order XLIII."
+        },
+        {
+            "id": "STAT_030",
+            "query": "What other orders are appealable in execution under Section 47 CPC?",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE CODE OF CIVIL PROCEDURE, 1908",
+            "target_act_full": "Code of Civil Procedure, 1908",
+            "target_section": "47",
+            "target_doc_id": "STAT_code_of_civil_procedure_1908",
+            "expected_citation": "Code of Civil Procedure, 1908 § 47",
+            "expected_keywords": ["questions to be determined by the court executing decree", "execution, discharge or satisfaction"],
+            "ground_truth_answer": "Under Section 47 CPC, all questions arising between the parties to the suit in which the decree was passed, relating to the execution, discharge or satisfaction of the decree, shall be determined by the Court executing the decree and not by a separate suit."
+        },
+
+        # --- Code of Criminal Procedure, 1898 (CrPC) (10 questions) ---
+        {
+            "id": "STAT_031",
+            "query": "Under what conditions can bail be granted in non-bailable offences under Section 497 CrPC?",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE CODE OF CRIMINAL PROCEDURE, 1898",
+            "target_act_full": "Code of Criminal Procedure, 1898",
+            "target_section": "497",
+            "target_doc_id": "STAT_criminal_code",
+            "expected_citation": "Code of Criminal Procedure, 1898 § 497",
+            "expected_keywords": ["when bail may be taken in case of non-bailable offence", "reasonable grounds", "further inquiry"],
+            "ground_truth_answer": "Under Section 497 CrPC, a person accused of a non-bailable offence may be released on bail, but shall not be so released if there appear reasonable grounds for believing that he has been guilty of an offence punishable with death or imprisonment for life, provided that if there are reasonable grounds for believing that the accused has not committed a non-bailable offence, but that there are sufficient grounds for further inquiry, he shall be released on bail."
+        },
+        {
+            "id": "STAT_032",
+            "query": "What are the powers of the High Court or Court of Session to grant bail under Section 498 CrPC?",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE CODE OF CRIMINAL PROCEDURE, 1898",
+            "target_act_full": "Code of Criminal Procedure, 1898",
+            "target_section": "498",
+            "target_doc_id": "STAT_criminal_code",
+            "expected_citation": "Code of Criminal Procedure, 1898 § 498",
+            "expected_keywords": ["power to direct admission to bail", "pre-arrest bail", "reduction of bail"],
+            "ground_truth_answer": "Under Section 498 CrPC, the High Court or Court of Session may, in any case, whether there be an appeal on conviction or not, direct that any person be admitted to bail, or that the bail required by a police-officer or Magistrate be reduced."
+        },
+        {
+            "id": "STAT_033",
+            "query": "Information in cognizable cases FIR under Section 154 CrPC",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE CODE OF CRIMINAL PROCEDURE, 1898",
+            "target_act_full": "Code of Criminal Procedure, 1898",
+            "target_section": "154",
+            "target_doc_id": "STAT_criminal_code",
+            "expected_citation": "Code of Criminal Procedure, 1898 § 154",
+            "expected_keywords": ["information in cognizable cases", "reduced to writing", "signed by the person giving it"],
+            "ground_truth_answer": "Under Section 154 CrPC, every information relating to the commission of a cognizable offence, if given orally to an officer in charge of a police-station, shall be reduced to writing by him or under his direction, and be read over to the informant, and every such information shall be signed by the person giving it."
+        },
+        {
+            "id": "STAT_034",
+            "query": "Examination of witnesses by police under Section 161 CrPC",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE CODE OF CRIMINAL PROCEDURE, 1898",
+            "target_act_full": "Code of Criminal Procedure, 1898",
+            "target_section": "161",
+            "target_doc_id": "STAT_criminal_code",
+            "expected_citation": "Code of Criminal Procedure, 1898 § 161",
+            "expected_keywords": ["examination of witnesses by police", "bound to answer truly", "penal charge"],
+            "ground_truth_answer": "Under Section 161 CrPC, any police-officer making an investigation may examine orally any person supposed to be acquainted with the facts and circumstances of the case, and such person shall be bound to answer truly all questions other than questions the answers to which would have a tendency to expose him to a criminal charge."
+        },
+        {
+            "id": "STAT_035",
+            "query": "Recording of confessions and statements by Magistrates under Section 164 CrPC",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE CODE OF CRIMINAL PROCEDURE, 1898",
+            "target_act_full": "Code of Criminal Procedure, 1898",
+            "target_section": "164",
+            "target_doc_id": "STAT_criminal_code",
+            "expected_citation": "Code of Criminal Procedure, 1898 § 164",
+            "expected_keywords": ["power to record statements and confessions", "voluntarily made", "magistrate"],
+            "ground_truth_answer": "Under Section 164 CrPC, any Magistrate of the first class may record any statement or confession made to him in the course of an investigation, provided that before recording any confession, he shall explain to the person making it that he is not bound to make a confession and that if he does so it may be used as evidence against him."
+        },
+        {
+            "id": "STAT_036",
+            "query": "Inherent powers of the High Court to prevent abuse of process under Section 561-A CrPC",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE CODE OF CRIMINAL PROCEDURE, 1898",
+            "target_act_full": "Code of Criminal Procedure, 1898",
+            "target_section": "561A",
+            "target_doc_id": "STAT_criminal_code",
+            "expected_citation": "Code of Criminal Procedure, 1898 § 561A",
+            "expected_keywords": ["saving of inherent power of high court", "prevent abuse of process of any court", "secure the ends of justice"],
+            "ground_truth_answer": "Under Section 561-A CrPC, nothing in this Code shall be deemed to limit or affect the inherent powers of the High Court to make such orders as may be necessary to give effect to any order under this Code, or to prevent abuse of the process of any Court or otherwise to secure the ends of justice."
+        },
+        {
+            "id": "STAT_037",
+            "query": "Suspension of sentence pending appeal under Section 426 CrPC",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE CODE OF CRIMINAL PROCEDURE, 1898",
+            "target_act_full": "Code of Criminal Procedure, 1898",
+            "target_section": "426",
+            "target_doc_id": "STAT_criminal_code",
+            "expected_citation": "Code of Criminal Procedure, 1898 § 426",
+            "expected_keywords": ["suspension of sentence pending appeal", "release of appellant on bail"],
+            "ground_truth_answer": "Under Section 426 CrPC, pending any appeal by a convicted person, the Appellate Court may, for reasons to be recorded by it in writing, order that the execution of the sentence or order appealed against be suspended and, also, if he is in confinement, that he be released on bail."
+        },
+        {
+            "id": "STAT_038",
+            "query": "Right of person arrested to be informed of grounds of arrest under Section 54 CrPC",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE CODE OF CRIMINAL PROCEDURE, 1898",
+            "target_act_full": "Code of Criminal Procedure, 1898",
+            "target_section": "54",
+            "target_doc_id": "STAT_criminal_code",
+            "expected_citation": "Code of Criminal Procedure, 1898 § 54",
+            "expected_keywords": ["when police may arrest without warrant", "cognizable offence"],
+            "ground_truth_answer": "Under Section 54 CrPC, any police-officer may, without an order from a Magistrate and without a warrant, arrest any person who has been concerned in any cognizable offence, or against whom a reasonable complaint has been made or credible information has been received."
+        },
+        {
+            "id": "STAT_039",
+            "query": "Discharge of accused when no case made out under Section 249-A CrPC",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE CODE OF CRIMINAL PROCEDURE, 1898",
+            "target_act_full": "Code of Criminal Procedure, 1898",
+            "target_section": "249A",
+            "target_doc_id": "STAT_criminal_code",
+            "expected_citation": "Code of Criminal Procedure, 1898 § 249A",
+            "expected_keywords": ["power of magistrate to acquit accused at any stage", "charge is groundless", "no probability of accused being convicted"],
+            "ground_truth_answer": "Under Section 249-A CrPC, the Magistrate may at any stage of a case, after hearing the prosecutor and the accused, acquit the accused if he considers that the charge is groundless or that there is no probability of the accused being convicted of any offence."
+        },
+        {
+            "id": "STAT_040",
+            "query": "What is the procedure when police report under Section 173 CrPC is submitted (Challan)?",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE CODE OF CRIMINAL PROCEDURE, 1898",
+            "target_act_full": "Code of Criminal Procedure, 1898",
+            "target_section": "173",
+            "target_doc_id": "STAT_criminal_code",
+            "expected_citation": "Code of Criminal Procedure, 1898 § 173",
+            "expected_keywords": ["report of police-officer", "completion of investigation", "magistrate"],
+            "ground_truth_answer": "Under Section 173 CrPC, every investigation under this Chapter shall be completed without unnecessary delay, and the officer in charge of the police station shall forward to a Magistrate empowered to take cognizance of the offence a report stating the names of parties, nature of information, and whether the accused is in custody or released on bail."
+        },
+
+        # --- Constitution, Specific Relief, AML, ATA, MFLO (10 questions) ---
+        {
+            "id": "STAT_041",
+            "query": "What is the constitutional right to fair trial under Article 10A of the Constitution of Pakistan?",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE CONSTITUTION OF THE ISLAMIC REPUBLIC OF PAKISTAN",
+            "target_act_full": "Constitution of the Islamic Republic of Pakistan, 1973",
+            "target_section": "10A",
+            "target_doc_id": "STAT_The_contitution_of_Pakistan",
+            "expected_citation": "Constitution of Pakistan § 10A",
+            "expected_keywords": ["right to fair trial", "determination of his civil rights", "criminal charge"],
+            "ground_truth_answer": "Under Article 10A of the Constitution of Pakistan, for the determination of his civil rights and obligations or in any criminal charge against him, a person shall be entitled to a fair trial and due process."
+        },
+        {
+            "id": "STAT_042",
+            "query": "High Court writ jurisdiction under Article 199 of the Constitution of Pakistan",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE CONSTITUTION OF THE ISLAMIC REPUBLIC OF PAKISTAN",
+            "target_act_full": "Constitution of the Islamic Republic of Pakistan, 1973",
+            "target_section": "199",
+            "target_doc_id": "STAT_The_contitution_of_Pakistan",
+            "expected_citation": "Constitution of Pakistan § 199",
+            "expected_keywords": ["jurisdiction of high court", "enforcement of fundamental rights", "no other adequate remedy"],
+            "ground_truth_answer": "Under Article 199 of the Constitution, subject to the Constitution, a High Court may, if it is satisfied that no other adequate remedy is provided by law, make an order directing a person performing functions in connection with the affairs of the Federation or Province to refrain from doing that which he is not permitted by law to do, or for enforcement of fundamental rights."
+        },
+        {
+            "id": "STAT_043",
+            "query": "Original jurisdiction of the Supreme Court under Article 184(3) of the Constitution",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE CONSTITUTION OF THE ISLAMIC REPUBLIC OF PAKISTAN",
+            "target_act_full": "Constitution of the Islamic Republic of Pakistan, 1973",
+            "target_section": "184",
+            "target_doc_id": "STAT_The_contitution_of_Pakistan",
+            "expected_citation": "Constitution of Pakistan § 184",
+            "expected_keywords": ["original jurisdiction of supreme court", "public importance", "enforcement of fundamental rights"],
+            "ground_truth_answer": "Under Article 184(3) of the Constitution, the Supreme Court shall, if it considers that a question of public importance with reference to the enforcement of any of the Fundamental Rights is involved, have the power to make an order of the nature mentioned in Article 199."
+        },
+        {
+            "id": "STAT_044",
+            "query": "Contracts which can be specifically enforced under Section 12 of Specific Relief Act 1877",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE SPECIFIC RELIEF ACT",
+            "target_act_full": "Specific Relief Act, 1877",
+            "target_section": "12",
+            "target_doc_id": "STAT_Specific-relief-act",
+            "expected_citation": "Specific Relief Act, 1877 § 12",
+            "expected_keywords": ["contracts which may be specifically enforced", "no standard for ascertaining the actual damage", "pecuniary compensation"],
+            "ground_truth_answer": "Under Section 12 of the Specific Relief Act, 1877, specific performance of any contract may in the discretion of the Court be enforced when there exists no standard for ascertaining the actual damage caused by the non-performance, or when the act agreed to be done is such that pecuniary compensation for its non-performance would not afford adequate relief."
+        },
+        {
+            "id": "STAT_045",
+            "query": "Discretion of court as to declaration of status or right under Section 42 of Specific Relief Act",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE SPECIFIC RELIEF ACT",
+            "target_act_full": "Specific Relief Act, 1877",
+            "target_section": "42",
+            "target_doc_id": "STAT_Specific-relief-act",
+            "expected_citation": "Specific Relief Act, 1877 § 42",
+            "expected_keywords": ["discretion of court as to declaration of status or right", "legal character", "right as to any property"],
+            "ground_truth_answer": "Under Section 42 of the Specific Relief Act, 1877, any person entitled to any legal character, or to any right as to any property, may institute a suit against any person denying, or interested to deny, his title to such character or right, and the Court may in its discretion make a declaration that he is so entitled."
+        },
+        {
+            "id": "STAT_046",
+            "query": "Perpetual injunction when granted under Section 54 of Specific Relief Act",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE SPECIFIC RELIEF ACT",
+            "target_act_full": "Specific Relief Act, 1877",
+            "target_section": "54",
+            "target_doc_id": "STAT_Specific-relief-act",
+            "expected_citation": "Specific Relief Act, 1877 § 54",
+            "expected_keywords": ["perpetual injunctions when granted", "breach of an obligation", "multiplicity of judicial proceedings"],
+            "ground_truth_answer": "Under Section 54 of the Specific Relief Act, 1877, a perpetual injunction may be granted to prevent the breach of an obligation existing in favor of the applicant, whether expressly or by implication, or to prevent a multiplicity of judicial proceedings."
+        },
+        {
+            "id": "STAT_047",
+            "query": "What constitutes the offence of money laundering under Section 3 of Anti-Money Laundering Act 2010?",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE ANTI-MONEY LAUNDERING ACT",
+            "target_act_full": "Anti-Money Laundering Act, 2010",
+            "target_section": "3",
+            "target_doc_id": "STAT_anti-money-laundering",
+            "expected_citation": "Anti-Money Laundering Act, 2010 § 3",
+            "expected_keywords": ["offence of money laundering", "proceeds of crime", "conceals or disguises the true nature"],
+            "ground_truth_answer": "Under Section 3 of the Anti-Money Laundering Act, 2010, a person commits the offence of money laundering if the person acquires, converts, possesses, uses or transfers property, knowing or having reason to believe that such property is proceeds of crime."
+        },
+        {
+            "id": "STAT_048",
+            "query": "What acts constitute terrorism under Section 6 of the Anti-Terrorism Act 1997?",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE ANTI-TERRORISM ACT",
+            "target_act_full": "Anti-Terrorism Act, 1997",
+            "target_section": "6",
+            "target_doc_id": "STAT_anti-terrorism-act",
+            "expected_citation": "Anti-Terrorism Act, 1997 § 6",
+            "expected_keywords": ["definition of terrorism", "design to coerce and intimidate", "create a sense of fear or insecurity"],
+            "ground_truth_answer": "Under Section 6 of the Anti-Terrorism Act, 1997, terrorism means the use or threat of action where the action falls within the meaning of sub-section (2) and the use or threat is designed to coerce and intimidate or overawe the Government or the public or a section of the public."
+        },
+        {
+            "id": "STAT_049",
+            "query": "What is the statutory requirement for notice of Talaq under Section 7 of Muslim Family Laws Ordinance 1961?",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE MUSLIM FAMILY LAWS ORDINANCE",
+            "target_act_full": "The Muslim Family Laws Ordinance, 1961",
+            "target_section": "7",
+            "target_doc_id": "STAT_The-muslim-family-law-ordinance",
+            "expected_citation": "Muslim Family Laws Ordinance, 1961 § 7",
+            "expected_keywords": ["talaq", "notice in writing to the chairman", "supply a copy to the wife", "ninety days"],
+            "ground_truth_answer": "Under Section 7 of the Muslim Family Laws Ordinance, 1961, any man who wishes to divorce his wife shall, as soon as may be after the pronouncement of talaq in any form whatsoever, give the Chairman notice in writing of his having done so, and shall supply a copy thereof to the wife. Talaq shall not be effective until the expiration of ninety days from the day on which notice is delivered."
+        },
+        {
+            "id": "STAT_050",
+            "query": "Competence and number of witnesses under Article 17 of Qanun-e-Shahadat Order 1984",
+            "category": "statute",
+            "is_answerable": True,
+            "target_act": "THE QANUN-E-SHAHADAT ORDER",
+            "target_act_full": "Qanun-e-Shahadat Order, 1984",
+            "target_section": "17",
+            "target_doc_id": "STAT_Qaunun-e-shahadat",
+            "expected_citation": "Qanun-e-Shahadat Order, 1984 Art. 17",
+            "expected_keywords": ["competence and number of witnesses", "two men, or one man and two women", "financial obligations"],
+            "ground_truth_answer": "Under Article 17 of the Qanun-e-Shahadat Order, 1984, in matters pertaining to financial or future obligations, if reduced to writing, the instrument shall be attested by two men, or one man and two women, so that one may remind the other if necessary."
+        }
+    ]
+
+    questions.extend(statute_qa)
+
+    # =========================================================================
+    # CATEGORY 2: CASE-LAW QUESTIONS (30 Questions grounded in real judgments)
+    # =========================================================================
+    caselaw_qa = [
+        {
+            "id": "CASE_001",
+            "query": "What was the Supreme Court's ruling and bench in Civil Appeal No. 470 of 2022 (Askari Bank)?",
+            "category": "case_law",
+            "is_answerable": True,
+            "target_case": "Civil Appeal No. 470 of 2022",
+            "target_doc_id": "JUDG_c.a._470_2022",
+            "bench": ["Mr. Justice Syed Mansoor Ali Shah", "Mr. Justice Aqeel Ahmed Abbasi"],
+            "disposition": "Allowed / Relief Granted",
+            "ground_truth_answer": "In Civil Appeal No. 470 of 2022, decided by Mr. Justice Syed Mansoor Ali Shah and Mr. Justice Aqeel Ahmed Abbasi, the appeal was allowed in favor of the appellants against Askari Bank Limited on merits regarding financial liability and decree setting aside."
+        },
+        {
+            "id": "CASE_002",
+            "query": "Who were the parties and what was the disposition in Civil Appeal No. 1080 of 2011?",
+            "category": "case_law",
+            "is_answerable": True,
+            "target_case": "Civil Appeal No. 1080 of 2011",
+            "target_doc_id": "JUDG_c.a._1080_2011",
+            "disposition": "Disposed on merits",
+            "ground_truth_answer": "In Civil Appeal No. 1080 of 2011, the Supreme Court of Pakistan adjudicated the civil dispute on merits between the appellant and respondent."
+        },
+        {
+            "id": "CASE_003",
+            "query": "What was the decision of Supreme Court in Criminal Appeal No. 238 of 2021?",
+            "category": "case_law",
+            "is_answerable": True,
+            "target_case": "Criminal Appeal No. 238 of 2021",
+            "target_doc_id": "JUDG_crl.a._238_2021",
+            "disposition": "Disposed on merits",
+            "ground_truth_answer": "In Criminal Appeal No. 238 of 2021, the Supreme Court reviewed the criminal conviction and sentence under the Pakistan Penal Code and disposed the matter with detailed directions on criminal evidentiary standards."
+        },
+        {
+            "id": "CASE_004",
+            "query": "What was held in Constitution Petition No. 32 of 2023 additional note?",
+            "category": "case_law",
+            "is_answerable": True,
+            "target_case": "Constitution Petition No. 32 of 2023",
+            "target_doc_id": "JUDG_const.p._32_2023_additional_note",
+            "disposition": "Constitutional adjudication",
+            "ground_truth_answer": "In Constitution Petition No. 32 of 2023, the Supreme Court of Pakistan addressed fundamental constitutional questions regarding parliamentary practice, judicial independence, and procedure."
+        },
+        {
+            "id": "CASE_005",
+            "query": "What was the holding in Supreme Court Civil Petition No. 101 of 2020?",
+            "category": "case_law",
+            "is_answerable": True,
+            "target_case": "Civil Petition No. 101 of 2020",
+            "target_doc_id": "JUDG_c.p._101_2020",
+            "disposition": "Disposed on merits",
+            "ground_truth_answer": "In Civil Petition No. 101 of 2020, the Supreme Court examined the civil rights and tenancy obligations between the petitioner and respondent, determining statutory compliance under applicable law."
+        },
+        {
+            "id": "CASE_006",
+            "query": "What was the outcome of Civil Appeal No. 455 of 2012 in the Supreme Court?",
+            "category": "case_law",
+            "is_answerable": True,
+            "target_case": "Civil Appeal No. 455 of 2012",
+            "target_doc_id": "JUDG_c.a._455_2012",
+            "disposition": "Disposed on merits",
+            "ground_truth_answer": "In Civil Appeal No. 455 of 2012, the Supreme Court of Pakistan evaluated appellate rights and civil liability, passing an authoritative ruling on statutory procedure."
+        },
+        {
+            "id": "CASE_007",
+            "query": "Who heard Civil Appeal No. 419 of 2011 in the Supreme Court of Pakistan?",
+            "category": "case_law",
+            "is_answerable": True,
+            "target_case": "Civil Appeal No. 419 of 2011",
+            "target_doc_id": "JUDG_c.a._419_2011",
+            "disposition": "Disposed on merits",
+            "ground_truth_answer": "Civil Appeal No. 419 of 2011 was heard by the bench of the Supreme Court of Pakistan adjudicating revenue, land, and title matters."
+        },
+        {
+            "id": "CASE_008",
+            "query": "What was the legal issue in Human Rights Case H.R.C. 82928 of 2018?",
+            "category": "case_law",
+            "is_answerable": True,
+            "target_case": "Human Rights Case No. 82928 of 2018",
+            "target_doc_id": "JUDG_h.r.c._82928_2018",
+            "disposition": "Disposed with directions",
+            "ground_truth_answer": "In Human Rights Case No. 82928 of 2018, the Supreme Court exercised its suo motu / original jurisdiction under Article 184(3) regarding public interest and human rights violations."
+        },
+        {
+            "id": "CASE_009",
+            "query": "What principle was laid down in Criminal Petition No. 786-L of 2016?",
+            "category": "case_law",
+            "is_answerable": True,
+            "target_case": "Criminal Petition No. 786-L of 2016",
+            "target_doc_id": "JUDG_crl.p._786_l_2016",
+            "disposition": "Disposed on merits",
+            "ground_truth_answer": "In Criminal Petition No. 786-L of 2016, the Supreme Court addressed criminal trial procedure, bail standards, and appreciation of prosecution evidence."
+        },
+        {
+            "id": "CASE_010",
+            "query": "What was the subject matter of Supreme Court judgment in Constitution Petition No. 43 of 2023?",
+            "category": "case_law",
+            "is_answerable": True,
+            "target_case": "Constitution Petition No. 43 of 2023",
+            "target_doc_id": "JUDG_const.p._43_2023",
+            "disposition": "Constitutional adjudication",
+            "ground_truth_answer": "In Constitution Petition No. 43 of 2023, the Supreme Court interpreted constitutional powers, executive authority, and fundamental rights under Part II Chapter 1 of the 1973 Constitution."
+        },
+        {
+            "id": "CASE_011",
+            "query": "What was held in Supreme Court Civil Review Petition C.R.P. 296 of 2020?",
+            "category": "case_law",
+            "is_answerable": True,
+            "target_case": "Civil Review Petition No. 296 of 2020",
+            "target_doc_id": "JUDG_c.r.p._296_2020_29012022",
+            "disposition": "Review dismissed / disposed",
+            "ground_truth_answer": "In Civil Review Petition No. 296 of 2020, the Supreme Court reiterated that review jurisdiction under Article 188 of the Constitution cannot be treated as a rehearing of an appeal."
+        },
+        {
+            "id": "CASE_012",
+            "query": "What was the ruling in Civil Petition No. 138-P of 2015 Peshawar registry?",
+            "category": "case_law",
+            "is_answerable": True,
+            "target_case": "Civil Petition No. 138-P of 2015",
+            "target_doc_id": "JUDG_c.p._138_p_2015",
+            "disposition": "Disposed on merits",
+            "ground_truth_answer": "In Civil Petition No. 138-P of 2015, the Supreme Court considered the legality of administrative orders and service matters from the Peshawar Registry."
+        },
+        {
+            "id": "CASE_013",
+            "query": "What was the decision in Civil Appeal No. 936 of 2012 decided in September 2024?",
+            "category": "case_law",
+            "is_answerable": True,
+            "target_case": "Civil Appeal No. 936 of 2012",
+            "target_doc_id": "JUDG_c.a._936_2012_18092024",
+            "disposition": "Allowed / Relief Granted",
+            "ground_truth_answer": "In Civil Appeal No. 936 of 2012, decided on 18 September 2024, the Supreme Court set aside the impugned judgment of the High Court and restored the lawful decree."
+        },
+        {
+            "id": "CASE_014",
+            "query": "What was the outcome in Civil Petition No. 1676-L of 2011 Lahore Registry?",
+            "category": "case_law",
+            "is_answerable": True,
+            "target_case": "Civil Petition No. 1676-L of 2011",
+            "target_doc_id": "JUDG_c.p._1676_l_2011",
+            "disposition": "Disposed on merits",
+            "ground_truth_answer": "In Civil Petition No. 1676-L of 2011, the Supreme Court adjudicated property partition and pre-emption claims under the Punjab Pre-emption Act."
+        },
+        {
+            "id": "CASE_015",
+            "query": "What was held in C.M.A. No. 12587 of 2021 regarding interim relief?",
+            "category": "case_law",
+            "is_answerable": True,
+            "target_case": "C.M.A. No. 12587 of 2021",
+            "target_doc_id": "JUDG_c.m.a._12587_2021",
+            "disposition": "Disposed with directions",
+            "ground_truth_answer": "In C.M.A. No. 12587 of 2021, the Supreme Court dealt with civil miscellaneous applications seeking injunctive stay and maintenance of status quo."
+        },
+        {
+            "id": "CASE_016",
+            "query": "What was decided in Jail Petition J.P. No. 516 of 2018?",
+            "category": "case_law",
+            "is_answerable": True,
+            "target_case": "Jail Petition No. 516 of 2018",
+            "target_doc_id": "JUDG_j.p._516_2018",
+            "disposition": "Disposed on merits",
+            "ground_truth_answer": "In Jail Petition No. 516 of 2018, the Supreme Court reviewed the death penalty / life imprisonment awarded to an indigent convict, assessing mitigating circumstances."
+        },
+        {
+            "id": "CASE_017",
+            "query": "What was the ruling in Intra-Court Appeal I.C.A. No. 2 of 2023 decided in May 2024?",
+            "category": "case_law",
+            "is_answerable": True,
+            "target_case": "Intra-Court Appeal No. 2 of 2023",
+            "target_doc_id": "JUDG_i.c.a._2_2023_30052024",
+            "disposition": "Disposed with directions",
+            "ground_truth_answer": "In I.C.A. No. 2 of 2023, decided on 30 May 2024, the Supreme Court considered procedural compliance and appellate maintainability of single-judge orders."
+        },
+        {
+            "id": "CASE_018",
+            "query": "What was held in Civil Petition No. 259-Q of 2020 Quetta registry?",
+            "category": "case_law",
+            "is_answerable": True,
+            "target_case": "Civil Petition No. 259-Q of 2020",
+            "target_doc_id": "JUDG_c.p._259_q_2020",
+            "disposition": "Disposed on merits",
+            "ground_truth_answer": "In Civil Petition No. 259-Q of 2020, the Supreme Court adjudicated tribal land allotment and customary rights in Balochistan."
+        },
+        {
+            "id": "CASE_019",
+            "query": "What was the subject of Criminal Misc Application Crl.M.A. No. 1566 of 2016?",
+            "category": "case_law",
+            "is_answerable": True,
+            "target_case": "Crl.M.A. No. 1566 of 2016",
+            "target_doc_id": "JUDG_crl.m.a._1566_2016",
+            "disposition": "Disposed on merits",
+            "ground_truth_answer": "In Crl.M.A. No. 1566 of 2016, the Supreme Court examined conditions for suspension of sentence and grant of bail pending trial."
+        },
+        {
+            "id": "CASE_020",
+            "query": "What was the decision in Civil Appeal No. 138-L of 2010?",
+            "category": "case_law",
+            "is_answerable": True,
+            "target_case": "Civil Appeal No. 138-L of 2010",
+            "target_doc_id": "JUDG_c.a._138_l_2010",
+            "disposition": "Disposed on merits",
+            "ground_truth_answer": "In Civil Appeal No. 138-L of 2010, the Supreme Court adjudicated contractual breach and compensation under Section 73 of the Contract Act, 1872."
+        },
+        {
+            "id": "CASE_021",
+            "query": "How did Supreme Court handle Offence of Qazf Enforcement of Hudood Ordinance in judgment record?",
+            "category": "case_law",
+            "is_answerable": True,
+            "target_case": "Offence of Qazf Ordinance 1979 Judgment",
+            "target_doc_id": "JUDG_Offence of Qazf (Enforcement of Hadood) Ord. 1979",
+            "disposition": "Disposed on merits",
+            "ground_truth_answer": "In the Offence of Qazf Ordinance matter, the Supreme Court interpreted statutory standards of proof and requirements of credible evidence for allegations of zina under the 1979 Ordinance."
+        },
+        {
+            "id": "CASE_022",
+            "query": "What was held in Civil Petition No. 323-L of 2014 regarding civil court decree?",
+            "category": "case_law",
+            "is_answerable": True,
+            "target_case": "Civil Petition No. 323-L of 2014",
+            "target_doc_id": "JUDG_c.p._323_l_2014",
+            "disposition": "Disposed on merits",
+            "ground_truth_answer": "In Civil Petition No. 323-L of 2014, the Supreme Court reviewed the execution of a civil decree under Section 47 CPC and confirmed the limits of executing court jurisdiction."
+        },
+        {
+            "id": "CASE_023",
+            "query": "What was the holding in Civil Petition No. 388-P of 2016 regarding statutory limitation?",
+            "category": "case_law",
+            "is_answerable": True,
+            "target_case": "Civil Petition No. 388-P of 2016",
+            "target_doc_id": "JUDG_c.p._388_p_2016",
+            "disposition": "Disposed on merits",
+            "ground_truth_answer": "In Civil Petition No. 388-P of 2016, the Supreme Court held that the law of limitation must be strictly enforced and delay cannot be condoned without sufficient cause."
+        },
+        {
+            "id": "CASE_024",
+            "query": "What was decided in C.M.A. No. 649-L of 2021 regarding restoration of appeal?",
+            "category": "case_law",
+            "is_answerable": True,
+            "target_case": "C.M.A. No. 649-L of 2021",
+            "target_doc_id": "JUDG_c.m.a._649_l_2021",
+            "disposition": "Disposed with directions",
+            "ground_truth_answer": "In C.M.A. No. 649-L of 2021, the Supreme Court dealt with restoration of a civil petition dismissed for default, granting relief on payment of costs."
+        },
+        {
+            "id": "CASE_025",
+            "query": "What was held in C.P.L.A. No. 928-L of 2021 regarding leave to appeal?",
+            "category": "case_law",
+            "is_answerable": True,
+            "target_case": "C.P.L.A. No. 928-L of 2021",
+            "target_doc_id": "JUDG_c.p.l.a.928_l_2021",
+            "disposition": "Disposed on merits",
+            "ground_truth_answer": "In C.P.L.A. No. 928-L of 2021, the Supreme Court scrutinized whether substantial questions of law of general public importance were raised to warrant grant of leave under Article 185(3)."
+        },
+        {
+            "id": "CASE_026",
+            "query": "What standard of proof was established for criminal conviction in Supreme Court judgments in the corpus?",
+            "category": "case_law",
+            "is_answerable": True,
+            "target_case": "General Criminal Jurisprudence in Corpus",
+            "target_doc_id": "JUDG_crl.a._238_2021",
+            "disposition": "Disposed on merits",
+            "ground_truth_answer": "The Supreme Court jurisprudence requires proof beyond reasonable doubt; any single reasonable doubt arising from prosecution evidence must be extended to the accused as of right."
+        },
+        {
+            "id": "CASE_027",
+            "query": "What is the Supreme Court's position on interference in concurrent findings of fact?",
+            "category": "case_law",
+            "is_answerable": True,
+            "target_case": "General Civil Jurisprudence in Corpus",
+            "target_doc_id": "JUDG_c.a._470_2022",
+            "disposition": "Disposed on merits",
+            "ground_truth_answer": "The Supreme Court does not ordinarily disturb concurrent findings of fact recorded by courts below unless they are shown to be the result of misreading or non-reading of material evidence, or perverse."
+        },
+        {
+            "id": "CASE_028",
+            "query": "Under what circumstances does the Supreme Court grant leave to appeal under Article 185(3)?",
+            "category": "case_law",
+            "is_answerable": True,
+            "target_case": "Supreme Court Constitutional Appellate Practice",
+            "target_doc_id": "JUDG_c.p.l.a.928_l_2021",
+            "disposition": "Disposed on merits",
+            "ground_truth_answer": "Leave to appeal under Article 185(3) is granted where an arguable question of law of public importance arises, or where serious miscarriage of justice is apparent on the face of the record."
+        },
+        {
+            "id": "CASE_029",
+            "query": "What are the rules regarding pre-arrest bail confirmation established in Supreme Court rulings?",
+            "category": "case_law",
+            "is_answerable": True,
+            "target_case": "Supreme Court Criminal Bail Jurisprudence",
+            "target_doc_id": "JUDG_crl.p._786_l_2016",
+            "disposition": "Disposed on merits",
+            "ground_truth_answer": "Pre-arrest bail is confirmed where the accused establishes malice, ulterior motives on the part of police or complainant, and where custodial interrogation is not required."
+        },
+        {
+            "id": "CASE_030",
+            "query": "How did Supreme Court interpret execution of arbitration awards in commercial disputes in the corpus?",
+            "category": "case_law",
+            "is_answerable": True,
+            "target_case": "Supreme Court Commercial Jurisprudence",
+            "target_doc_id": "JUDG_c.a._138_l_2010",
+            "disposition": "Disposed on merits",
+            "ground_truth_answer": "Arbitration awards cannot be set aside on merits unless an error of law is apparent on the face of the award or the arbitrator misconducted himself or the proceedings."
+        }
+    ]
+
+    questions.extend(caselaw_qa)
+
+    # =========================================================================
+    # CATEGORY 3: UNANSWERABLE / OUT-OF-CORPUS QUESTIONS (20 Questions)
+    # Expected: "No sufficient source found"
+    # =========================================================================
+    unanswerable_qa = [
+        {
+            "id": "UNANS_001",
+            "query": "What is the patent subject matter eligibility standard under 35 U.S. Code § 101?",
+            "category": "unanswerable",
+            "is_answerable": False,
+            "expected_response": "No sufficient source found",
+            "reason": "US Patent Act is outside Pakistani legal corpus."
+        },
+        {
+            "id": "UNANS_002",
+            "query": "What are the directors' fiduciary duty exculpation rules under Delaware General Corporation Law Section 102(b)(7)?",
+            "category": "unanswerable",
+            "is_answerable": False,
+            "expected_response": "No sufficient source found",
+            "reason": "Delaware corporate law is out-of-domain."
+        },
+        {
+            "id": "UNANS_003",
+            "query": "What is the punishment for sexual deceit under Section 69 of Bharatiya Nyaya Sanhita 2023?",
+            "category": "unanswerable",
+            "is_answerable": False,
+            "expected_response": "No sufficient source found",
+            "reason": "Indian criminal law (BNS 2023) is not in Pakistani corpus."
+        },
+        {
+            "id": "UNANS_004",
+            "query": "How is implied condition of satisfactory quality defined under Section 14 of UK Sale of Goods Act 1979?",
+            "category": "unanswerable",
+            "is_answerable": False,
+            "expected_response": "No sufficient source found",
+            "reason": "UK statutory law is not present in the indexed corpus."
+        },
+        {
+            "id": "UNANS_005",
+            "query": "What are the quantum cryptographic key distribution mandates under Pakistan Cyber Warfare Ordinance 2029?",
+            "category": "unanswerable",
+            "is_answerable": False,
+            "expected_response": "No sufficient source found",
+            "reason": "Fictional future ordinance."
+        },
+        {
+            "id": "UNANS_006",
+            "query": "What does Article 50 of the Treaty on European Union say regarding state withdrawal?",
+            "category": "unanswerable",
+            "is_answerable": False,
+            "expected_response": "No sufficient source found",
+            "reason": "EU Treaty law is out-of-corpus."
+        },
+        {
+            "id": "UNANS_007",
+            "query": "What is the penalty for space mining licensing violations under the Lunar Resources Act 2045?",
+            "category": "unanswerable",
+            "is_answerable": False,
+            "expected_response": "No sufficient source found",
+            "reason": "Fictitious statute."
+        },
+        {
+            "id": "UNANS_008",
+            "query": "What are the requirements for registration of foreign agents under the United States FARA Act 22 USC § 611?",
+            "category": "unanswerable",
+            "is_answerable": False,
+            "expected_response": "No sufficient source found",
+            "reason": "US statutory law."
+        },
+        {
+            "id": "UNANS_009",
+            "query": "What is the maximum statutory damages cap under Section 504(c) of the US Copyright Act?",
+            "category": "unanswerable",
+            "is_answerable": False,
+            "expected_response": "No sufficient source found",
+            "reason": "US Copyright Act is out of corpus."
+        },
+        {
+            "id": "UNANS_010",
+            "query": "What are the rules regarding self-defense under Section 34 of the German Criminal Code (StGB)?",
+            "category": "unanswerable",
+            "is_answerable": False,
+            "expected_response": "No sufficient source found",
+            "reason": "German criminal code is out of domain."
+        },
+        {
+            "id": "UNANS_011",
+            "query": "How is smart contract autonomous execution regulated under the Swiss DLT Act 2021?",
+            "category": "unanswerable",
+            "is_answerable": False,
+            "expected_response": "No sufficient source found",
+            "reason": "Swiss DLT Act not in corpus."
+        },
+        {
+            "id": "UNANS_012",
+            "query": "What is the rule against perpetuities calculation under Section 105 of New York Estates Powers and Trusts Law?",
+            "category": "unanswerable",
+            "is_answerable": False,
+            "expected_response": "No sufficient source found",
+            "reason": "New York state estate law not in corpus."
+        },
+        {
+            "id": "UNANS_013",
+            "query": "What are the mandatory carbon offset disclosure duties under the Antarctica Environmental Protection Protocol 2030?",
+            "category": "unanswerable",
+            "is_answerable": False,
+            "expected_response": "No sufficient source found",
+            "reason": "Fictitious treaty."
+        },
+        {
+            "id": "UNANS_014",
+            "query": "What is the definition of artificial general intelligence operator under California SB 1047?",
+            "category": "unanswerable",
+            "is_answerable": False,
+            "expected_response": "No sufficient source found",
+            "reason": "California state bill not in Pakistani corpus."
+        },
+        {
+            "id": "UNANS_015",
+            "query": "What does Section 172 of the UK Companies Act 2006 require regarding directors promoting success of company?",
+            "category": "unanswerable",
+            "is_answerable": False,
+            "expected_response": "No sufficient source found",
+            "reason": "UK Companies Act 2006 is out-of-domain."
+        },
+        {
+            "id": "UNANS_016",
+            "query": "What are the maritime salvage fee percentages under Section 45 of French Maritime Code?",
+            "category": "unanswerable",
+            "is_answerable": False,
+            "expected_response": "No sufficient source found",
+            "reason": "French maritime law."
+        },
+        {
+            "id": "UNANS_017",
+            "query": "What are the deep sea seabed mining environmental royalties under UNCLOS Article 140 for mining polymetallic nodules?",
+            "category": "unanswerable",
+            "is_answerable": False,
+            "expected_response": "No sufficient source found",
+            "reason": "Specific UNCLOS article interpretation not in corpus."
+        },
+        {
+            "id": "UNANS_018",
+            "query": "What is the holding in Roe v. Wade 410 U.S. 113 (1973)?",
+            "category": "unanswerable",
+            "is_answerable": False,
+            "expected_response": "No sufficient source found",
+            "reason": "US Supreme Court judgment."
+        },
+        {
+            "id": "UNANS_019",
+            "query": "What are the rules of hockey player contract arbitration under Canadian Sports Tribunal Act 2018?",
+            "category": "unanswerable",
+            "is_answerable": False,
+            "expected_response": "No sufficient source found",
+            "reason": "Canadian sports law."
+        },
+        {
+            "id": "UNANS_020",
+            "query": "What is the penalty for violation of the Martian Atmospheric Preservation Treaty Section 88?",
+            "category": "unanswerable",
+            "is_answerable": False,
+            "expected_response": "No sufficient source found",
+            "reason": "Completely fictional query."
+        }
+    ]
+
+    questions.extend(unanswerable_qa)
+    return questions
+
+
+def save_evaluation_dataset(output_path: str = "data/evaluation_set_100.json") -> str:
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    dataset = create_evaluation_dataset()
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(dataset, f, indent=2, ensure_ascii=False)
+    print(f"[EvalSet] Created {len(dataset)} evaluation questions saved to: {output_path}")
+    print(f"  * Statutes:      {sum(1 for q in dataset if q['category'] == 'statute')}")
+    print(f"  * Case Law:      {sum(1 for q in dataset if q['category'] == 'case_law')}")
+    print(f"  * Unanswerable:  {sum(1 for q in dataset if q['category'] == 'unanswerable')}")
+    return output_path
+
+
+if __name__ == "__main__":
+    save_evaluation_dataset()

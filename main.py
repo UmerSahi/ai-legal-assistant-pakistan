@@ -1,6 +1,6 @@
 """
 AI Legal Assistant - Command Line Interface (CLI)
-Task 1-5 Deliverable: Khan & Associates
+Khan & Associates - Day 1 & Day 2 Deliverables
 """
 
 import sys
@@ -11,19 +11,19 @@ from src.ocr_benchmark import UrduOCRBenchmark
 
 def parse_args():
     parser = argparse.ArgumentParser(
-        description="Khan & Associates AI Legal Assistant: Document Ingestion & Understanding Engine"
+        description="Khan & Associates AI Legal Assistant: Ingestion, Advanced RAG & Citation Grounding"
     )
     parser.add_argument(
         "--step",
-        choices=["all", "inventory", "parse", "ocr", "extract", "chunk", "index", "search"],
+        choices=["all", "inventory", "parse", "ocr", "extract", "chunk", "index", "search", "day2_eval", "answer"],
         default="all",
         help="Specify the pipeline step to execute (default: all)"
     )
     parser.add_argument(
         "--query",
         type=str,
-        default="punishment for murder qatl-i-amd",
-        help="Query to search when --step search is selected"
+        default="Agar consideration unlawful ho to kya contract void hai?",
+        help="Query to search or answer when --step search or --step answer is selected"
     )
     parser.add_argument(
         "--data-dir",
@@ -42,12 +42,48 @@ def parse_args():
 
 def main():
     args = parse_args()
-    pipeline = LegalIngestionPipeline(data_dir=args.data_dir, output_dir=args.output_dir)
 
     print("\n" + "#"*70)
-    print(" KHAN & ASSOCIATES - AI LEGAL ASSISTANT PIPELINE")
-    print(" Day 1: Legal Document Ingestion & Understanding Engine")
+    print(" KHAN & ASSOCIATES - AI LEGAL ASSISTANT PLATFORM")
+    print(" Day 1: Document Ingestion | Day 2: Advanced Grounded RAG")
     print("#"*70)
+
+    if args.step == "day2_eval":
+        from src.advanced_rag import AdvancedLegalRAG
+        print("\n[CLI] Running Day 2 Advanced RAG Ablation Benchmark on 100 questions...")
+        rag = AdvancedLegalRAG(output_dir=args.output_dir)
+        results = rag.run_ablation_benchmark()
+        rag.export_ablation_report(results)
+        return
+
+    if args.step == "answer":
+        from src.answer_generator import LegalAnswerGenerator
+        print(f"\n[CLI] Generating Citation-Grounded Answer for:\n>>> {args.query}\n")
+        gen = LegalAnswerGenerator()
+        ans = gen.generate_answer(args.query)
+        print("="*60)
+        print(f"SHORT ANSWER: {ans['short_answer']}")
+        print(f"\nEXPLANATION: {ans['explanation']}")
+        print("\nEXACT CITATIONS:")
+        for c in ans.get("exact_citations", []):
+            print(f"  - {c.get('act_or_case', '')} -> {c.get('section_or_para', '')} ({c.get('doc_id', '')})")
+        print("\nQUOTED SOURCE TEXT:")
+        quote_text = ans.get("quoted_source_text", "")
+        if quote_text:
+            print(f"  > \"{quote_text}\"")
+        else:
+            print("  (None)")
+        print("\nVERIFICATION STATUS:")
+        v = ans.get("verification", {})
+        print(f"  - Status: {v.get('status', 'unknown')}")
+        print(f"  - Is Grounded: {v.get('is_grounded', False)}")
+        print(f"  - Fabrication Detected: {v.get('fabrication_detected', False)}")
+        print(f"  - Quote Matched: {v.get('quote_match', False)}")
+        print(f"  - Summary: {v.get('summary', '')}")
+        print("="*60)
+        return
+
+    pipeline = LegalIngestionPipeline(data_dir=args.data_dir, output_dir=args.output_dir)
 
     if args.step in ["all", "inventory"]:
         pipeline.run_inventory_step()
