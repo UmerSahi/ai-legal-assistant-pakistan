@@ -1,12 +1,13 @@
 {
   "doc_id": "CONT_BizzingoInc_20120322_8-K_EX-10.17_7504499_EX-10.17_Endorsement Agreement",
+  "matter_id": "KA/CORP/COMM/2026/BIZZINGOINC_2012",
   "filename": "BizzingoInc_20120322_8-K_EX-10.17_7504499_EX-10.17_Endorsement Agreement.pdf",
   "document_type": "contract",
   "contract_subtype": "contracts/cuad",
   "title": "Bizzingoinc 20120322 8 K Ex 10.17 7504499 Ex 10.17 Endorsement Agreement",
   "parties": {
-    "party_one": "Bizzingo, Inc., a Nevada  corporation with offices at 63 Main Street, Suite 202, Flemington, NJ 0882",
-    "party_two": "Joseph Theismann, an individual whose address is 21495  Ridgetop Circle, Suite 304A, Sterling Virgin"
+    "party_one": "Bizzingo, Inc., a Nevada  corporation with offices at 63 Main Street, Suite 202, Flemington, NJ 08822 (“Bizzingo”)",
+    "party_two": "Joseph Theismann, an individual whose address is 21495  Ridgetop Circle, Suite 304A, Sterling Virginia 20166 (“Theismann"
   },
   "effective_date": "Effective Date as specified",
   "governing_law": "Specified State Law",

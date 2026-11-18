@@ -1,12 +1,13 @@
 {
   "doc_id": "CONT_BellringBrandsInc_20190920_S-1_EX-10.12_11817081_EX-10.12_Manufacturing Agreement1",
+  "matter_id": "KA/CORP/COMM/2026/BELLRINGBRANDSIN",
   "filename": "BellringBrandsInc_20190920_S-1_EX-10.12_11817081_EX-10.12_Manufacturing Agreement1.pdf",
   "document_type": "contract",
   "contract_subtype": "contracts/cuad",
   "title": "Bellringbrandsinc 20190920 S 1 Ex 10.12 11817081 Ex 10.12 Manufacturing Agreement1",
   "parties": {
-    "party_one": "Stremicks Heritage Foods, LLC (“Heritage”), a Delaware limited liability company with an address of",
-    "party_two": "PREMIER NUTRITION CORPORATION (“Premier”), a Delaware corporation with a principal place of business"
+    "party_one": "Stremicks Heritage Foods, LLC (“Heritage”), a Delaware limited liability company with an address of 4002 Westminster Ave",
+    "party_two": "PREMIER NUTRITION CORPORATION (“Premier”), a Delaware corporation with a principal place of business at 5905 Christie Av"
   },
   "effective_date": "Effective Date as specified",
   "governing_law": "governed by the laws of the State of California, without regard to conflicts of laws principles.",

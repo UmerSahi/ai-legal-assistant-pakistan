@@ -1,12 +1,13 @@
 {
   "doc_id": "CONT_ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement",
+  "matter_id": "KA/CORP/COMM/2026/ARMSTRONGFLOORIN",
   "filename": "ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement.pdf",
   "document_type": "contract",
   "contract_subtype": "contracts/cuad",
   "title": "Purchase Agreement",
   "parties": {
     "party_one": "Armstrong Flooring, Inc., a Delaware corporation (“Seller”)",
-    "party_two": "AFI Licensing LLC, a Delaware limited liability company (“Licensing” and together with Seller, “Ariz"
+    "party_two": "AFI Licensing LLC, a Delaware limited liability company (“Licensing” and together with Seller, “Arizona”) and AHF Holdin"
   },
   "effective_date": "Effective Date as specified",
   "governing_law": "governed by the laws of the State of Delaware, its rules of conflict of laws notwithstanding.",

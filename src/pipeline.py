@@ -252,10 +252,11 @@ class LegalIngestionPipeline:
 
         print("\n--- Demonstration Retrieval across Legal Corpus ---")
         demo_queries = [
-            ("murder penalty qatl-i-amd life imprisonment", "Statutory Penal Provision"),
-            ("appeal preliminary decree disputing correctness", "Civil Procedure Code CPC"),
-            ("tenant indemnity hold harmless damages", "Commercial Contract Risk"),
-            ("cancellation of bail criminal procedure", "Supreme Court Jurisprudence")
+            ("appeal preliminary decree disputing correctness section 97", "Civil Procedure Code CPC § 97"),
+            ("bail cancellation further inquiry criminal procedure", "Supreme Court Criminal Jurisprudence § 497/498"),
+            ("commercial lease gross negligence indemnification hold harmless", "Commercial Contract Risk & Indemnity"),
+            ("qatl-i-amd murder punishment death penalty life imprisonment", "Pakistan Penal Code PPC § 302"),
+            ("arbitration clause seated at Lahore governing law", "Commercial Dispute Resolution & Arbitration")
         ]
 
         retrieval_log = []

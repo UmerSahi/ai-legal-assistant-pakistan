@@ -135,6 +135,7 @@ class SectionLevelChunker:
         doc_id = statute_data.get("doc_id", "STAT")
         act = statute_data.get("act_title", "Statute")
         year = statute_data.get("year", 1908)
+        matter_id = statute_data.get("matter_id") or doc_id
 
         # 1. Preamble chunk
         if statute_data.get("preamble") and len(statute_data["preamble"]) > 30:
@@ -148,7 +149,7 @@ class SectionLevelChunker:
                 section="Preamble",
                 year=year,
                 page=1,
-                matter_id=doc_id,
+                matter_id=matter_id,
                 chunk_type="atomic",
                 extra_metadata={"section_title": "Preamble & Enactment"}
             ))
@@ -173,7 +174,7 @@ class SectionLevelChunker:
                 section=sec_num,
                 year=year,
                 page=1,
-                matter_id=doc_id,
+                matter_id=matter_id,
                 chunk_type="atomic",
                 extra_metadata={
                     "section_title": sec_title,
@@ -190,6 +191,7 @@ class SectionLevelChunker:
         title = contract_data.get("title", "Contract")
         parties = contract_data.get("parties", {})
         parties_str = f"{parties.get('party_one', 'Party 1')} and {parties.get('party_two', 'Party 2')}"
+        matter_id = contract_data.get("matter_id") or doc_id
 
         for clause in contract_data.get("clauses", []):
             c_num = clause.get("clause_number", "")
@@ -209,7 +211,7 @@ class SectionLevelChunker:
                 section=c_num,
                 year=2024,
                 page=1,
-                matter_id=doc_id,
+                matter_id=matter_id,
                 chunk_type="atomic",
                 extra_metadata={"clause_type": c_type, "clause_heading": c_title}
             ))
@@ -224,6 +226,7 @@ class SectionLevelChunker:
         title = judgment_data.get("case_title", "Case")
         year = judgment_data.get("year", 2024)
         bench = ", ".join(judgment_data.get("bench", []))
+        matter_id = judgment_data.get("matter_id") or doc_id
 
         # 1. Header & Parties Chunk
         header_text = f"COURT: {court}\nCASE: {case_no} ({year})\nTITLE: {title}\nBENCH: {bench}\nPARTIES: {judgment_data.get('parties', {}).get('appellant_petitioner')} v. {judgment_data.get('parties', {}).get('respondent')}"
@@ -235,7 +238,7 @@ class SectionLevelChunker:
             doc_type="judgment",
             court=court,
             year=year,
-            matter_id=doc_id,
+            matter_id=matter_id,
             chunk_type="atomic",
             extra_metadata={"section": "Court & Parties Header"}
         ))
@@ -251,7 +254,7 @@ class SectionLevelChunker:
             doc_type="judgment",
             court=court,
             year=year,
-            matter_id=doc_id,
+            matter_id=matter_id,
             chunk_type="atomic",
             extra_metadata={"section": "Holding & Disposition", "disposition": disp}
         ))
@@ -270,7 +273,7 @@ class SectionLevelChunker:
                         doc_type="judgment",
                         court=court,
                         year=year,
-                        matter_id=doc_id,
+                        matter_id=matter_id,
                         chunk_type="atomic",
                         extra_metadata={"para_num": p_idx}
                     ))
@@ -299,6 +302,7 @@ class ParentChildChunker:
         doc_id = statute_data.get("doc_id", "STAT")
         act = statute_data.get("act_title", "Statute")
         year = statute_data.get("year", 1908)
+        matter_id = statute_data.get("matter_id") or doc_id
 
         for sec in statute_data.get("sections", []):
             sec_num = sec.get("section_number", "")
@@ -320,7 +324,7 @@ class ParentChildChunker:
                 act=act,
                 section=sec_num,
                 year=year,
-                matter_id=doc_id,
+                matter_id=matter_id,
                 chunk_type="parent",
                 extra_metadata={"section_title": sec_title}
             )
@@ -384,6 +388,7 @@ class ParentChildChunker:
 
         doc_id = contract_data.get("doc_id", "CONT")
         title = contract_data.get("title", "Contract")
+        matter_id = contract_data.get("matter_id") or doc_id
 
         for clause in contract_data.get("clauses", []):
             c_num = clause.get("clause_number", "")
@@ -403,7 +408,7 @@ class ParentChildChunker:
                 act=title,
                 section=c_num,
                 year=2024,
-                matter_id=doc_id,
+                matter_id=matter_id,
                 chunk_type="parent",
                 extra_metadata={"clause_type": c_type}
             )

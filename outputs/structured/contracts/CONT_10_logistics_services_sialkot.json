@@ -1,14 +1,15 @@
 {
   "doc_id": "CONT_10_logistics_services_sialkot",
+  "matter_id": "KA/CORP/COMM/2026/10_LOGISTICS_SER",
   "filename": "10_logistics_services_sialkot.pdf",
   "document_type": "contract",
   "contract_subtype": "contracts/synthetic",
-  "title": "Services\nAgreement",
+  "title": "Services Agreement",
   "parties": {
-    "party_one": "Party One",
-    "party_two": "Party Two"
+    "party_one": "Forward Sports Manufacturing Ltd Sialkot",
+    "party_two": "National Logistics Cell (NLC) Sialkot Inland Depot"
   },
-  "effective_date": "Effective Date as specified",
+  "effective_date": "18th February 2025",
   "governing_law": "Laws of Pakistan (Province of Punjab)",
   "total_clauses_extracted": 6,
   "clauses": [
@@ -16,37 +17,37 @@
       "clause_number": "1",
       "clause_heading": "DEFINITIONS AND INTERPRETATION",
       "clause_type": "Confidentiality",
-      "text": "1.1 'Confidential Information' means all proprietary technical, financial, client, and legal data disclosed by\neither Party during the term of this Agreement.\n1.2 'Effective Date' means 15th January 2025 unless otherwise extended in writing by the Parties."
+      "text": "1.1 'Confidential Information' means all technical, commercial, financial, proprietary, and legal data disclosed by either\nParty.\n1.2 'Effective Date' means 18th February 2025 unless formally extended by mutual written consent."
     },
     {
       "clause_number": "2",
       "clause_heading": "SCOPE OF OBLIGATIONS AND CONSIDERATION",
       "clause_type": "General / Operational",
-      "text": "2.1 The Second Party shall perform the deliverables and obligations described in Schedule A in strict\ncompliance with industry standards applicable in Sialkot, Punjab.\n2.2 In consideration thereof, the agreed commercial value is PKR 950,000 monthly minimum, payable net 15\ndays from receipt of an undisputed tax invoice under Pakistan tax regulations."
+      "text": "2.1 The Second Party shall perform the services, supply of materials, or operational duties in strict compliance with quality\nstandards applicable in Sialkot, Punjab.\n2.2 In consideration thereof, the agreed commercial value is PKR 12,000,000 Annual Bonded Warehousing & Port Transit,\npayable within fifteen (15) business days against an undisputed invoice under Pakistan taxation regulations."
     },
     {
       "clause_number": "3",
       "clause_heading": "REPRESENTATIONS, WARRANTIES AND INDEMNITY",
       "clause_type": "Indemnification",
-      "text": "3.1 Each Party represents that it holds full corporate authority and legal capacity under the laws of Pakistan to\nenter into this Agreement.\n3.2 Each Party shall indemnify and hold harmless the other against third-party claims arising from gross\nnegligence, willful misconduct, or breach of statutory obligations."
+      "text": "3.1 Each Party represents that it is duly incorporated or legally qualified to enter into binding legal relations under the laws\nof Pakistan.\n3.2 Each Party shall indemnify, defend, and hold harmless the other against direct third-party claims arising from gross\nnegligence, willful misconduct, or breach of statutory obligations."
     },
     {
       "clause_number": "4",
       "clause_heading": "LIMITATION OF LIABILITY",
-      "clause_type": "Confidentiality",
-      "text": "4.1 Except for breaches of confidentiality or indemnity obligations, neither Party shall be liable for indirect,\nincidental, or consequential damages. Aggregate liability shall not exceed total fees paid or payable during the\npreceding twelve (12) months."
+      "clause_type": "Limitation of Liability",
+      "text": "4.1 Except for indemnity breaches or intentional tort, neither Party shall be liable for indirect, punitive, or consequential\ndamages.\n4.2 Maximum aggregate financial liability shall not exceed the total fees paid or payable during the preceding twelve (12)\ncalendar months."
     },
     {
       "clause_number": "5",
       "clause_heading": "TERM, TERMINATION AND FORCE MAJEURE",
       "clause_type": "Termination",
-      "text": "5.1 This Agreement remains valid for twelve (12) months from the Effective Date and may be terminated for\nconvenience upon thirty (30) days' prior written notice.\n5.2 Either Party may terminate immediately upon material breach not cured within fourteen (14) days of written\nnotice. Force Majeure events suspend performance for up to forty-five (45) days."
+      "text": "5.1 This Agreement remains valid for an initial period of twelve (12) months from the Effective Date, terminable for\nconvenience upon thirty (30) days' written notice.\n5.2 Either Party may terminate immediately upon an uncured material default remaining after fourteen (14) days' written\ncure notice. Force majeure events suspend performance for up to sixty (60) days."
     },
     {
       "clause_number": "6",
       "clause_heading": "GOVERNING LAW AND DISPUTE RESOLUTION",
       "clause_type": "Governing Law",
-      "text": "6.1 This Agreement shall be governed by and construed in accordance with the Carriage of Goods by Sea /\nRoad Laws and Contract Act, 1872.\n6.2 Any dispute not resolved amicably within fifteen (15) days shall be referred to arbitration under the\nArbitration Act, 1940 seated at Sialkot, Punjab, and the courts at Sialkot, Punjab shall have exclusive\njurisdiction.\nIN WITNESS WHEREOF, the Parties sign below at Sialkot, Punjab.\nFor Sialkot Surgical Instruments Co.: ______________________ For SwiftPort Logistics (Pvt.) Ltd.:\n______________________"
+      "text": "6.1 This Agreement shall be governed by, construed, and enforced in accordance with Carriage of Goods by Sea Act,\n1925 and Contract Act, 1872.\n6.2 Any dispute arising out of this Agreement shall be referred to arbitration under the Arbitration Act, 1940 seated at\nSialkot, Punjab, and the Lahore High Court shall have exclusive supervisory jurisdiction.\nIN WITNESS WHEREOF, the authorized signatories execute this Agreement at Sialkot, Punjab.\nFor Forward Sports Manufacturing Ltd Sialkot: ______________________\nFor National Logistics Cell (NLC) Sialkot Inland Depot: ______________________\nIn presence of Khan & Associates (Advocates & Legal Consultants)"
     }
   ]
 }

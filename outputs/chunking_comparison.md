@@ -22,10 +22,10 @@ For Khan & Associates, we implemented and rigorously evaluated three distinct ch
 | Strategy | Total Chunks | Mean Char Length | Length Std Dev | Min - Max Chars | Mean Words | Boundary Integrity | Metadata Richness |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **Fixed-Size (600 char / 100 overlap)** | 35 | 596.5 | 16.8 | 500 – 600 | 102.3 | **8.6%** | **85.7%** |
-| **Section-Level (Legal Structural)** | 147 | 504.7 | 506.7 | 80 – 1677 | 77.0 | **72.1%** | **98.6%** |
-| **Parent-Child (Parent Chunks)** | 144 | 509.7 | 509.9 | 86 – 1677 | 77.8 | **100.0%** | **100.0%** |
-| **Parent-Child (Child Retrieval Chunks)** | 294 | 158.2 | 67.8 | 53 – 359 | 23.3 | **33.7%** | **100.0%** |
-| **Parent-Child (Hierarchical Full)** | 438 | 273.8 | 339.9 | 53 – 1677 | 41.2 | **55.5%** | **100.0%** |
+| **Section-Level (Legal Structural)** | 147 | 508.2 | 507.2 | 80 – 1677 | 77.3 | **72.8%** | **98.6%** |
+| **Parent-Child (Parent Chunks)** | 144 | 510.9 | 510.2 | 86 – 1677 | 77.9 | **100.0%** | **100.0%** |
+| **Parent-Child (Child Retrieval Chunks)** | 293 | 158.9 | 68.5 | 53 – 359 | 23.4 | **34.1%** | **100.0%** |
+| **Parent-Child (Hierarchical Full)** | 437 | 274.9 | 340.5 | 53 – 1677 | 41.3 | **55.8%** | **100.0%** |
 
 ---
 

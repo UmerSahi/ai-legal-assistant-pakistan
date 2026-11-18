@@ -95,8 +95,12 @@ class LegalStructureExtractor:
                 "penalty": penalty_text
             })
 
+        act_slug = re.sub(r'[^A-Za-z0-9]+', '_', base_name).strip('_').upper()[:16]
+        matter_id = f"KA/STAT/PAK/{act_year}/{act_slug}"
+
         return {
             "doc_id": doc_id or f"STAT_{base_name}",
+            "matter_id": matter_id,
             "filename": filename,
             "document_type": "statute",
             "jurisdiction": "Islamic Republic of Pakistan",
@@ -202,8 +206,12 @@ class LegalStructureExtractor:
         holding_match = re.search(r"((?:For\s+(?:the\s+)?(?:foregoing|above)?\s*reasons|In\s+view\s+of\s+the\s+above|Accordingly|Consequently)[\s\S]*?\.)", tail_text, re.IGNORECASE)
         holding = holding_match.group(1).strip().replace("\n", " ") if holding_match else tail_text[-500:].replace("\n", " ").strip()
 
+        case_slug = re.sub(r'[^A-Za-z0-9]+', '_', base_name).strip('_').upper()[:16]
+        matter_id = f"KA/LIT/SC/{year}/{case_slug}"
+
         return {
             "doc_id": doc_id or f"JUDG_{base_name}",
+            "matter_id": matter_id,
             "filename": filename,
             "document_type": "judgment",
             "court": court,
@@ -248,14 +256,22 @@ class LegalStructureExtractor:
         effective_date = date_match.group(1).strip() if date_match else "Effective Date as specified"
 
         # Parties
-        parties_match = re.search(r"(?:by\s+and\s+between|BETWEEN)\s*([\s\S]*?)\s*(?:AND|and)\s*([\s\S]*?)(?=(?:WHEREAS|Whereas|WITNESSETH|NOW,?\s+THEREFORE))", full_text[:2000], re.IGNORECASE)
+        parties_match = re.search(r"(?:by\s+and\s+between:?|BETWEEN:?)\s*([\s\S]*?)\s*(?:AND:?|and:?)\s*([\s\S]*?)(?=(?:WHEREAS|Whereas|WITNESSETH|NOW,?\s+THEREFORE))", full_text[:2000], re.IGNORECASE)
         party_1 = "Party One"
         party_2 = "Party Two"
         if parties_match:
             p1 = parties_match.group(1).strip().replace("\n", " ")
             p2 = parties_match.group(2).strip().replace("\n", " ")
-            party_1 = p1[:100].strip()
-            party_2 = p2[:100].strip()
+            if "AND:" in p2:
+                p2 = p2.split("AND:")[-1].strip()
+            elif "and:" in p2.lower():
+                p2 = re.split(r"\band:\b", p2, flags=re.IGNORECASE)[-1].strip()
+            if "(hereinafter" in p1:
+                p1 = p1.split("(hereinafter")[0].strip()
+            if "(hereinafter" in p2:
+                p2 = p2.split("(hereinafter")[0].strip()
+            party_1 = p1[:120].strip(" ;,\n")
+            party_2 = p2[:120].strip(" ;,\n")
 
         # Governing Law
         gov_match = re.search(r"(?:governed\s+by|construed\s+in\s+accordance\s+with)[\s\S]*?(?:the\s+laws\s+of\s+([A-Za-z\s,]+?)(?:\.|\n|;))", full_text, re.IGNORECASE)
@@ -308,8 +324,13 @@ class LegalStructureExtractor:
                 "text": c_body[:1200]
             })
 
+        cont_slug = re.sub(r'[^A-Za-z0-9]+', '_', base_name).strip('_').upper()[:16]
+        city_tag = "LHR" if "lahore" in base_name.lower() else "KHI" if "karachi" in base_name.lower() else "ISB" if "islamabad" in base_name.lower() else "COMM"
+        matter_id = f"KA/CORP/{city_tag}/2026/{cont_slug}"
+
         return {
             "doc_id": doc_id or f"CONT_{base_name}",
+            "matter_id": matter_id,
             "filename": filename,
             "document_type": "contract",
             "contract_subtype": contract_subtype,
@@ -361,8 +382,13 @@ class LegalStructureExtractor:
                 city = c
                 break
 
+        urdu_slug = re.sub(r'[^A-Za-z0-9]+', '_', base_name).strip('_').upper()[:16]
+        city_code = city[:3].upper() if city != "Pakistan" else "GEN"
+        matter_id = f"KA/LIT/URDU/{city_code}/2026/{urdu_slug}"
+
         return {
             "doc_id": doc_id or f"URDU_{base_name}",
+            "matter_id": matter_id,
             "filename": filename,
             "document_type": "scanned_urdu",
             "title_urdu": matched_urdu_title,

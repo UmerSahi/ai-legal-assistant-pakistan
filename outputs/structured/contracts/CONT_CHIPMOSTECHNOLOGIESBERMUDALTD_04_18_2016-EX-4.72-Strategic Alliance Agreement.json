@@ -1,12 +1,13 @@
 {
   "doc_id": "CONT_CHIPMOSTECHNOLOGIESBERMUDALTD_04_18_2016-EX-4.72-Strategic Alliance Agreement",
+  "matter_id": "KA/CORP/COMM/2026/CHIPMOSTECHNOLOG",
   "filename": "CHIPMOSTECHNOLOGIESBERMUDALTD_04_18_2016-EX-4.72-Strategic Alliance Agreement.PDF",
   "document_type": "contract",
   "contract_subtype": "contracts/cuad",
   "title": "Chipmostechnologiesbermudaltd 04 18 2016 Ex 4.72 Strategic Alliance Agreement",
   "parties": {
-    "party_one": "ChipMOS TECHNOLOGIES INC., a company incorporated under the laws of Taiwan (“ChipMOS”),",
-    "party_two": "Tsinghua Unigroup Ltd. (“Tsinghua Unigroup”), a company incorporated under the laws of the People’s"
+    "party_one": "ChipMOS TECHNOLOGIES INC., a company incorporated under the laws of Taiwan (“ChipMOS”)",
+    "party_two": "Tsinghua Unigroup Ltd. (“Tsinghua Unigroup”), a company incorporated under the laws of the People’s Republic of China (“"
   },
   "effective_date": "11th day of December, 2015",
   "governing_law": "governed by, and construed in accordance with the laws of Taiwan.",

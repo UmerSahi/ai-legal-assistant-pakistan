@@ -1,12 +1,13 @@
 {
   "doc_id": "CONT_ADAMSGOLFINC_03_21_2005-EX-10.17-ENDORSEMENT AGREEMENT",
+  "matter_id": "KA/CORP/COMM/2026/ADAMSGOLFINC_03_",
   "filename": "ADAMSGOLFINC_03_21_2005-EX-10.17-ENDORSEMENT AGREEMENT.PDF",
   "document_type": "contract",
   "contract_subtype": "contracts/cuad",
   "title": "Adamsgolfinc 03 21 2005 Ex 10.17 Endorsement Agreement",
   "parties": {
-    "party_one": "professional golfer, TOM WATSON, (hereinafter referred to as “CONSULTANT”)",
-    "party_two": "ADAMS GOLF, LTD. (hereinafter referred to as “ADAMS GOLF”)."
+    "party_one": "professional golfer, TOM WATSON",
+    "party_two": "ADAMS GOLF, LTD."
   },
   "effective_date": "Effective Date as specified",
   "governing_law": "Specified State Law",

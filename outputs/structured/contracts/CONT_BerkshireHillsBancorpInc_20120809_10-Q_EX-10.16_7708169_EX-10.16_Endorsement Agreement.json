@@ -1,12 +1,13 @@
 {
   "doc_id": "CONT_BerkshireHillsBancorpInc_20120809_10-Q_EX-10.16_7708169_EX-10.16_Endorsement Agreement",
+  "matter_id": "KA/CORP/COMM/2026/BERKSHIREHILLSBA",
   "filename": "BerkshireHillsBancorpInc_20120809_10-Q_EX-10.16_7708169_EX-10.16_Endorsement Agreement.pdf",
   "document_type": "contract",
   "contract_subtype": "contracts/cuad",
   "title": "Berkshirehillsbancorpinc 20120809 10 Q Ex 10.16 7708169 Ex 10.16 Endorsement Agreement",
   "parties": {
     "party_one": "GENO AURIEMMA (“Auriemma”)",
-    "party_two": "BERKSHIRE BANK, a  Massachusetts savings bank with its principal place of business at 24 North Stree"
+    "party_two": "BERKSHIRE BANK, a  Massachusetts savings bank with its principal place of business at 24 North Street, Pittsfield, MA 01"
   },
   "effective_date": "Effective Date as specified",
   "governing_law": "governed by and construed in accordance with the laws of the State of Connecticut.",

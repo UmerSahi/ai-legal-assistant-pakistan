@@ -1,5 +1,6 @@
 {
   "doc_id": "JUDG_c.a._138_l_2010",
+  "matter_id": "KA/LIT/SC/2010/C_A_138_L_2010",
   "filename": "c.a._138_l_2010.pdf",
   "document_type": "judgment",
   "court": "Supreme Court of Pakistan",
@@ -14,10 +15,10 @@
     "respondent": "Bashir Ahmad (deceased) through LRs and others Respondents"
   },
   "citations_referred": [
-    "2003 CLC 1597",
     "2013 SC 489",
-    "2007 MLD 1062",
-    "2004 \nCLC 538"
+    "2004 \nCLC 538",
+    "2003 CLC 1597",
+    "2007 MLD 1062"
   ],
   "statutes_cited": [
     "Order VII Rule 11"

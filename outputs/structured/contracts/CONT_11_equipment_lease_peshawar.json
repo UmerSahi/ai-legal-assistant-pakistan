@@ -1,14 +1,15 @@
 {
   "doc_id": "CONT_11_equipment_lease_peshawar",
+  "matter_id": "KA/CORP/COMM/2026/11_EQUIPMENT_LEA",
   "filename": "11_equipment_lease_peshawar.pdf",
   "document_type": "contract",
   "contract_subtype": "contracts/synthetic",
   "title": "11 Equipment Lease Peshawar",
   "parties": {
-    "party_one": "Party One",
-    "party_two": "Party Two"
+    "party_one": "Khyber Heavy Engineering Works Peshawar",
+    "party_two": "Frontier Mining & Construction Consortium"
   },
-  "effective_date": "Effective Date as specified",
+  "effective_date": "22nd January 2025",
   "governing_law": "Laws of Pakistan (Province of Punjab)",
   "total_clauses_extracted": 6,
   "clauses": [
@@ -16,37 +17,37 @@
       "clause_number": "1",
       "clause_heading": "DEFINITIONS AND INTERPRETATION",
       "clause_type": "Confidentiality",
-      "text": "1.1 'Confidential Information' means all proprietary technical, financial, client, and legal data disclosed by\neither Party during the term of this Agreement.\n1.2 'Effective Date' means 15th January 2025 unless otherwise extended in writing by the Parties."
+      "text": "1.1 'Confidential Information' means all technical, commercial, financial, proprietary, and legal data disclosed by either\nParty.\n1.2 'Effective Date' means 22nd January 2025 unless formally extended by mutual written consent."
     },
     {
       "clause_number": "2",
       "clause_heading": "SCOPE OF OBLIGATIONS AND CONSIDERATION",
       "clause_type": "General / Operational",
-      "text": "2.1 The Second Party shall perform the deliverables and obligations described in Schedule A in strict\ncompliance with industry standards applicable in Peshawar, Khyber Pakhtunkhwa.\n2.2 In consideration thereof, the agreed commercial value is PKR 320,000 / month, payable net 15 days from\nreceipt of an undisputed tax invoice under Pakistan tax regulations."
+      "text": "2.1 The Second Party shall perform the services, supply of materials, or operational duties in strict compliance with quality\nstandards applicable in Peshawar, Khyber Pakhtunkhwa.\n2.2 In consideration thereof, the agreed commercial value is PKR 1,200,000 / month lease rental for 4 Excavators &\nCranes, payable within fifteen (15) business days against an undisputed invoice under Pakistan taxation regulations."
     },
     {
       "clause_number": "3",
       "clause_heading": "REPRESENTATIONS, WARRANTIES AND INDEMNITY",
       "clause_type": "Indemnification",
-      "text": "3.1 Each Party represents that it holds full corporate authority and legal capacity under the laws of Pakistan to\nenter into this Agreement.\n3.2 Each Party shall indemnify and hold harmless the other against third-party claims arising from gross\nnegligence, willful misconduct, or breach of statutory obligations."
+      "text": "3.1 Each Party represents that it is duly incorporated or legally qualified to enter into binding legal relations under the laws\nof Pakistan.\n3.2 Each Party shall indemnify, defend, and hold harmless the other against direct third-party claims arising from gross\nnegligence, willful misconduct, or breach of statutory obligations."
     },
     {
       "clause_number": "4",
       "clause_heading": "LIMITATION OF LIABILITY",
-      "clause_type": "Confidentiality",
-      "text": "4.1 Except for breaches of confidentiality or indemnity obligations, neither Party shall be liable for indirect,\nincidental, or consequential damages. Aggregate liability shall not exceed total fees paid or payable during the\npreceding twelve (12) months."
+      "clause_type": "Limitation of Liability",
+      "text": "4.1 Except for indemnity breaches or intentional tort, neither Party shall be liable for indirect, punitive, or consequential\ndamages.\n4.2 Maximum aggregate financial liability shall not exceed the total fees paid or payable during the preceding twelve (12)\ncalendar months."
     },
     {
       "clause_number": "5",
       "clause_heading": "TERM, TERMINATION AND FORCE MAJEURE",
       "clause_type": "Termination",
-      "text": "5.1 This Agreement remains valid for twelve (12) months from the Effective Date and may be terminated for\nconvenience upon thirty (30) days' prior written notice.\n5.2 Either Party may terminate immediately upon material breach not cured within fourteen (14) days of written\nnotice. Force Majeure events suspend performance for up to forty-five (45) days."
+      "text": "5.1 This Agreement remains valid for an initial period of twelve (12) months from the Effective Date, terminable for\nconvenience upon thirty (30) days' written notice.\n5.2 Either Party may terminate immediately upon an uncured material default remaining after fourteen (14) days' written\ncure notice. Force majeure events suspend performance for up to sixty (60) days."
     },
     {
       "clause_number": "6",
       "clause_heading": "GOVERNING LAW AND DISPUTE RESOLUTION",
       "clause_type": "Governing Law",
-      "text": "6.1 This Agreement shall be governed by and construed in accordance with the Contract Act, 1872 and\nSpecific Relief Act, 1877.\n6.2 Any dispute not resolved amicably within fifteen (15) days shall be referred to arbitration under the\nArbitration Act, 1940 seated at Peshawar, Khyber Pakhtunkhwa, and the courts at Peshawar, Khyber\nPakhtunkhwa shall have exclusive jurisdiction.\nIN WITNESS WHEREOF, the Parties sign below at Peshawar, Khyber Pakhtunkhwa.\nFor Khyber Power Rentals (Pvt.) Ltd.: ______________________ For Frontier Medical Complex:\n______________________"
+      "text": "6.1 This Agreement shall be governed by, construed, and enforced in accordance with Transfer of Property Act, 1882 and\nContract Act, 1872.\n6.2 Any dispute arising out of this Agreement shall be referred to arbitration under the Arbitration Act, 1940 seated at\nPeshawar, Khyber Pakhtunkhwa, and the Peshawar High Court shall have exclusive supervisory jurisdiction.\nIN WITNESS WHEREOF, the authorized signatories execute this Agreement at Peshawar, Khyber Pakhtunkhwa.\nFor Khyber Heavy Engineering Works Peshawar: ______________________\nFor Frontier Mining & Construction Consortium: ______________________\nIn presence of Khan & Associates (Advocates & Legal Consultants)"
     }
   ]
 }
