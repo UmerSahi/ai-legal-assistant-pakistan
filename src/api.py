@@ -21,10 +21,12 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")
 
 import json
 import time
+import io
+import re
 from typing import Dict, List, Any, Optional
 from datetime import datetime, timezone
 
-from fastapi import FastAPI, HTTPException, Request, Response, status
+from fastapi import FastAPI, HTTPException, Request, Response, status, UploadFile, File
 from fastapi.responses import HTMLResponse, JSONResponse, FileResponse
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
@@ -311,6 +313,19 @@ def review_contract(req: ContractReviewRequest):
     # 4. Execute Playbook Review
     review_summary = FirmPlaybookReviewer.review_text(raw_text, contract_name=req.contract_name)
 
+    # 4b. Generate Microsoft Word (.docx) Audit Report
+    reports_dir = os.path.abspath(os.path.join("outputs", "reports"))
+    os.makedirs(reports_dir, exist_ok=True)
+    clean_name = re.sub(r'[^a-zA-Z0-9_\-]', '_', req.contract_name or "Contract")
+    docx_file = f"{clean_name}_review.docx"
+    docx_path = os.path.join(reports_dir, docx_file)
+    try:
+        FirmPlaybookReviewer.export_word_report(review_summary, docx_path)
+        review_summary["docx_report_url"] = f"/api/download-report/{docx_file}"
+        review_summary["docx_filename"] = docx_file
+    except Exception as e:
+        review_summary["docx_report_error"] = str(e)
+
     # 5. Log Review
     audit_logger.log_event(
         event_type="CONTRACT_REVIEWED",
@@ -327,6 +342,107 @@ def review_contract(req: ContractReviewRequest):
     )
 
     return review_summary
+
+
+@app.post("/api/upload-contract", tags=["Contract Intelligence"])
+async def upload_contract_file(
+    file: UploadFile = File(...),
+    user_id: str = "usr_asc_03",
+    matter_id: str = "MAT-2024-KHI-001"
+):
+    """
+    Ingests and extracts clauses from uploaded Word (.docx), PDF (.pdf),
+    or Plain Text / Markdown contracts for playbook risk review.
+    """
+    # 1. Matter Access Control
+    try:
+        access_controller.verify_matter_access(user_id, matter_id)
+    except MatterAccessDeniedError as e:
+        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail=str(e))
+
+    filename = file.filename or "Contract.docx"
+    ext = os.path.splitext(filename)[1].lower()
+    content_bytes = await file.read()
+
+    extracted_text = ""
+    if ext in [".docx", ".doc"]:
+        try:
+            import docx
+            doc = docx.Document(io.BytesIO(content_bytes))
+            paragraphs = [p.text for p in doc.paragraphs if p.text.strip()]
+            for table in doc.tables:
+                for row in table.rows:
+                    row_text = " | ".join([cell.text.strip() for cell in row.cells if cell.text.strip()])
+                    if row_text:
+                        paragraphs.append(row_text)
+            extracted_text = "\n\n".join(paragraphs)
+        except Exception as e:
+            raise HTTPException(status_code=400, detail=f"Failed to extract text from Word document: {str(e)}")
+    elif ext in [".pdf"]:
+        try:
+            import fitz
+            pdf_doc = fitz.open(stream=content_bytes, filetype="pdf")
+            extracted_text = "\n\n".join([page.get_text() for page in pdf_doc])
+            pdf_doc.close()
+        except Exception as e:
+            raise HTTPException(status_code=400, detail=f"Failed to extract text from PDF document: {str(e)}")
+    else:
+        try:
+            extracted_text = content_bytes.decode("utf-8")
+        except UnicodeDecodeError:
+            extracted_text = content_bytes.decode("latin-1", errors="ignore")
+
+    if not extracted_text.strip():
+        raise HTTPException(status_code=400, detail="The uploaded contract document appears to be empty or unreadable.")
+
+    # 2. Injection Scan
+    scan = injection_shield.scan_content(extracted_text, source="contract_upload")
+    if not scan.is_safe:
+        audit_logger.log_event(
+            event_type="UPLOAD_CONTRACT_INJECTION_FLAGGED",
+            user_id=user_id,
+            user_role="Associate",
+            matter_id=matter_id,
+            action=f"UPLOAD_{filename}",
+            status="FLAGGED",
+            details={"threat": scan.threat_category, "score": scan.risk_score}
+        )
+
+    # 3. Log Ingestion
+    audit_logger.log_event(
+        event_type="CONTRACT_DOCUMENT_UPLOADED",
+        user_id=user_id,
+        user_role="Associate",
+        matter_id=matter_id,
+        action=f"PARSE_{filename}",
+        status="SUCCESS",
+        details={"filename": filename, "chars": len(extracted_text), "safe": scan.is_safe}
+    )
+
+    return {
+        "status": "success",
+        "filename": filename,
+        "char_count": len(extracted_text),
+        "lines_count": len(extracted_text.splitlines()),
+        "extracted_text": extracted_text,
+        "injection_safe": scan.is_safe,
+        "threat_category": scan.threat_category if not scan.is_safe else None,
+        "risk_score": scan.risk_score
+    }
+
+
+@app.get("/api/download-report/{filename}", tags=["Contract Intelligence"])
+def download_docx_report(filename: str):
+    """Downloads the generated Microsoft Word (.docx) playbook audit report."""
+    reports_dir = os.path.abspath(os.path.join("outputs", "reports"))
+    filepath = os.path.abspath(os.path.join(reports_dir, filename))
+    if not filepath.startswith(reports_dir) or not os.path.exists(filepath):
+        raise HTTPException(status_code=404, detail="Word report file not found.")
+    return FileResponse(
+        filepath,
+        media_type="application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        filename=filename
+    )
 
 
 @app.post("/api/compare", tags=["Contract Intelligence"])
@@ -899,6 +1015,61 @@ def get_web_dashboard():
             outline-offset: 2px;
         }
 
+        /* Contract Upload Dropzone (Brass-stitched leather docket) */
+        .contract-dropzone {
+            border: 2px dashed rgba(232, 200, 119, 0.45);
+            background: rgba(15, 22, 18, 0.6);
+            border-radius: 6px;
+            padding: 1.25rem 1rem;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.25s ease;
+            box-shadow: inset 1px 2px 5px rgba(0,0,0,0.4);
+            margin-bottom: 0.85rem;
+            position: relative;
+        }
+
+        .contract-dropzone:hover, .contract-dropzone.dragover {
+            border-color: var(--brass-gold);
+            background: rgba(30, 45, 36, 0.75);
+            box-shadow: inset 1px 2px 8px rgba(0,0,0,0.6), 0 0 10px rgba(232, 200, 119, 0.3);
+            transform: translateY(-1px);
+        }
+
+        .dropzone-icon {
+            font-size: 2rem;
+            margin-bottom: 0.25rem;
+            filter: drop-shadow(0 2px 3px rgba(0,0,0,0.5));
+        }
+
+        .dropzone-title {
+            font-family: 'Cinzel', serif;
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: var(--brass-gold);
+            letter-spacing: 0.05em;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+        }
+
+        .dropzone-sub {
+            font-size: 0.8rem;
+            color: var(--leather-edge);
+            margin-top: 0.2rem;
+            font-style: italic;
+        }
+
+        .dropzone-status {
+            margin-top: 0.65rem;
+            padding: 0.35rem 0.85rem;
+            border-radius: 4px;
+            font-size: 0.82rem;
+            font-weight: 600;
+            background: rgba(232, 200, 119, 0.15);
+            border: 1px solid rgba(232, 200, 119, 0.3);
+            color: #F3EAD3;
+            display: inline-block;
+        }
+
         /* Brass-Rimmed Select Dial */
         .brass-select {
             width: 100%;
@@ -1263,17 +1434,35 @@ def get_web_dashboard():
                         <h2>Contract Examination Folio</h2>
                         <div class="brass-plate" style="font-size:0.75rem; padding:3px 18px;">Playbook Standards</div>
                     </div>
+                    
+                    <!-- Contract Upload Dropzone -->
+                    <div class="form-group">
+                        <label class="leather-label">Upload Contract File (.docx, .pdf, .txt, .md)</label>
+                        <div id="contract-dropzone" class="contract-dropzone" 
+                             onclick="document.getElementById('rev-file-input').click()"
+                             ondragover="handleContractDragOver(event)"
+                             ondragleave="handleContractDragLeave(event)"
+                             ondrop="handleContractDrop(event)">
+                            <input type="file" id="rev-file-input" accept=".docx,.pdf,.txt,.md,.text" style="display:none;" onchange="handleContractFileSelect(this.files[0])">
+                            <div class="dropzone-icon">📁</div>
+                            <div class="dropzone-title">Upload Contract Document</div>
+                            <div class="dropzone-sub">Drop Word (.docx), PDF (.pdf), or Text file here, or click to browse</div>
+                            <div id="contract-upload-status" class="dropzone-status" style="display:none;"></div>
+                        </div>
+                    </div>
+
                     <div class="form-group">
                         <label class="leather-label">Agreement Identifier</label>
                         <input id="rev-name" type="text" class="brass-input" value="Master_Services_Agreement_v1.docx">
                     </div>
                     <div class="form-group">
-                        <label class="leather-label">Agreement Clauses (Paste Draft)</label>
-                        <textarea id="rev-text" class="query" style="min-height:220px;" placeholder="Paste contract text to audit..."></textarea>
+                        <label class="leather-label">Agreement Clauses (Extracted / Editable Draft)</label>
+                        <textarea id="rev-text" class="query" style="min-height:200px;" placeholder="Upload a contract file above or paste clauses here to audit..."></textarea>
                     </div>
-                    <div style="display:flex; gap:0.75rem;">
+                    <div style="display:flex; gap:0.75rem; flex-wrap:wrap;">
                         <button class="btn-primary" onclick="runReview()">Run Playbook Audit</button>
                         <button class="btn-secondary" onclick="loadSampleContract()">Load Sample Contract</button>
+                        <button class="btn-secondary" onclick="clearReviewFolio()">Clear Folio</button>
                     </div>
                 </div>
 
@@ -1282,11 +1471,14 @@ def get_web_dashboard():
                     <div class="paper">
                         <div class="paper-header">
                             <h2>Risk Audit Docket</h2>
-                            <span id="rev-verdict" class="brass-plate" style="display:none; font-size:0.75rem;">AUDIT COMPLETE</span>
+                            <div style="display:flex; align-items:center; gap:0.5rem;">
+                                <span id="rev-verdict" class="brass-plate" style="display:none; font-size:0.75rem;">AUDIT COMPLETE</span>
+                                <button id="btn-download-docx" class="btn-secondary" style="display:none; font-size:0.75rem; padding:4px 10px;" onclick="downloadWordReport()">📥 Export Word (.docx)</button>
+                            </div>
                         </div>
                         <div id="rev-output">
                             <p style="color:var(--ink-light); font-style:italic; padding-top:2rem;">
-                                Click 'Run Playbook Audit' to inspect clause risk badges against Khan & Associates commercial rules.
+                                Upload a contract file (.docx, .pdf, .txt) or paste clauses and click 'Run Playbook Audit' to inspect clause risk badges against Khan & Associates commercial rules.
                             </p>
                         </div>
                     </div>
@@ -1611,6 +1803,96 @@ Clause 9.1: The party agrees to supply software components on monthly schedule.<
             runResearch();
         }
 
+        let currentDocxDownloadUrl = '';
+
+        function handleContractDragOver(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            const zone = document.getElementById('contract-dropzone');
+            if (zone) zone.classList.add('dragover');
+        }
+
+        function handleContractDragLeave(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            const zone = document.getElementById('contract-dropzone');
+            if (zone) zone.classList.remove('dragover');
+        }
+
+        function handleContractDrop(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            const zone = document.getElementById('contract-dropzone');
+            if (zone) zone.classList.remove('dragover');
+            if (e.dataTransfer && e.dataTransfer.files.length > 0) {
+                handleContractFileSelect(e.dataTransfer.files[0]);
+            }
+        }
+
+        async function handleContractFileSelect(file) {
+            if (!file) return;
+            const statusBox = document.getElementById('contract-upload-status');
+            statusBox.style.display = 'inline-block';
+            statusBox.style.color = '#F3EAD3';
+            statusBox.innerHTML = `⏳ Ingesting & extracting clauses from <strong>${file.name}</strong>...`;
+
+            const formData = new FormData();
+            formData.append('file', file);
+            formData.append('user_id', 'usr_asc_03');
+            formData.append('matter_id', 'MAT-2024-KHI-001');
+
+            try {
+                const res = await fetch('/api/upload-contract', {
+                    method: 'POST',
+                    body: formData
+                });
+                const data = await res.json();
+                if (!res.ok) {
+                    statusBox.style.color = '#FF9999';
+                    statusBox.innerHTML = `❌ Error: ${data.detail || 'Failed to extract contract'}`;
+                    return;
+                }
+
+                document.getElementById('rev-name').value = data.filename;
+                document.getElementById('rev-text').value = data.extracted_text;
+
+                let statusMsg = `✅ <strong>${data.filename}</strong> loaded (${data.char_count} chars, ${data.lines_count} lines)`;
+                if (!data.injection_safe) {
+                    statusMsg += ` <span style="color:#FFAAAA;">⚠️ Warning: ${data.threat_category} detected</span>`;
+                }
+                statusBox.style.color = '#A3E635';
+                statusBox.innerHTML = statusMsg;
+
+                // Auto-run playbook audit on newly uploaded contract
+                runReview();
+            } catch (err) {
+                statusBox.style.color = '#FF9999';
+                statusBox.innerHTML = `❌ Network error reading file: ${err.message}`;
+            }
+        }
+
+        function clearReviewFolio() {
+            document.getElementById('rev-name').value = 'New_Contract.docx';
+            document.getElementById('rev-text').value = '';
+            const statusBox = document.getElementById('contract-upload-status');
+            if (statusBox) statusBox.style.display = 'none';
+            const out = document.getElementById('rev-output');
+            if (out) out.innerHTML = '<p style="color:var(--ink-light); font-style:italic; padding-top:2rem;">Upload a contract file (.docx, .pdf, .txt) or paste clauses and click "Run Playbook Audit".</p>';
+            const badge = document.getElementById('rev-verdict');
+            if (badge) badge.style.display = 'none';
+            const dlBtn = document.getElementById('btn-download-docx');
+            if (dlBtn) dlBtn.style.display = 'none';
+            currentDocxDownloadUrl = '';
+        }
+
+        function downloadWordReport() {
+            if (currentDocxDownloadUrl) {
+                window.open(currentDocxDownloadUrl, '_blank');
+            } else {
+                alert('No Word report generated yet. Run Playbook Audit first.');
+            }
+        }
+
         async function runReview() {
             const contract_text = document.getElementById('rev-text').value;
             const contract_name = document.getElementById('rev-name').value;
@@ -1668,6 +1950,24 @@ Clause 9.1: The party agrees to supply software components on monthly schedule.<
                         `;
                     });
                     html += `</div>`;
+                }
+
+                if (data.docx_report_url) {
+                    currentDocxDownloadUrl = data.docx_report_url;
+                    const dlBtn = document.getElementById('btn-download-docx');
+                    if (dlBtn) {
+                        dlBtn.style.display = 'inline-flex';
+                        dlBtn.title = `Download Word Review: ${data.docx_filename || 'review.docx'}`;
+                    }
+                    html += `
+                        <div style="margin-top:1.5rem; padding:12px 16px; background:rgba(43,76,50,0.15); border:1px solid rgba(43,76,50,0.35); border-radius:4px; display:flex; justify-content:space-between; align-items:center;">
+                            <div>
+                                <strong style="color:var(--stamp-green); font-family:'Cinzel', serif; font-size:0.9rem;">Formal Audit Report (.docx) Ready</strong>
+                                <div style="font-size:0.8rem; color:var(--ink-light);">Includes firm letterhead, risk matrices, comments, and redlines.</div>
+                            </div>
+                            <button class="btn-primary" style="font-size:0.8rem; padding:6px 14px;" onclick="downloadWordReport()">📥 Download Word Report</button>
+                        </div>
+                    `;
                 }
 
                 out.innerHTML = html;
