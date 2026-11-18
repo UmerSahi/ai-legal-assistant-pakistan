@@ -26,7 +26,7 @@ class ContractComparator:
     # Rule-based legal impact knowledge base
     IMPACT_RULES = [
         {
-            "trigger": r"\b(unlimited|shall not be limited|no limit)\b",
+            "trigger": r"\b(unlimited|shall not be limited|no limit|neither.*shall be limited|not.*limited)\b",
             "context": "liability",
             "title": "Liability Cap Removal / Unlimited Exposure",
             "risk": "HIGH RISK (CRITICAL)",
@@ -36,6 +36,17 @@ class ContractComparator:
                 "which could jeopardize company solvency."
             ),
             "recommendation": "Firmly reject. Insist on restoring the aggregate cap tied to 12 months fees paid under the agreement."
+        },
+        {
+            "trigger": r"\b(net 60|net 90|60 days|90 days|120 days|acceptance test)\b",
+            "context": "payment",
+            "title": "Payment Terms Extended / Cashflow Delay",
+            "risk": "MEDIUM RISK",
+            "impact": (
+                "Counterparty extended payment window from standard Net 30 to Net 60 days and conditioned it on unilateral acceptance testing. "
+                "Legal Impact: Prolongs working capital cycles and exposes firm to cash flow disruption and delayed receivables."
+            ),
+            "recommendation": "Reject Net 60. Insist on Net 30 days from invoice, or stipulate deemed acceptance within 10 days."
         },
         {
             "trigger": r"\b(england|english law|new york|delaware|london|singapore)\b",
@@ -188,6 +199,66 @@ class ContractComparator:
         }
 
         return summary
+
+    @classmethod
+    def compare_texts(
+        cls,
+        text1: str,
+        text2: str,
+        title1: str = "Version 1 (Firm Standard)",
+        title2: str = "Version 2 (Counterparty Markup)"
+    ) -> Dict[str, Any]:
+        """
+        Parses two raw text contracts into clauses, diffs them, and returns
+        legal impact analyses structured for the web API and UI.
+        """
+        def parse_clauses(text: str) -> List[Dict[str, Any]]:
+            lines = [l.strip() for l in text.splitlines() if l.strip()]
+            clauses = []
+            curr_lines = []
+            curr_heading = "General Terms"
+            for line in lines:
+                m = re.match(r"^(?:(\d+)[\.\)]\s*|clause\s+(\d+)[:\.]?\s*|section\s+(\d+)[:\.]?\s*)([A-Za-z\s]+)?", line, re.IGNORECASE)
+                if m:
+                    if curr_lines:
+                        clauses.append({
+                            "clause_number": str(len(clauses) + 1),
+                            "clause_heading": curr_heading,
+                            "text": " ".join(curr_lines)
+                        })
+                        curr_lines = []
+                    curr_heading = (m.group(4) or line[:30]).strip()
+                    curr_lines.append(line)
+                else:
+                    curr_lines.append(line)
+            if curr_lines:
+                clauses.append({
+                    "clause_number": str(len(clauses) + 1),
+                    "clause_heading": curr_heading,
+                    "text": " ".join(curr_lines)
+                })
+            if not clauses:
+                clauses.append({"clause_number": "1", "clause_heading": "Full Contract", "text": text})
+            return clauses
+
+        v1_contract = {"title": title1, "clauses": parse_clauses(text1)}
+        v2_contract = {"title": title2, "clauses": parse_clauses(text2)}
+
+        diff_summary = cls.compare_contracts(v1_contract, v2_contract)
+
+        legal_impact_analyses = []
+        for d in diff_summary["clause_comparisons"]:
+            if d["change_type"] != "UNCHANGED":
+                legal_impact_analyses.append({
+                    "title": f"Clause {d['clause_number']}: {d['heading']} [{d['change_type']}]",
+                    "risk": d.get("risk", "MEDIUM RISK"),
+                    "impact": d.get("impact", "Alteration of contractual rights or exposure."),
+                    "recommendation": d.get("recommendation", "Review redline before signing.")
+                })
+
+        diff_summary["total_changes_detected"] = len(legal_impact_analyses)
+        diff_summary["legal_impact_analyses"] = legal_impact_analyses
+        return diff_summary
 
     @classmethod
     def _analyze_text_impact(cls, new_text: str, old_text: str = "") -> Dict[str, str]:

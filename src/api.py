@@ -2110,11 +2110,12 @@ Clause 9.1: The party agrees to supply software components on monthly schedule.<
                     headers: {'Content-Type': 'application/json'},
                     body: JSON.stringify({version1_text: v1, version2_text: v2})
                 });
-                const data = await res.json();
                 if (!res.ok) {
-                    out.innerHTML = `<p style="color:var(--margin-red);">Error: ${data.detail}</p>`;
+                    const errDetail = await res.text();
+                    out.innerHTML = `<div class="rubber-stamp unverified" style="margin-top:1rem;">ERROR: ${errDetail}</div>`;
                     return;
                 }
+                const data = await res.json();
 
                 let html = `
                     <div style="margin-bottom:1rem; font-family:'Cinzel', serif; font-weight:700; font-size:1.05rem; color:var(--ink);">
