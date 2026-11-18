@@ -1,0 +1,4 @@
+architecture,multihop_completeness,relational_path_precision,bad_law_hallucination_rate,avg_latency_ms
+Vector RAG,42.61,62.04,0.0,38.58
+GraphRAG,34.61,94.0,0.0,3.36
+Hybrid RAG,64.94,96.0,0.0,17.45
