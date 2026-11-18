@@ -1,0 +1,80 @@
+{
+  "v1_title": "Version 1 (Client Original - Balanced)",
+  "v2_title": "Version 2 (Counterparty Redline Markup - Aggressive)",
+  "total_clauses_reviewed": 5,
+  "added_clauses_count": 1,
+  "removed_clauses_count": 0,
+  "modified_clauses_count": 3,
+  "high_risk_changes_count": 3,
+  "overall_assessment": "CRITICAL REVISIONS REQUIRED: Counterparty markup significantly shifts commercial risk.",
+  "clause_comparisons": [
+    {
+      "clause_number": "1",
+      "heading": "Governing Law & Jurisdiction",
+      "change_type": "MODIFIED",
+      "v1_text": "This Agreement shall be governed by and construed in accordance with the laws of the Islamic Republic of Pakistan. The courts of Lahore shall have exclusive jurisdiction.",
+      "v2_text": "This Agreement shall be governed by the laws of England and Wales, and the High Court of Justice in London shall have exclusive jurisdiction.",
+      "diff_lines": [
+        "--- ",
+        "+++ ",
+        "-This Agreement shall be governed by and construed in accordance with the laws of the Islamic Republic of Pakistan. The courts of Lahore shall have exclusive jurisdiction.",
+        "+This Agreement shall be governed by the laws of England and Wales, and the High Court of Justice in London shall have exclusive jurisdiction."
+      ],
+      "impact": "Governing law and forum shifted from Lahore, Pakistan to foreign courts. Legal Impact: Increases dispute costs tenfold, requires hiring overseas solicitors, and introduces foreign exchange risks. Furthermore, enforcing a foreign award in Pakistan requires separate proceedings under the 2011 Recognition Act.",
+      "risk": "HIGH RISK",
+      "recommendation": "Counter with Pakistan law and local arbitration in Lahore or Karachi under the Arbitration Act, 1940."
+    },
+    {
+      "clause_number": "2",
+      "heading": "Limitation of Liability",
+      "change_type": "MODIFIED",
+      "v1_text": "The aggregate liability of either party arising out of or related to this Agreement shall be strictly capped at the total fees paid by Client in the preceding 12 months.",
+      "v2_text": "The liability of Client under this Agreement shall be unlimited and shall include all indirect, special, punitive, and consequential damages.",
+      "diff_lines": [
+        "--- ",
+        "+++ ",
+        "-The aggregate liability of either party arising out of or related to this Agreement shall be strictly capped at the total fees paid by Client in the preceding 12 months.",
+        "+The liability of Client under this Agreement shall be unlimited and shall include all indirect, special, punitive, and consequential damages."
+      ],
+      "impact": "The counterparty has removed the mutual limitation of liability cap. Legal Impact: Your firm/client is now exposed to unlimited direct, indirect, and consequential damages in the event of a breach, which could jeopardize company solvency.",
+      "risk": "HIGH RISK (CRITICAL)",
+      "recommendation": "Firmly reject. Insist on restoring the aggregate cap tied to 12 months fees paid under the agreement."
+    },
+    {
+      "clause_number": "3",
+      "heading": "Termination for Convenience",
+      "change_type": "MODIFIED",
+      "v1_text": "Either party may terminate this agreement without cause upon providing at least thirty (30) days prior written notice.",
+      "v2_text": "Counterparty may terminate this agreement immediately without notice; Client must provide sixty (60) days notice.",
+      "diff_lines": [
+        "--- ",
+        "+++ ",
+        "-Either party may terminate this agreement without cause upon providing at least thirty (30) days prior written notice.",
+        "+Counterparty may terminate this agreement immediately without notice; Client must provide sixty (60) days notice."
+      ],
+      "impact": "Notice period for convenience reduced from 30 days to 5 days. Legal Impact: Leaves insufficient time to transition personnel, wind down project resources, or mitigate operational downtime.",
+      "risk": "MEDIUM RISK",
+      "recommendation": "Restore minimum 30-day written notice for convenience."
+    },
+    {
+      "clause_number": "4",
+      "heading": "Confidentiality",
+      "change_type": "UNCHANGED",
+      "v1_text": "Each party agrees to hold all confidential information in strict confidence for a period of two (2) years following disclosure.",
+      "v2_text": "Each party agrees to hold all confidential information in strict confidence for a period of two (2) years following disclosure.",
+      "impact": "No substantive or linguistic changes detected.",
+      "risk": "LOW RISK",
+      "recommendation": "Accept as-is."
+    },
+    {
+      "clause_number": "5",
+      "heading": "Post-Termination Non-Compete",
+      "change_type": "ADDED",
+      "v1_text": "",
+      "v2_text": "Client and its affiliates shall not engage in any competing software or consulting business across South Asia for a period of 2 years post-termination.",
+      "impact": "Counterparty introduced a 2-year post-termination restriction on engaging in competing trade. Legal Impact: Under Section 27 of The Contract Act, 1872, all agreements in restraint of lawful profession, trade, or business are void ab initio in Pakistan (see PLD 2021 SC 362). While legally unenforceable in Pakistani courts, it creates chilling dispute risks.",
+      "risk": "HIGH RISK (ILLEGAL RESTRICTION)",
+      "recommendation": "Delete entirely. Replace with customary non-solicitation of active clients for 6 months."
+    }
+  ]
+}

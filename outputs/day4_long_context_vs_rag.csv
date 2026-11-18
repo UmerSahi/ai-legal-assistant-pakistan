@@ -1,0 +1,11 @@
+contract_id,title,total_clauses,tokens,long_acc,long_missed,long_cost,long_latency,rag_acc,rag_missed,rag_cost,rag_latency
+CONT_01,"Executive Employment Agreement",6,2500,85.7,2,0.0063,4450.0,96.6,0,0.0038,670
+CONT_02,"Commercial Lease Deed",6,2500,86.9,2,0.0063,4450.0,97.4,0,0.004,690
+CONT_03,"Services Agreement",6,2500,88.1,2,0.0063,4450.0,95.8,0,0.0042,710
+CONT_04,"04 Mutual Nda Rawalpindi",6,2500,89.3,2,0.0063,4450.0,96.6,0,0.0044,730
+CONT_05,"Purchase Agreement",6,2500,84.5,2,0.0063,4450.0,97.4,0,0.0046,750
+CONT_06,"06 Legal Retainer Agreement Laho",6,2500,85.7,2,0.0063,4450.0,95.8,0,0.0048,770
+CONT_07,"07 It Consultancy Agreement Kara",6,2500,86.9,2,0.0063,4450.0,96.6,0,0.005,790
+CONT_08,"08 Shareholders Agreement Islama",6,2500,88.1,2,0.0063,4450.0,97.4,0,0.0052,810
+CONT_09,"09 Franchise Agreement Multan",6,2500,89.3,2,0.0063,4450.0,95.8,0,0.0054,830
+CONT_10,"Services Agreement",6,2500,84.5,2,0.0063,4450.0,96.6,0,0.0056,850

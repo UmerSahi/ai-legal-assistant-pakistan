@@ -1,6 +1,6 @@
 """
 AI Legal Assistant - Command Line Interface (CLI)
-Khan & Associates - Day 1, Day 2 & Day 3 Deliverables
+Khan & Associates - Day 1, Day 2, Day 3 & Day 4 Deliverables
 """
 
 import sys
@@ -11,14 +11,15 @@ from src.ocr_benchmark import UrduOCRBenchmark
 
 def parse_args():
     parser = argparse.ArgumentParser(
-        description="Khan & Associates AI Legal Assistant: Ingestion, Advanced RAG, and Knowledge GraphRAG"
+        description="Khan & Associates AI Legal Assistant: Ingestion, Advanced RAG, Knowledge Graph & Contract Review"
     )
     parser.add_argument(
         "--step",
         choices=[
             "all", "inventory", "parse", "ocr", "extract", "chunk", "index", "search",
             "day2_eval", "answer",
-            "graph", "graph_eval", "graphrag", "multihop_eval", "route"
+            "graph", "graph_eval", "graphrag", "multihop_eval", "route",
+            "classify_clauses", "review_contract", "compare_contracts", "draft_all", "long_vs_rag"
         ],
         default="all",
         help="Specify the pipeline step to execute (default: all)"
@@ -28,6 +29,12 @@ def parse_args():
         type=str,
         default="Which Supreme Court judgments interpreted Section 23 of the Contract Act, and were any of them later overruled?",
         help="Query to search, answer, or route"
+    )
+    parser.add_argument(
+        "--contract",
+        type=str,
+        default="outputs/structured/contracts/CONT_01_employment_agreement_lahore.json",
+        help="Contract JSON file path for --step review_contract"
     )
     parser.add_argument(
         "--data-dir",
@@ -49,8 +56,78 @@ def main():
 
     print("\n" + "#"*70)
     print(" KHAN & ASSOCIATES - AI LEGAL ASSISTANT PLATFORM")
-    print(" Day 1: Document Ingestion | Day 2: Grounded RAG | Day 3: Knowledge GraphRAG")
+    print(" Day 1: Ingestion | Day 2: Grounded RAG | Day 3: GraphRAG | Day 4: Contract Review")
     print("#"*70)
+
+    # -----------------------------------------------------------------
+    # Day 4: Contract Review, Comparison & Drafting Agents
+    # -----------------------------------------------------------------
+    if args.step == "classify_clauses":
+        from src.clause_classifier import run_clause_classification_benchmark
+        print("\n[CLI] Running CUAD Clause Classification Benchmark (LLM vs Legal-BERT)...")
+        res = run_clause_classification_benchmark(output_dir=args.output_dir)
+        print(f"\n[CLI] Macro F1 Results: LLM = {res['macro_llm_f1']}% | Legal-BERT = {res['macro_bert_f1']}%")
+        return
+
+    if args.step == "review_contract":
+        from src.playbook_reviewer import FirmPlaybookReviewer
+        print(f"\n[CLI] Running Firm Playbook Risk Review on:\n>>> {args.contract}\n")
+        reviewer = FirmPlaybookReviewer()
+        review = reviewer.review_contract(args.contract)
+        docx_path = f"{args.output_dir}/sample_contract_review_report.docx"
+        reviewer.export_word_report(review, docx_path)
+        print("="*65)
+        print(f"CONTRACT: {review['contract_title']}")
+        print(f"OVERALL RISK SCORE: {review['risk_score']}/100 — {review['risk_level']}")
+        print(f"CLAUSE BREAKDOWN: {review['clause_counts']}")
+        print(f"MISSING MANDATORY CLAUSES: {review['missing_clauses']}")
+        print(f"WORD REPORT GENERATED: {docx_path}")
+        print("="*65)
+        return
+
+    if args.step == "compare_contracts":
+        from src.contract_comparator import ContractComparator, create_sample_contracts_pair
+        print("\n[CLI] Running Contract Comparison & Plain-Language Legal Impact Analysis...")
+        v1, v2 = create_sample_contracts_pair()
+        comparator = ContractComparator()
+        diff_data = comparator.compare_contracts(v1, v2)
+        comparator.export_comparison_reports(diff_data, output_dir=args.output_dir)
+        print("="*65)
+        print(f"DRAFTS COMPARED: {diff_data['v1_title']} vs. {diff_data['v2_title']}")
+        print(f"TOTAL CLAUSES REVIEWED: {diff_data['total_clauses_reviewed']}")
+        print(f"MODIFIED: {diff_data['modified_clauses_count']} | ADDED: {diff_data['added_clauses_count']}")
+        print(f"HIGH-RISK DEVIATIONS DETECTED: {diff_data['high_risk_changes_count']}")
+        print(f"ASSESSMENT: {diff_data['overall_assessment']}")
+        print("="*65)
+        return
+
+    if args.step == "draft_all":
+        from src.drafting_agent import LegalDraftingAgent
+        print("\n[CLI] Running Legal Drafting Agent (Case Brief, Legal Notice, Clauses)...")
+        agent = LegalDraftingAgent(output_dir=f"{args.output_dir}/drafts")
+        drafts = agent.generate_all_drafts()
+        print("="*65)
+        print("DRAFTED LEGAL DOCUMENTS CREATED (Stamped 'DRAFT — for lawyer review'):")
+        for k, p in drafts.items():
+            print(f"  - {k.replace('_', ' ').title()}: {p}")
+        print("="*65)
+        return
+
+    if args.step == "long_vs_rag":
+        from src.long_context_vs_rag import LongContextVsRAGBenchmark
+        print("\n[CLI] Running Long-Context vs RAG Benchmark across 10 contracts...")
+        bench = LongContextVsRAGBenchmark(
+            contracts_dir=f"{args.output_dir}/structured/contracts",
+            output_dir=args.output_dir
+        )
+        res = bench.run_benchmark()
+        print("="*65)
+        print(f"CONTRACTS EVALUATED: {res['contracts_evaluated']}")
+        print(f"RAG MEAN ACCURACY: {res['rag_mean_accuracy']}% (vs Long-Context {res['long_context_mean_accuracy']}%)")
+        print(f"MISSED CLAUSES: RAG {res['rag_total_missed']} vs Long-Context {res['long_context_total_missed']}")
+        print(f"COST EFFICIENCY: {res['cost_reduction_factor']}x Cheaper | SPEEDUP: {res['speedup_factor']}x Faster")
+        print("="*65)
+        return
 
     # -----------------------------------------------------------------
     # Day 3: Knowledge Graph & GraphRAG Steps
