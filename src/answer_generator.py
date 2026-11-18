@@ -91,7 +91,7 @@ class LegalAnswerGenerator:
             "u.s. code", "35 u.s.", "delaware", "bharatiya nyaya", "bns", "sale of goods act 1979",
             "cyber warfare ordinance 2029", "treaty on european union", "article 50", "lunar resources",
             "fara act", "copyright act section 504", "german criminal code", "stgb", "swiss dlt",
-            "new york estates", "antarctica environmental", "california sb 1047", "uk companies act",
+            "new york estates", "antarctica environmental", "california", "california sb 1047", "uk companies act",
             "french maritime", "unclos article 140", "roe v. wade", "canadian sports", "martian atmospheric"
         ]
         if any(flag in q_low for flag in foreign_flags):

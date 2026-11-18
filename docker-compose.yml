@@ -1,0 +1,113 @@
+version: '3.8'
+
+services:
+  # 1. Primary FastAPI Application & Legal Web Portal
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: khan_legal_api
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
+      - CHROMA_PERSIST_DIR=/app/outputs/indices/chromadb
+      - BM25_PERSIST_PATH=/app/outputs/indices/bm25_index.pkl
+      - NEO4J_URI=bolt://neo4j:7687
+      - NEO4J_USER=neo4j
+      - NEO4J_PASSWORD=KhanLegal2024SecurePass
+      - HMAC_SECRET_KEY=khan_associates_capstone_2024_hmac_secret
+      - ENVIRONMENT=production
+    volumes:
+      - ./outputs:/app/outputs
+      - ./data:/app/data
+    depends_on:
+      chromadb:
+        condition: service_started
+      neo4j:
+        condition: service_healthy
+    networks:
+      - legal-net
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # 2. ChromaDB Standalone Vector Database Service
+  chromadb:
+    image: chromadb/chroma:0.5.20
+    container_name: khan_chromadb
+    restart: unless-stopped
+    ports:
+      - "8001:8000"
+    environment:
+      - IS_PERSISTENT=TRUE
+      - PERSIST_DIRECTORY=/chroma/chroma
+      - ANONYMIZED_TELEMETRY=FALSE
+    volumes:
+      - chroma_data:/chroma/chroma
+    networks:
+      - legal-net
+
+  # 3. Neo4j Graph Database Service (Knowledge Graph Engine)
+  neo4j:
+    image: neo4j:5.26.0-community
+    container_name: khan_neo4j
+    restart: unless-stopped
+    ports:
+      - "7474:7474"  # Neo4j Browser UI
+      - "7687:7687"  # Bolt Protocol
+    environment:
+      - NEO4J_AUTH=neo4j/KhanLegal2024SecurePass
+      - NEO4J_PLUGINS=["apoc"]
+      - NEO4J_dbms_security_procedures_unrestricted=apoc.*
+      - NEO4J_dbms_memory_heap_initial__size=512m
+      - NEO4J_dbms_memory_heap_max__size=1G
+    volumes:
+      - neo4j_data:/data
+      - neo4j_logs:/logs
+      - ./outputs/neo4j_export.cypher:/var/lib/neo4j/import/neo4j_export.cypher:ro
+    networks:
+      - legal-net
+    healthcheck:
+      test: ["CMD-SHELL", "wget --no-verbose --tries=1 --spider http://localhost:7474 || exit 1"]
+      interval: 15s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+
+  # 4. Background Ingestion & Pipeline Worker
+  worker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: khan_legal_worker
+    restart: unless-stopped
+    command: ["python", "main.py", "--step", "all"]
+    environment:
+      - WORKER_MODE=continuous
+      - CHROMA_PERSIST_DIR=/app/outputs/indices/chromadb
+      - NEO4J_URI=bolt://neo4j:7687
+    volumes:
+      - ./outputs:/app/outputs
+      - ./data:/app/data
+    depends_on:
+      - api
+    networks:
+      - legal-net
+
+networks:
+  legal-net:
+    driver: bridge
+    name: khan_associates_network
+
+volumes:
+  chroma_data:
+    name: khan_chroma_data
+  neo4j_data:
+    name: khan_neo4j_data
+  neo4j_logs:
+    name: khan_neo4j_logs

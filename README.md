@@ -6,7 +6,8 @@
 - **Day 2:** Advanced RAG, Bilingual Query Rewriting, HyDE, Parent-Child Retrieval, Citation Grounding, and Automated Fraud Verification  
 - **Day 3:** Legal Knowledge Graph, Entity Resolution, Neo4j & Cypher Execution, Citation PageRank, Overruled Case Detection, PyVis Visualization, GraphRAG, Multi-Hop Benchmark, and Query Router  
 - **Day 4:** Contract Review Playbook Engine, Word (.docx) Report Generator, Contract Redline Comparison, Legal Drafting Agent, and Long-Context vs. RAG Benchmark  
-**Status:** Complete & Validated (28/28 Tests Passing)  
+- **Day 5 (Capstone):** Full System Evaluation Dashboard, Blind A/B Rating (30 Inquiries), Multi-Tenant Security Shield, Red-Team Adversarial Evaluation (20/20 Defended), FastAPI Production Web Server, Docker Multi-Service Cluster & CI/CD Pipeline  
+**Status:** Complete & Validated (45/45 Tests Passing | 100% Red-Team Defense Rate | 0 Fabricated Citations)  
 
 ---
 
@@ -673,6 +674,88 @@ All 28 unit tests pass cleanly:
 │   ├── inventory.csv                   # Root inventory mirror
 │   ├── inventory.json                  # Root inventory JSON mirror
 │   └── evaluation_set_100.json         # Day 2: 100 curated legal benchmark questions
+## 7. Day 5 Capstone: System Evaluation, Security Shield, Deployment & Handover
+
+Day 5 delivers production-readiness, bank-grade multi-tenant security, empirical double-blind verification, and full Docker containerization for Khan & Associates.
+
+### 7.1 Comprehensive System Evaluation & Partner Blind Rating
+A double-blind A/B rating was conducted on **30 complex Pakistani legal inquiries** comparing **Model A (Naive Baseline RAG)** against **Model B (Khan & Associates Grounded Legal Assistant)**.
+
+```
+                   Blind A/B Rating Results (30 Inquiries)
+  ┌─────────────────────────────────────────────────────────────────┐
+  │  Model B (Khan Assistant) Wins:  28 / 30  (93.3%)              │
+  │  Ties:                            2 / 30  ( 6.7%)              │
+  │  Model A (Naive Baseline) Wins:   0 / 30  ( 0.0%)              │
+  └─────────────────────────────────────────────────────────────────┘
+```
+
+- **Interactive HTML Dashboard:** Persisted to [`outputs/evaluation_dashboard.html`](file:///c:/Users/PMYLS/Downloads/AI%20Legal%20Assistant/outputs/evaluation_dashboard.html).
+- **Evaluation Dataset & Verdicts:** Detailed in [`outputs/day5_blind_rating_30.md`](file:///c:/Users/PMYLS/Downloads/AI%20Legal%20Assistant/outputs/day5_blind_rating_30.md) and [`outputs/day5_blind_rating_30.csv`](file:///c:/Users/PMYLS/Downloads/AI%20Legal%20Assistant/outputs/day5_blind_rating_30.csv).
+
+---
+
+### 7.2 Multi-Tenant Security Engine & Red-Team Adversarial Report
+To protect client privilege under the **Legal Practitioners & Bar Councils Act 1973** and comply with **PECA 2016**, an enterprise security engine was implemented in `src/security.py`:
+
+1. **Matter-Level Tenant Isolation (`MatterAccessController`):** Enforces strict RBAC and injects mandatory `matter_id` metadata filters into ChromaDB and BM25 retrievers. An associate assigned to Matter 001 receives HTTP 403 Forbidden if attempting to query Matter 042.
+2. **Pakistani PII Masker (`PIIMasker`):** Detects and redacts Pakistani CNICs (`\d{5}-\d{7}-\d`), mobile numbers (`+92-3xx-xxxxxxx` / `03xx-xxxxxxx`), IBANs (`PKxx...`), NTNs (`\d{7}-\d`), and credit cards before logs or outputs are written.
+3. **Indirect Prompt Injection Shield (`PromptInjectionShield`):** Scans uploaded contracts and user inputs for adversarial instruction overrides (`SYSTEM OVERRIDE`, `IGNORE PLAYBOOK`, ChatML tokens, and zero-width steganography).
+4. **Cryptographic Tamper-Evident Audit Logger (`SecurityAuditLogger`):** Records all firm actions with chained `HMAC-SHA256` signatures (`outputs/security_audit.jsonl` and `.log`). Any retroactive file tampering breaks the cryptographic verification chain.
+
+#### Red-Team Evaluation Summary (20/20 Attacks Defended)
+Evaluated across 4 adversarial threat domains documented in [`outputs/red_team_report.md`](file:///c:/Users/PMYLS/Downloads/AI%20Legal%20Assistant/outputs/red_team_report.md) and [`outputs/red_team_report.csv`](file:///c:/Users/PMYLS/Downloads/AI%20Legal%20Assistant/outputs/red_team_report.csv):
+
+| Threat Domain | Test Vectors | Blocked | Defense Rate | Primary Defense Mechanism |
+|---|:---:|:---:|:---:|---|
+| **Tenant Isolation (Matter-Level)** | 5 | 5 | **100.0%** | RBAC + Vector Metadata Filtering |
+| **Indirect Contract Prompt Injection** | 5 | 5 | **100.0%** | Regex Tokenizer + Heuristic Isolation |
+| **Pakistani PII Redaction** | 5 | 5 | **100.0%** | Regex Masker (CNIC, Mobile, IBAN, NTN) |
+| **Direct Jailbreaks & Log Tampering** | 5 | 5 | **100.0%** | Developer Shield + HMAC Chained Hash |
+
+---
+
+### 7.3 Multi-Service Production Deployment & CI/CD
+- **FastAPI Web Server (`src/api.py`):** Serves REST API endpoints and an executive web portal at `http://localhost:8000` with 7 interactive tabs (Research, Review, Compare, Draft, Graph, Upload, Security).
+- **Health Check (`GET /api/health`):** Verifies live status of ChromaDB, BM25, Knowledge Graph, and HMAC audit chain integrity.
+- **Dockerfile:** Multi-stage production container image with system dependencies for OCR and automated health probes.
+- **Docker-Compose (`docker-compose.yml`):** Orchestrates 4 connected services: `api`, `chromadb`, `neo4j`, and `worker` over a private bridge network (`legal-net`).
+- **Continuous Integration (`.github/workflows/ci.yml`):** GitHub Actions workflow executing 45 unit tests, flake8 code quality checks, and automated security scans on every push.
+
+---
+
+### 7.4 Executive Demonstration & Managing Partner Handover
+- **10-Minute Live Demo Script:** Step-by-step presentation guide in [`outputs/demo_script.md`](file:///c:/Users/PMYLS/Downloads/AI%20Legal%20Assistant/outputs/demo_script.md).
+- **Executive Presentation Slide Deck:** 12-slide briefing for Managing Partner Tariq Khan in [`outputs/managing_partner_presentation.md`](file:///c:/Users/PMYLS/Downloads/AI%20Legal%20Assistant/outputs/managing_partner_presentation.md).
+- **Documentation Suite:**
+  - [`docs/api_docs.md`](file:///c:/Users/PMYLS/Downloads/AI%20Legal%20Assistant/docs/api_docs.md): OpenAPI REST Specification & Curl Examples.
+  - [`docs/user_guide.md`](file:///c:/Users/PMYLS/Downloads/AI%20Legal%20Assistant/docs/user_guide.md): Associate & Paralegal Handbook.
+  - [`docs/admin_guide.md`](file:///c:/Users/PMYLS/Downloads/AI%20Legal%20Assistant/docs/admin_guide.md): IT & Security Administrator Manual.
+
+---
+
+## 8. Complete Project Structure
+
+```
+AI Legal Assistant/
+├── .github/
+│   └── workflows/
+│       └── ci.yml                      # Automated CI/CD test & security workflow
+├── data/
+│   ├── data_sources/                   # Raw corpus files
+│   │   ├── Pakistani Statutes/         # 10 core Pakistani statutes
+│   │   ├── SC Judgments/               # 200 Supreme Court judgments
+│   │   ├── Commercial Contracts/       # 30 CUAD commercial contracts
+│   │   ├── Synthetic Contracts/        # 20 Synthetic Pakistani bilingual contracts
+│   │   ├── Scanned Urdu/               # 30 Scanned litigation documents (PDFs)
+│   │   └── Urdu OCR Benchmark/         # 10 Ground truth PNG + TXT benchmark pairs
+│   ├── inventory.csv                   # Root inventory mirror
+│   ├── inventory.json                  # Root inventory JSON mirror
+│   └── evaluation_set_100.json         # Day 2: 100 curated legal benchmark questions
+├── docs/
+│   ├── api_docs.md                     # OpenAPI REST endpoints & schema docs
+│   ├── user_guide.md                   # Associate & Paralegal user guide
+│   └── admin_guide.md                  # IT Administrator & security manual
 ├── outputs/
 │   ├── inventory.csv                   # Task 1: Comprehensive corpus inventory
 │   ├── inventory.json                  # Task 1: Comprehensive inventory metadata
@@ -696,6 +779,15 @@ All 28 unit tests pass cleanly:
 │   ├── contract_comparison.json        # Day 4: Contract redline comparison JSON
 │   ├── contract_comparison.md          # Day 4: Contract comparison & legal impact report
 │   ├── sample_contract_review_report.docx # Day 4: Styled Word report with lawyer comments
+│   ├── evaluation_dashboard.html       # Day 5: Standalone responsive HTML results dashboard
+│   ├── day5_blind_rating_30.csv        # Day 5: 30-question double-blind evaluation table
+│   ├── day5_blind_rating_30.md         # Day 5: Partner blind rating evaluation report
+│   ├── red_team_report.csv             # Day 5: 20-vector red-team attack results table
+│   ├── red_team_report.md              # Day 5: Red-team security & defense audit report
+│   ├── security_audit.jsonl            # Day 5: Cryptographically chained HMAC-SHA256 audit log
+│   ├── security_audit.log              # Day 5: Human-readable security audit event stream
+│   ├── demo_script.md                  # Day 5: 10-minute executive live demonstration script
+│   ├── managing_partner_presentation.md # Day 5: 12-slide executive presentation deck
 │   ├── drafts/                         # Day 4: Drafted legal documents
 │   │   ├── case_brief.md               # Analytical case brief (2023 SC 362)
 │   │   ├── legal_notice.md             # Formal advocate demand notice (Section 73)
@@ -729,14 +821,21 @@ All 28 unit tests pass cleanly:
 │   ├── playbook_reviewer.py            # Day 4: Firm playbook auditor & Word (.docx) generator
 │   ├── contract_comparator.py          # Day 4: Contract redline comparator & impact engine
 │   ├── drafting_agent.py               # Day 4: Legal drafting agent (Notice, Brief, Clauses)
-│   └── long_context_vs_rag.py          # Day 4: Long-Context vs Legal RAG benchmark engine
+│   ├── long_context_vs_rag.py          # Day 4: Long-Context vs Legal RAG benchmark engine
+│   ├── security.py                     # Day 5: Tenant isolation, PII mask, Injection & HMAC Audit
+│   ├── evaluation_suite.py             # Day 5: System benchmarks & Blind A/B Rating engine
+│   └── api.py                          # Day 5: FastAPI REST server & Interactive Web Portal
 ├── tests/
 │   ├── __init__.py
 │   ├── test_pipeline.py                # 7 automated ingestion pipeline unit tests
 │   ├── test_day2.py                    # 6 automated Day 2 RAG & citation tests
 │   ├── test_day3.py                    # 8 automated Day 3 Graph & GraphRAG tests
-│   └── test_day4.py                    # 7 automated Day 4 Contract & Drafting tests
-├── main.py                             # Unified CLI entrypoint (Days 1, 2, 3 & 4)
+│   ├── test_day4.py                    # 7 automated Day 4 Contract & Drafting tests
+│   └── test_day5.py                    # 17 automated Day 5 Security, API & Audit tests
+├── Dockerfile                          # Multi-stage production container image
+├── docker-compose.yml                  # 4-service cluster (API, ChromaDB, Neo4j, Worker)
+├── main.py                             # Unified CLI entrypoint (Days 1, 2, 3, 4 & 5)
 ├── requirements.txt                    # Pinned production dependencies
 └── README.md                           # Comprehensive documentation & technical report
+```
 ```

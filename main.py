@@ -19,7 +19,8 @@ def parse_args():
             "all", "inventory", "parse", "ocr", "extract", "chunk", "index", "search",
             "day2_eval", "answer",
             "graph", "graph_eval", "graphrag", "multihop_eval", "route",
-            "classify_clauses", "review_contract", "compare_contracts", "draft_all", "long_vs_rag"
+            "classify_clauses", "review_contract", "compare_contracts", "draft_all", "long_vs_rag",
+            "dashboard", "red_team", "serve"
         ],
         default="all",
         help="Specify the pipeline step to execute (default: all)"
@@ -56,8 +57,31 @@ def main():
 
     print("\n" + "#"*70)
     print(" KHAN & ASSOCIATES - AI LEGAL ASSISTANT PLATFORM")
-    print(" Day 1: Ingestion | Day 2: Grounded RAG | Day 3: GraphRAG | Day 4: Contract Review")
+    print(" Day 1: Ingestion | Day 2: Grounded RAG | Day 3: GraphRAG | Day 4: Contract Review | Day 5: Capstone")
     print("#"*70)
+
+    # -----------------------------------------------------------------
+    # Day 5: Evaluation Dashboard, Red-Team Security & Web Server
+    # -----------------------------------------------------------------
+    if args.step == "dashboard":
+        from src.evaluation_suite import SystemEvaluationSuite
+        print("\n[CLI] Generating Full System Evaluation Dashboard & Blind A/B Rating...")
+        suite = SystemEvaluationSuite(output_dir=args.output_dir)
+        suite.run_blind_evaluation_and_dashboard()
+        return
+
+    if args.step == "red_team":
+        from src.security import RedTeamEvaluationSuite
+        print("\n[CLI] Running Red-Team Adversarial Evaluation Suite (20 Attack Vectors)...")
+        suite = RedTeamEvaluationSuite(output_dir=args.output_dir)
+        suite.run_red_team_evaluation()
+        return
+
+    if args.step == "serve":
+        import uvicorn
+        print("\n[CLI] Starting Khan & Associates AI Legal Assistant Web Server on http://localhost:8000 ...")
+        uvicorn.run("src.api:app", host="0.0.0.0", port=8000, reload=False)
+        return
 
     # -----------------------------------------------------------------
     # Day 4: Contract Review, Comparison & Drafting Agents

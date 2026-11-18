@@ -303,10 +303,115 @@ class FirmPlaybookReviewer:
             "filename": os.path.basename(contract_json_path),
             "governing_law": data.get("governing_law", "Unspecified"),
             "risk_score": risk_score,
+            "overall_risk_score": risk_score,
             "risk_level": risk_level,
+            "risk_verdict": risk_level,
             "risk_color": risk_color,
             "clause_counts": counts,
             "missing_clauses": missing_clauses,
+            "missing_mandatory_clauses": missing_clauses,
+            "flagged_clauses": [r for r in clause_reviews if r["status"] in ("FAIL", "WARN")],
+            "clause_reviews": clause_reviews
+        }
+
+    @classmethod
+    def review_text(cls, text: str, contract_name: str = "Standard Agreement") -> Dict[str, Any]:
+        """Runs full playbook review directly on raw contract text."""
+        lines = [line.strip() for line in text.split("\n") if line.strip()]
+        clauses = []
+        current_clause = []
+        current_heading = ""
+        current_cat = "General"
+
+        for line in lines:
+            m = re.match(r"^(?:(\d+)[\.\)]\s*|clause\s+(\d+)[:\.]?\s*|section\s+(\d+)[:\.]?\s*)([A-Za-z\s]+)?", line, re.IGNORECASE)
+            if m:
+                if current_clause:
+                    clause_text = " ".join(current_clause)
+                    clauses.append({"clause_number": str(len(clauses)+1), "clause_heading": current_heading, "text": clause_text, "clause_type": current_cat})
+                    current_clause = []
+                current_heading = (m.group(4) or "").strip()
+                h_low = (current_heading + " " + line).lower()
+                if "indemn" in h_low:
+                    current_cat = "Indemnification"
+                elif "limit" in h_low or "liabil" in h_low:
+                    current_cat = "Limitation of Liability"
+                elif "govern" in h_low or "law" in h_low or "jurisdiction" in h_low:
+                    current_cat = "Governing Law"
+                elif "terminat" in h_low:
+                    current_cat = "Termination"
+                elif "confidential" in h_low:
+                    current_cat = "Confidentiality"
+                elif "intellectual" in h_low or "ip" in h_low:
+                    current_cat = "Intellectual Property"
+                else:
+                    current_cat = "General"
+                current_clause.append(line)
+            else:
+                current_clause.append(line)
+
+        if current_clause:
+            clause_text = " ".join(current_clause)
+            clauses.append({"clause_number": str(len(clauses)+1), "clause_heading": current_heading, "text": clause_text, "clause_type": current_cat})
+
+        if not clauses:
+            clauses.append({"clause_number": "1", "clause_heading": "Full Text", "text": text, "clause_type": "General"})
+
+        total_penalties = 0
+        clause_reviews = []
+        counts = {"PASS": 0, "WARN": 0, "FAIL": 0}
+        all_text = text.lower()
+
+        for c in clauses:
+            cat = c["clause_type"]
+            c_text = c["text"]
+            eval_res = cls.evaluate_clause(cat, c_text, c["clause_heading"])
+            status = eval_res["status"]
+            counts[status] += 1
+            total_penalties += eval_res["penalty"]
+            clause_reviews.append({
+                "clause_number": c["clause_number"],
+                "heading": c["clause_heading"],
+                "text": c_text,
+                "clause_type": cat,
+                "category": cat,
+                "status": status,
+                "badge": eval_res["badge"],
+                "finding": eval_res["finding"],
+                "comments": eval_res["comments"],
+                "suggested_wording": eval_res["suggested_wording"]
+            })
+
+        missing_clauses = []
+        for name, pattern in cls.MANDATORY_CLAUSES:
+            if not re.search(pattern, all_text):
+                missing_clauses.append(name)
+                total_penalties += 10
+
+        risk_score = min(100, max(0, total_penalties))
+        if risk_score <= 25:
+            risk_level = "LOW RISK (Approved with Minor Comments)"
+            risk_color = "Green"
+        elif risk_score <= 55:
+            risk_level = "MEDIUM RISK (Requires Revision Before Execution)"
+            risk_color = "Amber"
+        else:
+            risk_level = "HIGH RISK (Severe Red Flags - Do Not Sign As-Is)"
+            risk_color = "Red"
+
+        return {
+            "contract_title": contract_name,
+            "filename": contract_name,
+            "governing_law": "Islamic Republic of Pakistan" if "pakistan" in all_text else "Foreign / Unspecified",
+            "overall_risk_score": risk_score,
+            "risk_score": risk_score,
+            "risk_verdict": risk_level,
+            "risk_level": risk_level,
+            "risk_color": risk_color,
+            "clause_counts": counts,
+            "missing_mandatory_clauses": missing_clauses,
+            "missing_clauses": missing_clauses,
+            "flagged_clauses": [r for r in clause_reviews if r["status"] in ("FAIL", "WARN")],
             "clause_reviews": clause_reviews
         }
 

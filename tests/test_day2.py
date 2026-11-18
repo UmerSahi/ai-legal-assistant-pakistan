@@ -4,8 +4,11 @@ AI Legal Assistant (Khan & Associates)
 """
 
 import os
+import sys
 import json
 import pytest
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 from src.eval_set import create_evaluation_dataset, save_evaluation_dataset
 from src.advanced_rag import LegalQueryRewriter, LegalHyDE, AdvancedLegalRetriever
