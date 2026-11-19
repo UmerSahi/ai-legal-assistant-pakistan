@@ -73,6 +73,40 @@ flowchart TD
 
 ---
 
+## 2.5 Executive Interface & Skeuomorphic Law Office Portal
+
+The platform features an artisan-crafted skeuomorphic interface designed around the physical law office of a Senior Advocate:
+- **Executive Walnut Header:** Solid walnut header rail framed by metallic brass trim, featuring the circular embossed **K&A** medallion, matter indicator plate, and emerald jewel status lamps for active subsystems.
+- **Leather Examination Folio (Left):** Recessed ruled legal pads with authentic gold perimeter stitching and brass selector dials supporting English and Urdu RTL scripts.
+- **Cream Legal Paper on Clipboard (Right):** Dual red margin rules with a top brass clipboard clip displaying judicial conclusions and typewritten source transcripts.
+- **Physical Brass Citation Tags:** Citations formatted as stamped brass identification plates with punched eyelets, eliminating generic text output.
+- **Authentic Rubber Ink Stamps:** Dynamically applied validation stamps in green (`VERIFIED • 0 FABRICATED CITATIONS`) or red (`BAD LAW ALERT • OVERRULED PRECEDENT`).
+
+---
+
+### 📸 Live Interface Gallery
+
+#### 1. Statutory Research Folio (Bilingual Roman Urdu Query & Verbatim Citation)
+*Lawyer inquires in Roman Urdu (`Agar consideration unlawful ho to kya contract void hai?`), retrieving Section 23 Contract Act with exact statutory quotes and a 100% verified rubber ink stamp.*
+
+![Statutory Research & Precedents](docs/images/01_statutory_research_urdu_rag.jpg)
+
+---
+
+#### 2. Contract Playbook Audit & Document Upload Docket
+*Drag-and-drop contract file upload docket (.docx, .pdf, .txt), automated clause extraction, 90/100 risk scoring against firm playbook, missing mandatory provisions detection, and one-click Word (.docx) export.*
+
+![Contract Playbook Audit](docs/images/02_contract_playbook_audit_upload.jpg)
+
+---
+
+#### 3. Contract Version Comparison & Plain-English Legal Risk Diffing
+*Clause-by-clause diffing between Firm Standard (v1) and Counterparty Markup (v2), categorizing Limitation of Liability cap removal as `[HIGH RISK (CRITICAL)]` with actionable pushback recommendations.*
+
+![Version Comparison](docs/images/03_contract_version_comparison.jpg)
+
+---
+
 ## 3. Corpus Inventory Summary (Task 1)
 
 All documents reside in `data/data_sources/` and are cataloged in `outputs/inventory.csv` and `outputs/inventory.json`:
@@ -753,6 +787,10 @@ AI Legal Assistant/
 │   ├── inventory.json                  # Root inventory JSON mirror
 │   └── evaluation_set_100.json         # Day 2: 100 curated legal benchmark questions
 ├── docs/
+│   ├── images/                         # UI screenshots & gallery
+│   │   ├── 01_statutory_research_urdu_rag.jpg
+│   │   ├── 02_contract_playbook_audit_upload.jpg
+│   │   └── 03_contract_version_comparison.jpg
 │   ├── api_docs.md                     # OpenAPI REST endpoints & schema docs
 │   ├── user_guide.md                   # Associate & Paralegal user guide
 │   └── admin_guide.md                  # IT Administrator & security manual
